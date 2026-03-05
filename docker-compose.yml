@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: vantec_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-vantec_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vantec_password}
+      POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./src/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    networks:
+      - vantec_network
+
+  api:
+    build: .
+    container_name: vantec_api
+    restart: always
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-vantec_user}:${POSTGRES_PASSWORD:-vantec_password}@db:5432/${POSTGRES_DB:-gestor_cfdi}
+      VANTEC_SECRET_KEY: ${VANTEC_SECRET_KEY:-VANTEC_SECRET_KEY_CHANGEME}
+    volumes:
+      - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
+    ports:
+      - "8000:8000"
+    networks:
+      - vantec_network
+
+networks:
+  vantec_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

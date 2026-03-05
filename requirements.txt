@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+asyncpg
+pyjwt
+python-dotenv
+pydantic-settings
+python-multipart
+aiofiles
+defusedxml
+lxml
+passlib==1.7.4
+bcrypt==3.2.2
