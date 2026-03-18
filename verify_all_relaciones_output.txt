@@ -1,0 +1,9 @@
+Querying all CfdiRelacionado records...
+Total CfdiRelacionado records: 1
+  ID: 518, Padre: AF41872D-1E12-44EC-9D58-614B23E9655C, Relacionado: 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91, Tipo: PAGO
+
+Comparing with Comprobante UUIDs...
+Comprobante UUIDs in DB (lowercase): ['d2a9308b-f4d9-4357-8adf-de186a7ef5d1', 'af41872d-1e12-44ec-9d58-614b23e9655c', 'd1d1f7d4-7683-4f46-a545-5e08c907cb11', '39e5e6e4-534a-4b08-a5ae-77a6e3b41c91', '24a75e3b-261f-455a-9d04-b30be95865bd']
+  MATCH: Relation 518 parent AF41872D-1E12-44EC-9D58-614B23E9655C matches Comprobante!
+
+Total matches found: 1

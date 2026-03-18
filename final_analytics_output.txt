@@ -1,0 +1,15 @@
+Testing active dashboard analytics...
+
+=== WITHOUT RLS Context ===
+Dashboard Result (No RLS):
+  total_ingresos: 161611.03
+  total_egresos: 0
+  documentos_totales: 5
+  ppd_pendientes: 2
+
+=== WITH RLS Context ===
+Dashboard Result (With RLS):
+  total_ingresos: 161611.03
+  total_egresos: 0
+  documentos_totales: 5
+  ppd_pendientes: 2

@@ -1,0 +1,17 @@
+Tables found: ['users', 'cfdi_metadata', 'tenants', 'bitacora_auditoria', 'usuarios', 'entidades_fiscales', 'email_queue', 'email_logs', 'entidad_smtp_configs', 'cfdis', 'tenant_storage_configs', 'comprobantes', 'cfdi_relacionados', 'entidad_storage_configs', 'usuario_entidad_acceso', 'plantillas_correo']
+--- Table users ---
+--- Table cfdi_metadata ---
+--- Table tenants ---
+--- Table bitacora_auditoria ---
+--- Table usuarios ---
+--- Table entidades_fiscales ---
+--- Table email_queue ---
+--- Table email_logs ---
+--- Table entidad_smtp_configs ---
+--- Table cfdis ---
+--- Table tenant_storage_configs ---
+--- Table comprobantes ---
+--- Table cfdi_relacionados ---
+--- Table entidad_storage_configs ---
+--- Table usuario_entidad_acceso ---
+--- Table plantillas_correo ---

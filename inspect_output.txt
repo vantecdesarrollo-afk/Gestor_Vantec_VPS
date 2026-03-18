@@ -1,0 +1,19 @@
+--- Checking Comprobante ---
+Comprobante Found!
+UUID: d2a9308b-f4d9-4357-8adf-de186a7ef5d1
+Serie: None, Folio: 0000000303
+Tipo: P
+Total: 28820.03
+Ruta: C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\10
+
+--- Checking Cfdi ---
+Cfdi Found!
+UUID: D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1
+Total: 28820.030000
+
+--- Checking Relaciones (Padre) ---
+Found 1 relaciones as Padre
+  -> Relacionado: D1D1F7D4-7683-4F46-A545-5E08C907CB11, Tipo: PAGO, Monto: 28820.030000
+
+--- Checking Relaciones (Relacionado) ---
+Found 0 relaciones as Relacionado

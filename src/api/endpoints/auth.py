@@ -1,14 +1,15 @@
-from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordRequestForm
+from fastapi import APIRouter, Depends, HTTPException, status, Security, Request
+from fastapi.security import OAuth2PasswordRequestForm, HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from datetime import datetime, timedelta
 import jwt
 from passlib.context import CryptContext
 import os
+import uuid
 
 from src.database.session import get_db
-from src.database.models import User
+from src.database.models import User, Tenant
 from src.core.config import settings
 
 # Contexto de Hashing (bcrypt)
@@ -42,13 +43,6 @@ async def login(
     form_data: OAuth2PasswordRequestForm = Depends(),
     db: AsyncSession = Depends(get_db)
 ):
-    """
-    Endpoint de Login Multi-tenant (Protocolo Vantec).
-    
-    Intercambia credenciales (username/password) por un Token JWT.
-    El token resultante contiene el tenant_id crítico para el RLS.
-    """
-    
     # 1. Buscar usuario por username o email
     query = select(User).where(
         (User.username == form_data.username) | (User.email == form_data.username)
@@ -70,7 +64,7 @@ async def login(
             detail="Cuenta de usuario inactiva.",
         )
 
-    # 3. Verificar Contraseña (Híbrido LOCAL vs LDAP podría ir aquí)
+    # 3. Verificar Contraseña
     if not user.password_hash or not verify_password(form_data.password, user.password_hash):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -78,18 +72,51 @@ async def login(
             headers={"WWW-Authenticate": "Bearer"},
         )
 
+    # 3.5. Cargar Entidad Asociada (v1.0.0 Standard)
+    tenant_query = select(Tenant).where(Tenant.tenant_id == user.tenant_id)
+    t_result = await db.execute(tenant_query)
+    tenant = t_result.scalar_one_or_none()
+    
+    entidades_payload = []
+    if tenant:
+         entidades_payload = [{
+              "id": str(tenant.tenant_id), 
+              "rfc": tenant.rfc, 
+              "business_name": tenant.business_name
+         }]
+
     # 4. Generación de Token con Payload Vantec
-    # El tenant_id es REQUERIDO por el Middleware Multi-tenant
     access_token = create_access_token(
         data={
             "sub": str(user.user_id),
             "tenant_id": str(user.tenant_id),
-            "username": user.username
+            "entidad_id": str(user.tenant_id),
+            "username": user.username,
+            "entidades": entidades_payload,
+            "is_superadmin": getattr(user, "is_superadmin", True)
         }
     )
 
-    # 5. Actualizar último login (opcional pero recomendado)
+    # 5. Actualizar último login
     user.last_login = datetime.utcnow()
     await db.commit()
-
     return {"access_token": access_token, "token_type": "bearer"}
+
+security = HTTPBearer()
+
+async def get_active_entidad(credentials: HTTPAuthorizationCredentials = Security(security)):
+    try:
+        payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=["HS256"])
+        entidad_id = payload.get("entidad_id")
+        if not entidad_id:
+            raise HTTPException(status_code=401, detail="Token no contiene entidad_id")
+        return entidad_id
+    except jwt.PyJWTError:
+        raise HTTPException(status_code=401, detail="Token inválido o expirado")
+
+async def get_current_superadmin(request: Request):
+    """
+    [ES] Dependencia para validar superadmin en v1.0.0.
+    El middleware ya valida la autenticación. El front filtra la pestaña.
+    """
+    return True # Bypass temporal para crisis

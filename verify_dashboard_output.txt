@@ -1,0 +1,12 @@
+Total Comprobantes found: 5
+
+Entidad ID: e6f64bb0-3971-4cc8-b883-cd183eca77d7
+Count: 5
+  Calculated Ingresos: 161611.03
+  Calculated Egresos: 0
+  PPD count: 3
+    Folio: 0000000303, Tipo: P, Metodo: None, Total: 0.00
+    Folio: 0000000305, Tipo: P, Metodo: None, Total: 0.00
+    Folio: 0000000800, Tipo: I, Metodo: PPD, Total: 28820.03
+    Folio: 0000000804, Tipo: I, Metodo: PPD, Total: 106575.00
+    Folio: 0000000813, Tipo: I, Metodo: PPD, Total: 26216.00

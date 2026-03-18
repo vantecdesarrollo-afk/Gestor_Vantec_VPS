@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gestor CFDI Vantec</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vantec: {
+                            primary: '#1E3A5F',
+                            accent: '#4EBCE9',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-vantec-primary min-h-screen flex items-center justify-center p-4">
+    <div
+        class="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transition-all duration-300 hover:shadow-vantec-accent/20">
+        <div class="bg-gray-50 p-8 text-center border-b border-gray-100">
+            <div class="flex justify-center items-center gap-3 mb-4">
+                <img src="/static/img/Logo_Escudo_Sin_Fondo.png" class="h-14 w-auto object-contain"
+                    alt="Logo Vantec">
+                <div class="flex items-center space-x-1 px-4 py-2 border-2 border-vantec-primary rounded-xl">
+                    <span class="text-2xl font-black text-vantec-primary">VANTEC</span>
+                    <span class="text-2xl font-light text-vantec-accent">CORE</span>
+                </div>
+            </div>
+
+            <p class="text-gray-500 text-sm mt-2">Vantec Consultores S.C.</p>
+        </div>
+
+        <div id="loginError"
+            class="hidden mx-8 mt-6 p-3 bg-red-50 border border-red-200 text-red-600 text-xs rounded-lg text-center animate-pulse">
+            Credenciales incorrectas. Intente de nuevo.
+        </div>
+
+        <form id="loginForm" class="p-8 space-y-6">
+            <div>
+                <label for="username" class="block text-sm font-medium text-gray-700 mb-2">Usuario / RFC</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input type="text" id="username" name="username" required
+                        class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-vantec-accent focus:border-vantec-accent outline-none transition-all placeholder-gray-300"
+                        placeholder="usuario@vantec.com.mx">
+                </div>
+            </div>
+
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Contraseña</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <input type="password" id="password" name="password" required
+                        class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-vantec-accent focus:border-vantec-accent outline-none transition-all placeholder-gray-300"
+                        placeholder="••••••••">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between text-sm">
+                <label class="flex items-center text-gray-600">
+                    <input type="checkbox"
+                        class="rounded border-gray-300 text-vantec-accent focus:ring-vantec-accent mr-2">
+                    Recordarme
+                </label>
+                <a href="#" class="text-vantec-accent hover:underline font-medium">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit"
+                class="w-full bg-vantec-primary text-white py-3 rounded-lg font-bold hover:bg-vantec-primary/90 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-lg shadow-vantec-primary/20">
+                Iniciar Sesión
+            </button>
+        </form>
+
+        <div class="p-6 bg-gray-50 text-center border-t border-gray-100">
+            <p class="text-xs text-gray-400">© 2024 Vantec Consultores. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+    <script src="/static/js/auth.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const data = Object.fromEntries(new FormData(e.target).entries());
+
+            // UI Feedback
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Verificando...';
+            document.getElementById('loginError').classList.add('hidden');
+
+            try {
+                await login(data.username, data.password);
+            } catch (error) {
+                console.error("Login logical error:", error);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerText = 'Iniciar Sesión';
+            }
+        });
+    </script>
+</body>
+
+</html>

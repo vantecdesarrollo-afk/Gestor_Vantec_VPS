@@ -1,0 +1,36 @@
+{
+    "ppds": [
+        {
+            "folio": "0000000800",
+            "uuid": "d1d1f7d4-7683-4f46-a545-5e08c907cb11"
+        },
+        {
+            "folio": "0000000804",
+            "uuid": "39e5e6e4-534a-4b08-a5ae-77a6e3b41c91"
+        },
+        {
+            "folio": "0000000813",
+            "uuid": "24a75e3b-261f-455a-9d04-b30be95865bd"
+        }
+    ],
+    "relations": [
+        {
+            "padre": "AF41872D-1E12-44EC-9D58-614B23E9655C",
+            "relacionado": "39E5E6E4-534A-4B08-A5AE-77A6E3B41C91"
+        }
+    ],
+    "linked_uuids": [
+        "39e5e6e4-534a-4b08-a5ae-77a6e3b41c91",
+        "af41872d-1e12-44ec-9d58-614b23e9655c"
+    ],
+    "orphans": [
+        {
+            "folio": "0000000800",
+            "uuid": "d1d1f7d4-7683-4f46-a545-5e08c907cb11"
+        },
+        {
+            "folio": "0000000813",
+            "uuid": "24a75e3b-261f-455a-9d04-b30be95865bd"
+        }
+    ]
+}

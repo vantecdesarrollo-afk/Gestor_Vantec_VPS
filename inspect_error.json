@@ -1,0 +1,1 @@
+{"error": "(sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: no existe la columna \u00abid\u00bb\n[SQL: SELECT id, uuid, folio, tipo_comprobante FROM comprobantes]\n(Background on this error at: https://sqlalche.me/e/20/f405)"}

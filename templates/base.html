@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Gestor CFDI - Vantec{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vantec: {
+                            primary: '#1E3A5F',
+                            accent: '#4EBCE9',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body class="bg-gray-50 flex h-screen overflow-hidden">
+    <!-- Sidebar -->
+    <aside id="sidebar"
+        class="bg-vantec-primary text-white w-64 flex-shrink-0 flex flex-col transition-all duration-300">
+        <div class="p-6 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div id="company-logo-container" class="flex items-center gap-3">
+                    <img id="sidebar-logo" src="/static/img/Logo_Escudo_Sin_Fondo.png" alt="Logo"
+                        style="height: 42px; width: auto; object-fit: contain;">
+                    <div id="sidebar-brand-text" class="font-bold text-2xl tracking-tight">
+                        <span class="text-[#4EBCE9]">V</span><span class="text-white">CORE</span>
+                    </div>
+                </div>
+
+            </div>
+            <button id="toggleSidebar" class="lg:hidden p-2 hover:bg-vantec-accent/20 rounded-lg">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <nav class="flex-grow mt-6 px-4 space-y-2">
+            <a href="/dashboard"
+                class="flex items-center space-x-3 p-3 rounded-lg hover:bg-vantec-accent transition-colors {% if request.url.path == '/dashboard' %}bg-vantec-accent{% endif %}">
+                <i class="fas fa-chart-line w-5"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="/cfdis"
+                class="flex items-center space-x-3 p-3 rounded-lg hover:bg-vantec-accent transition-colors {% if request.url.path == '/cfdis' %}bg-vantec-accent{% endif %}">
+                <i class="fas fa-file-invoice-dollar w-5"></i>
+                <span>Emisión</span>
+            </a>
+            <a href="#"
+                class="flex items-center space-x-3 p-3 rounded-lg hover:bg-vantec-accent transition-colors opacity-60 cursor-not-allowed">
+                <i class="fas fa-file-import w-5"></i>
+                <span>Recepción</span>
+            </a>
+            <a href="/configuracion" id="nav-config"
+                class="flex items-center space-x-3 p-3 rounded-lg hover:bg-vantec-accent transition-colors hidden {% if request.url.path == '/configuracion' %}bg-vantec-accent{% endif %}">
+                <i class="fas fa-cog w-5"></i>
+                <span>Configuración</span>
+            </a>
+        </nav>
+
+        <div class="p-4 border-t border-white/10">
+            <div class="flex items-center space-x-3 p-2">
+                <div class="w-8 h-8 rounded-full bg-vantec-accent flex items-center justify-center font-bold text-xs">U
+                </div>
+                <div class="overflow-hidden">
+                    <p class="text-sm font-medium truncate" id="userName">Usuario</p>
+                    <button onclick="logout()" class="text-xs text-vantec-accent hover:underline">Cerrar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col min-w-0">
+        <!-- Top Navigation -->
+        <header class="bg-white border-b border-gray-200 h-16 flex items-center justify-between px-8">
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <label for="tenant-selector" class="sr-only">Seleccionar Entidad</label>
+                    <select id="entity-selector"
+                        class="bg-gray-100 border-none rounded-lg px-4 py-2 text-sm font-medium text-vantec-primary focus:ring-2 focus:ring-vantec-accent">
+                        <option value="" disabled selected hidden>Seleccione una empresa...</option>
+                        {% for entidad in entidades_permitidas %}
+                        <option value="{{ entidad.id }}">{{ entidad.rfc }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <span class="text-gray-300 text-xl font-thin">|</span>
+                <nav class="flex space-x-2 text-sm">
+                    <span class="text-gray-500">Gestor</span>
+                    <span class="text-gray-300">/</span>
+                    <span class="text-vantec-primary font-medium">{% block breadcrumb %}Inicio{% endblock %}</span>
+                </nav>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center gap-2 font-bold text-lg tracking-tight mr-4">
+                    <span class="text-[#4EBCE9]">V</span><span class="text-vantec-primary">CORE</span>
+                </div>
+                <button class="text-gray-400 hover:text-vantec-primary transition-colors">
+                    <i class="fas fa-bell"></i>
+                </button>
+                <div class="h-8 w-8 rounded-full bg-vantec-primary p-0.5">
+                    <img src="https://ui-avatars.com/api/?name=Vantec&background=1E3A5F&color=fff" class="rounded-full"
+                        alt="Profile">
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Content -->
+        <div class="flex-grow overflow-y-auto p-8 bg-gray-50">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/static/js/auth.js?v=1.2"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

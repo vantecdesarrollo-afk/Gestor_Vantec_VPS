@@ -1,0 +1,24 @@
+{
+    "id": "af41872d-1e12-44ec-9d58-614b23e9655c",
+    "uuid": "af41872d-1e12-44ec-9d58-614b23e9655c",
+    "serie": null,
+    "folio": "0000000305",
+    "rfc_emisor": "VCO1307234VA",
+    "rfc_receptor": "EPM880422LV3",
+    "status": "VALID",
+    "total": 106575.0,
+    "tipo_comprobante": "P",
+    "metodo_pago": null,
+    "forma_pago": null,
+    "fecha_emision": "2025-10-07T14:10:10",
+    "descripcion_concepto": "Pago",
+    "pdf_exists": true,
+    "xml_exists": true,
+    "reps_asociados": [
+        {
+            "uuid": "39E5E6E4-534A-4B08-A5AE-77A6E3B41C91",
+            "monto": 106575.0,
+            "tipo": "PAGO"
+        }
+    ]
+}

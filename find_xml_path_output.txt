@@ -1,0 +1,2 @@
+Folio 303: UUID=d2a9308b-f4d9-4357-8adf-de186a7ef5d1, Ruta=C:\Facturacion\Comprobantes\SAT\Factura\0K-2K
+Folio 305: UUID=af41872d-1e12-44ec-9d58-614b23e9655c, Ruta=C:\Facturacion\Comprobantes\SAT\Factura\0K-2K

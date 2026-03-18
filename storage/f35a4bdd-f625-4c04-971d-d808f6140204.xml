@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Fecha="2024-01-15T12:00:00" Total="15000.5" TipoDeComprobante="I" MetodoPago="PUE" Moneda="MXN">
+    <cfdi:Emisor Rfc="VCO1307234VA"/>
+    <cfdi:Receptor Rfc="XAXX010101000"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Descripcion="Servicios Profesionales de Consultoria"/>
+    </cfdi:Conceptos>
+</cfdi:Comprobante>

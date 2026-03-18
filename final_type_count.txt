@@ -1,0 +1,2 @@
+Total in Cfdi list: 18
+Breakdown: {'I': 12, 'P': 6}

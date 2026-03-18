@@ -1,0 +1,43 @@
+{
+    "usuarios": [
+        "id",
+        "username",
+        "email",
+        "hashed_password",
+        "auth_provider",
+        "is_active",
+        "created_at",
+        "is_superadmin",
+        "last_login"
+    ],
+    "entidades_fiscales": [
+        "id",
+        "rfc",
+        "razon_social",
+        "is_active",
+        "created_at",
+        "logo_url"
+    ],
+    "cfdis": [
+        "cfdi_id",
+        "entidad_id",
+        "uuid",
+        "rfc_emisor",
+        "rfc_receptor",
+        "issue_date",
+        "total",
+        "version",
+        "status",
+        "xml_file_path",
+        "pdf_file_path",
+        "created_at",
+        "source_type",
+        "tipo_comprobante",
+        "serie",
+        "folio",
+        "metadata_xml",
+        "metodo_pago",
+        "forma_pago",
+        "parent_uuid"
+    ]
+}

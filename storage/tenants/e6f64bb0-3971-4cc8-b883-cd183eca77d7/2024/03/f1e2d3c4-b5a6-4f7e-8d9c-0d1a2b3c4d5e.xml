@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:pago20="http://www.sat.gob.mx/Pagos20" Version="4.0" Serie="P" Folio="1" Fecha="2024-03-09T12:00:00" 
+    TipoDeComprobante="P" MetodoPago="PUE" FormaPago="03" Total="0">
+    <cfdi:Emisor Rfc="EKU9003173C9" Nombre="VANTEC CORE TEST"/>
+    <cfdi:Receptor Rfc="UACJ700101M46" Nombre="CLIENTE PRUEBA DUAL"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago" ValorUnitario="0" Importe="0"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <pago20:Pagos Version="2.0">
+            <pago20:Totales MontoTotalPagos="1160.00" />
+            <pago20:Pago FechaPago="2024-03-09T11:00:00" FormaDePagoP="03" MonedaP="MXN" Monto="1160.00" NumOperacion="123456">
+                <pago20:DoctoRelacionado IdDocumento="a1b2c3d4-e5f6-4a5b-b6c7-d8e9f0a1b2c3" Serie="F" Folio="1" MonedaDR="MXN" MetodoDePagoDR="PPD" NumParcialidad="1" ImpSaldoAnt="1160.00" ImpPagado="1160.00" ImpSaldoInsoluto="0.00" />
+            </pago20:Pago>
+        </pago20:Pagos>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="1.1" UUID="f1e2d3c4-b5a6-4f7e-8d9c-0d1a2b3c4d5e" FechaTimbrado="2024-03-09T12:05:00" RfcProvCertif="SAT970701NN3"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,3 @@
+ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: no existe la columna «id»
+[SQL: SELECT id FROM tenants]
+(Background on this error at: https://sqlalche.me/e/20/f405)

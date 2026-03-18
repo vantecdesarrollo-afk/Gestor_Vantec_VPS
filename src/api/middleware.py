@@ -9,9 +9,10 @@ async def multi_tenant_middleware(request: Request, call_next):
     Middleware de Categoría 5 para Vantec.
     Garantiza que toda petición lleve un tenant_id válido.
     """
-    # 1. Ignorar rutas públicas (como el Login o Docs)
-    if request.url.path in ["/api/v1/auth/login", "/docs", "/openapi.json"]:
+    # 1. Ignorar rutas que no sean de API (Las vistas HTML cargan y su JS valida)
+    if not request.url.path.startswith("/api/") or request.url.path.startswith("/api/v1/auth/login"):
         return await call_next(request)
+
 
     # 2. Extracción del Token
     auth_header = request.headers.get("Authorization")

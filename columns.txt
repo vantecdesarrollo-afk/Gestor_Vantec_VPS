@@ -1,0 +1,1 @@
+["cfdi_id", "tenant_id", "uuid", "rfc_emisor", "rfc_receptor", "issue_date", "total", "version", "status", "xml_file_path", "pdf_file_path", "created_at", "source_type", "tipo_comprobante", "serie", "folio", "metadata_xml", "metodo_pago", "forma_pago", "parent_uuid"]

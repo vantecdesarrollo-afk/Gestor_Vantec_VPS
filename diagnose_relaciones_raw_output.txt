@@ -1,0 +1,22 @@
+Total cfdi_relacionados in DB (Raw SQL): 1
+
+Searching for related UUIDs...
+
+Searching for UUID: d2a9308b-f4d9-4357-8adf-de186a7ef5d1
+  Matches for d2a9308b-f4d9-4357-8adf-de186a7ef5d1: 0
+
+Searching for UUID: af41872d-1e12-44ec-9d58-614b23e9655c
+  Matches for af41872d-1e12-44ec-9d58-614b23e9655c: 1
+    (518, UUID('5c50b007-7b1b-4cb1-b21a-2363acfb4daa'), 'AF41872D-1E12-44EC-9D58-614B23E9655C', '39E5E6E4-534A-4B08-A5AE-77A6E3B41C91', 'PAGO', Decimal('106575.000000'), Decimal('0.000000'), 1)
+
+Searching for UUID: d1d1f7d4-7683-4f46-a545-5e08c907cb11
+  Matches for d1d1f7d4-7683-4f46-a545-5e08c907cb11: 0
+
+Searching for UUID: 39e5e6e4-534a-4b08-a5ae-77a6e3b41c91
+  Matches for 39e5e6e4-534a-4b08-a5ae-77a6e3b41c91: 1
+    (518, UUID('5c50b007-7b1b-4cb1-b21a-2363acfb4daa'), 'AF41872D-1E12-44EC-9D58-614B23E9655C', '39E5E6E4-534A-4B08-A5AE-77A6E3B41C91', 'PAGO', Decimal('106575.000000'), Decimal('0.000000'), 1)
+
+Searching for UUID: 24a75e3b-261f-455a-9d04-b30be95865bd
+  Matches for 24a75e3b-261f-455a-9d04-b30be95865bd: 0
+
+Total matches found: 2

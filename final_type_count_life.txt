@@ -1,0 +1,3 @@
+Total in Cfdi list: 4
+Breakdown: {'P': 1, 'I': 3}
+First row path: C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\10\AF41872D-1E12-44EC-9D58-614B23E9655C.xml

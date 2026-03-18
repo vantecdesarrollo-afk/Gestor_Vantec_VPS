@@ -1,0 +1,132 @@
+{
+    "usuarios": [
+        {
+            "column_name": "id",
+            "data_type": "uuid"
+        },
+        {
+            "column_name": "username",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "email",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "hashed_password",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "auth_provider",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "is_active",
+            "data_type": "boolean"
+        },
+        {
+            "column_name": "created_at",
+            "data_type": "timestamp with time zone"
+        },
+        {
+            "column_name": "is_superadmin",
+            "data_type": "boolean"
+        },
+        {
+            "column_name": "last_login",
+            "data_type": "timestamp with time zone"
+        }
+    ],
+    "entidades_fiscales": [
+        {
+            "column_name": "id",
+            "data_type": "uuid"
+        },
+        {
+            "column_name": "rfc",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "razon_social",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "is_active",
+            "data_type": "boolean"
+        },
+        {
+            "column_name": "created_at",
+            "data_type": "timestamp with time zone"
+        },
+        {
+            "column_name": "logo_url",
+            "data_type": "character varying"
+        }
+    ],
+    "cfdis": [
+        {
+            "column_name": "cfdi_id",
+            "data_type": "uuid"
+        },
+        {
+            "column_name": "entidad_id",
+            "data_type": "uuid"
+        },
+        {
+            "column_name": "uuid",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "rfc_emisor",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "rfc_receptor",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "issue_date",
+            "data_type": "timestamp with time zone"
+        },
+        {
+            "column_name": "total",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "version",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "status",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "xml_file_path",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "pdf_file_path",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "created_at",
+            "data_type": "timestamp with time zone"
+        },
+        {
+            "column_name": "source_type",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "tipo_comprobante",
+            "data_type": "character"
+        },
+        {
+            "column_name": "serie",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "folio",
+            "data_type": "character varying"
+        }
+    ]
+}

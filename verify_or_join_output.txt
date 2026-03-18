@@ -1,0 +1,3 @@
+Found Comprobante: 0000000804, UUID: 39e5e6e4-534a-4b08-a5ae-77a6e3b41c91
+Relations found with OR query: 1
+  ID: 518, Padre: AF41872D-1E12-44EC-9D58-614B23E9655C, Relacionado: 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91, Tipo: PAGO

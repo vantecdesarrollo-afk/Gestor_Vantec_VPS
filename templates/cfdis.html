@@ -1,0 +1,251 @@
+{% extends "base.html" %}
+
+{% block title %}Explorador de CFDIs - Vantec{% endblock %}
+{% block breadcrumb %}Emisión / Explorador{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <!-- Header & Search -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+            <h2 class="text-2xl font-bold text-vantec-primary text-balance">Explorador de Documentos</h2>
+            <p class="text-gray-500 text-sm">Gestión masiva y trazabilidad de comprobantes.</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-3">
+            <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" id="cfdiSearch" placeholder="RFC, Folio o UUID..."
+                    class="pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-vantec-accent outline-none w-48 md:w-64 transition-all">
+            </div>
+            <button id="toggleFilters"
+                class="bg-white border border-gray-200 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-50 flex items-center transition-all">
+                <i class="fas fa-filter mr-2 text-vantec-accent"></i> Filtros Avanzados
+            </button>
+            <button onclick="loadCfdis()"
+                class="bg-vantec-primary text-white px-4 py-2 rounded-lg text-sm font-bold shadow-lg shadow-vantec-primary/20 hover:scale-105 transition-all">
+                <i class="fas fa-sync-alt mr-2"></i> Actualizar
+            </button>
+        </div>
+    </div>
+
+    <!-- Advanced Filters Panel (Collapsible) -->
+    <div id="advanced-filters"
+        class="hidden bg-white p-6 rounded-2xl shadow-sm border border-gray-100 animate-in slide-in-from-top duration-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Rango de Fechas -->
+            <div class="space-y-2">
+                <label class="text-xs font-bold text-gray-400 uppercase tracking-wider">Rango de Fechas</label>
+                <div class="flex items-center space-x-2">
+                    <input type="date" id="filterDateStart"
+                        class="w-full text-sm border-gray-200 rounded-lg focus:ring-vantec-accent focus:border-vantec-accent">
+                    <span class="text-gray-400">-</span>
+                    <input type="date" id="filterDateEnd"
+                        class="w-full text-sm border-gray-200 rounded-lg focus:ring-vantec-accent focus:border-vantec-accent">
+                </div>
+            </div>
+            <!-- Serie y Folio -->
+            <div class="space-y-2">
+                <label class="text-xs font-bold text-gray-400 uppercase tracking-wider">Serie / Folio</label>
+                <div class="flex items-center space-x-2">
+                    <input type="text" id="filterSerie" placeholder="Serie"
+                        class="w-1/3 text-sm border-gray-200 rounded-lg focus:ring-vantec-accent">
+                    <input type="number" id="filterFolioStart" placeholder="Desde"
+                        class="w-1/3 text-sm border-gray-200 rounded-lg focus:ring-vantec-accent">
+                    <input type="number" id="filterFolioEnd" placeholder="Hasta"
+                        class="w-1/3 text-sm border-gray-200 rounded-lg focus:ring-vantec-accent">
+                </div>
+            </div>
+            <!-- Tipo de Comprobante -->
+            <div class="space-y-2">
+                <label class="text-xs font-bold text-gray-400 uppercase tracking-wider">Tipo</label>
+                <select id="filterType" class="w-full text-sm border-gray-200 rounded-lg focus:ring-vantec-accent">
+                    <option value="">Cualquiera</option>
+                    <option value="I">Ingreso</option>
+                    <option value="E">Egreso</option>
+                    <option value="P">Pago</option>
+                    <option value="N">Nómina</option>
+                    <option value="T">Traslado</option>
+                </select>
+            </div>
+            <!-- Actions -->
+            <div class="flex items-end space-x-2">
+                <button onclick="applyFilters()"
+                    class="flex-grow bg-vantec-accent text-white py-2 rounded-lg text-sm font-bold hover:bg-vantec-accent/90 transition-all">
+                    Aplicar Filtros
+                </button>
+                <button onclick="resetFilters()" class="p-2 text-gray-400 hover:text-red-500 transition-colors"
+                    title="Limpiar Filtros">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Grid -->
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse" id="cfdiTable">
+                <thead class="bg-gray-50 text-gray-500 text-xs uppercase font-bold border-b border-gray-100">
+                    <tr>
+                        <th class="px-6 py-4 w-10"></th> <!-- Expand icon -->
+                        <th class="px-6 py-4 w-px whitespace-nowrap cursor-pointer hover:text-vantec-primary">Fecha <i
+                                class="fas fa-sort ml-1 opacity-20"></i></th>
+                        <th class="px-6 py-4 w-px whitespace-nowrap">Serie / Folio</th>
+                        <th class="px-6 py-4">
+                            <div class="flex flex-col">
+                                <span>Receptor</span>
+                                <select id="receptorFilter"
+                                    class="text-[10px] bg-transparent border-none text-vantec-primary font-bold cursor-pointer focus:ring-0 p-0 h-4 mt-1">
+                                    <option value="">Todos</option>
+                                </select>
+                            </div>
+                        </th>
+                        <th class="px-4 py-4 text-center">Método</th>
+                        <th class="px-4 py-4 text-center">Forma</th>
+                        <th class="px-6 py-4 text-center">
+                            <div class="flex flex-col items-center">
+                                <span>Tipo</span>
+                                <select id="tipoFilter"
+                                    class="text-[10px] bg-transparent border-none text-vantec-primary font-bold cursor-pointer focus:ring-0 p-0 h-4 mt-1">
+                                    <option value="">Todos</option>
+                                </select>
+                            </div>
+                        </th>
+                        <th class="px-6 py-4 text-right">Total</th>
+                        <th class="px-6 py-4 text-center">
+                            <div class="flex flex-col items-center">
+                                <span>Estado</span>
+                                <select id="estadoFilter"
+                                    class="text-[10px] bg-transparent border-none text-vantec-primary font-bold cursor-pointer focus:ring-0 p-0 h-4 mt-1">
+                                    <option value="">Todos</option>
+                                </select>
+                            </div>
+                        </th>
+                        <th class="px-6 py-4 text-right">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-50 text-sm" id="cfdiTableBody">
+                    <!-- Data injected via cfdis.js -->
+                    <tr>
+                        <td colspan="9" class="px-6 py-12 text-center text-gray-400">
+                            <i class="fas fa-spinner fa-spin fa-2x mb-3 text-vantec-accent"></i>
+                            <p>Cargando documentos...</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination Placeholder -->
+        <div
+            class="p-4 bg-gray-50 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500 font-medium">
+            <span id="cfdiCounter">Mostrando 0 resultados</span>
+            <div class="flex space-x-2">
+                <button
+                    class="px-3 py-1 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 disabled:opacity-50">Anterior</button>
+                <button class="px-3 py-1 bg-vantec-primary text-white rounded-lg">1</button>
+                <button
+                    class="px-3 py-1 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 disabled:opacity-50">Siguiente</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Template for traceability row (hidden) -->
+<template id="traceabilityRowTemplate">
+    <tr class="bg-gray-50/50 border-l-4 border-vantec-accent">
+        <td colspan="9" class="p-0">
+            <div class="p-6">
+                <h4 class="text-xs font-bold text-vantec-primary uppercase mb-3 tracking-wider flex items-center">
+                    <i class="fas fa-link mr-2"></i> Trazabilidad del Documento
+                </h4>
+                <div class="space-y-2" id="traceabilityList">
+                    <!-- Relaciones dinámicas -->
+                </div>
+            </div>
+        </td>
+    </tr>
+</template>
+
+<!-- Detail Drawer Component (Front 3) -->
+<div id="detailDrawer" 
+    class="fixed top-0 right-0 h-full w-full md:w-[450px] bg-white shadow-2xl z-[60] transform translate-x-full transition-transform duration-300 ease-in-out border-l border-gray-100 flex flex-col">
+    <div class="p-6 border-b border-gray-100 flex items-center justify-between bg-white sticky top-0 z-10">
+        <div>
+            <h3 class="text-lg font-black text-vantec-primary uppercase tracking-tighter">Detalles del CFDI</h3>
+            <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Visor de Metadatos VCore</p>
+        </div>
+        <button onclick="closeDetailDrawer()" class="h-8 w-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:bg-red-50 hover:text-red-500 transition-all">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+    <div class="flex-grow overflow-y-auto p-6" id="drawerContent">
+        <!-- Content will be injected here -->
+    </div>
+    <div class="p-6 border-t border-gray-100 bg-gray-50 flex gap-3">
+        <button id="btn-drawer-pdf" onclick="downloadCfdi(this.getAttribute('data-uuid'), 'pdf')" class="flex-1 bg-vantec-primary text-white py-3 rounded-xl text-xs font-black uppercase tracking-widest hover:bg-vantec-primary/90 transition-all">
+            <i class="fas fa-file-pdf mr-2"></i> Reporte PDF
+        </button>
+        <button id="btn-drawer-share" class="px-4 py-3 bg-white border border-gray-200 rounded-xl text-gray-400 hover:text-vantec-primary transition-all">
+            <i class="fas fa-share-alt"></i>
+        </button>
+    </div>
+</div>
+</div>
+
+<!-- Modal Reenvío (Vantec Standard) -->
+<div id="modalReenvio" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-[70] flex items-center justify-center p-4">
+    <div class="bg-white w-full max-w-md rounded-xl shadow-2xl overflow-hidden animate-in zoom-in duration-200" style="border-top: 4px solid #1E3A5F;">
+        
+        <div class="px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+            <h3 class="text-lg font-black" style="color: #1E3A5F;">Reenviar Comprobante Fiscal</h3>
+            <button id="closeModalReenvio" class="text-gray-400 hover:text-red-500 transition-colors" onclick="cerrarModalReenvio()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="p-6 space-y-4">
+            <div class="space-y-1">
+                <label class="text-[10px] font-black text-gray-400 uppercase tracking-widest">Para:</label>
+                <input type="email" id="correoDestino" value="cliente@empresa.com" 
+                    class="w-full px-4 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#4EBCE9] outline-none transition-all">
+            </div>
+            
+            <div class="space-y-1">
+                <label class="text-[10px] font-black text-gray-400 uppercase tracking-widest">Asunto:</label>
+                <input type="text" id="correoAsunto" value="Factura y Documentación - Folio [X]" 
+                    class="w-full px-4 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#4EBCE9] outline-none transition-all">
+            </div>
+
+            <div class="space-y-1">
+                <label class="text-[10px] font-black text-gray-400 uppercase tracking-widest">Mensaje Adicional:</label>
+                <textarea id="correoCuerpo" rows="5" placeholder="Estimado cliente,&#10;Adjunto enviamos el comprobante fiscal y la documentación correspondiente a su operación.&#10;Quedamos a sus órdenes para cualquier duda."
+                    class="w-full px-4 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#4EBCE9] outline-none transition-all resize-none"></textarea>
+            </div>
+        </div>
+
+        <div class="px-6 py-4 bg-gray-50 flex items-center justify-end space-x-3">
+            <button id="btnCancelarReenvio" class="px-4 py-2 text-sm font-bold text-gray-500 hover:text-gray-700 transition-colors" onclick="cerrarModalReenvio()">
+                Cancelar
+            </button>
+            <button id="btnEnviarCorreo" class="flex items-center space-x-2 px-6 py-2 rounded-lg text-sm font-bold text-white shadow-lg shadow-[#4EBCE9]/20 hover:scale-105 transition-all" style="background-color: #4EBCE9;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Reenviar Documentos</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Loader Vantec (Hidden by default) -->
+<div id="vantecLoader" class="hidden fixed inset-0 bg-white/80 backdrop-blur-sm z-[100] flex flex-col items-center justify-center">
+    <div class="w-12 h-12 border-4 border-gray-200 border-t-[#4EBCE9] rounded-full animate-spin"></div>
+    <p class="mt-4 text-[10px] font-black text-[#1E3A5F] uppercase tracking-[0.2em] animate-pulse">Procesando Envío...</p>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/cfdis.js?v=1.6"></script>
+{% endblock %}
