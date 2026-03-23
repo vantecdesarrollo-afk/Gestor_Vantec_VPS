@@ -1,0 +1,9 @@
+
+--- MATCH: 0000000804 ---
+UUID: 39e5e6e4-534a-4b08-a5ae-77a6e3b41c91
+Ruta Resguardo (DB): C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\08\39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
+XML exists in DB path? True
+att[xml_path]: C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\08\39e5e6e4-534a-4b08-a5ae-77a6e3b41c91.xml
+att[pdf_path]: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\804.pdf
+Actual XML exists? True
+Actual PDF exists? True

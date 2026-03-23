@@ -27,7 +27,10 @@ async def multi_tenant_middleware(request: Request, call_next):
     try:
         # 3. Decodificación y Validación (Usando configuración centralizada)
         payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
-        tenant_id: Optional[str] = payload.get("tenant_id")
+        
+        tenant_id: Optional[str] = request.headers.get("X-Entidad-ID")
+        if not tenant_id:
+            tenant_id = payload.get("tenant_id")
         
         if not tenant_id:
             return JSONResponse(

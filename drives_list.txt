@@ -1,0 +1,45 @@
+=== D:\ ===
+.dropbox.device
+2021-06_FAT
+atebReporte.txt
+BIZT89216.prn
+BK-ElavonProducción
+Cronos
+diferenciaREP.csv
+IT-Complement-backup
+ITC
+OneDrive
+OneDriveTemp
+Pago-2019NOVIEMBRE-2.csv
+Pago-2019NOVIEMBRE-2.txt
+Pago-2019NOVIEMBRE.txt
+PruebasC++
+RepDet_9358_20191207.csv
+System Volume Information
+=== E:\ ===
+$RECYCLE.BIN
+.dropbox.device
+2021
+2022
+2024
+26cd31bcf8a7c45ac6d56a696248c0
+3ee84f3fc3c948ca67b172f01db8f2
+5922672.txt
+7c4e08361ba1e71210bab36ce6
+Backup2020Proyectos
+BK-2019
+C
+EjecutorProd.cfg
+Fotos
+ITC
+Recovered data 11-09 13_47_45
+RespaldoElavonSemiAutomatica
+System Volume Information
+Utilerias
+Wondershare
+=== G:\ ===
+Mi unidad
+.shortcut-targets-by-id
+$RECYCLE.BIN
+.Encrypted
+

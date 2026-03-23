@@ -8,7 +8,7 @@ async def test():
         # We need a user. Let's try to query with direct DB first to see a valid user.
         print("Obtaining users from DB...")
         from src.database.session import get_db
-        from src.database.models import Usuario
+        from src.database.models import User
         from sqlalchemy import select
         
         class MockRequest:
@@ -18,7 +18,7 @@ async def test():
 
         db_gen = get_db(MockRequest())
         db = await anext(db_gen)
-        res = await db.execute(select(Usuario))
+        res = await db.execute(select(User))
         users = res.scalars().all()
         if not users:
              print("No users found.")
@@ -61,13 +61,13 @@ async def test():
         else:
              print("Response:", res_comp.text)
 
-        # 3. Test Admin
-        res_admin = client_test.get("/api/v1/admin/entidades", headers=headers)
-        print("GET /api/v1/admin/entidades Status:", res_admin.status_code)
-        if res_admin.status_code == 200:
-             print("Admin Entities length:", len(res_admin.json()))
+        # 3. Test Analytics
+        res_analytics = client_test.get("/api/v1/analytics/dashboard", headers=headers)
+        print("GET /api/v1/analytics/dashboard Status:", res_analytics.status_code)
+        if res_analytics.status_code == 200:
+             print("Analytics Data:", res_analytics.json())
         else:
-             print("Admin response:", res_admin.text)
+             print("Analytics response:", res_analytics.text)
 
 if __name__ == "__main__":
     asyncio.run(test())

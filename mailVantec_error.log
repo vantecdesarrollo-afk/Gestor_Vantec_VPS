@@ -1,0 +1,2 @@
+2026-03-20 13:31:23 - ERR_SMTP - 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2026-03-20 13:34:16 - ERR_SMTP - 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>

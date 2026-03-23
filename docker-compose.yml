@@ -11,7 +11,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./src/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     networks:
       - vantec_network
 

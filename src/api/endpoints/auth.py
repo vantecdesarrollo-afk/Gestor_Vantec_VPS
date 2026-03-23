@@ -4,20 +4,16 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from datetime import datetime, timedelta
 import jwt
-from passlib.context import CryptContext
-import os
 import uuid
-
+from passlib.context import CryptContext
 from src.database.session import get_db
 from src.database.models import User, Tenant
 from src.core.config import settings
 
-# Contexto de Hashing (bcrypt)
+# 1. Configuración de Seguridad
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"])
-
-# --- Utilidades ---
+router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"]) # ESTA LÍNEA FALTABA
+security = HTTPBearer()
 
 def verify_password(plain_password, hashed_password):
     return pwd_context.verify(plain_password, hashed_password)
@@ -27,96 +23,155 @@ def get_password_hash(password):
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
-    if expires_delta:
-        expire = datetime.utcnow() + expires_delta
-    else:
-        expire = datetime.utcnow() + timedelta(hours=settings.ACCESS_TOKEN_EXPIRE_HOURS)
-    
+    expire = datetime.utcnow() + (expires_delta or timedelta(hours=settings.ACCESS_TOKEN_EXPIRE_HOURS))
     to_encode.update({"exp": expire})
-    encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
-    return encoded_jwt
+    return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
 
-# --- Endpoints ---
-
+# 2. Endpoints
 @router.post("/login")
-async def login(
-    form_data: OAuth2PasswordRequestForm = Depends(),
-    db: AsyncSession = Depends(get_db)
-):
-    # 1. Buscar usuario por username o email
-    query = select(User).where(
-        (User.username == form_data.username) | (User.email == form_data.username)
-    )
-    result = await db.execute(query)
+async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_db)):
+    result = await db.execute(select(User).where(User.username == form_data.username))
     user = result.scalar_one_or_none()
-
-    # 2. Validaciones básicas
-    if not user:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Usuario no encontrado.",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
     
-    if not user.is_active:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Cuenta de usuario inactiva.",
-        )
-
-    # 3. Verificar Contraseña
-    if not user.password_hash or not verify_password(form_data.password, user.password_hash):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Contraseña incorrecta.",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-
-    # 3.5. Cargar Entidad Asociada (v1.0.0 Standard)
-    tenant_query = select(Tenant).where(Tenant.tenant_id == user.tenant_id)
-    t_result = await db.execute(tenant_query)
-    tenant = t_result.scalar_one_or_none()
+    if not user or not verify_password(form_data.password, user.password_hash):
+        raise HTTPException(status_code=401, detail="Credenciales incorrectas")
     
-    entidades_payload = []
-    if tenant:
-         entidades_payload = [{
-              "id": str(tenant.tenant_id), 
-              "rfc": tenant.rfc, 
-              "business_name": tenant.business_name
-         }]
+    if not getattr(user, "is_active", True):
+        raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
+    
+    # 1. Determinar si es Superadmin
+    is_superadmin = getattr(user, "is_superadmin", False)
+    
+    # 2. Cargar Entidades Asociadas (Si es superadmin, listar todas)
+    entidades = []
+    from src.database.models import SysUserRole
+    if is_superadmin:
+        e_res = await db.execute(select(Tenant))
+        entidades = e_res.scalars().all()
+        entidades_json = [{
+             "id": str(e.tenant_id),
+             "rfc": e.rfc,
+             "razon_social": e.business_name,
+             "rol": "ADMIN",
+             "logo_url": e.logo_path or ""
+        } for e in entidades]
+    else:
+        # standard user: solo su tenant_id
+        e_res = await db.execute(select(Tenant).where(Tenant.tenant_id == user.tenant_id))
+        entidades = e_res.scalars().all()
+        entidades_json = []
+        for e in entidades:
+             role_res = await db.execute(select(SysUserRole.rol).where(SysUserRole.usuario_id == user.user_id, SysUserRole.entidad_id == e.tenant_id))
+             role_str = role_res.scalar() or "VISOR"
+             entidades_json.append({
+                  "id": str(e.tenant_id),
+                  "rfc": e.rfc,
+                  "razon_social": e.business_name,
+                  "rol": role_str.upper(),
+                  "logo_url": e.logo_path or ""
+             })
 
-    # 4. Generación de Token con Payload Vantec
+    # Generar token con los IDs correctos del modelo User
     access_token = create_access_token(
         data={
-            "sub": str(user.user_id),
-            "tenant_id": str(user.tenant_id),
-            "entidad_id": str(user.tenant_id),
+            "sub": str(user.user_id), 
             "username": user.username,
-            "entidades": entidades_payload,
-            "is_superadmin": getattr(user, "is_superadmin", True)
+            "entidad_id": str(user.tenant_id), 
+            "tenant_id": str(user.tenant_id),
+            "is_superadmin": is_superadmin,
+            "entidades": entidades_json
         }
     )
-
-    # 5. Actualizar último login
+    
     user.last_login = datetime.utcnow()
     await db.commit()
+    
     return {"access_token": access_token, "token_type": "bearer"}
 
-security = HTTPBearer()
-
-async def get_active_entidad(credentials: HTTPAuthorizationCredentials = Security(security)):
+@router.post("/refresh")
+async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(security), db: AsyncSession = Depends(get_db)):
     try:
-        payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=["HS256"])
-        entidad_id = payload.get("entidad_id")
-        if not entidad_id:
-            raise HTTPException(status_code=401, detail="Token no contiene entidad_id")
-        return entidad_id
-    except jwt.PyJWTError:
-        raise HTTPException(status_code=401, detail="Token inválido o expirado")
+        from src.database.models import SysUserRole
+        payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        user_id = payload.get("sub")
+        if not user_id: raise HTTPException(status_code=401)
+        
+        result = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
+        user = result.scalar_one_or_none()
+        if not user or not getattr(user, "is_active", True): raise HTTPException(status_code=403)
+             
+        is_superadmin = getattr(user, "is_superadmin", False)
+        if is_superadmin:
+            e_res = await db.execute(select(Tenant))
+            entidades_json = [{"id": str(e.tenant_id), "rfc": e.rfc, "razon_social": e.business_name, "rol": "ADMIN", "logo_url": e.logo_path or ""} for e in e_res.scalars().all()]
+        else:
+            e_res = await db.execute(select(SysUserRole).where(SysUserRole.usuario_id == user.user_id))
+            entidades_json = []
+            for role in e_res.scalars().all():
+                 t_res = await db.execute(select(Tenant).where(Tenant.tenant_id == role.entidad_id))
+                 t = t_res.scalar_one_or_none()
+                 if t:
+                     entidades_json.append({"id": str(t.tenant_id), "rfc": t.rfc, "razon_social": t.business_name, "rol": role.rol.upper(), "logo_url": t.logo_path or ""})
+                 
+        access_token = create_access_token(data={"sub": str(user.user_id), "username": user.username, "entidad_id": str(user.tenant_id), "tenant_id": str(user.tenant_id), "is_superadmin": is_superadmin, "entidades": entidades_json})
+        return {"access_token": access_token, "token_type": "bearer"}
+    except Exception as e:
+        raise HTTPException(status_code=401, detail="Error refreshing token: " + str(e))
 
-async def get_current_superadmin(request: Request):
-    """
-    [ES] Dependencia para validar superadmin en v1.0.0.
-    El middleware ya valida la autenticación. El front filtra la pestaña.
-    """
-    return True # Bypass temporal para crisis
+
+# 3. Dependencias de Seguridad
+async def get_active_entidad(
+    request: Request,
+    credentials: HTTPAuthorizationCredentials = Security(security),
+    db: AsyncSession = Depends(get_db)
+):
+    try:
+        payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        user_id = payload.get("sub")
+        if user_id:
+            res = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
+            user = res.scalar_one_or_none()
+            if user and not getattr(user, "is_active", True):
+                raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
+
+        # AISLAMIENTO ESTRUCTURAL MULTI-TENANT
+        req_entidad = request.headers.get("X-Entidad-ID")
+        entidad_id = None
+
+        if req_entidad:
+            is_superadmin = payload.get("is_superadmin", False)
+            entidades_autorizadas = payload.get("entidades", [])
+            
+            if is_superadmin or any(e.get("id") == req_entidad for e in entidades_autorizadas):
+                entidad_id = req_entidad
+            else:
+                raise HTTPException(status_code=403, detail="Brecha de Seguridad: El usuario no tiene rol en este Tenant.")
+        else:
+            entidad_id = payload.get("entidad_id")
+            
+        if not entidad_id:
+            raise HTTPException(status_code=401, detail="Token o petición sin entidad_id")
+            
+        return uuid.UUID(entidad_id)
+    except HTTPException:
+        raise
+    except Exception:
+        raise HTTPException(status_code=401, detail="Sesión inválida o expirada")
+
+async def get_current_superadmin(
+    credentials: HTTPAuthorizationCredentials = Security(security), 
+    db: AsyncSession = Depends(get_db)
+):
+    try:
+        payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        user_id = payload.get("sub")
+        
+        # Buscar usando User.user_id
+        res = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
+        user = res.scalar_one_or_none()
+        
+        if not user or not user.is_superadmin:
+            raise HTTPException(status_code=403, detail="Acceso denegado: Se requiere SuperAdmin")
+        return user
+    except Exception:
+        raise HTTPException(status_code=401, detail="No autorizado")

@@ -9,7 +9,10 @@ const formatCurrency = (amount) => {
     return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(amount);
 };
 
+let isLoadingCfdis = false;
 async function loadCfdis() {
+    if (isLoadingCfdis) return;
+    isLoadingCfdis = true;
     const tableBody = document.getElementById('cfdiTableBody');
     const counter = document.getElementById('cfdiCounter');
 
@@ -56,6 +59,8 @@ async function loadCfdis() {
         if (tableBody) {
             tableBody.innerHTML = `<tr><td colspan="11" class="px-6 py-12 text-center text-red-500 font-bold">Error de conexión: ${error.message}</td></tr>`;
         }
+    } finally {
+        isLoadingCfdis = false;
     }
 }
 
@@ -98,20 +103,29 @@ function createCfdiRow(cfdi) {
     const folio = cfdi.folio || 'S/N';
     const cleanFolio = cfdi.folio && cfdi.folio !== 'S/N' ? cfdi.folio.replace(/^0+/, '') || '0' : 'S/N';
     const serieFolio = (serie && cleanFolio !== 'S/N') ? `${serie}-${cleanFolio}` : cleanFolio;
-    const fechaStr = cfdi.fecha_emision ? new Date(cfdi.fecha_emision).toLocaleDateString('es-MX', {day:'2-digit', month:'2-digit', year:'numeric'}) : '---';
+    const fechaStr = cfdi.fecha || '---';
     const total = parseFloat(cfdi.total || 0);
 
-    const pdf_exists = cfdi.pdf_exists === true;
-    const xml_exists = cfdi.xml_exists === true;
-    const hasReps = cfdi.reps_asociados && cfdi.reps_asociados.length > 0;
+    const pdf_exists = cfdi.pdf_exists === true || cfdi.pdf_exists === 'true';
+    const xml_exists = cfdi.xml_exists === true || cfdi.xml_exists === 'true';
+    const hasReps = cfdi.tiene_relacionados === true;
 
     let metodoHtml = cfdi.metodo_pago || '---';
 
-    let tipoBg = 'bg-blue-50'; let tipoColor = 'text-[#1E3A5F]';
-    if (cfdi.tipo_comprobante === 'P') { tipoBg = 'bg-green-50'; tipoColor = 'text-green-600'; }
-    else if (cfdi.tipo_comprobante === 'E') { tipoBg = 'bg-red-50'; tipoColor = 'text-red-600'; }
+    let tipoBg = 'bg-blue-50'; let tipoColor = 'text-[#1E3A5F]'; let tipoLabel = 'Ingreso';
+    if (cfdi.tipo === 'P') { tipoBg = 'bg-green-50'; tipoColor = 'text-green-600'; tipoLabel = 'Pago'; }
+    else if (cfdi.tipo === 'E') { tipoBg = 'bg-red-50'; tipoColor = 'text-red-600'; tipoLabel = 'Egreso'; }
+    else if (cfdi.tipo === 'N') { tipoBg = 'bg-purple-50'; tipoColor = 'text-purple-600'; tipoLabel = 'Nómina'; }
+    else if (cfdi.tipo === 'T') { tipoBg = 'bg-gray-50'; tipoColor = 'text-gray-600'; tipoLabel = 'Traslado'; }
 
     const linkIcon = hasReps ? `<button onclick="mostrarModalRelaciones('${cfdi.uuid}')" class="text-green-500 hover:text-green-600" title="Ver Asociaciones"><i class="fas fa-link fa-lg"></i></button>` : '';
+
+    // RBAC: Visor no puede enviar correos
+    const payload = getUserPayload();
+    const activeEntidad = localStorage.getItem('active_entidad');
+    const activeEntidadData = payload && payload.entidades ? payload.entidades.find(e => e.id === activeEntidad) : null;
+    const currentRole = activeEntidadData ? activeEntidadData.rol : (payload && payload.is_superadmin ? 'ADMIN' : 'VISOR');
+    const reenvioBtn = currentRole !== 'VISOR' ? `<button onclick="abrirModalReenvio('${cleanFolio}', '${cfdi.uuid}', '${cfdi.rfc_receptor}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Reenviar Correo"><i class="fas fa-envelope fa-lg"></i></button>` : '';
 
     tr.innerHTML = `
         <td class="px-6 py-4">
@@ -133,20 +147,21 @@ function createCfdiRow(cfdi) {
         <td class="px-4 py-4 text-center font-bold text-[#1E3A5F] text-xs">${metodoHtml}</td>
         <td class="px-4 py-4 text-center font-bold text-gray-400 text-xs">${cfdi.forma_pago || '---'}</td>
         <td class="px-4 py-4 text-center">
-             <span class="px-2 py-1 ${tipoBg} ${tipoColor} rounded text-[10px] font-bold">${cfdi.tipo_comprobante || 'XML'}</span>
+             <span class="px-2 py-1 ${tipoBg} ${tipoColor} rounded text-[10px] font-bold">${tipoLabel}</span>
         </td>
         <td class="px-4 py-4 text-right font-black text-[#1E3A5F]">${formatCurrency(total)}</td>
         <td class="px-4 py-4 text-center">
-            ${cfdi.estatus_cobro === 'PAGADO' ? '<span class="px-2 py-1 bg-green-50 text-green-600 rounded-full text-[10px] font-bold"><i class="fas fa-check-circle mr-1"></i>PAGADO</span>' :
-              cfdi.estatus_cobro === 'PAGO PARCIAL' ? '<span class="px-2 py-1 bg-amber-50 text-amber-600 rounded-full text-[10px] font-bold"><i class="fas fa-adjust mr-1"></i>PAGO PARCIAL</span>' :
-              cfdi.estatus_cobro === 'PENDIENTE' ? '<span class="px-2 py-1 bg-red-50 text-red-600 rounded-full text-[10px] font-bold"><i class="fas fa-exclamation-circle mr-1"></i>PENDIENTE</span>' :
-              '<span class="px-2 py-1 bg-gray-50 text-gray-400 rounded-full text-[10px] font-bold">---</span>'}
+            ${cfdi.estatus === 'Vigente' || cfdi.estatus === 'Pagado' ? '<span class="px-2 py-1 bg-green-50 text-green-600 rounded-full text-[10px] font-bold"><i class="fas fa-check-circle mr-1"></i>Vigente</span>' :
+              cfdi.estatus === 'Pendiente' ? '<span class="px-2 py-1 bg-red-50 text-red-600 rounded-full text-[10px] font-bold"><i class="fas fa-exclamation-circle mr-1"></i>Pendiente</span>' :
+              cfdi.estatus === 'Parcial' ? '<span class="px-2 py-1 bg-amber-50 text-amber-600 rounded-full text-[10px] font-bold"><i class="fas fa-hourglass-half mr-1"></i>Parcial</span>' :
+              cfdi.estatus === 'Cancelado' ? '<span class="px-2 py-1 bg-gray-50 text-gray-400 rounded-full text-[10px] font-bold"><i class="fas fa-times-circle mr-1"></i>Cancelado</span>' :
+              `<span class="px-2 py-1 bg-gray-50 text-gray-400 rounded-full text-[10px] font-bold">${cfdi.estatus || '---'}</span>`}
         </td>
         <td class="px-4 py-4 text-right">
             <div class="flex items-center justify-end space-x-3">
                 <button onclick="openDetailDrawer('${cfdi.uuid}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Ver Detalles"><i class="fas fa-search-plus fa-lg"></i></button>
                 ${linkIcon}
-                <button onclick="abrirModalReenvio('${cleanFolio}', '${cfdi.uuid}', '${cfdi.rfc_receptor}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Reenviar Correo"><i class="fas fa-envelope fa-lg"></i></button>
+                ${reenvioBtn}
                 <button onclick="downloadCfdi('${cfdi.uuid}', 'xml')" class="${xml_exists ? 'text-[#4EBCE9]' : 'text-gray-400'}" title="Descargar XML"><i class="fas fa-file-code fa-lg"></i></button>
                 <button onclick="downloadCfdi('${cfdi.uuid}', 'pdf')" class="${pdf_exists ? 'text-red-500' : 'text-gray-400'}" title="Descargar PDF"><i class="fas fa-file-pdf fa-lg"></i></button>
             </div>
@@ -164,34 +179,35 @@ function populateHeaderFilters(data) {
     const receptorSelect = document.getElementById('receptorFilter');
     const tipoSelect = document.getElementById('tipoFilter');
     const estadoSelect = document.getElementById('estadoFilter');
+    const metodoSelect = document.getElementById('metodoFilter');
+    const formaSelect = document.getElementById('formaFilter');
 
-    if (!receptorSelect || !tipoSelect || !estadoSelect) return;
-
-    // Clear existing options except "Todos"
-    receptorSelect.innerHTML = '<option value="">Todos</option>';
-    tipoSelect.innerHTML = '<option value="">Todos</option>';
-    estadoSelect.innerHTML = '<option value="">Todos</option>';
+    if (receptorSelect) receptorSelect.innerHTML = '<option value="">Todos</option>';
+    if (tipoSelect) tipoSelect.innerHTML = '<option value="">Todos</option>';
+    if (estadoSelect) estadoSelect.innerHTML = '<option value="">Todos</option>';
+    if (metodoSelect) metodoSelect.innerHTML = '<option value="">Todos</option>';
+    if (formaSelect) formaSelect.innerHTML = '<option value="">Todas</option>';
 
     const receptors = [...new Set(data.map(c => c.rfc_receptor).filter(Boolean))];
-    const tipos = [...new Set(data.map(c => c.tipo_comprobante).filter(Boolean))];
-    const estados = [...new Set(data.map(c => c.status).filter(Boolean))];
+    const tipos = [...new Set(data.map(c => c.tipo).filter(Boolean))];
+    const estados = [...new Set(data.map(c => c.estatus).filter(Boolean))];
+    const metodos = [...new Set(data.map(c => c.metodo_pago).filter(Boolean))];
+    const formas = [...new Set(data.map(c => c.forma_pago).filter(Boolean))];
 
-    receptors.sort().forEach(r => {
-        receptorSelect.innerHTML += `<option value="${r}">${r}</option>`;
+    if (receptorSelect) receptors.sort().forEach(r => { receptorSelect.innerHTML += `<option value="${r}">${r}</option>`; });
+    if (tipoSelect) tipos.sort().forEach(t => {
+        const tLabel = t === 'P' ? 'Pago' : t === 'E' ? 'Egreso' : t === 'N' ? 'Nómina' : t === 'T' ? 'Traslado' : 'Ingreso';
+        tipoSelect.innerHTML += `<option value="${t}">${tLabel}</option>`;
     });
+    if (estadoSelect) estados.sort().forEach(e => { estadoSelect.innerHTML += `<option value="${e}">${e}</option>`; });
+    if (metodoSelect) metodos.sort().forEach(m => { metodoSelect.innerHTML += `<option value="${m}">${m}</option>`; });
+    if (formaSelect) formas.sort().forEach(f => { formaSelect.innerHTML += `<option value="${f}">${f}</option>`; });
 
-    tipos.sort().forEach(t => {
-        tipoSelect.innerHTML += `<option value="${t}">${t}</option>`;
-    });
-
-    estados.sort().forEach(e => {
-        estadoSelect.innerHTML += `<option value="${e}">${e}</option>`;
-    });
-
-    // Wire up change events to trigger filtering
-    receptorSelect.onchange = applyFilters;
-    tipoSelect.onchange = applyFilters;
-    estadoSelect.onchange = applyFilters;
+    if (receptorSelect) receptorSelect.onchange = applyFilters;
+    if (tipoSelect) tipoSelect.onchange = applyFilters;
+    if (estadoSelect) estadoSelect.onchange = applyFilters;
+    if (metodoSelect) metodoSelect.onchange = applyFilters;
+    if (formaSelect) formaSelect.onchange = applyFilters;
 }
 
 window.applyFilters = function() {
@@ -221,23 +237,33 @@ window.applyFilters = function() {
     }
 
     if (filterType) {
-        filtered = filtered.filter(c => c.tipo_comprobante === filterType);
+        filtered = filtered.filter(c => c.tipo === filterType);
     }
 
     const receptorHeader = document.getElementById('receptorFilter')?.value;
     const tipoHeader = document.getElementById('tipoFilter')?.value;
     const estadoHeader = document.getElementById('estadoFilter')?.value;
+    const metodoHeader = document.getElementById('metodoFilter')?.value;
+    const formaHeader = document.getElementById('formaFilter')?.value;
 
     if (receptorHeader) {
         filtered = filtered.filter(c => c.rfc_receptor === receptorHeader);
     }
 
     if (tipoHeader) {
-        filtered = filtered.filter(c => c.tipo_comprobante === tipoHeader);
+        filtered = filtered.filter(c => c.tipo === tipoHeader);
     }
 
     if (estadoHeader) {
-        filtered = filtered.filter(c => c.status === estadoHeader);
+        filtered = filtered.filter(c => c.estatus === estadoHeader);
+    }
+
+    if (metodoHeader) {
+        filtered = filtered.filter(c => c.metodo_pago === metodoHeader);
+    }
+
+    if (formaHeader) {
+        filtered = filtered.filter(c => c.forma_pago === formaHeader);
     }
 
     renderTable(filtered);
@@ -257,6 +283,8 @@ window.resetFilters = function() {
     if (document.getElementById('receptorFilter')) document.getElementById('receptorFilter').value = '';
     if (document.getElementById('tipoFilter')) document.getElementById('tipoFilter').value = '';
     if (document.getElementById('estadoFilter')) document.getElementById('estadoFilter').value = '';
+    if (document.getElementById('metodoFilter')) document.getElementById('metodoFilter').value = '';
+    if (document.getElementById('formaFilter')) document.getElementById('formaFilter').value = '';
 
     renderTable(allCfdis);
     const counter = document.getElementById('cfdiCounter');
@@ -267,9 +295,10 @@ window.resetFilters = function() {
 
 window.openDetailDrawer = async function(uuid) {
     const drawer = document.getElementById('detailDrawer');
-    const content = document.getElementById('drawerContent');
+    const drawerContent = document.getElementById('drawerContent');
     const btnPdf = document.getElementById('btn-drawer-pdf');
     
+    const content = drawerContent;
     if (!drawer || !content) return;
 
     content.innerHTML = `
@@ -353,11 +382,16 @@ window.downloadCfdi = async function(uuid, type) {
         });
 
         if (response.ok) {
+            const disposition = response.headers.get('Content-Disposition');
+            let filename = `${uuid}.${type}`;
+            if (disposition && disposition.indexOf('filename=') !== -1) {
+                filename = disposition.split('filename=')[1].replace(/"/g, '');
+            }
             const blob = await response.blob();
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `${uuid}.${type}`;
+            a.download = filename;
             document.body.appendChild(a);
             a.click();
             a.remove();
@@ -382,13 +416,20 @@ window.mostrarModalRelaciones = function(uuid) {
     const cfdi = allCfdis.find(c => c.uuid === uuid);
     if (!cfdi || !cfdi.reps_asociados) return;
 
+    // RBAC: Visor no puede enviar correos
+    const payload = getUserPayload();
+    const activeEntidad = localStorage.getItem('active_entidad');
+    const activeEntidadData = payload && payload.entidades ? payload.entidades.find(e => e.id === activeEntidad) : null;
+    const currentRole = activeEntidadData ? activeEntidadData.rol : (payload && payload.is_superadmin ? 'ADMIN' : 'VISOR');
+
     const overlay = document.createElement('div');
-    overlay.className = "fixed inset-0 bg-black/50 backdrop-blur-sm z-[80] flex items-center justify-center p-4";
+    overlay.className = "fixed inset-0 bg-black/50 z-[80] flex items-center justify-center p-4";
     overlay.id = "modalRelacionesDynamic";
 
     let rowsHtml = "";
     cfdi.reps_asociados.forEach(r => {
         const cleanRRepFolio = r.folio && r.folio !== 'S/N' ? r.folio.replace(/^0+/, '') || '0' : 'S/N';
+        const reenvioBtnRel = currentRole !== 'VISOR' ? `<button onclick="abrirModalReenvio('${r.folio || 'S/N'}', '${r.uuid}', '${r.rfc_receptor || ''}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Reenviar"><i class="fas fa-envelope fa-lg"></i></button>` : '';
         rowsHtml += `
             <tr class="border-b border-gray-100 hover:bg-gray-50">
                 <td class="px-4 py-3 font-bold text-[#1E3A5F]">${r.tipo_documento || 'Pago'} ${cleanRRepFolio}</td>
@@ -397,9 +438,9 @@ window.mostrarModalRelaciones = function(uuid) {
                 <td class="px-4 py-3 text-right">
                     <div class="flex items-center justify-end space-x-3">
                         <button onclick="openDetailDrawer('${r.uuid}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Ver Detalles"><i class="fas fa-search-plus fa-lg"></i></button>
-                        <button onclick="downloadCfdi('${r.uuid}', 'xml')" class="text-gray-400 hover:text-[#4EBCE9]" title="Descargar XML"><i class="fas fa-file-code fa-lg"></i></button>
-                        <button onclick="downloadCfdi('${r.uuid}', 'pdf')" class="text-gray-400 hover:text-red-500" title="Descargar PDF"><i class="fas fa-file-pdf fa-lg"></i></button>
-                        <button onclick="abrirModalReenvio('${r.folio || 'S/N'}', '${r.uuid}', '${r.rfc_receptor || ''}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Reenviar"><i class="fas fa-envelope fa-lg"></i></button>
+                        <button onclick="downloadCfdi('${r.uuid}', 'xml')" class="text-[#4EBCE9] hover:text-[#1E3A5F]" title="Descargar XML"><i class="fas fa-file-code fa-lg"></i></button>
+                        <button onclick="downloadCfdi('${r.uuid}', 'pdf')" class="${r.pdf_exists === true ? 'text-red-500 hover:text-red-700' : 'text-gray-300 cursor-not-allowed'}" title="Descargar PDF"><i class="fas fa-file-pdf fa-lg"></i></button>
+                        ${reenvioBtnRel}
                     </div>
                 </td>
             </tr>
@@ -436,7 +477,7 @@ window.mostrarModalRelaciones = function(uuid) {
 window.abrirModalReenvio = function(folio, uuid, rfc) {
      const defaultEmail = rfc ? `${rfc.toLowerCase()}@correo.com` : '';
      const overlay = document.createElement('div');
-     overlay.className = "fixed inset-0 bg-black/50 backdrop-blur-sm z-[90] flex items-center justify-center p-4";
+     overlay.className = "fixed inset-0 bg-black/50 z-[90] flex items-center justify-center p-4";
      overlay.id = "modalReenvioDynamic";
 
      overlay.innerHTML = `
@@ -456,12 +497,12 @@ window.abrirModalReenvio = function(folio, uuid, rfc) {
 
                  <div>
                      <label for="destinatario" class="block text-xs font-bold text-gray-500 uppercase mb-1">Correo Destinatario</label>
-                     <input type="email" id="destinatario" required value="${defaultEmail}" multiple class="w-full px-4 py-2 border rounded-xl text-sm focus:outline-none focus:border-blue-500" placeholder="ejemplo@correo.com, contabilidad@correo.com">
+                     <input type="email" id="destinatario" required multiple class="w-full px-4 py-2 border rounded-xl text-sm focus:outline-none focus:border-blue-500" placeholder="ejemplo@correo.com, contabilidad@correo.com">
                  </div>
 
                  <div>
                      <label for="asunto" class="block text-xs font-bold text-gray-500 uppercase mb-1">Asunto</label>
-                     <input type="text" id="asunto" value="Envío de Comprobante Fiscal - Folio ${folio}" required class="w-full px-4 py-2 border rounded-xl text-sm focus:outline-none focus:border-blue-500">
+                     <input type="text" id="asunto" placeholder="Envío de Comprobante Fiscal - Folio ${folio}" required class="w-full px-4 py-2 border rounded-xl text-sm focus:outline-none focus:border-blue-500">
                  </div>
 
                  <div>
@@ -496,7 +537,7 @@ window.abrirModalReenvio = function(folio, uuid, rfc) {
          try {
               const response = await fetch('/api/orquestador/reenvio', {
                    method: 'POST',
-                   headers: { 'Content-Type': 'application/json' },
+                   headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${localStorage.getItem('token')}` },
                    body: JSON.stringify(payload)
               });
 

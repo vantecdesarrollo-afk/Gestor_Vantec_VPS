@@ -7,36 +7,43 @@ import uuid
 from datetime import datetime
 import defusedxml.ElementTree as ET
 import aiofiles
-from src.database.session import get_db
-from src.database.models import Cfdi
 from pydantic import BaseModel
 from uuid import UUID
 
+# Importaciones locales
+from src.database.session import get_db
+from src.database.models import Cfdi # Importación directa desde el modelo limpio
+
 router = APIRouter(prefix="/api/v1/cfdis", tags=["CFDIs"])
 
-# Esquema de salida (Pydantic)
+# Esquema de salida (Pydantic) alineado al modelo de base de datos
 class CfdiRead(BaseModel):
     cfdi_id: UUID
     uuid: str
-    rfc_emisor: str
-    rfc_receptor: str
-    issue_date: datetime
-    total: float
-    version: str
-    status: str
-    xml_file_path: str
+    rfc_emisor: str | None
+    rfc_receptor: str | None
+    issue_date: datetime | None
+    total: float | None
+    version: str | None
+    status: str | None
+    xml_file_path: str | None
     pdf_file_path: str | None
 
     class Config:
         from_attributes = True
 
 @router.get("/", response_model=List[CfdiRead])
-async def get_all_cfdis(db: AsyncSession = Depends(get_db)):
+async def get_all_cfdis(request: Request, db: AsyncSession = Depends(get_db)):
     """
-    Obtiene todos los CFDIs a los que el tenant autenticado tiene acceso.
-    El aislamiento ocurre en PostgreSQL vía RLS.
+    Obtiene todos los CFDIs aislados por tenant.
     """
-    result = await db.execute(select(Cfdi))
+    tenant_id = getattr(request.state, "tenant_id", None)
+    if not tenant_id:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, 
+            detail="Token inválido: No se encontró tenant_id en contexto."
+        )
+    result = await db.execute(select(Cfdi).where(Cfdi.tenant_id == tenant_id))
     return result.scalars().all()
 
 @router.post("/upload", response_model=CfdiRead, status_code=status.HTTP_201_CREATED)
@@ -45,91 +52,71 @@ async def upload_cfdi(
     file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db)
 ):
-    """
-    Endpoint de Carga de XML (Categoría 5 - Vantec).
-    
-    1. Extrae tenant_id del token (vía middleware).
-    2. Parsea el XML de forma segura (XXE Protection).
-    3. Almacena el archivo en la ruta lógica: /storage/{tenant_id}/{YYYY}/{MM}/{UUID}.xml
-    4. Registra el CFDI en PostgreSQL.
-    """
-    
-    # 1. Seguridad: Obtener tenant_id del contexto de la petición
+    # 1. Obtener tenant_id del estado (inyectado por el middleware)
     tenant_id = getattr(request.state, "tenant_id", None)
     if not tenant_id:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, 
-            detail="No se pudo identificar el tenant_id en el token."
+            detail="Token inválido: No se encontró tenant_id."
         )
 
-    # Solo aceptamos XML
     if not file.filename.lower().endswith(".xml"):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Solo se permiten archivos XML."
         )
 
-    # 2. Lectura asíncrona del contenido
     content = await file.read()
     
     try:
-        # 3. Parseo Seguro (defusedxml)
+        # 2. Parseo Seguro
         root = ET.fromstring(content)
         
-        # Manejo dinámico de Namespaces para CFDI 3.3/4.0 y TFD
+        # Namespaces dinámicos
+        ns_url = root.tag.split('}')[0].strip('{')
         namespaces = {
-            'cfdi': root.tag.split('}')[0].strip('{'),
+            'cfdi': ns_url,
             'tfd': 'http://www.sat.gob.mx/TimbreFiscalDigital'
         }
         
-        # Extracción de Atributos del Comprobante
+        # Extracción de datos
         version = root.get('Version') or root.get('version')
         fecha_str = root.get('Fecha') or root.get('fecha')
         total_str = root.get('Total') or root.get('total')
         
-        # Extracción de RFCs (Emisor y Receptor)
         emisor = root.find('.//cfdi:Emisor', namespaces)
         rfc_emisor = emisor.get('Rfc') if emisor is not None else None
         
         receptor = root.find('.//cfdi:Receptor', namespaces)
         rfc_receptor = receptor.get('Rfc') if receptor is not None else None
         
-        # Extracción del UUID (Timbre Fiscal Digital)
         tfd = root.find('.//tfd:TimbreFiscalDigital', namespaces)
         cfdi_uuid = tfd.get('UUID') if tfd is not None else None
         
-        # Validación de campos obligatorios
-        if not all([cfdi_uuid, rfc_emisor, rfc_receptor, fecha_str, total_str]):
-            raise ValueError("El archivo XML no es un CFDI válido o le faltan atributos clave (UUID, RFCs, etc).")
+        if not cfdi_uuid:
+            raise ValueError("El XML no tiene un UUID válido (Timbre Fiscal).")
 
-        # 4. Procesamiento de Fecha y Rutas
-        fecha_dt = datetime.fromisoformat(fecha_str)
-        year = str(fecha_dt.year)
-        month = f"{fecha_dt.month:02d}"
+        # 3. Preparar rutas de almacenamiento
+        fecha_dt = datetime.fromisoformat(fecha_str) if fecha_str else datetime.now()
+        storage_path = f"static/storage/{tenant_id}/{fecha_dt.year}/{fecha_dt.month:02d}"
+        os.makedirs(storage_path, exist_ok=True)
         
-        # Estructura: /storage/{tenant_id}/{YYYY}/{MM}
-        base_storage = "/storage"
-        target_dir = os.path.join(base_storage, str(tenant_id), year, month)
-        
-        # Crear directorios si no existen
-        os.makedirs(target_dir, exist_ok=True)
-        
-        final_path = os.path.join(target_dir, f"{cfdi_uuid}.xml")
+        final_file_path = os.path.join(storage_path, f"{cfdi_uuid}.xml")
 
-        # 5. Escritura Asíncrona en Disco (Expediente Virtual)
-        async with aiofiles.open(final_path, mode='wb') as f:
+        # 4. Guardar archivo
+        async with aiofiles.open(final_file_path, mode='wb') as f:
             await f.write(content)
 
-        # 6. Persistencia en Base de Datos
+        # 5. Guardar en DB (Usando los nombres del modelo Cfdi)
         new_cfdi = Cfdi(
             tenant_id=tenant_id,
             uuid=cfdi_uuid,
             rfc_emisor=rfc_emisor,
             rfc_receptor=rfc_receptor,
             issue_date=fecha_dt,
-            total=float(total_str),
+            total=float(total_str) if total_str else 0.0,
             version=version,
-            xml_file_path=final_path,
+            xml_file_path=final_file_path,
             status="VALID"
         )
         
@@ -143,5 +130,5 @@ async def upload_cfdi(
         await db.rollback()
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Error al procesar el CFDI: {str(e)}"
+            detail=f"Error procesando CFDI: {str(e)}"
         )

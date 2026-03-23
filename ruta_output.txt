@@ -1,2 +1,8 @@
-
---- INVENTARIO DE RUTAS ---
+Found 7 paths
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\303.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\305.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\798.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\800.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\804.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\813.xml
+Path: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\819.xml

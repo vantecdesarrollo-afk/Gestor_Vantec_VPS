@@ -167,15 +167,15 @@ async function vantecFetch(url, options = {}) {
     if (!response.ok) {
         let errorDetail = 'API Error';
         try {
-            const error = await response.json();
-            errorDetail = error.detail || 'API Error';
-        } catch (e) {
-            // El cuerpo no era JSON (ej: 500 Internal Server Error de texto plano)
+            const text = await response.text();
             try {
-                errorDetail = await response.text();
-            } catch (textError) {
-                errorDetail = 'Error de Servidor desconocido';
+                const error = JSON.parse(text);
+                errorDetail = error.detail || text;
+            } catch (jsonError) {
+                errorDetail = text;
             }
+        } catch (e) {
+            errorDetail = 'Error de red o servidor';
         }
         throw new Error(errorDetail);
     }
@@ -196,9 +196,17 @@ document.addEventListener('DOMContentLoaded', () => {
             userNameElement.innerText = payload.username;
         }
 
-        // 2. Mostrar Configuración solo si es Superadmin
-        if (configLink && payload.is_superadmin) {
-            configLink.classList.remove('hidden');
+        // 2. Aplicar RBAC (Roles VCORE)
+        const activeEntidad = localStorage.getItem('active_entidad');
+        const activeEntidadData = Array.isArray(payload.entidades) ? payload.entidades.find(e => e.id === activeEntidad) : null;
+        const currentRole = activeEntidadData ? activeEntidadData.rol : (payload.is_superadmin ? 'ADMIN' : 'VISOR');
+
+        if (configLink) {
+             if (currentRole === 'ADMIN') {
+                 configLink.classList.remove('hidden');
+             } else {
+                 configLink.classList.add('hidden');
+             }
         }
 
         // 3. Poblar Selector de Entidades (Multi-tenant)
@@ -248,16 +256,47 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function syncBrandingLogo(selector) {
-    // Logo is now statically defined in base.html. Feature disabled to prevent flicker.
-    return;
+    const selectedOption = selector.options[selector.selectedIndex];
+    if (selectedOption && selectedOption.getAttribute('data-logo')) {
+        const logoUrl = selectedOption.getAttribute('data-logo');
+        const sidebarLogo = document.getElementById('sidebar-logo');
+        const companyLogoContainer = document.getElementById('company-logo-container');
+        const sidebarBrandText = document.getElementById('sidebar-brand-text');
+        
+        if (sidebarLogo && logoUrl && logoUrl !== 'null' && logoUrl !== '') {
+            sidebarLogo.src = logoUrl;
+            companyLogoContainer.classList.remove('hidden');
+            if(sidebarBrandText) sidebarBrandText.classList.add('hidden');
+        } else {
+            resetSidebarLogo();
+        }
+    } else {
+        resetSidebarLogo();
+    }
 }
 
 function updateSidebarLogo(entidadId, entidades) {
-    // Logo is now statically defined in base.html. Feature disabled to prevent flicker.
-    return;
+    const entidad = entidades.find(e => e.id === entidadId);
+    const sidebarLogo = document.getElementById('sidebar-logo');
+    const companyLogoContainer = document.getElementById('company-logo-container');
+    const sidebarBrandText = document.getElementById('sidebar-brand-text');
+    
+    if (entidad && entidad.logo_url && sidebarLogo) {
+        sidebarLogo.src = entidad.logo_url;
+        companyLogoContainer.classList.remove('hidden');
+        if(sidebarBrandText) sidebarBrandText.classList.add('hidden');
+    } else {
+        resetSidebarLogo();
+    }
 }
 
 function resetSidebarLogo() {
-    // Logo is now statically defined in base.html. Feature disabled to prevent flicker.
-    return;
+    const sidebarLogo = document.getElementById('sidebar-logo');
+    const sidebarBrandText = document.getElementById('sidebar-brand-text');
+    if (sidebarLogo) {
+        sidebarLogo.src = '/static/img/Logo_Escudo_Sin_Fondo.png';
+    }
+    if (sidebarBrandText) {
+        sidebarBrandText.classList.remove('hidden');
+    }
 }

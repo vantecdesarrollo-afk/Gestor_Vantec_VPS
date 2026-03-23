@@ -62,6 +62,16 @@ window.showModal = function (id) {
         document.getElementById('container-is-active').classList.add('hidden');
         document.getElementById('logo-preview-container').classList.add('hidden');
         document.getElementById('logo-preview').src = '';
+    } else if (id === 'modal-usuario') {
+        const form = document.getElementById('form-usuario');
+        form.reset();
+        form.removeAttribute('data-id');
+        const passField = form.querySelector('[name="password"]');
+        if (passField) { passField.required = true; passField.placeholder = ''; }
+        const title = document.querySelector('#modal-usuario h3');
+        if (title) title.innerText = 'Crear Nuevo Usuario';
+        const btn = form.querySelector('button[type="submit"]');
+        if (btn) btn.innerText = 'Crear Cuenta';
     }
     document.getElementById(id).style.display = 'flex';
 };
@@ -92,7 +102,7 @@ async function loadEntidades() {
                         </span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm">
-                        <button onclick="editEntidad('${e.id}', '${e.rfc}', '${e.razon_social}', ${e.is_active}, '${e.logo_url || ''}')" class="text-[#4EBCE9] hover:text-[#1E3A5F] font-bold">Editar</button>
+                        <button onclick="editEntidad('${e.id}', '${e.rfc}', '${e.razon_social}', ${e.is_active}, '${e.logo_path || ''}')" class="text-[#4EBCE9] hover:text-[#1E3A5F] font-bold">Editar</button>
                     </td>
                 </tr>
             `;
@@ -131,12 +141,20 @@ async function loadUsuarios() {
                             ${u.is_superadmin ? 'SUPER ADMIN' : 'USUARIO'}
                         </span>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm text-gray-400">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-400">
                         ${u.is_active ? 'Habilitado' : 'Suspendido'}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm">
+                        <button onclick="editUsuario(this)" data-id="${u.id}" data-username="${u.username}" data-email="${u.email}" data-superadmin="${u.is_superadmin}" data-active="${u.is_active}" class="text-[#4EBCE9] hover:text-[#1E3A5F] font-bold mr-3">Editar</button>
+                        <button onclick="toggleUsuarioStatus('${u.id}', ${u.is_active})" class="${u.is_active ? 'text-red-500 hover:text-red-700' : 'text-green-500 hover:text-green-700'} font-bold">
+                            ${u.is_active ? 'Deshabilitar' : 'Habilitar'}
+                        </button>
                     </td>
                 </tr>
             `;
-            select.innerHTML += `<option value="${u.id}">${u.email} (${u.username})</option>`;
+            if (u.is_active) {
+                select.innerHTML += `<option value="${u.id}">${u.email} (${u.username})</option>`;
+            }
         });
     } catch (error) {
         console.error('Error loading usuarios:', error);
@@ -183,6 +201,16 @@ document.addEventListener('change', (e) => {
 });
 
 // --- Submissions ---
+window.forceTokenRefresh = async function() {
+    try {
+        const response = await fetch('/api/v1/auth/refresh', { method: 'POST', headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` } });
+        if (response.ok) {
+            const data = await response.json();
+            localStorage.setItem('token', data.access_token);
+        }
+    } catch(e) {}
+};
+
 window.submitEntidad = async function () {
     const form = document.getElementById('form-entidad');
     const formData = new FormData(form);
@@ -199,6 +227,7 @@ window.submitEntidad = async function () {
     try {
         const result = await vantecFetch(url, { method: method, body: formData });
         if (result) {
+            await window.forceTokenRefresh();
             alert(entidadId ? 'Empresa actualizada exitosamente.' : 'Empresa registrada exitosamente.');
             hideModal('modal-entidad');
             form.reset();
@@ -211,23 +240,28 @@ window.submitEntidad = async function () {
 
 window.submitUsuario = async function () {
     const form = document.getElementById('form-usuario');
+    const userId = form.getAttribute('data-id');
     const formData = new FormData(form);
     const payload = Object.fromEntries(formData.entries());
     payload.is_superadmin = document.getElementById('is_superadmin').checked;
 
+    const url = userId ? `/api/v1/admin/usuarios/${userId}` : '/api/v1/admin/usuarios';
+    const method = userId ? 'PUT' : 'POST';
+
     try {
-        const result = await vantecFetch('/api/v1/admin/usuarios', {
-            method: 'POST',
+        const result = await vantecFetch(url, {
+            method: method,
             body: JSON.stringify(payload)
         });
         if (result) {
-            alert('Usuario creado correctamente.');
+            Swal.fire('Éxito', userId ? 'Usuario actualizado.' : 'Usuario creado.', 'success');
             hideModal('modal-usuario');
             form.reset();
+            form.removeAttribute('data-id');
             loadUsuarios();
         }
     } catch (error) {
-        alert('Error al crear usuario.');
+        Swal.fire('Error', 'Error al procesar usuario: ' + error.message, 'error');
     }
 };
 
@@ -247,10 +281,11 @@ window.saveAccess = async function () {
             body: JSON.stringify({ usuario_id, entidad_id, rol })
         });
         if (result) {
-            alert(result.message);
+            Swal.fire('Éxito', 'Permisos vinculados y guardados correctamente.', 'success');
+            // Opcional: recargar lista si se requiere
         }
     } catch (error) {
-        alert('Error al asignar acceso.');
+        Swal.fire('Error', 'Falla al asignar acceso: ' + error.message, 'error');
     }
 };
 
@@ -280,6 +315,11 @@ async function loadSmtpConfig(tenantId) {
             }
         }
     } catch (error) {
+        if (error.message.includes("404") || error.message.toLowerCase().includes("not found") || error.message.includes("encontrado")) {
+             document.getElementById('form-smtp').reset();
+             document.getElementById('smtp-password').placeholder = 'Rellenar contraseña';
+             return;
+        }
         console.error('Error loading SMTP Config:', error);
         Swal.fire('Error', 'Falla al cargar configuración SMTP: ' + error.message, 'error');
     }
@@ -321,11 +361,61 @@ async function saveSmtpConfig() {
     }
 }
 
-function testSmtpConfig() {
-    Swal.fire({
-        title: 'Prueba de Conexión',
-        text: 'Conexión SMTP exitosa (250 OK)',
-        icon: 'success',
-        confirmButtonColor: '#1E3A5F'
-    });
+async function testSmtpConfig() {
+    const tenantId = document.getElementById('smtp-entidad-id').value;
+    if (!tenantId) {
+        Swal.fire('Error', 'Debe seleccionar una empresa.', 'error');
+        return;
+    }
+    try {
+        const result = await vantecFetch(`/api/v1/smtp/${tenantId}/test`, {
+            method: 'POST'
+        });
+        if (result) {
+            Swal.fire('Éxito', 'Conexión SMTP exitosa (250 OK)', 'success');
+        }
+    } catch (error) {
+        Swal.fire('Error', 'Prueba SMTP fallida: ' + error.message, 'error');
+    }
 }
+
+window.editUsuario = function (btn) {
+     const id = btn.getAttribute('data-id');
+     const username = btn.getAttribute('data-username');
+     const email = btn.getAttribute('data-email');
+     const isSuperadmin = btn.getAttribute('data-superadmin') === 'true';
+     
+     const form = document.getElementById('form-usuario');
+     form.querySelector('[name="username"]').value = username || '';
+     form.querySelector('[name="email"]').value = email || '';
+     const passField = form.querySelector('[name="password"]');
+     if (passField) { passField.required = false; passField.placeholder = '••••••••'; }
+     
+     const checkSuper = document.getElementById('is_superadmin');
+     if (checkSuper) checkSuper.checked = isSuperadmin;
+     
+     form.setAttribute('data-id', id);
+     
+     const title = document.querySelector('#modal-usuario h3');
+     if (title) title.innerText = 'Editar Usuario';
+     const submitBtn = form.querySelector('button[type="submit"]');
+     if (submitBtn) submitBtn.innerText = 'Guardar Cambios';
+
+     showModal('modal-usuario');
+};
+
+window.toggleUsuarioStatus = async function (id, currentStatus) {
+     const newStatus = !currentStatus;
+     try {
+          const result = await vantecFetch(`/api/v1/admin/usuarios/${id}`, {
+               method: 'PUT',
+               body: JSON.stringify({ is_active: newStatus })
+          });
+          if (result) {
+               Swal.fire('Éxito', `Usuario ${newStatus ? 'Habilitado' : 'Deshabilitado'}`, 'success');
+               loadUsuarios();
+          }
+     } catch (error) {
+          Swal.fire('Error', 'Falla al cambiar estado: ' + error.message, 'error');
+     }
+};

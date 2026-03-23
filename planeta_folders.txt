@@ -1,0 +1,1402 @@
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile - dirs: 2 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\Bitacora - dirs: 4 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\Bitacora\CFDI_Cancelados - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 20
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\Bitacora\Errores - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\Bitacora\ErroresGeneracion - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT - dirs: 3 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura - dirs: 1 - files: 6
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M - dirs: 7 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 8
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\12K-14K - dirs: 0 - files: 3
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\2K-4K - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\38K-40K - dirs: 0 - files: 3
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\4K-6K - dirs: 0 - files: 2
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\52K-54K - dirs: 0 - files: 6
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\Factura\0-4M\8K-10K - dirs: 0 - files: 3
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\NotaCargo - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI\OutFile\SAT\NotaCredito\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile - dirs: 2 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\Bitacora - dirs: 4 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\Bitacora\CFDI_Cancelados - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\Bitacora\Errores - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\Bitacora\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT - dirs: 2 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura - dirs: 3 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\2015 - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\2015\07 - dirs: 0 - files: 2
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\Factura\2015 - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\Factura\2015\07 - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\Factura\Factura\2015\07\20 - dirs: 0 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\ConstrulitaCFDI-SAP\OutFile\SAT\NotaCredito\0-4M - dirs: 0 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT - dirs: 6 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Cancelacion - dirs: 0 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M - dirs: 12 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 29
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\14K-16K - dirs: 0 - files: 3
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\18K-20K - dirs: 0 - files: 13
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\28K-30K - dirs: 0 - files: 4
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\30K-32K - dirs: 0 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\32K-34K - dirs: 0 - files: 4
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\34K-36K - dirs: 0 - files: 3
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\40K-42K - dirs: 1 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\40K-42K\22K-24K - dirs: 0 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\42K-44K - dirs: 0 - files: 4
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\66K-68K - dirs: 0 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\70K-72K - dirs: 0 - files: 2
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Factura\0-4M\78K-80K - dirs: 0 - files: 2
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCargo - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCargo\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCargo\0-4M\0-2K - dirs: 0 - files: 17
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCredito\0-4M - dirs: 2 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCredito\0-4M\0-2K - dirs: 0 - files: 13
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\NotaCredito\0-4M\6K-8K - dirs: 0 - files: 9
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Pago - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Pago\0-4M - dirs: 1 - files: 61
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Pago\0-4M\0-2K - dirs: 0 - files: 21
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets - dirs: 1 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M - dirs: 5 - files: 0
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M\0-2K - dirs: 0 - files: 18
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M\18K-20K - dirs: 0 - files: 21
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M\32K-34K - dirs: 0 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M\34K-36K - dirs: 0 - files: 1
+C:\ITC\FAppeal\DaboCFDI\OutFile\SAT\Tickets\0-4M\6K-8K - dirs: 0 - files: 8
+C:\ITC\FAppeal\Delamac\Outfile - dirs: 21 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\AHMSA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\BIMBO - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\Bitacora - dirs: 3 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\Bitacora\Cancelaciones - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 13
+C:\ITC\FAppeal\Delamac\Outfile\Bitacora\ErroresGeneracion - dirs: 0 - files: 12
+C:\ITC\FAppeal\Delamac\Outfile\Cancelacion - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\CEMEX - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\CEMEX_Consignacion - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\COLGATE - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\COLGATE\ColgateCFD - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\EnvasesUniversales - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\FEMSA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\FERRO - dirs: 0 - files: 4
+C:\ITC\FAppeal\Delamac\Outfile\GASTRONOMIA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\GrupoModelo - dirs: 0 - files: 4
+C:\ITC\FAppeal\Delamac\Outfile\Hershey - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\INDORAMA - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\LAMOSA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\NESTLE - dirs: 0 - files: 9
+C:\ITC\FAppeal\Delamac\Outfile\PEMEX - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\PEPSICO - dirs: 0 - files: 4
+C:\ITC\FAppeal\Delamac\Outfile\SAT - dirs: 6 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\Cotizacion - dirs: 0 - files: 4
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA - dirs: 3 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M - dirs: 17 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\0-2K - dirs: 0 - files: 7
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\100K-102K - dirs: 0 - files: 3
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\10K-12K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\12K-14K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\18K-20K - dirs: 0 - files: 3
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\20K-22K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\24K-26K - dirs: 0 - files: 37
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\26K-28K - dirs: 0 - files: 31
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\28K-30K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\30K-32K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\34K-36K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\70K-72K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\72K-74K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\74K-76K - dirs: 0 - files: 5
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\76K-78K - dirs: 0 - files: 4
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\80K-82K - dirs: 0 - files: 3
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\0-4M\84K-86K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito - dirs: 1 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M - dirs: 17 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\0-2K - dirs: 0 - files: 6
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\100K-102K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\10K-12K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\12K-14K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\18K-20K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\20K-22K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\24K-26K - dirs: 0 - files: 36
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\26K-28K - dirs: 0 - files: 30
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\28K-30K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\30K-32K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\34K-36K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\70K-72K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\72K-74K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\74K-76K - dirs: 0 - files: 6
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\76K-78K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\80K-82K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Credito\0-4M\84K-86K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal - dirs: 1 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M - dirs: 17 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\0-2K - dirs: 0 - files: 6
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\100K-102K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\10K-12K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\12K-14K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\18K-20K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\20K-22K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\24K-26K - dirs: 0 - files: 36
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\26K-28K - dirs: 0 - files: 30
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\28K-30K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\30K-32K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\34K-36K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\70K-72K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\72K-74K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\74K-76K - dirs: 0 - files: 6
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\76K-78K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\80K-82K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\FACTURA\Fiscal\0-4M\84K-86K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo - dirs: 3 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Credito - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Credito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Credito\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Fiscal - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Fiscal\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCargo\Fiscal\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito - dirs: 3 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\0-4M - dirs: 2 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\0-4M\6K-8K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Credito - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Credito\0-4M - dirs: 2 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Credito\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Credito\0-4M\6K-8K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Fiscal - dirs: 1 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Fiscal\0-4M - dirs: 2 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Fiscal\0-4M\0-2K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Delamac\Outfile\SAT\NotaCredito\Fiscal\0-4M\6K-8K - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\OrdenDeCompra - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\SAT\Remision - dirs: 1 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SAT\Remision\Credito - dirs: 0 - files: 2
+C:\ITC\FAppeal\Delamac\Outfile\SONOCO - dirs: 0 - files: 0
+C:\ITC\FAppeal\Delamac\Outfile\VITRO - dirs: 0 - files: 2
+C:\ITC\FAppeal\DelamacPROD\Outfile - dirs: 15 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\AHMSA - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\BIMBO - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\Bitacora - dirs: 4 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\Bitacora\Cancelaciones - dirs: 0 - files: 5
+C:\ITC\FAppeal\DelamacPROD\Outfile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\Bitacora\ErroresGeneracion - dirs: 0 - files: 5
+C:\ITC\FAppeal\DelamacPROD\Outfile\Bitacora\nueva carpeta - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\Cancelacion - dirs: 0 - files: 42
+C:\ITC\FAppeal\DelamacPROD\Outfile\CEMEX - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\COLGATE - dirs: 1 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\COLGATE\ColgateCFD - dirs: 0 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\EnvasesUniversales - dirs: 0 - files: 2
+C:\ITC\FAppeal\DelamacPROD\Outfile\FEMSA - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\GASTRONOMIA - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\Hershey - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\LAMOSA - dirs: 0 - files: 18
+C:\ITC\FAppeal\DelamacPROD\Outfile\PEMEX - dirs: 0 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT - dirs: 5 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA - dirs: 3 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M - dirs: 9 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\0-2K - dirs: 0 - files: 29
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\12K-14K - dirs: 0 - files: 67
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\20K-22K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\22K-24K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\24K-26K - dirs: 0 - files: 108
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\26K-28K - dirs: 0 - files: 129
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\2K-4K - dirs: 0 - files: 70
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\6K-8K - dirs: 0 - files: 42
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\0-4M\76K-78K - dirs: 0 - files: 232
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito - dirs: 1 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M - dirs: 9 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\0-2K - dirs: 0 - files: 29
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\12K-14K - dirs: 0 - files: 67
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\20K-22K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\22K-24K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\24K-26K - dirs: 0 - files: 108
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\26K-28K - dirs: 0 - files: 129
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\2K-4K - dirs: 0 - files: 70
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\6K-8K - dirs: 0 - files: 42
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Credito\0-4M\76K-78K - dirs: 0 - files: 231
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal - dirs: 1 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M - dirs: 9 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\0-2K - dirs: 0 - files: 29
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\12K-14K - dirs: 0 - files: 67
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\20K-22K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\22K-24K - dirs: 0 - files: 44
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\24K-26K - dirs: 0 - files: 108
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\26K-28K - dirs: 0 - files: 129
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\2K-4K - dirs: 0 - files: 70
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\6K-8K - dirs: 0 - files: 42
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\FACTURA\Fiscal\0-4M\76K-78K - dirs: 0 - files: 231
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo - dirs: 3 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\0-4M\0-2K - dirs: 1 - files: 3
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\0-4M\0-2K\TMP - dirs: 0 - files: 2
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Credito - dirs: 1 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Credito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Credito\0-4M\0-2K - dirs: 0 - files: 2
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Fiscal - dirs: 1 - files: 1
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Fiscal\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCargo\Fiscal\0-4M\0-2K - dirs: 0 - files: 2
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito - dirs: 3 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\0-4M\6K-8K - dirs: 0 - files: 27
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Credito - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Credito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Credito\0-4M\6K-8K - dirs: 0 - files: 27
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Fiscal - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Fiscal\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\NotaCredito\Fiscal\0-4M\6K-8K - dirs: 0 - files: 27
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\OrdenDeCompra - dirs: 0 - files: 539
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\Remision - dirs: 1 - files: 210
+C:\ITC\FAppeal\DelamacPROD\Outfile\SAT\Remision\Credito - dirs: 0 - files: 210
+C:\ITC\FAppeal\DelamacPROD\Outfile\SONOCO - dirs: 0 - files: 0
+C:\ITC\FAppeal\DelamacPROD\Outfile\VITRO - dirs: 0 - files: 4
+C:\ITC\FAppeal\FUH\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT - dirs: 4 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\Cancelacion - dirs: 0 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M - dirs: 8 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\12K-14K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\14K-16K - dirs: 0 - files: 13
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\18K-20K - dirs: 0 - files: 6
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\2K-4K - dirs: 0 - files: 12
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\4K-6K - dirs: 0 - files: 4
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\590K-592K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH\OutFile\SAT\Factura\0-4M\592K-594K - dirs: 0 - files: 3
+C:\ITC\FAppeal\FUH\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\NotaCredito\0-4M\4K-6K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH\OutFile\SAT\PAGO - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\PAGO\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH\OutFile\SAT\PAGO\0-4M\0-2K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH-2017-1026\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT - dirs: 2 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\Factura\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\Factura\0-4M\168K-170K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-2017-1026\OutFile\SAT\NotaCredito\0-4M\168K-170K - dirs: 0 - files: 1
+C:\ITC\FAppeal\FUH-WS\OutFile - dirs: 1 - files: 5
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT - dirs: 4 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Cancelacion - dirs: 0 - files: 1
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura\0-4M - dirs: 4 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura\0-4M\12K-14K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura\0-4M\14K-16K - dirs: 0 - files: 15
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\Factura\0-4M\4K-6K - dirs: 0 - files: 4
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\NotaCredito\0-4M\4K-6K - dirs: 0 - files: 2
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\PAGO - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\PAGO\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\FUH-WS\OutFile\SAT\PAGO\0-4M\0-2K - dirs: 0 - files: 2
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\Bitacora - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 12
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\Bitacora\ErroresGeneracion - dirs: 0 - files: 2
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT - dirs: 3 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Facturas - dirs: 1 - files: 1
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Facturas\0-4M - dirs: 3 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Facturas\0-4M\0-2K - dirs: 0 - files: 191
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Facturas\0-4M\132K-134K - dirs: 0 - files: 5
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Facturas\0-4M\2K-4K - dirs: 0 - files: 40
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\Ncredito - dirs: 0 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon\Outfile\SAT\NotaCargo - dirs: 0 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\Bitacora - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 8
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\Bitacora\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\SAT - dirs: 1 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\SAT\Facturas - dirs: 1 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\SAT\Facturas\0-4M - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\SAT\Facturas\0-4M\0-2K - dirs: 0 - files: 2001
+C:\ITC\FAppeal\GrupoElavon\Elavon-MIT\OutFile\SAT\Facturas\0-4M\2K-4K - dirs: 0 - files: 1319
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\Bitacora - dirs: 2 - files: 0
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\Bitacora\CFDI_Timbrados - dirs: 0 - files: 5
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\Bitacora\ErroresGeneracion - dirs: 0 - files: 55
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\SAT - dirs: 1 - files: 0
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\SAT\Facturas - dirs: 1 - files: 0
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\SAT\Facturas\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\GrupoElavon\MIT\Elavon-MIT\OutFile\SAT\Facturas\0-4M\0-2K - dirs: 0 - files: 52
+C:\ITC\FAppeal\HumanitasDEUS\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT - dirs: 4 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Cancelacion - dirs: 0 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura\0-4M - dirs: 4 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura\0-4M\194K-196K - dirs: 0 - files: 3
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura\0-4M\198K-200K - dirs: 0 - files: 5
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura\0-4M\204K-206K - dirs: 0 - files: 2
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\Factura\0-4M\208K-210K - dirs: 0 - files: 5
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\NotaCredito - dirs: 0 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\PAGO - dirs: 1 - files: 0
+C:\ITC\FAppeal\HumanitasDEUS\OutFile\SAT\PAGO\0-4M - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta - dirs: 38 - files: 32
+C:\ITC\FAppeal\Planeta\Amazon - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\ArchivoDeRespaldo - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ArchivoIndividual - dirs: 0 - files: 107
+C:\ITC\FAppeal\Planeta\ArchivoNoIdentificado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ArchivosNoProcesados - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400 - dirs: 26 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\ArchivosNoProcesados - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\Cancelaciones - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Cancelaciones\ECP111221FH7 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Cancelaciones\EPM880422LV3 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Cancelaciones\PAF181218U28 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\CortesVentaLiverpool - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\DevolucionesLiverpool - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Fact - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\AS400\Facturas - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Facturas\AAA010101AAA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Facturas\ECP111221FH7 - dirs: 0 - files: 68
+C:\ITC\FAppeal\Planeta\AS400\Facturas\EPG800610BM2 - dirs: 0 - files: 657
+C:\ITC\FAppeal\Planeta\AS400\Facturas\EPM880422LV3 - dirs: 0 - files: 60
+C:\ITC\FAppeal\Planeta\AS400\Facturas\PAF181218U28 - dirs: 0 - files: 15
+C:\ITC\FAppeal\Planeta\AS400\Facturas\TEM960216A63 - dirs: 0 - files: 759
+C:\ITC\FAppeal\Planeta\AS400\HojaExcelFacturacion - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\HojaExcelFacturacion\FacturasRP71 - dirs: 0 - files: 27
+C:\ITC\FAppeal\Planeta\AS400\Infile - dirs: 0 - files: 11
+C:\ITC\FAppeal\Planeta\AS400\Nomina - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Nomina\AAA010101AAA - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Nomina\ECP111221FH7 - dirs: 0 - files: 76
+C:\ITC\FAppeal\Planeta\AS400\Nomina\EPG800610BM2 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Nomina\EPM880422LV3 - dirs: 0 - files: 69
+C:\ITC\FAppeal\Planeta\AS400\Nomina\PAF181218U28 - dirs: 0 - files: 26
+C:\ITC\FAppeal\Planeta\AS400\Nomina\TEM960216A63 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo\AAA010101AAA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo\ECP111221FH7 - dirs: 0 - files: 134
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo\EPM880422LV3 - dirs: 0 - files: 335
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo\PAF181218U28 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCargo\TEM960216A63 - dirs: 0 - files: 86
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX\ECP111221FH7 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX\EPG800610BM2 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX\EPM880422LV3 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX\PUS000922NI5 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotaDeCreditoX\TEM960216A63 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\AAA010101AAA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\ECP111221FH7 - dirs: 0 - files: 47
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\EPG800610BM2 - dirs: 0 - files: 23
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\EPM880422LV3 - dirs: 0 - files: 28
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\PAF181218U28 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\NotasDeCredito\TEM960216A63 - dirs: 0 - files: 22
+C:\ITC\FAppeal\Planeta\AS400\OrdenesdeCompraLiverpool - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Pago - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Pago\AAA010101AAA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Pago\ECP111221FH7 - dirs: 0 - files: 103
+C:\ITC\FAppeal\Planeta\AS400\Pago\EPG800610BM2 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Pago\EPM880422LV3 - dirs: 0 - files: 119
+C:\ITC\FAppeal\Planeta\AS400\Pago\PAF181218U28 - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\AS400\Pago\TEM960216A63 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Pruebas - dirs: 0 - files: 21
+C:\ITC\FAppeal\Planeta\AS400\Recibo - dirs: 2 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Recibo\AAA010101AAA - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Recibo\EPG800610BM2 - dirs: 0 - files: 362
+C:\ITC\FAppeal\Planeta\AS400\ren - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Facturas - dirs: 4 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Facturas\ECP111221FH7 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Facturas\EPG800610BM2 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Facturas\EPM880422LV3 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Facturas\TEM960216A63 - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Nomina - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCargo - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCargo\ECP111221FH7 - dirs: 0 - files: 113
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCargo\EPM880422LV3 - dirs: 0 - files: 235
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCargo\TEM960216A63 - dirs: 0 - files: 86
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCredito - dirs: 4 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCredito\ECP111221FH7 - dirs: 0 - files: 1016
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCredito\EPG800610BM2 - dirs: 0 - files: 230
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCredito\EPM880422LV3 - dirs: 0 - files: 1033
+C:\ITC\FAppeal\Planeta\AS400\Reportes\NotaDeCredito\TEM960216A63 - dirs: 0 - files: 749
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Recibo - dirs: 1 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Reportes\Recibo\EPG800610BM2 - dirs: 0 - files: 362
+C:\ITC\FAppeal\Planeta\AS400\RepositorioAS400paraTimbrado - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\RepositorioAS400paraTimbrado\Nueva carpeta - dirs: 0 - files: 25
+C:\ITC\FAppeal\Planeta\AS400\Retenciones - dirs: 0 - files: 26
+C:\ITC\FAppeal\Planeta\AS400\scrapper - dirs: 7 - files: 11
+C:\ITC\FAppeal\Planeta\AS400\scrapper\config - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\scrapper\driver - dirs: 0 - files: 9
+C:\ITC\FAppeal\Planeta\AS400\scrapper\FCE - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\scrapper\FCE\Facturas - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\scrapper\Nueva Verdion 23022023 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\scrapper\output - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\AS400\scrapper\Sotano - dirs: 3 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\scrapper\Sotano\bucket - dirs: 0 - files: 641
+C:\ITC\FAppeal\Planeta\AS400\scrapper\Sotano\config - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\scrapper\Sotano\Facturas - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\scrapper\tmp - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\set_mail_bitacoras - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\SoportescierredeMesCartera - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\SoportescierredeMesCartera - copia - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\FCE - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\FCE\Devoluciones - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Gandhi - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Gandhi\Devolucion - dirs: 1 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Gandhi\Devolucion\Compra - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Gandhi\Pagos - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Gandhi\Recepciones - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Liverpool - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Liverpool\Compra - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Liverpool\Devolucion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Liverpool\Pagos - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns\Compra - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns\Devolucion - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns\Facturas - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns\IMR - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Sanborns\Pagos - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC - dirs: 4 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015 - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\04 Abr\ECP-01-15 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\05 May\ECP-02-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\06 Jun - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\06 Jun\ECP-03-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago\ECP-04-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago\ECP-05-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\10 Oct\ECP-06-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\12 Dic - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Ediciones Culturales Paidós, S.A de C.V\12 Dic\ECP-07-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V - dirs: 11 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\02 Feb\EIL-02-15 - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-03-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-04-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-05-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-06-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-07-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\04 Abr\EIL-08-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\05 May\EIL-09-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-10-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-11-15 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-14-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-12-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-13-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-15-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-16-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\MEPM-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-17-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-19-15 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-20-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-18-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-21-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-23-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-22-15 - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-24-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Tusquets Editores México, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Tusquets Editores México, S.A. de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Tusquets Editores México, S.A. de C.V\04 Abr\IT-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Tusquets Editores México, S.A. de C.V\09 Sep - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2015\Tusquets Editores México, S.A. de C.V\09 Sep\IT-02-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016 - dirs: 3 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\05 May\ECP-01-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\09 Sep - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\09 Sep\ECP-02-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Ediciones Culturales Paidós, S.A de C.V\10 Oct\EDC-03-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V - dirs: 11 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-02-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-03-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-04-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-05-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-06-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\02 Feb\EIL-05-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\03 Mar - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-07-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\05 May\EIL-08-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun\EIL-09-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun\EIL-10-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\07 Jul - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-11-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-12-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-13-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-14-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-15-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-16-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\MEPM-01-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-17-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-18-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-20-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov - dirs: 8 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-19-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-21-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-22-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-23-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-24-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-26-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-27-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-28-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-25-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-29-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Tusquets Editores México, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Tusquets Editores México, S.A. de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Tusquets Editores México, S.A. de C.V\10 Oct\IT-01-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Tusquets Editores México, S.A. de C.V\11 Nov - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2016\Tusquets Editores México, S.A. de C.V\11 Nov\IT-02-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017 - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Ediciones Culturales Paidós, S.A. de C.V - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Ediciones Culturales Paidós, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Ediciones Culturales Paidós, S.A. de C.V\01 Ene\ECP-01-17 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Editorial Planeta Mexicana, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-17 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\Pedimentos listos para envio a SC - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\Pedimentos listos para envio a SC\2015 - dirs: 0 - files: 656
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\Pedimentos listos para envio a SC\2016 - dirs: 0 - files: 306
+C:\ITC\FAppeal\Planeta\AS400\Ventario\SC\Pedimentos listos para envio a SC\2017 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Tablets - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\Ventario\Tablets\Compra - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX - dirs: 4 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Gandhi - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Gandhi\Compra - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Gandhi\Devolucion - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Sanborns - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Sanborns\Compra - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Sanborns\Devolucion - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC - dirs: 4 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015 - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\04 Abr\ECP-01-15 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\05 May\ECP-02-15 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\06 Jun - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\06 Jun\ECP-03-15 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago\ECP-04-15 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\08 Ago\ECP-05-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\10 Oct\ECP-06-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\12 Dic - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Ediciones Culturales Paidós, S.A de C.V\12 Dic\ECP-07-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V - dirs: 11 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\02 Feb\EIL-02-15 - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar - dirs: 5 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-03-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-04-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-05-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-06-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-07-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\04 Abr\EIL-08-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\05 May\EIL-09-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-10-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-11-15 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-14-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-12-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-13-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-15-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-16-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\MEPM-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-17-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-19-15 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-20-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-18-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-21-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-23-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-22-15 - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-24-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Tusquets Editores México, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Tusquets Editores México, S.A. de C.V\04 Abr - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Tusquets Editores México, S.A. de C.V\04 Abr\IT-01-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Tusquets Editores México, S.A. de C.V\09 Sep - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2015\Tusquets Editores México, S.A. de C.V\09 Sep\IT-02-15 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016 - dirs: 3 - files: 1
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\05 May\ECP-01-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\09 Sep - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\09 Sep\ECP-02-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Ediciones Culturales Paidós, S.A de C.V\10 Oct\EDC-03-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V - dirs: 11 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-02-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-03-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-04-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-05-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-06-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\02 Feb\EIL-05-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\03 Mar - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\03 Mar\EIL-07-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\05 May - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\05 May\EIL-08-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun\EIL-09-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\06 Jun\EIL-10-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\07 Jul - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\07 Jul\EIL-11-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-12-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-13-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\08 Ago\EIL-14-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-15-16 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\EIL-16-16 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\09 Sep\MEPM-01-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-17-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-18-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\10 Oct\EIL-20-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov - dirs: 8 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-19-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-21-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-22-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-23-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-24-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-26-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-27-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\11 Nov\EIL-28-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-25-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Editorial Planeta Mexicana, S.A. de C.V\12 Dic\EIL-29-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Tusquets Editores México, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Tusquets Editores México, S.A. de C.V\10 Oct - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Tusquets Editores México, S.A. de C.V\10 Oct\IT-01-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Tusquets Editores México, S.A. de C.V\11 Nov - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2016\Tusquets Editores México, S.A. de C.V\11 Nov\IT-02-16 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017 - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Ediciones Culturales Paidós, S.A. de C.V - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Ediciones Culturales Paidós, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Ediciones Culturales Paidós, S.A. de C.V\01 Ene\ECP-01-17 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Editorial Planeta Mexicana, S.A. de C.V - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\01 Ene - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\01 Ene\EIL-01-17 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\2017\Editorial Planeta Mexicana, S.A. de C.V\02 Feb - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\Pedimentos listos para envio a SC - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\Pedimentos listos para envio a SC\2015 - dirs: 0 - files: 656
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\Pedimentos listos para envio a SC\2016 - dirs: 0 - files: 306
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\SC\Pedimentos listos para envio a SC\2017 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Tablets - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\AS400\VentarioXXX\Tablets\Compra - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\BitacoraErrores - dirs: 0 - files: 9
+C:\ITC\FAppeal\Planeta\BitacoraGenerados - dirs: 0 - files: 9
+C:\ITC\FAppeal\Planeta\Bitacoras - dirs: 6 - files: 0
+C:\ITC\FAppeal\Planeta\Bitacoras\CFDI_Cancelados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Bitacoras\CFDI_Individual_Cancelados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Bitacoras\CFDI_Timbrados - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Bitacoras\CFDI_Timbrados_Diarios - dirs: 0 - files: 22
+C:\ITC\FAppeal\Planeta\Bitacoras\Errorbitacora - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Bitacoras\Errortimbre - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini - dirs: 6 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Cancelacion-CFDI - dirs: 2 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Cancelacion-CFDI\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Cancelacion-CFDI\Nueva carpeta - dirs: 0 - files: 19
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact - dirs: 10 - files: 257
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\ErrorTimbradoBitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado - dirs: 15 - files: 163
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\Respuesta - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Fact\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Infile - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg - dirs: 10 - files: 251
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\ErrorTimbradoBitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado - dirs: 15 - files: 163
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\Respuesta - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCarg\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred - dirs: 10 - files: 252
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\ErrorTimbradoBitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado - dirs: 11 - files: 163
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\NCred\Timbrado\Logs - dirs: 0 - files: 639
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo - dirs: 6 - files: 157
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\ErrorTimbradoBitacora - dirs: 0 - files: 177
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Merge - dirs: 1 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Merge\lib - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado - dirs: 5 - files: 93
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado\Bitacora - dirs: 0 - files: 38
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado\Respuesta - dirs: 0 - files: 472
+C:\ITC\FAppeal\Planeta\CFDI-Agostini\Recibo\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Cancelaciones - dirs: 2 - files: 74
+C:\ITC\FAppeal\Planeta\CFDI-Cancelaciones\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Cancelaciones\Respuestas - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos - dirs: 7 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\ArchivosNoProcesados - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Cancelacion-CFDI - dirs: 2 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Cancelacion-CFDI\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Cancelacion-CFDI\Nueva carpeta - dirs: 0 - files: 19
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact - dirs: 10 - files: 258
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\ErrorTimbradoBitacora - dirs: 0 - files: 19
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado - dirs: 15 - files: 579
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Amazon - dirs: 0 - files: 206
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Bitacora - dirs: 0 - files: 102
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Gandhi - dirs: 1 - files: 689
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Logs - dirs: 0 - files: 1017
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\LogsMix - dirs: 0 - files: 81
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\Respuesta - dirs: 0 - files: 198
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Fact\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Infile - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg - dirs: 10 - files: 297
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\ErrorTimbradoBitacora - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado - dirs: 15 - files: 200
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Bitacora - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\Respuesta - dirs: 0 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCarg\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred - dirs: 10 - files: 879
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\ErrorTimbradoBitacora - dirs: 0 - files: 590
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado - dirs: 15 - files: 541
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Bitacora - dirs: 0 - files: 209
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Gandhi - dirs: 1 - files: 674
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Logs - dirs: 0 - files: 639
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\LogsMix - dirs: 0 - files: 66
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\Respuesta - dirs: 0 - files: 70
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\NCred\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo - dirs: 6 - files: 188
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\ErrorTimbradoBitacora - dirs: 0 - files: 666
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Merge - dirs: 1 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Merge\lib - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado - dirs: 5 - files: 214
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado\Bitacora - dirs: 0 - files: 396
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado\Respuesta - dirs: 0 - files: 159
+C:\ITC\FAppeal\Planeta\CFDI-Paidos\Recibo\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta - dirs: 7 - files: 10
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\ArchivosNoProcesados - dirs: 0 - files: 21
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Cancelacion-CFDI - dirs: 2 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Cancelacion-CFDI\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Cancelacion-CFDI\Nueva carpeta - dirs: 0 - files: 19
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact - dirs: 10 - files: 288
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\dependency-jars - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\ErrorTimbradoBitacora - dirs: 0 - files: 171
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\lib - dirs: 0 - files: 10
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado - dirs: 18 - files: 215
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Amazon - dirs: 0 - files: 260
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Bitacora - dirs: 0 - files: 439
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\ComercialMexicana - dirs: 0 - files: 114
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\DB - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Gandhi - dirs: 1 - files: 749
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\HEB - dirs: 0 - files: 69
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\lib - dirs: 0 - files: 23
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\lib_ant - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Logs - dirs: 0 - files: 1063
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\LogsMix - dirs: 0 - files: 88
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\Respuesta - dirs: 0 - files: 884
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\SAddenda - dirs: 0 - files: 15
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Fact\Timbrado\tmp - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Infile - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg - dirs: 10 - files: 384
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\ErrorTimbradoBitacora - dirs: 0 - files: 10
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado - dirs: 16 - files: 267
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Bitacora - dirs: 0 - files: 18
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Respuesta - dirs: 0 - files: 38
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\Res_fat_300321 - dirs: 0 - files: 66
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCarg\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred - dirs: 10 - files: 964
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\ErrorTimbradoBitacora - dirs: 0 - files: 2560
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado - dirs: 15 - files: 602
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Bitacora - dirs: 0 - files: 266
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\ComercialMexicana - dirs: 0 - files: 124
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Gandhi - dirs: 1 - files: 177
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\Respuesta - dirs: 0 - files: 526
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\NCred\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo - dirs: 6 - files: 176
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\ErrorTimbradoBitacora - dirs: 0 - files: 559
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Merge - dirs: 1 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Merge\lib - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado - dirs: 5 - files: 217
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado\Bitacora - dirs: 0 - files: 545
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado\Respuesta - dirs: 0 - files: 1098
+C:\ITC\FAppeal\Planeta\CFDI-Planeta\Recibo\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Conector-4 - dirs: 1 - files: 5
+C:\ITC\FAppeal\Planeta\Conector-4\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CorreoElectronico - dirs: 8 - files: 35
+C:\ITC\FAppeal\Planeta\CorreoElectronico\Acuses - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CorreoElectronico\ArchivosNoProcesados - dirs: 0 - files: 23
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac - dirs: 5 - files: 48
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac\ArchivosNoProcesados - dirs: 0 - files: 144
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac\BitacoraEnvios - dirs: 0 - files: 17
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac\Docserr - dirs: 0 - files: 20
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailFac\tmp - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNc - dirs: 4 - files: 116
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNc\ArchivosNoProcesados - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNc\BitacoraEnvios - dirs: 0 - files: 9
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNc\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNc\Docserr - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNca - dirs: 4 - files: 40
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNca\ArchivosNoProcesados - dirs: 0 - files: 18
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNca\BitacoraEnvios - dirs: 0 - files: 24
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNca\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNca\Docserr - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNom - dirs: 4 - files: 210
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNom\ArchivosNoProcesados - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNom\BitacoraEnvios - dirs: 0 - files: 27
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNom\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNom\dependency-jarsVersion1 - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNomReintento - dirs: 3 - files: 62
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNomReintento\ArchivosNoProcesados - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNomReintento\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailNomReintento\Docserr - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec - dirs: 5 - files: 98
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec\ArchivosNoProcesados - dirs: 0 - files: 132
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec\BitacoraEnvios - dirs: 0 - files: 23
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec\Docserr - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\CorreoElectronico\MailRec\XML - dirs: 0 - files: 25
+C:\ITC\FAppeal\Planeta\DB - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\EnvioBitacora - dirs: 1 - files: 133
+C:\ITC\FAppeal\Planeta\EnvioBitacora\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI - dirs: 4 - files: 14
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI - dirs: 11 - files: 267
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\ErrorTimbradoBitacora - dirs: 0 - files: 1785
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Historial - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Liverpool - dirs: 0 - files: 50
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Liverpool-Pai - dirs: 0 - files: 52
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Logs - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\LogsMix - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Merge - dirs: 4 - files: 6
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Merge\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Merge\lib1.1 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Merge\lib1.2 - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Merge\lib_ultimo_funcinando - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado - dirs: 16 - files: 172
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Amazon - dirs: 0 - files: 121
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\CasaLey - dirs: 0 - files: 34
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\ComercialMexicana - dirs: 0 - files: 110
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\DB - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\EstatusFacturacionDB - dirs: 1 - files: 4
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\EstatusFacturacionDB\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Gandhi - dirs: 1 - files: 578
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Gandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\HEB - dirs: 0 - files: 64
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Logs - dirs: 0 - files: 906
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\LogsMix - dirs: 0 - files: 65
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\LogsTusQuets - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\Respuesta - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\CFD-CFDI\Timbrado\SAddenda - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Infile - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo - dirs: 6 - files: 158
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\ErrorTimbradoBitacora - dirs: 0 - files: 177
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Merge - dirs: 1 - files: 3
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Merge\lib - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado - dirs: 5 - files: 93
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado\Bitacora - dirs: 0 - files: 38
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado\Respuesta - dirs: 0 - files: 472
+C:\ITC\FAppeal\Planeta\Facturacion-CFDI\Recibo\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Firmador-4 - dirs: 1 - files: 1
+C:\ITC\FAppeal\Planeta\Firmador-4\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\GeneracionFAC - dirs: 0 - files: 63
+C:\ITC\FAppeal\Planeta\GeneracionNC - dirs: 0 - files: 49
+C:\ITC\FAppeal\Planeta\GenPDF - dirs: 2 - files: 600
+C:\ITC\FAppeal\Planeta\GenPDF\ArchivosNoProcesados - dirs: 0 - files: 13
+C:\ITC\FAppeal\Planeta\GenPDF\XML - dirs: 0 - files: 3612
+C:\ITC\FAppeal\Planeta\InFile - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\InfileCancelaciones - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\InfileDB - dirs: 4 - files: 256
+C:\ITC\FAppeal\Planeta\InfileDB\1.0 - dirs: 1 - files: 1
+C:\ITC\FAppeal\Planeta\InfileDB\1.0\lib - dirs: 0 - files: 21
+C:\ITC\FAppeal\Planeta\InfileDB\ArchivosNoProcesados - dirs: 0 - files: 35
+C:\ITC\FAppeal\Planeta\InfileDB\lib - dirs: 0 - files: 20
+C:\ITC\FAppeal\Planeta\InfileDB\Procesados - dirs: 0 - files: 73
+C:\ITC\FAppeal\Planeta\InfileDoctosElect - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Java - dirs: 3 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre6 - dirs: 2 - files: 15
+C:\ITC\FAppeal\Planeta\Java\jre6\bin - dirs: 2 - files: 79
+C:\ITC\FAppeal\Planeta\Java\jre6\bin\client - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Java\jre6\bin\new_plugin - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Java\jre6\lib - dirs: 13 - files: 27
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\applet - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\audio - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\cmm - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy - dirs: 1 - files: 14
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy\jqs - dirs: 2 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy\jqs\ff - dirs: 1 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy\jqs\ff\chrome - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy\jqs\ff\chrome\content - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\deploy\jqs\ie - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\ext - dirs: 0 - files: 6
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\fonts - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\i386 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\im - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\images - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\images\cursors - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\management - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\security - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\servicetag - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi - dirs: 11 - files: 13
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Africa - dirs: 0 - files: 51
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\America - dirs: 4 - files: 114
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\America\Argentina - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\America\Indiana - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\America\Kentucky - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\America\North_Dakota - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Antarctica - dirs: 0 - files: 9
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Asia - dirs: 0 - files: 79
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Atlantic - dirs: 0 - files: 10
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Australia - dirs: 0 - files: 12
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Etc - dirs: 0 - files: 29
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Europe - dirs: 0 - files: 43
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Indian - dirs: 0 - files: 11
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\Pacific - dirs: 0 - files: 38
+C:\ITC\FAppeal\Planeta\Java\jre6\lib\zi\SystemV - dirs: 0 - files: 13
+C:\ITC\FAppeal\Planeta\Java\jre8 - dirs: 2 - files: 7
+C:\ITC\FAppeal\Planeta\Java\jre8\bin - dirs: 3 - files: 127
+C:\ITC\FAppeal\Planeta\Java\jre8\bin\client - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Java\jre8\bin\dtplugin - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8\bin\plugin2 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8\lib - dirs: 10 - files: 30
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\applet - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\cmm - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\deploy - dirs: 0 - files: 17
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\ext - dirs: 0 - files: 13
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\fonts - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\i386 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\images - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\images\cursors - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\jfr - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\management - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\security - dirs: 1 - files: 7
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\security\policy - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\security\policy\limited - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8\lib\security\policy\unlimited - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8x64 - dirs: 2 - files: 7
+C:\ITC\FAppeal\Planeta\Java\jre8x64\bin - dirs: 3 - files: 127
+C:\ITC\FAppeal\Planeta\Java\jre8x64\bin\dtplugin - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8x64\bin\plugin2 - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8x64\bin\server - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib - dirs: 10 - files: 30
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\amd64 - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\applet - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\cmm - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\deploy - dirs: 0 - files: 17
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\ext - dirs: 0 - files: 13
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\fonts - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\images - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\images\cursors - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\jfr - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\management - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\security - dirs: 1 - files: 7
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\security\policy - dirs: 2 - files: 0
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\security\policy\limited - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Java\jre8x64\lib\security\policy\unlimited - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Licencia - dirs: 2 - files: 9
+C:\ITC\FAppeal\Planeta\Licencia\Firmador - dirs: 1 - files: 1
+C:\ITC\FAppeal\Planeta\Licencia\Firmador\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Licencia\lib - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Nomina-CFDI - dirs: 6 - files: 19
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\ArchivosNoProcesados - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\BitacoraDiaria - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Configuraciones - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\EnvioXml-PDF - dirs: 1 - files: 29
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\EnvioXml-PDF\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Infile - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina - dirs: 7 - files: 177
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\archivosNoProcesados - dirs: 1 - files: 22
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\archivosNoProcesados\lib - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\ErroresGeneracion - dirs: 0 - files: 278
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\ErrorTimbradoBitacora - dirs: 0 - files: 774
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\lib - dirs: 0 - files: 6
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado - dirs: 5 - files: 112
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado\Bitacora - dirs: 0 - files: 262
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado\Respuesta - dirs: 0 - files: 440
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\Timbrado\Timbres - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Nomina-CFDI\Nomina\txml otros pagos - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Outfile - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Outfile\SAT - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Outfile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Outfile\SAT\Factura\0-2K - dirs: 0 - files: 13
+C:\ITC\FAppeal\Planeta\Recibos-CFDI - dirs: 3 - files: 14
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Infile - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos - dirs: 6 - files: 157
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\ErrorTimbradoBitacora - dirs: 0 - files: 177
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\lib - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Merge - dirs: 1 - files: 3
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Merge\lib - dirs: 0 - files: 4
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado - dirs: 5 - files: 92
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado\Bitacora - dirs: 0 - files: 38
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado\lib - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado\Respuesta - dirs: 0 - files: 472
+C:\ITC\FAppeal\Planeta\Recibos-CFDI\Pagos\Timbrado\SAddenda - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Reenvio - dirs: 2 - files: 33
+C:\ITC\FAppeal\Planeta\Reenvio\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Reenvio\Mail - dirs: 3 - files: 37
+C:\ITC\FAppeal\Planeta\Reenvio\Mail\BitacoraEnvios - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Reenvio\Mail\dependency-jars - dirs: 0 - files: 3
+C:\ITC\FAppeal\Planeta\Reenvio\Mail\Docserr - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ReGenPDF - dirs: 1 - files: 166
+C:\ITC\FAppeal\Planeta\ReGenPDF\XML - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ResGandhi - dirs: 2 - files: 49
+C:\ITC\FAppeal\Planeta\ResGandhi\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ResGandhi\infile - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\ResGandhi\infile\Paidos - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\ResGandhi\infile\Paidos\4171 - dirs: 0 - files: 320
+C:\ITC\FAppeal\Planeta\ResguardoGandhi - dirs: 3 - files: 52
+C:\ITC\FAppeal\Planeta\ResguardoGandhi\ArchivosNoProcesados - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ResguardoGandhi\Paidos - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\ResguardoGandhi\Planeta - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI - dirs: 5 - files: 8
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\ArchivosNoProcesados - dirs: 0 - files: 330
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\BitacoraErrores - dirs: 0 - files: 2
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\EnvioBitacora - dirs: 3 - files: 59
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\EnvioBitacora\ArchivosNoProcesados - dirs: 0 - files: 5
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\EnvioBitacora\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\EnvioBitacora\Infile - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\InfileRet - dirs: 0 - files: 18
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion - dirs: 8 - files: 282
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\Archivo - dirs: 1 - files: 0
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\Archivo\__MACOSX - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\Bitacora - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\ErrorTimbrado - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\lib - dirs: 0 - files: 6
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\libplaneta - dirs: 0 - files: 8
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\Respuesta - dirs: 0 - files: 562
+C:\ITC\FAppeal\Planeta\Retenciones-CFDI\Retencion\Timbres - dirs: 0 - files: 0
+C:\ITC\FAppeal\Planeta\Setting_mail - dirs: 0 - files: 1
+C:\ITC\FAppeal\Planeta\Traslado - dirs: 4 - files: 274
+C:\ITC\FAppeal\Planeta\Traslado\dependency-jars - dirs: 0 - files: 7
+C:\ITC\FAppeal\Planeta\Traslado\lib - dirs: 0 - files: 17
+C:\ITC\FAppeal\Planeta\Traslado\NoProcesados - dirs: 0 - files: 107
+C:\ITC\FAppeal\Planeta\Traslado\PDF - dirs: 1 - files: 42
+C:\ITC\FAppeal\Planeta\Traslado\PDF\Temp - dirs: 0 - files: 2
+C:\ITC\FAppeal\QUIFA\Outfile - dirs: 1 - files: 0
+C:\ITC\FAppeal\QUIFA\Outfile\SAT - dirs: 1 - files: 0
+C:\ITC\FAppeal\QUIFA\Outfile\SAT\Factura - dirs: 0 - files: 2
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT - dirs: 4 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Cancelacion - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M - dirs: 7 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\124K-126K - dirs: 0 - files: 14
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\142K-144K - dirs: 0 - files: 2
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\178K-180K - dirs: 2 - files: 2
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\178K-180K\caso1_1_concepto - dirs: 0 - files: 4
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\178K-180K\caso1_PublicoGeneral - dirs: 0 - files: 4
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\22K-24K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\24K-26K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\4K-6K - dirs: 0 - files: 2
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\Factura\0-4M\94K-96K - dirs: 0 - files: 3
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\NotaCredito\0-4M\94K-96K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\PAGO - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\PAGO\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI\OutFile\SAT\PAGO\0-4M\0-2K - dirs: 0 - files: 6
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile - dirs: 6 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\Bitacora - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\CFDI_Cancelados - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\CFDI_Timbrados - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\Errores - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\ErroresGeneracion - dirs: 0 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT - dirs: 2 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\Factura\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\Factura\0-4M\68K-70K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\AttebEstructuraAnteriorHumanitas\OutFile\SAT\NotaCredito\0-4M\68K-70K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT - dirs: 2 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M - dirs: 5 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M\12K-14K - dirs: 0 - files: 3
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M\22K-24K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M\68K-70K - dirs: 0 - files: 5
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M\74K-76K - dirs: 0 - files: 1
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\Factura\0-4M\76K-78K - dirs: 0 - files: 8
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\NotaCredito - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\NotaCredito\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\UniversidadHumanitasCFDI-2017-10-26\Outfile\SAT\NotaCredito\0-4M\68K-70K - dirs: 0 - files: 1
+C:\ITC\FAppeal\Vantec\OutFile - dirs: 1 - files: 0
+C:\ITC\FAppeal\Vantec\OutFile\SAT - dirs: 1 - files: 0
+C:\ITC\FAppeal\Vantec\OutFile\SAT\Factura - dirs: 1 - files: 0
+C:\ITC\FAppeal\Vantec\OutFile\SAT\Factura\0-4M - dirs: 1 - files: 0
+C:\ITC\FAppeal\Vantec\OutFile\SAT\Factura\0-4M\0-2K - dirs: 0 - files: 13

@@ -28,6 +28,8 @@ class CFDIParser:
 
         tipo_comp = self.root.get('TipoDeComprobante') or self.root.get('tipoDeComprobante')
         total_val = self.root.get('Total') or self.root.get('total')
+        subtotal_val = self.root.get('SubTotal') or self.root.get('subTotal')
+        tipo_cambio_val = self.root.get('TipoCambio') or self.root.get('tipoCambio') or 1.0
 
         if tipo_comp == 'P':
             pago20_ns = {'pago20': 'http://www.sat.gob.mx/Pagos20'}
@@ -46,11 +48,29 @@ class CFDIParser:
             "folio": self.root.get('Folio') or self.root.get('folio'),
             "fecha": self.root.get('Fecha') or self.root.get('fecha'),
             "total": total_val,
+            "subtotal": subtotal_val,
+            "tipo_cambio": tipo_cambio_val,
             "tipo_comprobante": tipo_comp,
+            "moneda": self.root.get('Moneda') or self.root.get('moneda') or "MXN",
             "metodo_pago": self.root.get('MetodoPago') or self.root.get('metodoPago'),
             "forma_pago": self.root.get('FormaPago') or self.root.get('formaPago'),
-            "relaciones": []
+            "relaciones": [],
+            "conceptos": []
         }
+        
+        # Extraer Conceptos para Dashboard
+        concept_nodes = self.root.findall('.//{*}Conceptos/{*}Concepto')
+        for node in concept_nodes:
+             metadata["conceptos"].append({
+                 "clave_prod_serv": node.get('ClaveProdServ') or node.get('clave_prod_serv'),
+                 "no_identificacion": node.get('NoIdentificacion') or node.get('no_identificacion'),
+                 "cantidad": float(node.get('Cantidad') or node.get('cantidad') or 0),
+                 "clave_unidad": node.get('ClaveUnidad') or node.get('clave_unidad'),
+                 "descripcion": node.get('Descripcion') or node.get('descripcion') or "",
+                 "valor_unitario": float(node.get('ValorUnitario') or node.get('valor_unitario') or 0),
+                 "importe": float(node.get('Importe') or node.get('importe') or 0)
+             })
+
         
         # Vantec Core: Extraer relaciones de Pago 2.0
         if tipo_comp == 'P':
@@ -72,8 +92,10 @@ class CFDIParser:
         
         if emisor is not None:
             metadata["rfc_emisor"] = emisor.get('Rfc') or emisor.get('rfc')
+            metadata["nombre_emisor"] = emisor.get('Nombre') or emisor.get('nombre')
         if receptor is not None:
             metadata["rfc_receptor"] = receptor.get('Rfc') or receptor.get('rfc')
+            metadata["nombre_receptor"] = receptor.get('Nombre') or receptor.get('nombre')
 
         return metadata
 
@@ -130,6 +152,8 @@ async def process_inbound_file(xml_path: str, failed_dir: str, log_dir: str, db:
             logger.warning(f"Omitiendo duplicado: {data['uuid']}")
             raise ValueError(f"CFDI Duplicado: {data['uuid']}")
 
+        from src.database.models import Cfdi, Comprobante, CfdiRelacionado
+        
         nuevo_comprobante = Cfdi(
             uuid=data["uuid"],
             tenant_id=entidad_id,
@@ -141,13 +165,89 @@ async def process_inbound_file(xml_path: str, failed_dir: str, log_dir: str, db:
             issue_date=fecha_val,
             xml_file_path=dest_xml
         )
-
-        
         db.add(nuevo_comprobante)
 
+        # Vantec Core: Insertar en tabla Comprobantes para Vista /emision Frontend
+        vcore_comp = Comprobante(
+            uuid=uuid_lib.UUID(data["uuid"]),
+            entidad_id=entidad_id,
+            serie=data.get("serie"),
+            folio=data.get("folio"),
+            fecha_emision=fecha_val,
+            rfc_emisor=data.get("rfc_emisor"),
+            nombre_emisor=data.get("nombre_emisor") or data.get("rfc_emisor") or "Emisor Sin Identificar",
+            rfc_receptor=data.get("rfc_receptor"),
+            nombre_receptor=data.get("nombre_receptor") or data.get("rfc_receptor") or "Cliente Sin Identificar",
+            tipo_comprobante=data.get("tipo_comprobante") or "I",
+            moneda=data.get("moneda") or "MXN",
+            total=total_num,
+            estatus_sat="Vigente",
+            ruta_resguardo=dest_xml,
+            metodo_pago=data.get("metodo_pago"),
+            forma_pago=data.get("forma_pago")
+        )
+        db.add(vcore_comp)
 
-        # Vantec Core: Insertar relaciones para CFDIs
-        # Relaciones deshabilitadas para v1.0.0
+        # Vantec Core: Insertar relaciones para CFDIs (Suma de Pagos)
+        for r in data.get("relaciones", []):
+             nueva_rel = CfdiRelacionado(
+                 cfdi_id=uuid_lib.UUID(data["uuid"]),
+                 uuid_padre=data["uuid"],
+                 uuid_relacionado=r.get("uuid_relacionado"),
+                 tipo_relacion=r.get("tipo_relacion"),
+                 monto_pagado=r.get("monto_pagado"),
+                 saldo_insoluto=r.get("saldo_insoluto"),
+                 num_parcialidad=r.get("num_parcialidad")
+             )
+             db.add(nueva_rel)
+
+        # --- DASHBOARD OPTIMIZADO (ESTRUCTURA RENDIMIENTO) ---
+        from src.database.models_dashboard_opt import DashCfdiDocument, DashCfdiConcept
+        
+        try:
+            subtotal_num = float(data.get("subtotal") or total_num)
+        except:
+             subtotal_num = total_num
+             
+        try:
+            tipo_cambio_num = float(data.get("tipo_cambio") or 1.0)
+        except:
+             tipo_cambio_num = 1.0
+
+        dash_doc = DashCfdiDocument(
+            tenant_id=entidad_id,
+            uuid_fiscal=data["uuid"],
+            serie=data.get("serie"),
+            folio=data.get("folio"),
+            fecha_emision=fecha_val,
+            rfc_emisor=data.get("rfc_emisor"),
+            nombre_emisor=data.get("nombre_emisor") or data.get("rfc_emisor") or "Emisor Sin Identificar",
+            rfc_receptor=data.get("rfc_receptor"),
+            nombre_receptor=data.get("nombre_receptor") or data.get("rfc_receptor") or "Cliente Sin Identificar",
+            tipo_comprobante=data.get("tipo_comprobante") or "I",
+            moneda=data.get("moneda") or "MXN",
+            tipo_cambio=tipo_cambio_num,
+            subtotal=subtotal_num,
+            total=total_num,
+            metodo_pago=data.get("metodo_pago"),
+            forma_pago=data.get("forma_pago"),
+            estatus_sat="Vigente"
+        )
+        db.add(dash_doc)
+        
+        for c in data.get("conceptos", []):
+             dash_concept = DashCfdiConcept(
+                 cfdi_id=dash_doc.cfdi_id,
+                 clave_prod_serv=c.get("clave_prod_serv") or "99999999", # Default si falta
+                 no_identificacion=c.get("no_identificacion"),
+                 clave_unidad=c.get("clave_unidad") or "H87",
+                 cantidad=c.get("cantidad"),
+                 descripcion=c.get("descripcion"),
+                 valor_unitario=c.get("valor_unitario"),
+                 importe=c.get("importe")
+             )
+             db.add(dash_concept)
+
         
         await db.commit()
         logger.info(f"✅ Éxito: Indexado {data.get('serie') or ''}{data.get('folio') or ''} v{data.get('version')}")

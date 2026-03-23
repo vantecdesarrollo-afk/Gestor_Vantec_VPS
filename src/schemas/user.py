@@ -1,0 +1,18 @@
+from pydantic import BaseModel, EmailStr
+from typing import Optional
+
+class UserUpdate(BaseModel):
+    username: Optional[str] = None
+    email: Optional[EmailStr] = None
+    is_active: Optional[bool] = None
+    is_superadmin: Optional[bool] = None
+
+class UserResponse(BaseModel):
+    id: str
+    username: str
+    email: Optional[str] = None
+    is_active: bool
+    is_superadmin: bool
+
+    class Config:
+         orm_mode = True # Para que sea compatible con SQLAlchemy (v1) o use_enum_values

@@ -34,27 +34,54 @@ class CfdiHandler(FileSystemEventHandler):
         os.makedirs(self.processing_dir, exist_ok=True)
         os.makedirs(self.failed_dir, exist_ok=True)
         os.makedirs(self.log_dir, exist_ok=True)
-
+        self.queue = asyncio.Queue()
+        asyncio.run_coroutine_threadsafe(self.worker(), self.loop)
 
     def on_created(self, event):
         if not event.is_directory:
             if event.src_path.lower().endswith(".xml"):
-                asyncio.run_coroutine_threadsafe(self.process_file_async(event.src_path), self.loop)
+                self.loop.call_soon_threadsafe(self.queue.put_nowait, event.src_path)
             elif event.src_path.lower().endswith(".pdf"):
                 asyncio.run_coroutine_threadsafe(self.process_pdf_async(event.src_path), self.loop)
 
+    async def worker(self):
+        batch_size = 50
+        while True:
+            batch = []
+            try:
+                first_item = await self.queue.get()
+                batch.append(first_item)
+                
+                for _ in range(batch_size - 1):
+                    try:
+                        item = self.queue.get_nowait()
+                        batch.append(item)
+                    except asyncio.QueueEmpty:
+                        break
+                
+                logger.info(f"🚀 Iniciando Batch concurrente de {len(batch)} documentos...")
+                tasks = []
+                for file_path in batch:
+                    tasks.append(self.process_file_async(file_path))
+                
+                await asyncio.gather(*tasks, return_exceptions=True)
+                
+                for _ in batch:
+                    self.queue.task_done()
+                
+                logger.info(f"✅ Batch completado. Liberando memoria para el siguiente ciclo...")
+                await asyncio.sleep(0.5)
+            except Exception as e:
+                logger.error(f"Error en worker batch: {e}")
+
     async def bootstrap_scan(self, path):
-        print(f"DEBUG: bootstrap_scan started for {path}")
-        if not os.path.exists(path):
-             print(f"DEBUG: Path {path} does not exist.")
-             return
+        logger.info(f"🔄 Iniciando bootstrap_scan en {path}")
+        if not os.path.exists(path): return
         files = os.listdir(path)
-        print(f"DEBUG: Found {len(files)} files in {path}")
+        logger.info(f"🔎 Se encontraron {len(files)} archivos para ingesta inicial en {path}")
         for f in files:
-            print(f"DEBUG: Inspecting file {f}")
             if f.lower().endswith(".xml"): 
-                print(f"DEBUG: Processing file {f}")
-                await self.process_file_async(os.path.join(path, f))
+                await self.queue.put(os.path.join(path, f))
             elif f.lower().endswith(".pdf"): 
                 await self.process_pdf_async(os.path.join(path, f))
 
@@ -98,7 +125,9 @@ class CfdiHandler(FileSystemEventHandler):
                 shutil.move(file_path, p_xml)
                 if ruta_pdf and os.path.exists(ruta_pdf): shutil.move(ruta_pdf, p_pdf)
                 await process_inbound_file(p_xml, self.failed_dir, self.log_dir, db, self.entidad_id)
-                if p_pdf and os.path.exists(p_pdf): os.remove(p_pdf)
+                if p_pdf and os.path.exists(p_pdf):
+                    # Guardar para traslado, no borrar
+                    logger.info(f"PDF resguardado en procesamiento: {p_pdf}")
             except Exception as e:
                 self._move_to_error(p_xml, str(e), p_pdf)
 

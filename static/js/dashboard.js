@@ -79,6 +79,18 @@ async function loadDashboardData(startDate = null, endDate = null) {
              }
         }
 
+        if (data.monedas_options) {
+             const selectMoneda = document.getElementById('filter-moneda');
+             if (selectMoneda && selectMoneda.options.length <= 1) {
+                  data.monedas_options.forEach(m => {
+                       const opt = document.createElement('option');
+                       opt.value = m;
+                       opt.innerText = m;
+                       selectMoneda.appendChild(opt);
+                  });
+             }
+        }
+
         // Renderizar Gráfica BI
         if (data.facturacion_mensual) {
             renderMonthlyChart(data.facturacion_mensual);
@@ -153,11 +165,11 @@ async function loadDashboardData(startDate = null, endDate = null) {
                                 <i class="fas fa-user-tie"></i>
                             </div>
                             <div>
-                                <p class="text-sm font-bold text-vantec-primary">${cliente.rfc_receptor}</p>
+                                <p class="text-sm font-bold text-vantec-primary">${cliente.cliente || 'Cliente Sin Nombre'}</p>
                                 <p class="text-xs text-gray-500">Cliente Principal</p>
                             </div>
                         </div>
-                        <p class="text-sm font-bold text-vantec-primary">${formatter.format(cliente.total_monto)}</p>
+                        <p class="text-sm font-bold text-vantec-primary">${formatter.format(Number(cliente.total) || 0)}</p>
                     `;
                     topClientesContainer.appendChild(row);
                 });
@@ -166,13 +178,23 @@ async function loadDashboardData(startDate = null, endDate = null) {
 
     } catch (error) {
         console.error('🛡️ VANTEC DASHBOARD ERROR:', error);
-        if (kpiTotalDocs) kpiTotalDocs.innerText = '0';
+        if (kpiTotalDocs) kpiTotalDocs.innerText = 'Error';
+        if (kpiTotalAmount) kpiTotalAmount.innerText = 'Error';
+        if (kpiPpdPending) kpiPpdPending.innerText = 'Error';
         if (topClientesContainer) {
             topClientesContainer.innerHTML = `
                 <div class="flex items-center justify-center pt-8 text-gray-400">
-                    <i class="fas fa-info-circle mr-2"></i> Error al cargar datos
+                    <i class="fas fa-exclamation-triangle mr-2 text-red-500"></i> Error al cargar datos
                 </div>
             `;
+        }
+        if (typeof Swal !== 'undefined') {
+            Swal.fire({
+                title: '❌ Error de Carga',
+                text: 'No se pudo sincronizar el Dashboard: ' + error.message,
+                icon: 'error',
+                confirmButtonColor: '#1E3A5F'
+            });
         }
     }
 }
@@ -225,7 +247,7 @@ function renderMonthlyChart(data) {
     const options = {
         series: [{
             name: 'Total Facturado (MXN)',
-            data: data.map(item => item.total)
+            data: data.map(item => Number(item.total) || 0)
         }],
         chart: {
             height: 320,
@@ -258,7 +280,7 @@ function renderMonthlyChart(data) {
             labels: {
                 style: { colors: '#64748B' },
                 formatter: function (val) {
-                    return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumSignificantDigits: 3 }).format(val);
+                    return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumSignificantDigits: 3 }).format(Number(val) || 0);
                 }
             }
         },
@@ -358,39 +380,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Acción para el botón de exportar reporte
     const btnExport = document.getElementById('btn-export-report');
     if (btnExport) {
-        btnExport.addEventListener('click', async () => {
+        // ACTIVADO PARA EXPORTACIÓN MAESTRA
+        btnExport.addEventListener('click', async (e) => {
             const token = localStorage.getItem('token');
             let activeEntidad = localStorage.getItem('active_entidad');
     
-            // 1. Sincronizar Selección Visual (Prioridad Absoluta) para evitar 404s
             const selector = document.getElementById('entity-selector');
             if (selector && selector.value && selector.value !== "") {
                 if (selector.value !== activeEntidad) {
-                    console.log("[+] btnExport Sincronizando visual prioritaria:", selector.value);
                     activeEntidad = selector.value;
                     localStorage.setItem('active_entidad', activeEntidad);
                 }
             }
 
             if (!activeEntidad) {
-                if (typeof Swal !== 'undefined') {
-                    Swal.fire({
-                        title: 'Atención',
-                        text: 'Por favor, seleccione una empresa en la barra superior para continuar.',
-                        icon: 'warning',
-                        confirmButtonColor: '#1E3A5F'
-                    });
-                }
-                return;
+                 Swal.fire({ title: 'Atención', text: 'Seleccione una empresa en la barra superior.', icon: 'warning' });
+                 return;
             }
 
-            if (!token) {
-                alert("No estás autenticado.");
-                return;
-            }
+            if (!token) return;
             
             try {
-                let exportUrl = `/api/v1/analytics/export?entidad_id=${activeEntidad}`;
+                let exportUrl = `/api/v1/comprobantes/export?t=${Date.now()}`;
                 if (currentStartDate) exportUrl += `&fecha_inicio=${currentStartDate}`;
                 if (currentEndDate) exportUrl += `&fecha_fin=${currentEndDate}`;
 
@@ -403,17 +414,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     const url = window.URL.createObjectURL(blob);
                     const a = document.createElement('a');
                     a.href = url;
-                    a.download = `reporte_cfdi_${activeEntidad.substring(0,8)}.xlsx`;
+                    a.download = `reporte_comprobantes_${activeEntidad.substring(0,8)}.csv`;
                     document.body.appendChild(a);
                     a.click();
                     a.remove();
                     window.URL.revokeObjectURL(url);
                 } else {
-                    alert("Error al descargar el reporte.");
+                    Swal.fire('Error', 'Error al descargar el reporte.', 'error');
                 }
             } catch (error) {
-                console.error("🛡️ VANTEC EXPORT ERROR:", error);
-                alert("Error de red al exportar.");
+                Swal.fire('Error', 'Error de red al exportar.', 'error');
             }
         });
     }

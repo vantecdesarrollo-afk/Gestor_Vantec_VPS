@@ -1,0 +1,31 @@
+﻿Consultando API simulada para Folio 303...
+2026-03-20 13:18:38,583 INFO sqlalchemy.engine.Engine select pg_catalog.version()
+2026-03-20 13:18:38,583 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-03-20 13:18:38,586 INFO sqlalchemy.engine.Engine select current_schema()
+2026-03-20 13:18:38,586 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-03-20 13:18:38,589 INFO sqlalchemy.engine.Engine show standard_conforming_strings
+2026-03-20 13:18:38,589 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-03-20 13:18:38,590 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-03-20 13:18:38,614 INFO sqlalchemy.engine.Engine SELECT comprobantes.uuid, comprobantes.entidad_id, comprobantes.serie, comprobantes.folio, comprobantes.fecha_emision, comprobantes.rfc_emisor, comprobantes.nombre_emisor, comprobantes.rfc_receptor, comprobantes.nombre_receptor, comprobantes.tipo_comprobante, comprobantes.moneda, comprobantes.total, comprobantes.estatus_sat, comprobantes.ruta_resguardo, comprobantes.metodo_pago, comprobantes.forma_pago, comprobantes.version, comprobantes.ingestado_at, comprobantes.status, comprobantes.tipo_cambio, comprobantes.descuento, comprobantes.total_impuestos_trasladados, comprobantes.total_impuestos_retenidos, comprobantes.subtotal 
+FROM comprobantes 
+WHERE comprobantes.total = $1::NUMERIC(18, 6)
+2026-03-20 13:18:38,614 INFO sqlalchemy.engine.Engine [generated in 0.00025s] (28820.03,)
+
+--- COMPROBANTE Folio: 0000000800 UUID: d1d1f7d4-7683-4f46-a545-5e08c907cb11 ---
+Ruta Resguardo: C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\07\D1D1F7D4-7683-4F46-A545-5E08C907CB11.xml
+xml_exists (Fase 1): True
+pdf_exists (Fase 1): False
+att['xml_path']: C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\07\d1d1f7d4-7683-4f46-a545-5e08c907cb11.xml
+att['pdf_path']: None
+xml_exists (Fase 3): True
+pdf_exists (Fase 3): False
+
+--- COMPROBANTE Folio: 0000000303 UUID: d2a9308b-f4d9-4357-8adf-de186a7ef5d1 ---
+Ruta Resguardo: C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\10\D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1.xml
+xml_exists (Fase 1): True
+pdf_exists (Fase 1): False
+att['xml_path']: C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\10\d2a9308b-f4d9-4357-8adf-de186a7ef5d1.xml
+att['pdf_path']: None
+xml_exists (Fase 3): True
+pdf_exists (Fase 3): False
+2026-03-20 13:18:38,645 INFO sqlalchemy.engine.Engine ROLLBACK

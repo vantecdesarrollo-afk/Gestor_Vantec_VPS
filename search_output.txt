@@ -1,0 +1,9 @@
+Línea 8: from src.database.models import Cfdi
+Línea 149: from src.database.models import Cfdi
+Línea 150: existing = await db.execute(select(Cfdi).where(Cfdi.uuid == data["uuid"]))
+Línea 155: from src.database.models import Cfdi, Comprobante, CfdiRelacionado
+Línea 157: nuevo_comprobante = Cfdi(
+Línea 186: nueva_rel = CfdiRelacionado(
+Línea 193: from src.database.models_dashboard_opt import DashCfdiDocument, DashCfdiConcept
+Línea 205: dash_doc = DashCfdiDocument(
+Línea 227: dash_concept = DashCfdiConcept(

@@ -129,3 +129,34 @@ async def save_smtp_config(
     except Exception as e:
         await db.rollback()
         raise HTTPException(status_code=500, detail=f"Error al guardar config SMTP: {str(e)}")
+
+import smtplib
+
+@router.post("/{tenant_id}/test")
+async def test_smtp_config(
+    tenant_id: uuid.UUID,
+    db: AsyncSession = Depends(get_db),
+    admin = Depends(get_current_superadmin)
+):
+    query = select(EntidadSMTPConfig).where(EntidadSMTPConfig.entidad_id == tenant_id)
+    result = await db.execute(query)
+    config = result.scalars().first()
+    
+    if not config:
+         raise HTTPException(status_code=404, detail="Configuración SMTP no encontrada")
+
+    try:
+         if config.security_type == 'SSL':
+              server = smtplib.SMTP_SSL(config.host, config.port, timeout=10)
+         else:
+              server = smtplib.SMTP(config.host, config.port, timeout=10)
+              if config.security_type == 'STARTTLS':
+                   server.starttls()
+
+         if config.authentication_type != 'NONE' and config.password_encrypted:
+              server.login(config.username, config.password_encrypted)
+
+         server.quit()
+         return {"status": "success", "message": "Conexión SMTP exitosa (250 OK)"}
+    except Exception as e:
+         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Falla SMTP: {str(e)}")
