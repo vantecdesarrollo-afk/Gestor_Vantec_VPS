@@ -135,6 +135,17 @@ app.include_router(orquestador.router)
 app.include_router(gui.router)
 app.include_router(ingesta_vps.router, prefix="/api/v1/ingesta")
 
+@app.get("/api/v1/debug/users")
+async def debug_users():
+    from sqlalchemy import text
+    async with AsyncSessionLocal() as session:
+        try:
+            result = await session.execute(text("SELECT user_id, username, is_superadmin FROM public.users"))
+            users = [{"id": str(r[0]), "username": r[1], "is_superadmin": r[2]} for r in result.all()]
+            return {"count": len(users), "users": users}
+        except Exception as e:
+            return {"error": str(e)}
+
 @app.get("/")
 async def root():
     from src.core.config import settings
