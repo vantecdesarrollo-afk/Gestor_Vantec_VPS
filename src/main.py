@@ -154,6 +154,10 @@ async def debug_users_direct():
         except Exception as e:
             return {"error": str(e)}
 
+@app.get("/ping")
+async def ping():
+    return "pong"
+
 @app.get("/")
 async def root():
     from src.core.config import settings

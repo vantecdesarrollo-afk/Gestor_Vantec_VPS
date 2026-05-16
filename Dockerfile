@@ -26,4 +26,5 @@ VOLUME ["/app/Operacion_CFDI"]
 EXPOSE 80
 
 # Comando para ejecutar la aplicación
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80"]
+# Comando para ejecutar la aplicación con blindaje de PATH
+CMD ["python", "-m", "uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80"]
