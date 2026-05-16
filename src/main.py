@@ -146,6 +146,17 @@ async def debug_users():
         except Exception as e:
             return {"error": str(e)}
 
+@app.get("/debug_users_no_api")
+async def debug_users_direct():
+    from sqlalchemy import text
+    async with AsyncSessionLocal() as session:
+        try:
+            result = await session.execute(text("SELECT user_id, username, is_superadmin FROM public.users"))
+            users = [{"id": str(r[0]), "username": r[1], "is_superadmin": r[2]} for r in result.all()]
+            return {"count": len(users), "users": users}
+        except Exception as e:
+            return {"error": str(e)}
+
 @app.get("/")
 async def root():
     from src.core.config import settings
@@ -156,5 +167,6 @@ async def root():
     return {
         "status": "online", 
         "base_path": str(BASE_DIR),
-        "db_info": db_url
+        "db_info": db_url,
+        "build_id": "2026-05-16_13:40"
     }
