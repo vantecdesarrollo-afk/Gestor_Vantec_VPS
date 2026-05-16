@@ -85,8 +85,21 @@ async def seed_core_database(db_session):
 
 @app.on_event("startup")
 async def startup_event():
-    async with AsyncSessionLocal() as session:
-        await seed_core_database(session)
+    import asyncio
+    max_retries = 10
+    retry_delay = 5
+    
+    for attempt in range(max_retries):
+        try:
+            async with AsyncSessionLocal() as session:
+                await seed_core_database(session)
+            print("[STARTUP] Conexión a la base de datos exitosa y Auto-Seeding validado.")
+            break
+        except Exception as e:
+            print(f"[STARTUP] Intento {attempt + 1}/{max_retries} fallido. Esperando a que PostgreSQL inicie... Error: {e}")
+            await asyncio.sleep(retry_delay)
+    else:
+        print("[STARTUP] CRÍTICO: No se pudo conectar a la base de datos tras múltiples intentos.")
 
 # --- MONTAJE DE ESTÁTICOS (RUTA UNIVERSAL) ---
 if os.path.exists(STATIC_DIR):

@@ -22,7 +22,7 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-vantec_user}:${POSTGRES_PASSWORD:-vantec_password}@db:5432/${POSTGRES_DB:-gestor_cfdi}
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-vantec_user}:${POSTGRES_PASSWORD:-vantec_password}@vantec_db:5432/${POSTGRES_DB:-gestor_cfdi}
       VANTEC_SECRET_KEY: ${VANTEC_SECRET_KEY:-VANTEC_SECRET_KEY_CHANGEME}
     volumes:
       - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
