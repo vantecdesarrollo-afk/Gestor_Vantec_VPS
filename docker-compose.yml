@@ -10,7 +10,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vantec_password}
       POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data_v2:/var/lib/postgresql/data
       - ./master_schema_vcore_vps.sql:/docker-entrypoint-initdb.d/init.sql:ro
     networks:
       - vantec_network
@@ -40,4 +40,4 @@ networks:
     driver: bridge
 
 volumes:
-  postgres_data:
+  postgres_data_v2:
