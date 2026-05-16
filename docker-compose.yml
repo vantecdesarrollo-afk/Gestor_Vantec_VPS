@@ -11,7 +11,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./master_schema_vcore_vps.sql:/docker-entrypoint-initdb.d/init.sql:ro
     networks:
       - vantec_network
 
@@ -22,7 +22,11 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-vantec_user}:${POSTGRES_PASSWORD:-vantec_password}@vantec_db:5432/${POSTGRES_DB:-gestor_cfdi}
+      POSTGRES_USER: ${POSTGRES_USER:-vantec_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vantec_password}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
       VANTEC_SECRET_KEY: ${VANTEC_SECRET_KEY:-VANTEC_SECRET_KEY_CHANGEME}
     volumes:
       - ./storage:/storage # Mapeo crítico para Expedientes Virtuales

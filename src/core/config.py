@@ -2,6 +2,25 @@ import os
 from pathlib import Path
 from pydantic_settings import BaseSettings
 
+from urllib.parse import quote_plus
+
+def get_database_url():
+    url = os.getenv("DATABASE_URL")
+    if url:
+        if url.startswith("postgresql://"):
+            url = url.replace("postgresql://", "postgresql+asyncpg://", 1)
+        elif url.startswith("postgres://"):
+            url = url.replace("postgres://", "postgresql+asyncpg://", 1)
+        return url
+        
+    user = os.getenv("POSTGRES_USER", "vantec_user")
+    password = quote_plus(os.getenv("POSTGRES_PASSWORD", "vantec_password"))
+    host = os.getenv("POSTGRES_HOST", "db")
+    port = os.getenv("POSTGRES_PORT", "5432")
+    db_name = os.getenv("POSTGRES_DB", "gestor_cfdi")
+    
+    return f"postgresql+asyncpg://{user}:{password}@{host}:{port}/{db_name}"
+
 class Settings(BaseSettings):
     # Seguridad y JWT
     SECRET_KEY: str = os.getenv("VANTEC_SECRET_KEY", "VANTEC_SECRET_KEY_CHANGEME")
@@ -9,10 +28,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_HOURS: int = 2
     
     # Base de Datos
-    DATABASE_URL: str = os.getenv(
-        "DATABASE_URL", 
-        "postgresql+asyncpg://vantec_user:vantec_password@localhost/gestor_cfdi"
-    )
+    DATABASE_URL: str = get_database_url()
     
     # Almacenamiento
     STORAGE_PATH: Path = Path(os.getenv("STORAGE_PATH", r"C:\Test_Antigravity\Gestor_CFDI_Vantec\storage"))
