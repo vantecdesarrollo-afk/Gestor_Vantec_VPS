@@ -57,6 +57,37 @@ from src.api.endpoints import auth, gui, analytics, smtp, orquestador, segregati
 
 app = FastAPI(title="Gestor CFDI Vantec", version="6.2.5")
 
+from sqlalchemy import select
+from src.database.models import User
+from src.database.session import AsyncSessionLocal
+import uuid
+
+async def seed_core_database(db_session):
+    query = select(User).where(User.is_superadmin == True)
+    result = await db_session.execute(query)
+    existing_admin = result.scalar_one_or_none()
+    if not existing_admin:
+        seed_user = User(
+            user_id=uuid.UUID('9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'),
+            tenant_id=None,
+            username="admin",
+            password_hash="$2b$12$Ecx7V68MabH6U7KzLOnw9unW.a6AhyMv6GgMsdvJnZpW0tNfVIGe2",
+            email="admin@vcore.com",
+            is_active=True,
+            is_superadmin=True,
+            rol="ADMIN"
+        )
+        db_session.add(seed_user)
+        await db_session.commit()
+        print("[SEEDING] Base de datos inaugurada exitosamente con el Usuario Semilla Global.")
+    else:
+        print("[SEEDING] La base de datos ya cuenta con usuarios administradores registrados. Saltando siembra.")
+
+@app.on_event("startup")
+async def startup_event():
+    async with AsyncSessionLocal() as session:
+        await seed_core_database(session)
+
 # --- MONTAJE DE ESTÁTICOS (RUTA UNIVERSAL) ---
 if os.path.exists(STATIC_DIR):
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
