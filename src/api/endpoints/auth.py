@@ -102,7 +102,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
     if is_superadmin:
         import os
         from datetime import datetime as dt_sys
-        log_dir = r"C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\logs"
+        log_dir = os.path.join(os.getcwd(), "Operacion_CFDI", "logs")
         os.makedirs(log_dir, exist_ok=True)
         today_str = dt_sys.now().strftime("%Y-%m-%d")
         timestamp = dt_sys.now().strftime("%Y-%m-%d %H:%M:%S")
