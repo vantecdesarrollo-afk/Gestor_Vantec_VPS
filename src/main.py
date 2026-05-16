@@ -137,4 +137,13 @@ app.include_router(ingesta_vps.router, prefix="/api/v1/ingesta")
 
 @app.get("/")
 async def root():
-    return {"status": "online", "base_path": BASE_DIR}
+    from src.core.config import settings
+    # Enmascarar password para seguridad
+    db_url = settings.DATABASE_URL
+    if "@" in db_url:
+        db_url = db_url.split("@")[0].split(":")[0] + ":****@" + db_url.split("@")[1]
+    return {
+        "status": "online", 
+        "base_path": str(BASE_DIR),
+        "db_info": db_url
+    }
