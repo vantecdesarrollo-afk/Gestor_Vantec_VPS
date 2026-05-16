@@ -12,8 +12,7 @@ services:
     volumes:
       - postgres_data_v2:/var/lib/postgresql/data
       - ./master_schema_vcore_vps.sql:/docker-entrypoint-initdb.d/init.sql:ro
-    networks:
-      - vantec_network
+
 
   api:
     build: .
@@ -32,12 +31,7 @@ services:
       - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
     ports:
       - "8000:80"
-    networks:
-      - vantec_network
 
-networks:
-  vantec_network:
-    driver: bridge
 
 volumes:
   postgres_data_v2:
