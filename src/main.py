@@ -57,8 +57,8 @@ def auditar_licencia():
     VantecSystemState.DAYS_LEFT = int(45 - dias_transcurridos)
     
     if dias_transcurridos > 45:
-        print("⛔ BLOQUEO: Periodo de gracia terminado.")
-        sys.exit(1)
+        print("⚠️ ALERTA: Periodo de gracia terminado (Modo VPS).")
+        # sys.exit(1) # Desactivado temporalmente para evitar 502 Bad Gateway en despliegue.
 
 auditar_licencia()
 # --- FIN BLINDAJE L3 ---
