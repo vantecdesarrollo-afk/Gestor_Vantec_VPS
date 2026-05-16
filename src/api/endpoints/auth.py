@@ -5,7 +5,7 @@ from sqlalchemy import select
 from datetime import datetime, timedelta
 import jwt
 import uuid
-from passlib.context import CryptContext
+import bcrypt  # 🔒 CORRECCIÓN: Usar bcrypt nativo para eliminar el bug de passlib de los 72 bytes
 from src.database.session import get_db
 from src.database.models import User, Tenant
 from src.core.config import settings
@@ -17,15 +17,19 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # 1. Configuración de Seguridad
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"]) # ESTA LÍNEA FALTABA
+router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"])
 security = HTTPBearer()
 
-def verify_password(plain_password, hashed_password):
-    return pwd_context.verify(plain_password, hashed_password)
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    try:
+        # 🔑 Validación segura usando bytes codificados en UTF-8
+        return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+    except Exception:
+        return False
 
-def get_password_hash(password):
-    return pwd_context.hash(password)
+def get_password_hash(password: str) -> str:
+    # 🛡️ Generación nativa de sal (salt) con factor de trabajo estándar 12
+    return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt(12)).decode('utf-8')
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
@@ -210,8 +214,6 @@ async def get_active_entidad(
     except HTTPException:
         raise
     except Exception as e:
-        # Si es un error de UUID o algo interno de contexto, no queremos 401 (logout)
-        # Solo regresamos 401 si realmente la sesión está mal (JWT)
         raise HTTPException(status_code=500, detail="Error interno al validar contexto: " + str(e))
 
 async def get_current_user(
@@ -242,7 +244,6 @@ async def get_current_superadmin(
         payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
         user_id = payload.get("sub")
         
-        # Buscar usando User.user_id
         res = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
         user = res.scalar_one_or_none()
         
@@ -262,16 +263,13 @@ class ResetPasswordRequest(BaseModel):
 
 @router.post("/recovery")
 async def request_recovery(payload: RecoveryRequest, db: AsyncSession = Depends(get_db)):
-    # 1. Buscar usuario por email
     from src.database.models import User, AuthRecoveryToken, EntidadSMTPConfig
     result = await db.execute(select(User).where(User.email == payload.email))
     user = result.scalar_one_or_none()
     
     if not user:
-        # Por seguridad no revelamos si existe el usuario
         return {"message": "Si el correo está registrado, recibirá instrucciones en breve."}
     
-    # 2. Generar Token Atómico
     token = secrets.token_urlsafe(32)
     expires_at = datetime.utcnow() + timedelta(hours=1)
     
@@ -283,12 +281,10 @@ async def request_recovery(payload: RecoveryRequest, db: AsyncSession = Depends(
     db.add(recovery_token)
     await db.commit()
     
-    # 3. Enviar Correo (Motor SMTP real)
     smtp_query = select(EntidadSMTPConfig).where(EntidadSMTPConfig.entidad_id == user.tenant_id)
     smtp_res = await db.execute(smtp_query)
     smtp_config = smtp_res.scalar_one_or_none()
     
-    # Fallback si el tenant no tiene config propia
     if not smtp_config:
         fallback_query = select(EntidadSMTPConfig).limit(1)
         fallback_res = await db.execute(fallback_query)
@@ -336,7 +332,6 @@ Equipo de Seguridad Vantec
 async def reset_password(payload: ResetPasswordRequest, db: AsyncSession = Depends(get_db)):
     from src.database.models import AuthRecoveryToken, User
     
-    # 1. Validar Token
     query = select(AuthRecoveryToken).where(
         AuthRecoveryToken.token == payload.token,
         AuthRecoveryToken.is_used == False,
@@ -348,7 +343,6 @@ async def reset_password(payload: ResetPasswordRequest, db: AsyncSession = Depen
     if not token_record:
         raise HTTPException(status_code=400, detail="Token inválido, expirado o ya utilizado.")
     
-    # 2. Actualizar Password (BCrypt vía get_password_hash)
     user_query = select(User).where(User.user_id == token_record.user_id)
     user_res = await db.execute(user_query)
     user = user_res.scalar_one_or_none()
