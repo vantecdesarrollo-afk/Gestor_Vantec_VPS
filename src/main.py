@@ -33,12 +33,23 @@ def auditar_licencia():
     if not os.path.exists(MACHINE_ID_FILE):
         try:
             import subprocess
-            cmd = "powershell -NoProfile -Command \"(Get-WmiObject -Class Win32_ComputerSystemProduct).UUID\""
-            uuid = subprocess.check_output(cmd).decode().strip()
+            import platform
+            import uuid as native_uuid
+            
+            if platform.system() == "Windows":
+                cmd = "powershell -NoProfile -Command \"(Get-WmiObject -Class Win32_ComputerSystemProduct).UUID\""
+                sys_uuid = subprocess.check_output(cmd).decode().strip()
+            else:
+                # En VPS/Linux/Docker usamos un UUID derivado del nodo de red o aleatorio
+                sys_uuid = str(native_uuid.uuid1())
+                
             with open(MACHINE_ID_FILE, "w") as f:
-                f.write(uuid)
-        except:
-            sys.exit(1)
+                f.write(sys_uuid)
+        except Exception as e:
+            # En caso de cualquier error crítico en la lectura de red o disco en Docker, generamos uno aleatorio
+            import uuid as fallback_uuid
+            with open(MACHINE_ID_FILE, "w") as f:
+                f.write(str(fallback_uuid.uuid4()))
 
     fecha_instalacion = os.path.getctime(MACHINE_ID_FILE)
     dias_transcurridos = (time.time() - fecha_instalacion) / (24 * 3600)
