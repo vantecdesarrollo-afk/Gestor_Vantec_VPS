@@ -23,7 +23,7 @@ RUN rm -f seed_admin.py seed_adminBK.py install_vcore.bat start_vcore.bat stop_v
 VOLUME ["/app/Operacion_CFDI"]
 
 # Exponer puerto de FastAPI
-EXPOSE 8000
+EXPOSE 80
 
 # Comando para ejecutar la aplicación
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80"]

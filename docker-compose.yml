@@ -31,7 +31,7 @@ services:
     volumes:
       - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
     ports:
-      - "8000:8000"
+      - "8000:80"
     networks:
       - vantec_network
 
