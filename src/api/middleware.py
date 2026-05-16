@@ -24,7 +24,7 @@ async def multi_tenant_middleware(request: Request, call_next):
             print(f"⚠️ Alerta VCore: No se pudo crear el directorio de logs: {e}")
 
     # 1. Rutas de Identidad y Gestión Global (Neutrales)
-    NEUTRAL_PATHS = ["/api/v1/auth/", "/api/v1/admin/", "/api/v1/smtp/", "/api/orquestador/", "/api/v1/ingesta/"]
+    NEUTRAL_PATHS = ["/api/v1/auth/", "/api/v1/admin/", "/api/v1/smtp/", "/api/orquestador/", "/api/v1/ingesta/", "/api/v1/debug/"]
     
     if not request.url.path.startswith("/api/"):
         return await call_next(request)
