@@ -64,7 +64,11 @@ auditar_licencia()
 # --- FIN BLINDAJE L3 ---
 
 from src.api.middleware import multi_tenant_middleware
-from src.api.endpoints import auth, gui, analytics, smtp, orquestador, segregation_fix, admin, comprobantes, ingesta_vps
+try:
+    from src.api.endpoints import auth, gui, analytics, smtp, orquestador, segregation_fix, admin, comprobantes, ingesta_vps
+except Exception as e:
+    print(f"⚠️ ERROR IMPORTANDO ENDPOINTS: {e}")
+    auth = gui = analytics = smtp = orquestador = segregation_fix = admin = comprobantes = ingesta_vps = None
 
 app = FastAPI(title="Gestor CFDI Vantec", version="6.2.5")
 
@@ -118,15 +122,15 @@ else:
 
 # --- MIDDLEWARE Y ENRUTADORES ---
 app.middleware("http")(multi_tenant_middleware)
-app.include_router(auth.router)
-app.include_router(comprobantes.router, prefix="/api/v1/comprobantes")
-app.include_router(segregation_fix.router)
-app.include_router(analytics.router)
-app.include_router(admin.router, prefix="/api/v1/admin")
-app.include_router(smtp.router)
-app.include_router(orquestador.router)
-app.include_router(gui.router)
-app.include_router(ingesta_vps.router, prefix="/api/v1/ingesta")
+if auth: app.include_router(auth.router)
+if comprobantes: app.include_router(comprobantes.router, prefix="/api/v1/comprobantes")
+if segregation_fix: app.include_router(segregation_fix.router)
+if analytics: app.include_router(analytics.router)
+if admin: app.include_router(admin.router, prefix="/api/v1/admin")
+if smtp: app.include_router(smtp.router)
+if orquestador: app.include_router(orquestador.router)
+if gui: app.include_router(gui.router)
+if ingesta_vps: app.include_router(ingesta_vps.router, prefix="/api/v1/ingesta")
 
 @app.get("/api/v1/debug/users")
 async def debug_users():
