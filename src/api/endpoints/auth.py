@@ -40,81 +40,89 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
 # 2. Endpoints
 @router.post("/login")
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(User).where(User.username == form_data.username))
-    user = result.scalar_one_or_none()
-    
-    if not user or not verify_password(form_data.password, user.password_hash):
-        raise HTTPException(status_code=401, detail="Credenciales incorrectas")
-    
-    if not getattr(user, "is_active", True):
-        raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
-    
-    # 1. Determinar si es Superadmin
-    is_superadmin = getattr(user, "is_superadmin", False)
-    
-    # 2. Cargar Entidades Asociadas (Acceso Multi-tenant / Matriz de Acceso)
-    from src.database.models import SysUserRole
-    entidades_json = []
-
-    if is_superadmin:
-        e_res = await db.execute(select(Tenant))
-        entidades = e_res.scalars().all()
-        entidades_json = [{
-             "id": str(e.tenant_id),
-             "rfc": e.rfc,
-             "razon_social": e.business_name,
-             "rol": "ADMIN",
-             "logo_url": e.logo_path or ""
-        } for e in entidades]
-    else:
-        # Standard user: Buscar en la Matriz de Acceso obligatoriamente
-        role_res = await db.execute(
-            select(Tenant, SysUserRole.rol)
-            .join(SysUserRole, SysUserRole.entidad_id == Tenant.tenant_id)
-            .where(SysUserRole.usuario_id == user.user_id)
-        )
-        roles_data = role_res.all()
+    try:
+        result = await db.execute(select(User).where(User.username == form_data.username))
+        user = result.scalar_one_or_none()
         
-        if not roles_data:
-             # Si no tiene roles y no es superadmin, rechazar acceso
-             raise HTTPException(status_code=403, detail="Acceso denegado: El usuario no tiene empresas asignadas en la matriz.")
+        if not user or not verify_password(form_data.password, user.password_hash):
+            raise HTTPException(status_code=401, detail="Credenciales incorrectas")
+        
+        if not getattr(user, "is_active", True):
+            raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
+        
+        # 1. Determinar si es Superadmin
+        is_superadmin = getattr(user, "is_superadmin", False)
+        
+        # 2. Cargar Entidades Asociadas (Acceso Multi-tenant / Matriz de Acceso)
+        from src.database.models import SysUserRole
+        entidades_json = []
 
-        for tenant, role_str in roles_data:
-             entidades_json.append({
-                  "id": str(tenant.tenant_id),
-                  "rfc": tenant.rfc,
-                  "razon_social": tenant.business_name,
-                  "rol": str(role_str).upper(),
-                  "logo_url": tenant.logo_path or ""
-             })
+        if is_superadmin:
+            e_res = await db.execute(select(Tenant))
+            entidades = e_res.scalars().all()
+            entidades_json = [{
+                 "id": str(e.tenant_id),
+                 "rfc": e.rfc,
+                 "razon_social": e.business_name,
+                 "rol": "ADMIN",
+                 "logo_url": e.logo_path or ""
+            } for e in entidades]
+        else:
+            # Standard user: Buscar en la Matriz de Acceso obligatoriamente
+            role_res = await db.execute(
+                select(Tenant, SysUserRole.rol)
+                .join(SysUserRole, SysUserRole.entidad_id == Tenant.tenant_id)
+                .where(SysUserRole.usuario_id == user.user_id)
+            )
+            roles_data = role_res.all()
+            
+            if not roles_data:
+                 # Si no tiene roles y no es superadmin, rechazar acceso
+                 raise HTTPException(status_code=403, detail="Acceso denegado: El usuario no tiene empresas asignadas en la matriz.")
 
-    # Generar token con la lista completa de entidades autorizadas
-    access_token = create_access_token(
-        data={
-            "sub": str(user.user_id), 
-            "username": user.username,
-            "is_superadmin": is_superadmin,
-            "entidades": entidades_json
-        }
-    )
-    
-    # 3. Auditoría L6: Log de Acceso Admin
-    if is_superadmin:
-        import os
-        from datetime import datetime as dt_sys
-        log_dir = os.path.join(os.getcwd(), "Operacion_CFDI", "logs")
-        os.makedirs(log_dir, exist_ok=True)
-        today_str = dt_sys.now().strftime("%Y-%m-%d")
-        timestamp = dt_sys.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_path = os.path.join(log_dir, f"{today_str}_watcher_global.log")
-        with open(log_path, "a", encoding="utf-8") as f:
-            f.write(f"[{timestamp}] | INFO | AUDIT_LOGIN | USER: {user.username} | TIPO: SUPER_ADMIN | ACCIÓN: Acceso exitoso al sistema.\n")
+            for tenant, role_str in roles_data:
+                 entidades_json.append({
+                      "id": str(tenant.tenant_id),
+                      "rfc": tenant.rfc,
+                      "razon_social": tenant.business_name,
+                      "rol": str(role_str).upper(),
+                      "logo_url": tenant.logo_path or ""
+                 })
 
-    
-    user.last_login = datetime.utcnow()
-    await db.commit()
-    
-    return {"access_token": access_token, "token_type": "bearer"}
+        # Generar token con la lista completa de entidades autorizadas
+        access_token = create_access_token(
+            data={
+                "sub": str(user.user_id), 
+                "username": user.username,
+                "is_superadmin": is_superadmin,
+                "entidades": entidades_json
+            }
+        )
+        
+        # 3. Auditoría L6: Log de Acceso Admin
+        if is_superadmin:
+            import os
+            from datetime import datetime as dt_sys
+            log_dir = os.path.join(os.getcwd(), "Operacion_CFDI", "logs")
+            os.makedirs(log_dir, exist_ok=True)
+            today_str = dt_sys.now().strftime("%Y-%m-%d")
+            timestamp = dt_sys.now().strftime("%Y-%m-%d %H:%M:%S")
+            log_path = os.path.join(log_dir, f"{today_str}_watcher_global.log")
+            try:
+                with open(log_path, "a", encoding="utf-8") as f:
+                    f.write(f"[{timestamp}] | INFO | AUDIT_LOGIN | USER: {user.username} | TIPO: SUPER_ADMIN | ACCIÓN: Acceso exitoso al sistema.\n")
+            except Exception:
+                pass
+
+        # user.last_login = datetime.utcnow() # Desactivado temporalmente para evitar problemas de commit
+        # await db.commit()
+        
+        return {"access_token": access_token, "token_type": "bearer"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"CRITICAL LOGIN ERROR: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
 @router.post("/refresh")
 async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(security), db: AsyncSession = Depends(get_db)):

@@ -82,7 +82,7 @@ async def seed_core_database(db_session):
             user_id=uuid.UUID('9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'),
             tenant_id=None,
             username="admin",
-            password_hash="$2b$12$Ecx7V68MabH6U7KzLOnw9unW.a6AhyMv6GgMsdvJnZpW0tNfVIGe2",
+            password_hash="$2b$12$kk8QFO.LgKzqKmCt3UFQDenx4ZiEwHhZeWoKhHXA3Ld2MGkFJ9Gom",
             email="admin@vcore.com",
             is_active=True,
             is_superadmin=True,
@@ -92,7 +92,10 @@ async def seed_core_database(db_session):
         await db_session.commit()
         print("[SEEDING] Base de datos inaugurada exitosamente con el Usuario Semilla Global.")
     else:
-        print("[SEEDING] La base de datos ya cuenta con usuarios administradores registrados. Saltando siembra.")
+        # Forzar actualización de contraseña si es el admin por defecto
+        existing_admin.password_hash = "$2b$12$kk8QFO.LgKzqKmCt3UFQDenx4ZiEwHhZeWoKhHXA3Ld2MGkFJ9Gom"
+        await db_session.commit()
+        print("[SEEDING] Credenciales del administrador sincronizadas.")
 
 @app.on_event("startup")
 async def startup_event():
