@@ -60,7 +60,10 @@ def auditar_licencia():
         print("⚠️ ALERTA: Periodo de gracia terminado (Modo VPS).")
         # sys.exit(1) # Desactivado temporalmente para evitar 502 Bad Gateway en despliegue.
 
-auditar_licencia()
+try:
+    auditar_licencia()
+except Exception as e:
+    print(f"⚠️ ERROR EN AUDITORÍA DE LICENCIA: {e}")
 # --- FIN BLINDAJE L3 ---
 
 from src.api.middleware import multi_tenant_middleware
