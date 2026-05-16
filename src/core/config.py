@@ -5,25 +5,32 @@ from pydantic_settings import BaseSettings
 from urllib.parse import quote_plus
 
 def get_database_url():
-    # En Coolify, si el usuario tiene un DATABASE_URL manual, puede estar apuntando a localhost o estar corrupto.
-    # Priorizamos siempre los componentes inyectados por docker-compose.
-    host = os.getenv("POSTGRES_HOST")
-    if host:
-        user = os.getenv("POSTGRES_USER", "vantec_user")
-        password = quote_plus(os.getenv("POSTGRES_PASSWORD", "vantec_password"))
-        port = os.getenv("POSTGRES_PORT", "5432")
-        db_name = os.getenv("POSTGRES_DB", "gestor_cfdi")
-        return f"postgresql+asyncpg://{user}:{password}@{host}:{port}/{db_name}"
-
     url = os.getenv("DATABASE_URL")
     if url:
-        if url.startswith("postgresql://"):
-            url = url.replace("postgresql://", "postgresql+asyncpg://", 1)
-        elif url.startswith("postgres://"):
-            url = url.replace("postgres://", "postgresql+asyncpg://", 1)
-        return url
+        # En Coolify, DATABASE_URL puede contener contraseñas con caracteres especiales sin codificar
+        from urllib.parse import urlparse, quote_plus, urlunparse
+        parsed = urlparse(url)
+        if parsed.password:
+            safe_password = quote_plus(parsed.password)
+            # Reconstruir netloc con password segura
+            netloc = f"{parsed.username}:{safe_password}@{parsed.hostname}"
+            if parsed.port:
+                netloc += f":{parsed.port}"
+            parsed = parsed._replace(netloc=netloc)
         
-    return "postgresql+asyncpg://vantec_user:vantec_password@db:5432/gestor_cfdi"
+        url_str = urlunparse(parsed)
+        if url_str.startswith("postgresql://"):
+            url_str = url_str.replace("postgresql://", "postgresql+asyncpg://", 1)
+        elif url_str.startswith("postgres://"):
+            url_str = url_str.replace("postgres://", "postgresql+asyncpg://", 1)
+        return url_str
+
+    user = os.getenv("POSTGRES_USER", "vantec_user")
+    password = quote_plus(os.getenv("POSTGRES_PASSWORD", "vantec_password"))
+    host = os.getenv("POSTGRES_HOST", "db")
+    port = os.getenv("POSTGRES_PORT", "5432")
+    db_name = os.getenv("POSTGRES_DB", "gestor_cfdi")
+    return f"postgresql+asyncpg://{user}:{password}@{host}:{port}/{db_name}"
 
 class Settings(BaseSettings):
     # Seguridad y JWT
