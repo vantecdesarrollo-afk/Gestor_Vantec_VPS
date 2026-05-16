@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="120 DIAS" Descuento="0.00" Fecha="2020-02-28T14:23:53" Folio="000251" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000404247185" Sello="YXMG9Bz/0OON2rt4I3OvSdC+SAprvBPN2R2kEEJqxLBYp/45tUZubXVPpNeMHdAhhQNo/w8T69gSA6PPrnMeD8HqowLeZqG+dXrHct7dSQzY53I4GOd0JAaYFXecF1UUduhcyZj6InKyWatGIzIPPzYMK8EL8FtfZoFYeWa6UzifPm81YDR3m3BDK29Ajz2Ge4RSHqYMGjxSPE8zLRBqxjjIBiEsT2c7jhM0+yu0MJ2BSj/OTJlpI0k6ZVoLpwCrLEkZbeQosRh5LiE4XpUAv5goXTwL44NbilKN4gYp5IBR2Klpa7S9yGlWOPzMOiHAI60+U+0FJsUyPdyk1Nrl1A==" Serie="TMC" SubTotal="2860.35" TipoCambio="21.343526" TipoDeComprobante="I" Total="2860.35" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd"><cfdi:Emisor Nombre="Editorial Planeta Mexicana, S.A. de C.V." RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor Nombre="CENTRO CUESTA NACIONAL SAS" Rfc="XEXX010101000" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Poesía del futuro" Descuento="0.00" Importe="89.60" NoIdentificacion="9788449336560" ValorUnitario="8.96">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="89.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El arte perdido de las Escrituras" Descuento="0.00" Importe="476.10" NoIdentificacion="9788449336591" ValorUnitario="15.87">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="476.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Una mente liberada" Descuento="0.00" Importe="152.80" NoIdentificacion="9788449336607" ValorUnitario="15.28">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="152.80" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="En el principio era el sexo" Descuento="0.00" Importe="158.10" NoIdentificacion="9788449336614" ValorUnitario="15.81">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="158.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Qué es el arte" Descuento="0.00" Importe="49.95" NoIdentificacion="9788449336621" ValorUnitario="9.99">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="49.95" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Humanidad" Descuento="0.00" Importe="42.20" NoIdentificacion="9788449336744" ValorUnitario="8.44">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="42.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Es hora de actuar" Descuento="0.00" Importe="44.80" NoIdentificacion="9788449336751" ValorUnitario="8.96">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="44.80" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Contra los zombis" Descuento="0.00" Importe="363.30" NoIdentificacion="9788491991854" ValorUnitario="12.11">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="363.30" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Mapas de sentidos" Descuento="0.00" Importe="395.25" NoIdentificacion="9788434431683" ValorUnitario="15.81">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="395.25" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="­Captados!" Descuento="0.00" Importe="52.60" NoIdentificacion="9788434431713" ValorUnitario="10.52">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="52.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Historia económica de la felicidad" Descuento="0.00" Importe="302.75" NoIdentificacion="9788491991885" ValorUnitario="12.11">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="302.75" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Subterráneo" Descuento="0.00" Importe="105.20" NoIdentificacion="9788491991892" ValorUnitario="10.52">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="105.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Historia económica de la población mundial" Descuento="0.00" Importe="36.75" NoIdentificacion="9788491991908" ValorUnitario="7.35">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="36.75" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Pifias matemáticas" Descuento="0.00" Importe="105.20" NoIdentificacion="9788491991915" ValorUnitario="10.52">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="105.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El sueño del neandertal" Descuento="0.00" Importe="49.95" NoIdentificacion="9788491991922" ValorUnitario="9.99">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="49.95" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Mi gran familia europea" Descuento="0.00" Importe="105.20" NoIdentificacion="9788434431782" ValorUnitario="10.52">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="105.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="8" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Los mundos clásicos" Descuento="0.00" Importe="88.40" NoIdentificacion="9788434431799" ValorUnitario="11.05">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="88.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Los cínicos" Descuento="0.00" Importe="242.20" NoIdentificacion="9788434431812" ValorUnitario="12.11">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="242.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="56A866AD-5872-4A32-B057-A7F30935B3CD" FechaTimbrado="2020-02-28T18:26:00" RfcProvCertif="ASE0209252Q1" SelloCFD="YXMG9Bz/0OON2rt4I3OvSdC+SAprvBPN2R2kEEJqxLBYp/45tUZubXVPpNeMHdAhhQNo/w8T69gSA6PPrnMeD8HqowLeZqG+dXrHct7dSQzY53I4GOd0JAaYFXecF1UUduhcyZj6InKyWatGIzIPPzYMK8EL8FtfZoFYeWa6UzifPm81YDR3m3BDK29Ajz2Ge4RSHqYMGjxSPE8zLRBqxjjIBiEsT2c7jhM0+yu0MJ2BSj/OTJlpI0k6ZVoLpwCrLEkZbeQosRh5LiE4XpUAv5goXTwL44NbilKN4gYp5IBR2Klpa7S9yGlWOPzMOiHAI60+U+0FJsUyPdyk1Nrl1A==" NoCertificadoSAT="00001000000404481161" SelloSAT="bG76PBYleTkhOXMlwQ7YmuUMrWFa4BT6/QsfSTFGV5mJqPgDnYiCkhZ/s02N5iu0ZLa9jXGkN71r0Opz1RLsvQB7W8w2hfcWPF3MTGHteX55Mv9qvIUYXxS8B6ykR3gVUAfBZ6tC57GNNtO3tfSeHykDe9ZRzv1owBrSizWI5cseHhV3Xi/miOT8Q+dRmRciTxmkjBCXBKJ5vCk2u9Sg22IpGGTMjwD2O1axrjoJ91eNJJlQjWZECVamTZxFqWLXzqbiJDx84LJxcMPwWXZITkv+7hQNtS2clR/5kdb+scAg8yL+in0zLldZf8IYQgflx2jTN3mSUq/Jj9tj8N4xjQ=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" NombreDelAtributo2="" Simoneda="" TotalMx="2860.35" UniGraf="H87" ValorDelAtributo1="" ValorDelAtributo2="" afectada="" calle="AV.LUPERON ESQ.GUSTAVO MEJIA RICART" cantidadConLetra="(DOS MIL OCHOCIENTOS SESENTA EUROS 35/100)" cincoNeto="2860.35" codigoPostal="" colonia="LAS PRADERAS" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="" fac="2020-02-28" fechaEdi102="2020-02-28T14:23:53" fechaEdi204="2020-02-28T14:23:53" fechaOrden="" ivaMx="0.00" mail="eroca@planeta.com.mx;dteran@planeta.com.mx;llopez@planeta.com.mx;mherrera@planeta.com.mx;rgutierrezm@planeta.com.mx;esanchez@planeta.com.mx;jtrejo@planeta.com.mx;amonzalvo@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00000257" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="VLP-050/20" noProveedor="" nomAtributo="" pais="REPUBLICA DOMINICANA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="2860.35" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="228" unoButo="2860.35" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="8.96" Punitario="8.96" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="10" codigo="2812929  " descripcion="Poesía del futuro" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="89.60" iva="" linea="1" lista="8.96" pedi="" producto="9788449336560" serial="" sku="2812929" titulo="Poesía del futuro" titulocm="Poesía del futuro" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="15.87" Punitario="15.87" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="30" codigo="2812930  " descripcion="El arte perdido de las Escrituras" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="476.10" iva="" linea="2" lista="15.87" pedi="" producto="9788449336591" serial="" sku="2812930" titulo="El arte perdido de las Escrituras" titulocm="El arte perdido de las Escrituras" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="15.28" Punitario="15.28" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="10" codigo="2812931  " descripcion="Una mente liberada" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="152.80" iva="" linea="3" lista="15.28" pedi="" producto="9788449336607" serial="" sku="2812931" titulo="Una mente liberada" titulocm="Una mente liberada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="15.81" Punitario="15.81" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="10" codigo="2812932  " descripcion="En el principio era el sexo" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="158.10" iva="" linea="4" lista="15.81" pedi="" producto="9788449336614" serial="" sku="2812932" titulo="En el principio era el sexo" titulocm="En el principio era el sexo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.99" Punitario="9.99" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="5" codigo="2812933  " descripcion="Qué es el arte" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="49.95" iva="" linea="5" lista="9.99" pedi="" producto="9788449336621" serial="" sku="2812933" titulo="Qué es el arte" titulocm="Qué es el arte" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="5" codigo="2812934  " descripcion="Humanidad" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="42.20" iva="" linea="6" lista="8.44" pedi="" producto="9788449336744" serial="" sku="2812934" titulo="Humanidad" titulocm="Humanidad" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.96" Punitario="8.96" SUM="H87" TasaIEPS="ós" TasaIVA="ós" UM="PIEZA" aduana="" cantidad="5" codigo="2812935  " descripcion="Es hora de actuar" descuento="49019904  Paid" ean="PZA   49019904" ieps="" importe="44.80" iva="" linea="7" lista="8.96" pedi="" producto="9788449336751" serial="" sku="2812935" titulo="Es hora de actuar" titulocm="Es hora de actuar" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="12.11" Punitario="12.11" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="30" codigo="8901296  " descripcion="Contra los zombis" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="363.30" iva="" linea="8" lista="12.11" pedi="" producto="9788491991854" serial="" sku="8901296" titulo="Contra los zombis" titulocm="Contra los zombis" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="15.81" Punitario="15.81" SUM="H87" TasaIEPS="l" TasaIVA="l" UM="PIEZA" aduana="" cantidad="25" codigo="8901308  " descripcion="Mapas de sentidos" descuento="49019904  Arie" ean="PZA   49019904" ieps="" importe="395.25" iva="" linea="9" lista="15.81" pedi="" producto="9788434431683" serial="" sku="8901308" titulo="Mapas de sentidos" titulocm="Mapas de sentidos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.52" Punitario="10.52" SUM="H87" TasaIEPS="l" TasaIVA="l" UM="PIEZA" aduana="" cantidad="5" codigo="8901310  " descripcion="­Captados!" descuento="49019904  Arie" ean="PZA   49019904" ieps="" importe="52.60" iva="" linea="10" lista="10.52" pedi="" producto="9788434431713" serial="" sku="8901310" titulo="­Captados!" titulocm="­Captados!" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="12.11" Punitario="12.11" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="25" codigo="8901311  " descripcion="Historia económica de la felicidad" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="302.75" iva="" linea="11" lista="12.11" pedi="" producto="9788491991885" serial="" sku="8901311" titulo="Historia económica de la felicidad" titulocm="Historia económica de la felicidad" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.52" Punitario="10.52" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="10" codigo="8901312  " descripcion="Subterráneo" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="105.20" iva="" linea="12" lista="10.52" pedi="" producto="9788491991892" serial="" sku="8901312" titulo="Subterráneo" titulocm="Subterráneo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.35" Punitario="7.35" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="5" codigo="8901319  " descripcion="Historia económica de la población" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="36.75" iva="" linea="13" lista="7.35" pedi="" producto="9788491991908" serial="" sku="8901319" titulo="Historia económica de la población mundial" titulocm="Historia económica de la población" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.52" Punitario="10.52" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="10" codigo="8901320  " descripcion="Pifias matemáticas" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="105.20" iva="" linea="14" lista="10.52" pedi="" producto="9788491991915" serial="" sku="8901320" titulo="Pifias matemáticas" titulocm="Pifias matemáticas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.99" Punitario="9.99" SUM="H87" TasaIEPS="ic" TasaIVA="ic" UM="PIEZA" aduana="" cantidad="5" codigo="8901323  " descripcion="El sueño del neandertal" descuento="49019904  Crít" ean="PZA   49019904" ieps="" importe="49.95" iva="" linea="15" lista="9.99" pedi="" producto="9788491991922" serial="" sku="8901323" titulo="El sueño del neandertal" titulocm="El sueño del neandertal" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.52" Punitario="10.52" SUM="H87" TasaIEPS="l" TasaIVA="l" UM="PIEZA" aduana="" cantidad="10" codigo="8901324  " descripcion="Mi gran familia europea" descuento="49019904  Arie" ean="PZA   49019904" ieps="" importe="105.20" iva="" linea="16" lista="10.52" pedi="" producto="9788434431782" serial="" sku="8901324" titulo="Mi gran familia europea" titulocm="Mi gran familia europea" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.05" Punitario="11.05" SUM="H87" TasaIEPS="l" TasaIVA="l" UM="PIEZA" aduana="" cantidad="8" codigo="8901325  " descripcion="Los mundos clásicos" descuento="49019904  Arie" ean="PZA   49019904" ieps="" importe="88.40" iva="" linea="17" lista="11.05" pedi="" producto="9788434431799" serial="" sku="8901325" titulo="Los mundos clásicos" titulocm="Los mundos clásicos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="12.11" Punitario="12.11" SUM="H87" TasaIEPS="l" TasaIVA="l" UM="PIEZA" aduana="" cantidad="20" codigo="8901326  " descripcion="Los cínicos" descuento="49019904  Arie" ean="PZA   49019904" ieps="" importe="242.20" iva="" linea="18" lista="12.11" pedi="" producto="9788434431812" serial="" sku="8901326" titulo="Los cínicos" titulocm="Los cínicos" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="101019921" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2020-02-28" fechaOrdenCompra="2020-02-28" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00000251" subTotal="2860.35" total="2860.35" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0084004" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2020" codCliente="000013144-1" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="28/02/2020" noCliente="PedLocDoc:00000257" noOrdenCompra="VLP-050/20" pedidoInterno="00000251" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013144-1" unoObservaciones="PEDIDO VIA MARITIMA DESDE ESPA¥A / OC 200220-1"/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="5" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="2860.35" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+28/02/2020
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\000251
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Mèxico D.F., 2020-02-28T14:23:53 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+56A866AD-5872-4A32-B057-A7F30935B3CD
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000404247185
+~]
+~#
+~[30
+~#D M90.90 "830000251.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2020-02-28T14:23:53
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+CENTRO CUESTA NACIONAL SAS   
+
+101019921
+
+AV.LUPERON ESQ.GUSTAVO MEJIA RICART  
+
+LAS PRADERAS 
+
+ REPUBLICA DOMINICANA C.P. 
+
+Proveedor: PedLocDoc:00000257
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013144-1
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+PEDIDO VIA MARITIMA DESDE ESPA¥A / OC 200220-1
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013144-1 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+120 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0084004
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-050/20
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00000251
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812929  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Poesía del futuro
+~# @?Jc
+9788449336560
+~# @?Jr
+8.96
+~# @?Jr
+89.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812930  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+El arte perdido de las Escrituras
+~# @?Jc
+9788449336591
+~# @?Jr
+15.87
+~# @?Jr
+476.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812931  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Una mente liberada
+~# @?Jc
+9788449336607
+~# @?Jr
+15.28
+~# @?Jr
+152.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812932  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+En el principio era el sexo
+~# @?Jc
+9788449336614
+~# @?Jr
+15.81
+~# @?Jr
+158.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812933  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Qué es el arte
+~# @?Jc
+9788449336621
+~# @?Jr
+9.99
+~# @?Jr
+49.95
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812934  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Humanidad
+~# @?Jc
+9788449336744
+~# @?Jr
+8.44
+~# @?Jr
+42.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2812935  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Es hora de actuar
+~# @?Jc
+9788449336751
+~# @?Jr
+8.96
+~# @?Jr
+44.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901296  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Contra los zombis
+~# @?Jc
+9788491991854
+~# @?Jr
+12.11
+~# @?Jr
+363.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901308  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Mapas de sentidos
+~# @?Jc
+9788434431683
+~# @?Jr
+15.81
+~# @?Jr
+395.25
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901310  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+­Captados!
+~# @?Jc
+9788434431713
+~# @?Jr
+10.52
+~# @?Jr
+52.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901311  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Historia económica de la felicidad
+~# @?Jc
+9788491991885
+~# @?Jr
+12.11
+~# @?Jr
+302.75
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901312  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Subterráneo
+~# @?Jc
+9788491991892
+~# @?Jr
+10.52
+~# @?Jr
+105.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901319  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Historia económica de la población mundial
+~# @?Jc
+9788491991908
+~# @?Jr
+7.35
+~# @?Jr
+36.75
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901320  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Pifias matemáticas
+~# @?Jc
+9788491991915
+~# @?Jr
+10.52
+~# @?Jr
+105.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901323  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+El sueño del neandertal
+~# @?Jc
+9788491991922
+~# @?Jr
+9.99
+~# @?Jr
+49.95
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901324  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Mi gran familia europea
+~# @?Jc
+9788434431782
+~# @?Jr
+10.52
+~# @?Jr
+105.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901325  
+~# @?Jc
+8
+~# @?Jc
+H87
+~# @?
+Los mundos clásicos
+~# @?Jc
+9788434431799
+~# @?Jr
+11.05
+~# @?Jr
+88.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8901326  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Los cínicos
+~# @?Jc
+9788434431812
+~# @?Jr
+12.11
+~# @?Jr
+242.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+228
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "56A866AD-5872-4A32-B057-A7F30935B3CD.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+2,860.35
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+2,860.35
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+2,860.35
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(DOS MIL OCHOCIENTOS SESENTA EUROS 35/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+No. de Cuenta de Pago:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+H87
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+YXMG9Bz/0OON2rt4I3OvSdC+SAprvBPN2R2kEEJqxLBYp/45tUZubXVPpNeMHdAhhQNo/w8T69gSA6PPrnMeD8HqowLeZqG+dXrHct7dSQzY53I4GOd0JAaYFXecF1UUduhcyZj6InKyWatGIzIPPzYMK8EL8FtfZoFYeWa6UzifPm81YDR3m3BDK29Ajz2Ge4RSHqYMGjxSPE8zLRBqxjjIBiEsT2c7jhM0+yu0MJ2BSj/OTJlpI0k6ZVoLpwCrLEkZbeQosRh5LiE4XpUAv5goXTwL44NbilKN4gYp5IBR2Klpa7S9yGlWOPzMOiHAI60+U+0FJsUyPdyk1Nrl1A==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+bG76PBYleTkhOXMlwQ7YmuUMrWFa4BT6/QsfSTFGV5mJqPgDnYiCkhZ/s02N5iu0ZLa9jXGkN71r0Opz1RLsvQB7W8w2hfcWPF3MTGHteX55Mv9qvIUYXxS8B6ykR3gVUAfBZ6tC57GNNtO3tfSeHykDe9ZRzv1owBrSizWI5cseHhV3Xi/miOT8Q+dRmRciTxmkjBCXBKJ5vCk2u9Sg22IpGGTMjwD2O1axrjoJ91eNJJlQjWZECVamTZxFqWLXzqbiJDx84LJxcMPwWXZITkv+7hQNtS2clR/5kdb+scAg8yL+in0zLldZf8IYQgflx2jTN3mSUq/Jj9tj8N4xjQ==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.0|56A866AD-5872-4A32-B057-A7F30935B3CD|2020-02-28T18:26:00|YXMG9Bz/0OON2rt4I3OvSdC+SAprvBPN2R2kEEJqxLBYp/45tUZubXVPpNeMHdAhhQNo/w8T69gSA6PPrnMeD8HqowLeZqG+dXrHct7dSQzY53I4GOd0JAaYFXecF1UUduhcyZj6InKyWatGIzIPPzYMK8EL8FtfZoFYeWa6UzifPm81YDR3m3BDK29Ajz2Ge4RSHqYMGjxSPE8zLRBqxjjIBiEsT2c7jhM0+yu0MJ2BSj/OTJlpI0k6ZVoLpwCrLEkZbeQosRh5LiE4XpUAv5goXTwL44NbilKN4gYp5IBR2Klpa7S9yGlWOPzMOiHAI60+U+0FJsUyPdyk1Nrl1A==|00001000000404481161||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000404481161
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2020-02-28T18:26:00
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

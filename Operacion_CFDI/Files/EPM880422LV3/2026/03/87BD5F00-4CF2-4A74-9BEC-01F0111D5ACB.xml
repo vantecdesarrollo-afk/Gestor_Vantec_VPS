@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" CondicionesDePago="180 DIAS" Descuento="0.00" Exportacion="01" Fecha="2026-03-25T11:03:25" Folio="002048" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000710885331" Sello="HPZugSgT8epT/H0UPCFZLGX2YTmh9KCyksrcf/85YVHK8XV6drzJSzNqLfLrO8PXn8djy0yzKJp7E7k52KaHlaZYSK1brilBhSPHJDdWF056NNQeejYK7eF9uhl5jselIgseFFhBo3xFMKWdadJgOHn9pVnquTM4yy6M8zp+16IV6nIg46NjKYyQ1QIEugM2UccUhDyFYe6kbhP3INBP7YrA9bOkz4Cexn8EoDaI31RNWkYO3R3BjTmls21X8X5r62tude4gYrmaIWJGXYMq8gke9Fn2I3vh+XkTnhIWXx+o5qDhf9nHISG97VxS9KvpaENXBbci1ofZ7Lygyo+m4g==" Serie="TMC" SubTotal="18745.24" TipoCambio="20.502122" TipoDeComprobante="I" Total="18745.24" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior20.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Los hilos de la vida" Descuento="0.00" Importe="212.40" NoIdentificacion="9788408315599" ObjetoImp="01" ValorUnitario="10.62"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La neurogastronomia" Descuento="0.00" Importe="41.30" NoIdentificacion="9788408315377" ObjetoImp="01" ValorUnitario="8.26"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El mercado de novias, 1. Votos de sangre" Descuento="0.00" Importe="298.00" NoIdentificacion="9788408315612" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Operación Cowboy" Descuento="0.00" Importe="141.20" NoIdentificacion="9788408315551" ObjetoImp="01" ValorUnitario="7.06"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 01" Descuento="0.00" Importe="141.60" NoIdentificacion="9788411121590" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Dangerous Convenience Store n§ 01" Descuento="0.00" Importe="283.20" NoIdentificacion="9788411121606" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="15" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Dangerous Convenience Store n§ 02" Descuento="0.00" Importe="106.20" NoIdentificacion="9788411616782" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 04" Descuento="0.00" Importe="14.16" NoIdentificacion="9788411618366" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 03" Descuento="0.00" Importe="21.24" NoIdentificacion="9788411617086" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Dangerous Convenience Store n§ 03" Descuento="0.00" Importe="70.80" NoIdentificacion="9788410492073" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 05" Descuento="0.00" Importe="14.16" NoIdentificacion="9788411619110" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 06" Descuento="0.00" Importe="7.08" NoIdentificacion="9788410492769" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Dangerous Convenience Store n§ 04" Descuento="0.00" Importe="35.40" NoIdentificacion="9791387780166" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="A Business Proposal n§ 07" Descuento="0.00" Importe="7.08" NoIdentificacion="9791387780463" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Lluvia" Descuento="0.00" Importe="283.80" NoIdentificacion="9788411406628" ObjetoImp="01" ValorUnitario="9.46"/>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Tokyo Girls II n§ 06" Descuento="0.00" Importe="3.35" NoIdentificacion="9791387780357" ObjetoImp="01" ValorUnitario="3.35"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Dangerous Convenience Store n§ 05" Descuento="0.00" Importe="21.24" NoIdentificacion="9791387781538" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Spawn: Misery" Descuento="0.00" Importe="37.35" NoIdentificacion="9791387781705" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El puno del cielo azul (Souten no Ken) n§ 03/14" Descuento="0.00" Importe="6.29" NoIdentificacion="9791387781958" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El poder de la suplementación" Descuento="0.00" Importe="784.00" NoIdentificacion="9788408315193" ObjetoImp="01" ValorUnitario="7.84"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Estuche Tolkien (El Hobbit + El Senor de los Anill" Descuento="0.00" Importe="621.40" NoIdentificacion="9788445018248" ObjetoImp="01" ValorUnitario="31.07"/>
+        <cfdi:Concepto Cantidad="300" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ciencias del comportamiento" Descuento="0.00" Importe="2484.00" NoIdentificacion="9791387869007" ObjetoImp="01" ValorUnitario="8.28"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ganar feo" Descuento="0.00" Importe="164.80" NoIdentificacion="9788408314912" ObjetoImp="01" ValorUnitario="8.24"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Neuronas en marcha" Descuento="0.00" Importe="784.00" NoIdentificacion="9788408314493" ObjetoImp="01" ValorUnitario="7.84"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Camino de Santiago 1" Descuento="0.00" Importe="51.05" NoIdentificacion="9788408311768" ObjetoImp="01" ValorUnitario="10.21"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Costa Rica 10" Descuento="0.00" Importe="220.00" NoIdentificacion="9788408311812" ObjetoImp="01" ValorUnitario="11.00"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="América Central 1" Descuento="0.00" Importe="125.70" NoIdentificacion="9788408311744" ObjetoImp="01" ValorUnitario="12.57"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Juanito" Descuento="0.00" Importe="149.00" NoIdentificacion="9788408314875" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que nadie te ha contado sobre el posparto" Descuento="0.00" Importe="74.70" NoIdentificacion="9788408314417" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="89" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Te quiero (casi siempre)" Descuento="0.00" Importe="525.10" NoIdentificacion="9788467043709" ObjetoImp="01" ValorUnitario="5.90"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La fórmula Real Madrid" Descuento="0.00" Importe="903.00" NoIdentificacion="9788467080391" ObjetoImp="01" ValorUnitario="9.03"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La alimentación que nos salvará" Descuento="0.00" Importe="78.40" NoIdentificacion="9788467079876" ObjetoImp="01" ValorUnitario="7.84"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Viajando con Megan Maxwell" Descuento="0.00" Importe="41.20" NoIdentificacion="9788467080490" ObjetoImp="01" ValorUnitario="8.24"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="· table " Descuento="0.00" Importe="29.43" NoIdentificacion="9791387761530" ObjetoImp="01" ValorUnitario="9.81"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La hora del corazón" Descuento="0.00" Importe="156.80" NoIdentificacion="9788423369409" ObjetoImp="01" ValorUnitario="7.84"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Islandia" Descuento="0.00" Importe="86.30" NoIdentificacion="9788423369324" ObjetoImp="01" ValorUnitario="8.63"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos para quererte mejor" Descuento="0.00" Importe="141.60" NoIdentificacion="9788408194637" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 3. Twisted Hate" Descuento="0.00" Importe="298.80" NoIdentificacion="9788408278948" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El superpoder de ser t£" Descuento="0.00" Importe="283.20" NoIdentificacion="9788408291442" ObjetoImp="01" ValorUnitario="7.08"/>
+        <cfdi:Concepto Cantidad="80" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 16. El libro prohibido" Descuento="0.00" Importe="345.60" NoIdentificacion="9788408303985" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Fuego" Descuento="0.00" Importe="786.00" NoIdentificacion="9788408310303" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Fuego y metal 1. Metal Slinger" Descuento="0.00" Importe="1968.00" NoIdentificacion="9788408314820" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gymnastics Star 1. Pasión por la gimnasia" Descuento="0.00" Importe="172.80" NoIdentificacion="9788408313380" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las aventuras de Dani y Evan 14. Invasión dinozomb" Descuento="0.00" Importe="17.67" NoIdentificacion="9788408314578" ObjetoImp="01" ValorUnitario="5.89"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 17. La tormenta arcoiris" Descuento="0.00" Importe="188.40" NoIdentificacion="9788408313496" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Llamas" Descuento="0.00" Importe="393.00" NoIdentificacion="9788408314790" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gymnastics Star 2. Volver a confiar" Descuento="0.00" Importe="43.20" NoIdentificacion="9788408313403" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Rivales. Quarterback Sneak" Descuento="0.00" Importe="37.35" NoIdentificacion="9788408312987" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Clara Nox 2. El secreto del profesor" Descuento="0.00" Importe="125.80" NoIdentificacion="9788408314455" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El caos de Beca 1. El primer dia de mi nueva vida" Descuento="0.00" Importe="943.50" NoIdentificacion="9788408315759" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Maldita fortuna" Descuento="0.00" Importe="157.20" NoIdentificacion="9788408314998" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="En lo más profundo" Descuento="0.00" Importe="747.00" NoIdentificacion="9788408314844" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos de Lucia, mi pediatra" Descuento="0.00" Importe="59.00" NoIdentificacion="9788408201687" ObjetoImp="01" ValorUnitario="5.90"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos para leer con mamá" Descuento="0.00" Importe="156.80" NoIdentificacion="9788408275305" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy pastelera " Descuento="0.00" Importe="78.40" NoIdentificacion="9788408308461" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la senora Gatita?" Descuento="0.00" Importe="392.00" NoIdentificacion="9788408308324" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Perrito?" Descuento="0.00" Importe="392.00" NoIdentificacion="9788408308317" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy bombera " Descuento="0.00" Importe="78.40" NoIdentificacion="9788408308478" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El pequeno libro del océano" Descuento="0.00" Importe="156.80" NoIdentificacion="9788408308942" ObjetoImp="01" ValorUnitario="3.92"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Sir Lewis" Descuento="0.00" Importe="173.00" NoIdentificacion="9788448045760" ObjetoImp="01" ValorUnitario="8.65"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Tu camino hacia la salud" Descuento="0.00" Importe="72.90" NoIdentificacion="9788448045630" ObjetoImp="01" ValorUnitario="7.29"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Donde nace la venganza" Descuento="0.00" Importe="298.00" NoIdentificacion="9788427054677" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Si fuéramos eternos" Descuento="0.00" Importe="149.00" NoIdentificacion="9788427054622" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Mi sangre por el Imperio" Descuento="0.00" Importe="298.00" NoIdentificacion="9788427054509" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bajo las togas" Descuento="0.00" Importe="90.70" NoIdentificacion="9788411076760" ObjetoImp="01" ValorUnitario="9.07"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Kiev" Descuento="0.00" Importe="27.09" NoIdentificacion="9788411077231" ObjetoImp="01" ValorUnitario="9.03"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El viaje del escritor" Descuento="0.00" Importe="196.80" NoIdentificacion="9788423440245" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La sabiduria de Buffett y Munger" Descuento="0.00" Importe="196.80" NoIdentificacion="9788423440160" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Tu salud financiera" Descuento="0.00" Importe="165.20" NoIdentificacion="9788423439928" ObjetoImp="01" ValorUnitario="8.26"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Esto es para todos" Descuento="0.00" Importe="90.50" NoIdentificacion="9788423439942" ObjetoImp="01" ValorUnitario="9.05"/>
+    </cfdi:Conceptos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="87BD5F00-4CF2-4A74-9BEC-01F0111D5ACB" FechaTimbrado="2026-03-25T12:21:25" RfcProvCertif="ASE0209252Q1" SelloCFD="HPZugSgT8epT/H0UPCFZLGX2YTmh9KCyksrcf/85YVHK8XV6drzJSzNqLfLrO8PXn8djy0yzKJp7E7k52KaHlaZYSK1brilBhSPHJDdWF056NNQeejYK7eF9uhl5jselIgseFFhBo3xFMKWdadJgOHn9pVnquTM4yy6M8zp+16IV6nIg46NjKYyQ1QIEugM2UccUhDyFYe6kbhP3INBP7YrA9bOkz4Cexn8EoDaI31RNWkYO3R3BjTmls21X8X5r62tude4gYrmaIWJGXYMq8gke9Fn2I3vh+XkTnhIWXx+o5qDhf9nHISG97VxS9KvpaENXBbci1ofZ7Lygyo+m4g==" NoCertificadoSAT="00001000000707891043" SelloSAT="ThXtkzKafVJYA8RX6ZsZx499flsD02/aR/hqIkVwj9NdA6z27nDvvHNZhF2J5lHhqywerNQqcpTwsN1+fmf0U5vLxPvFVpmFNxf0XlzJEDjYufjnoN3euaTmjGiPWUc/Bqrmb62caRkl7J4DxGVAP7AF1DzVGk4SXSZkhszVI1SiLVmEekdiTTo4NeqEgXFkZEncPs21fbBP1d9nsrvyItoZTwkAmB0IvWxgQAPwwzlZpznv076QCbflU7tT1c9JBAhIEpgERjv9XUHMdMqU+e4z9R+V+5gShKSUbiHyWnJnTlYHWQ4ax3qa6ulZBexCyCJS9zQf+usy2b0W539DYQ=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Simoneda="" TotalMx="18745.24" UniGraf="" ValorDelAtributo="" calle="II ETAPA DE PLAZA MAYOR" cantidadConLetra="(DIECIOCHO MIL SETECIENTOS CUARENTA Y CINCO EUROS 24/100)" cincoNeto="18745.24" codigoPostal="10109" colonia="PAVAS  ROHRMOSER" correos="dteran@planeta.com.mx -t llopez@planeta.com.mx -t amonzalvo@planeta.com.mx -t afvazquez@planeta.com.mx -t dteran@planeta.com.mx -t anagabriela.puga@planeta.com.mx -t  yesenia.chagoya@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="SAN JOSE" fac="2026-03-25" fechaEdi102="2026-03-25T11:03:25" fechaEdi204="2026-03-25T11:03:25" ivaMx="" mail="dteran@planeta.com.mx;llopez@planeta.com.mx;amonzalvo@planeta.com.mx;afvazquez@planeta.com.mx;dteran@planeta.com.mx;anagabriela.puga@planeta.com.mx; yesenia.chagoya@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00002062" noCopiasPrinter="3" noExterior="2DO P OF 7" noInterior="" noOrden="VLP-093/26" noProveedor="" nomAtributo="" pais="COSTA RICA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="18745.24" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="2,527" unoButo="18745.24" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="10.62" Punitario="10.62" SUM="H87" TasaIEPS="n" TasaIVA="n" UM="PIEZA" cantidad="20" codigo="0000128  " descripcion="Los hilos de la vida" descuento="4901990400  Si" ean="PZA   49019904" ieps="o Edi" importe="212.40" iva="toria" linea="1" lista="10.62" producto="9788408315599" serial="" sku="0000128" titulo="Los hilos de la vida" titulocm="Los hilos de la vida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.26" Punitario="8.26" SUM="H87" TasaIEPS="n" TasaIVA="n" UM="PIEZA" cantidad="5" codigo="0000130  " descripcion="La neurogastronomia" descuento="4901990400  Si" ean="PZA   49019904" ieps="o Edi" importe="41.30" iva="toria" linea="2" lista="8.26" producto="9788408315377" serial="" sku="0000130" titulo="La neurogastronomia" titulocm="La neurogastronomia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="en" TasaIVA="en" UM="PIEZA" cantidad="40" codigo="0058250  " descripcion="El mercado de novias, 1. Votos de s" descuento="4901990400  Es" ean="PZA   49019904" ieps="Méxic" importe="298.00" iva="o" linea="3" lista="7.45" producto="9788408315612" serial="" sku="0058250" titulo="El mercado de novias, 1. Votos de sangre" titulocm="El mercado de novias, 1. Votos de" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.06" Punitario="7.06" SUM="H87" TasaIEPS="en" TasaIVA="en" UM="PIEZA" cantidad="20" codigo="0058252  " descripcion="Operación Cowboy" descuento="4901990400  Es" ean="PZA   49019904" ieps="Méxic" importe="141.20" iva="o" linea="4" lista="7.06" producto="9788408315551" serial="" sku="0058252" titulo="Operación Cowboy" titulocm="Operación Cowboy" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495002638/23-10-25/VE23/10/2025" cantidad="20" codigo="0590730  " descripcion="A Business Proposal n§ 01" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="141.60" iva="s Mex" linea="5" lista="7.08" pedi="Pedimen." producto="9788411121590" serial="3-10-25/VE" sku="0590730" titulo="A Business Proposal n§ 01" titulocm="A Business Proposal n§ 01" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495002638/23-10-25/VE23/10/2025" cantidad="40" codigo="0590731  " descripcion="The Dangerous Convenience Store n§" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="283.20" iva="s Mex" linea="6" lista="7.08" pedi="Pedimen." producto="9788411121606" serial="3-10-25/VE" sku="0590731" titulo="The Dangerous Convenience Store n§ 01" titulocm="The Dangerous Convenience Store n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000040/07-03-25/VE07/03/2025" cantidad="15" codigo="0590810  " descripcion="The Dangerous Convenience Store n§" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="106.20" iva="s Mex" linea="7" lista="7.08" pedi="Pedimen." producto="9788411616782" serial="7-03-25/VE" sku="0590810" titulo="The Dangerous Convenience Store n§ 02" titulocm="The Dangerous Convenience Store n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000185/08-05-25/VE08/05/2025" cantidad="2" codigo="0590878  " descripcion="A Business Proposal n§ 04" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="14.16" iva="s Mex" linea="8" lista="7.08" pedi="Pedimen." producto="9788411618366" serial="8-05-25/VE" sku="0590878" titulo="A Business Proposal n§ 04" titulocm="A Business Proposal n§ 04" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001163/18-06-25/VE18/06/2025" cantidad="3" codigo="0590889  " descripcion="A Business Proposal n§ 03" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="21.24" iva="s Mex" linea="9" lista="7.08" pedi="Pedimen." producto="9788411617086" serial="8-06-25/VE" sku="0590889" titulo="A Business Proposal n§ 03" titulocm="A Business Proposal n§ 03" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001190/24-07-25/VE24/07/2025" cantidad="10" codigo="0590903  " descripcion="The Dangerous Convenience Store n§" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="70.80" iva="s Mex" linea="10" lista="7.08" pedi="Pedimen." producto="9788410492073" serial="4-07-25/VE" sku="0590903" titulo="The Dangerous Convenience Store n§ 03" titulocm="The Dangerous Convenience Store n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001190/24-07-25/VE24/07/2025" cantidad="2" codigo="0590904  " descripcion="A Business Proposal n§ 05" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="14.16" iva="s Mex" linea="11" lista="7.08" pedi="Pedimen." producto="9788411619110" serial="4-07-25/VE" sku="0590904" titulo="A Business Proposal n§ 05" titulocm="A Business Proposal n§ 05" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495002638/23-10-25/VE23/10/2025" cantidad="1" codigo="0590986  " descripcion="A Business Proposal n§ 06" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="7.08" iva="s Mex" linea="12" lista="7.08" pedi="Pedimen." producto="9788410492769" serial="3-10-25/VE" sku="0590986" titulo="A Business Proposal n§ 06" titulocm="A Business Proposal n§ 06" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495002773/24-11-25/VE24/11/2025" cantidad="5" codigo="0591003  " descripcion="The Dangerous Convenience Store n§" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="35.40" iva="s Mex" linea="13" lista="7.08" pedi="Pedimen." producto="9791387780166" serial="4-11-25/VE" sku="0591003" titulo="The Dangerous Convenience Store n§ 04" titulocm="The Dangerous Convenience Store n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495002795/19-12-25/VE19/12/2025" cantidad="1" codigo="0591027  " descripcion="A Business Proposal n§ 07" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="7.08" iva="s Mex" linea="14" lista="7.08" pedi="Pedimen." producto="9791387780463" serial="9-12-25/VE" sku="0591027" titulo="A Business Proposal n§ 07" titulocm="A Business Proposal n§ 07" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.46" Punitario="9.46" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="30" codigo="0591069  " descripcion="Lluvia" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="283.80" iva="s Mex" linea="15" lista="9.46" producto="9788411406628" serial="" sku="0591069" titulo="Lluvia" titulocm="Lluvia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.35" Punitario="3.35" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="1" codigo="0591079  " descripcion="Tokyo Girls II n§ 06" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="3.35" iva="s Mex" linea="16" lista="3.35" producto="9791387780357" serial="" sku="0591079" titulo="Tokyo Girls II n§ 06" titulocm="Tokyo Girls II n§ 06" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="3" codigo="0591082  " descripcion="The Dangerous Convenience Store n§" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="21.24" iva="s Mex" linea="17" lista="7.08" producto="9791387781538" serial="" sku="0591082" titulo="The Dangerous Convenience Store n§ 05" titulocm="The Dangerous Convenience Store n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="5" codigo="0591115  " descripcion="Spawn: Misery" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="37.35" iva="s Mex" linea="18" lista="7.47" producto="9791387781705" serial="" sku="0591115" titulo="Spawn: Misery" titulocm="Spawn: Misery" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="1" codigo="0591116  " descripcion="El puno del cielo azul (Souten no K" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="6.29" iva="s Mex" linea="19" lista="6.29" producto="9791387781958" serial="" sku="0591116" titulo="El puno del cielo azul (Souten no Ken) n§ 03/14" titulocm="El puno del cielo azul (Souten no" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.84" Punitario="7.84" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="100" codigo="1011725  " descripcion="El poder de la suplementación" descuento="4901990400  Pl" ean="PZA   49019904" importe="784.00" linea="20" lista="7.84" producto="9788408315193" serial="" sku="1011725" titulo="El poder de la suplementación" titulocm="El poder de la suplementación" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="31.07" Punitario="31.07" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4318494000602/06-11-24/VE06/11/2024" cantidad="20" codigo="1401407  " descripcion="Estuche Tolkien (El Hobbit + El Sen" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="621.40" linea="21" lista="31.07" pedi="Pedimen." producto="9788445018248" serial="6-11-24/VE" sku="1401407" titulo="Estuche Tolkien (El Hobbit + El Senor de los Anill" titulocm="Estuche Tolkien (El Hobbit + El Se" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.28" Punitario="8.28" SUM="H87" TasaIEPS="ma" TasaIVA="ma" UM="PIEZA" cantidad="300" codigo="1600959  " descripcion="Ciencias del comportamiento" descuento="4901990400  Te" ean="PZA   49019904" ieps="Hoy" importe="2484.00" linea="22" lista="8.28" producto="9791387869007" serial="" sku="1600959" titulo="Ciencias del comportamiento" titulocm="Ciencias del comportamiento" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.24" Punitario="8.24" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="20" codigo="1700916  " descripcion="Ganar feo" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="164.80" linea="23" lista="8.24" producto="9788408314912" serial="" sku="1700916" titulo="Ganar feo" titulocm="Ganar feo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.84" Punitario="7.84" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="100" codigo="1700917  " descripcion="Neuronas en marcha" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="784.00" linea="24" lista="7.84" producto="9788408314493" serial="" sku="1700917" titulo="Neuronas en marcha" titulocm="Neuronas en marcha" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.21" Punitario="10.21" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="5" codigo="1700918  " descripcion="Camino de Santiago 1" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="51.05" linea="25" lista="10.21" producto="9788408311768" serial="" sku="1700918" titulo="Camino de Santiago 1" titulocm="Camino de Santiago 1" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.00" Punitario="11.00" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="20" codigo="1700919  " descripcion="Costa Rica 10" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="220.00" linea="26" lista="11.00" producto="9788408311812" serial="" sku="1700919" titulo="Costa Rica 10" titulocm="Costa Rica 10" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="12.57" Punitario="12.57" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="10" codigo="1700920  " descripcion="América Central 1" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="125.70" linea="27" lista="12.57" producto="9788408311744" serial="" sku="1700920" titulo="América Central 1" titulocm="América Central 1" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="op" TasaIVA="op" UM="PIEZA" cantidad="20" codigo="1700921  " descripcion="Juanito" descuento="4901990400  Ge" ean="PZA   49019904" ieps="ta" importe="149.00" linea="28" lista="7.45" producto="9788408314875" serial="" sku="1700921" titulo="Juanito" titulocm="Juanito" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="ni" TasaIVA="ni" UM="PIEZA" cantidad="10" codigo="2100746  " descripcion="Todo lo que nadie te ha contado sob" descuento="4901990400  Ze" ean="PZA   49019904" importe="74.70" linea="29" lista="7.47" producto="9788408314417" serial="" sku="2100746" titulo="Todo lo que nadie te ha contado sobre el posparto" titulocm="Todo lo que nadie te ha contado so" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.90" Punitario="5.90" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="89" codigo="2301566  " descripcion="Te quiero (casi siempre)" descuento="4901990400  Es" ean="PZA   49019904" importe="525.10" linea="30" lista="5.90" producto="9788467043709" serial="" sku="2301566" titulo="Te quiero (casi siempre)" titulocm="Te quiero (casi siempre)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.03" Punitario="9.03" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="100" codigo="2302655  " descripcion="La fórmula Real Madrid" descuento="4901990400  Es" ean="PZA   49019904" importe="903.00" linea="31" lista="9.03" producto="9788467080391" serial="" sku="2302655" titulo="La fórmula Real Madrid" titulocm="La fórmula Real Madrid" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.84" Punitario="7.84" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="10" codigo="2302673  " descripcion="La alimentación que nos salvará" descuento="4901990400  Es" ean="PZA   49019904" importe="78.40" linea="32" lista="7.84" producto="9788467079876" serial="" sku="2302673" titulo="La alimentación que nos salvará" titulocm="La alimentación que nos salvará" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.24" Punitario="8.24" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="5" codigo="2302677  " descripcion="Viajando con Megan Maxwell" descuento="4901990400  Es" ean="PZA   49019904" importe="41.20" linea="33" lista="8.24" producto="9788467080490" serial="" sku="2302677" titulo="Viajando con Megan Maxwell" titulocm="Viajando con Megan Maxwell" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.81" Punitario="9.81" SUM="H87" TasaIEPS="nw" TasaIVA="nw" UM="PIEZA" cantidad="3" codigo="2401052  " descripcion="· table " descuento="4901990400  Lu" ean="PZA   49019904" importe="29.43" linea="34" lista="9.81" producto="9791387761530" serial="" sku="2401052" titulo="· table " titulocm="· table " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.84" Punitario="7.84" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="20" codigo="3003004  " descripcion="La hora del corazón" descuento="4901990400  De" ean="PZA   49019904" importe="156.80" linea="35" lista="7.84" producto="9788423369409" serial="" sku="3003004" titulo="La hora del corazón" titulocm="La hora del corazón" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.63" Punitario="8.63" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="10" codigo="3003015  " descripcion="Islandia" descuento="4901990400  De" ean="PZA   49019904" importe="86.30" linea="36" lista="8.63" producto="9788423369324" serial="" sku="3003015" titulo="Islandia" titulocm="Islandia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="20" codigo="3100110  " descripcion="Cuentos para quererte mejor" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="141.60" iva="til &amp;" linea="37" lista="7.08" producto="9788408194637" serial="" sku="3100110" titulo="Cuentos para quererte mejor" titulocm="Cuentos para quererte mejor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="40" codigo="3101202  " descripcion="Twisted 3. Twisted Hate" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="298.80" linea="38" lista="7.47" producto="9788408278948" serial="" sku="3101202" titulo="Twisted 3. Twisted Hate" titulocm="Twisted 3. Twisted Hate" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.08" Punitario="7.08" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="3101440  " descripcion="El superpoder de ser t£" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="283.20" iva="til &amp;" linea="39" lista="7.08" producto="9788408291442" serial="" sku="3101440" titulo="El superpoder de ser t£" titulocm="El superpoder de ser t£" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="80" codigo="3101655  " descripcion="Anna Kadabra 16. El libro prohibido" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="345.60" iva="til &amp;" linea="40" lista="4.32" producto="9788408303985" serial="" sku="3101655" titulo="Anna Kadabra 16. El libro prohibido" titulocm="Anna Kadabra 16. El libro prohibid" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4318496000029/13-02-26/VE13/02/2026" cantidad="100" codigo="3101729  " descripcion="Fuego" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="786.00" linea="41" lista="7.86" pedi="Pedimen." producto="9788408310303" serial="3-02-26/VE" sku="3101729" titulo="Fuego" titulocm="Fuego" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101762  " descripcion="Fuego y metal 1. Metal Slinger" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1968.00" linea="42" lista="9.84" producto="9788408314820" serial="" sku="3101762" titulo="Fuego y metal 1. Metal Slinger" titulocm="Fuego y metal 1. Metal Slinger" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="3101764  " descripcion="Gymnastics Star 1. Pasión por la gi" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="172.80" iva="til &amp;" linea="43" lista="4.32" producto="9788408313380" serial="" sku="3101764" titulo="Gymnastics Star 1. Pasión por la gimnasia" titulocm="Gymnastics Star 1. Pasión por la g" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.89" Punitario="5.89" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101766  " descripcion="Las aventuras de Dani y Evan 14. In" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="17.67" iva="til &amp;" linea="44" lista="5.89" producto="9788408314578" serial="" sku="3101766" titulo="Las aventuras de Dani y Evan 14. Invasión dinozomb" titulocm="Las aventuras de Dani y Evan 14. I" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="3101767  " descripcion="Anna Kadabra 17. La tormenta arcoir" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="188.40" iva="til &amp;" linea="45" lista="4.71" producto="9788408313496" serial="" sku="3101767" titulo="Anna Kadabra 17. La tormenta arcoiris" titulocm="Anna Kadabra 17. La tormenta arcoi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101770  " descripcion="Llamas" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="393.00" linea="46" lista="7.86" producto="9788408314790" serial="" sku="3101770" titulo="Llamas" titulocm="Llamas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="10" codigo="3101777  " descripcion="Gymnastics Star 2. Volver a confiar" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="43.20" iva="til &amp;" linea="47" lista="4.32" producto="9788408313403" serial="" sku="3101777" titulo="Gymnastics Star 2. Volver a confiar" titulocm="Gymnastics Star 2. Volver a confia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="5" codigo="3101780  " descripcion="Rivales. Quarterback Sneak" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="37.35" linea="48" lista="7.47" producto="9788408312987" serial="" sku="3101780" titulo="Rivales. Quarterback Sneak" titulocm="Rivales. Quarterback Sneak" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="20" codigo="3101784  " descripcion="Clara Nox 2. El secreto del profeso" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="125.80" iva="til &amp;" linea="49" lista="6.29" producto="9788408314455" serial="" sku="3101784" titulo="Clara Nox 2. El secreto del profesor" titulocm="Clara Nox 2. El secreto del profes" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="150" codigo="3101787  " descripcion="El caos de Beca 1. El primer dia de" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="943.50" iva="til &amp;" linea="50" lista="6.29" producto="9788408315759" serial="" sku="3101787" titulo="El caos de Beca 1. El primer dia de mi nueva vida" titulocm="El caos de Beca 1. El primer dia d" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="20" codigo="3101788  " descripcion="Maldita fortuna" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="157.20" linea="51" lista="7.86" producto="9788408314998" serial="" sku="3101788" titulo="Maldita fortuna" titulocm="Maldita fortuna" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="100" codigo="3101789  " descripcion="En lo más profundo" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="747.00" linea="52" lista="7.47" producto="9788408314844" serial="" sku="3101789" titulo="En lo más profundo" titulocm="En lo más profundo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.90" Punitario="5.90" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="10" codigo="3300392  " descripcion="Cuentos de Lucia, mi pediatra" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="59.00" iva="antil" linea="53" lista="5.90" producto="9788408201687" serial="" sku="3300392" titulo="Cuentos de Lucia, mi pediatra" titulocm="Cuentos de Lucia, mi pediatra" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318494000198/04-06-24/VE04/06/2024" cantidad="40" codigo="3300584  " descripcion="Cuentos para leer con mamá" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="156.80" iva="antil" linea="54" lista="3.92" pedi="Pedimen." producto="9788408275305" serial="4-06-24/VE" sku="3300584" titulo="Cuentos para leer con mamá" titulocm="Cuentos para leer con mamá" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="20" codigo="3300610  " descripcion="Gatita Rita. ­Soy pastelera " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="78.40" iva="antil" linea="55" lista="3.92" producto="9788408308461" serial="" sku="3300610" titulo="Gatita Rita. ­Soy pastelera " titulocm="Gatita Rita. ­Soy pastelera " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="100" codigo="3300614  " descripcion="¨Dónde está la senora Gatita?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="392.00" iva="antil" linea="56" lista="3.92" producto="9788408308324" serial="" sku="3300614" titulo="¨Dónde está la senora Gatita?" titulocm="¨Dónde está la senora Gatita?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="100" codigo="3300615  " descripcion="¨Dónde está el senor Perrito?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="392.00" iva="antil" linea="57" lista="3.92" producto="9788408308317" serial="" sku="3300615" titulo="¨Dónde está el senor Perrito?" titulocm="¨Dónde está el senor Perrito?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="20" codigo="3300620  " descripcion="Gatita Rita. ­Soy bombera " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="78.40" iva="antil" linea="58" lista="3.92" producto="9788408308478" serial="" sku="3300620" titulo="Gatita Rita. ­Soy bombera " titulocm="Gatita Rita. ­Soy bombera " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.92" Punitario="3.92" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="40" codigo="3300634  " descripcion="El pequeno libro del océano" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="156.80" iva="antil" linea="59" lista="3.92" producto="9788408308942" serial="" sku="3300634" titulo="El pequeno libro del océano" titulocm="El pequeno libro del océano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.65" Punitario="8.65" SUM="H87" TasaIEPS="pu" TasaIVA="pu" UM="PIEZA" cantidad="20" codigo="3700518  " descripcion="Sir Lewis" descuento="4901990400  C£" ean="PZA   49019904" importe="173.00" linea="60" lista="8.65" producto="9788448045760" serial="" sku="3700518" titulo="Sir Lewis" titulocm="Sir Lewis" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.29" Punitario="7.29" SUM="H87" TasaIEPS="pu" TasaIVA="pu" UM="PIEZA" cantidad="10" codigo="3700525  " descripcion="Tu camino hacia la salud" descuento="4901990400  C£" ean="PZA   49019904" importe="72.90" linea="61" lista="7.29" producto="9788448045630" serial="" sku="3700525" titulo="Tu camino hacia la salud" titulocm="Tu camino hacia la salud" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="rt" TasaIVA="rt" UM="PIEZA" cantidad="40" codigo="8001456  " descripcion="Donde nace la venganza" descuento="4901990400  Ma" ean="PZA   49019904" ieps="Roca" importe="298.00" linea="62" lista="7.45" producto="9788427054677" serial="" sku="8001456" titulo="Donde nace la venganza" titulocm="Donde nace la venganza" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="rt" TasaIVA="rt" UM="PIEZA" cantidad="20" codigo="8001462  " descripcion="Si fuéramos eternos" descuento="4901990400  Ma" ean="PZA   49019904" ieps="Roca" importe="149.00" linea="63" lista="7.45" producto="9788427054622" serial="" sku="8001462" titulo="Si fuéramos eternos" titulocm="Si fuéramos eternos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="rt" TasaIVA="rt" UM="PIEZA" cantidad="40" codigo="8001463  " descripcion="Mi sangre por el Imperio" descuento="4901990400  Ma" ean="PZA   49019904" ieps="Roca" importe="298.00" linea="64" lista="7.45" producto="9788427054509" serial="" sku="8001463" titulo="Mi sangre por el Imperio" titulocm="Mi sangre por el Imperio" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.07" Punitario="9.07" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" cantidad="10" codigo="8204536  " descripcion="Bajo las togas" descuento="4901990400  Tu" ean="PZA   49019904" importe="90.70" linea="65" lista="9.07" producto="9788411076760" serial="" sku="8204536" titulo="Bajo las togas" titulocm="Bajo las togas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.03" Punitario="9.03" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" cantidad="3" codigo="8204587  " descripcion="Kiev" descuento="4901990400  Tu" ean="PZA   49019904" importe="27.09" linea="66" lista="9.03" producto="9788411077231" serial="" sku="8204587" titulo="Kiev" titulocm="Kiev" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="20" codigo="9100810  " descripcion="El viaje del escritor" descuento="4901990400  De" ean="PZA   49019904" importe="196.80" linea="67" lista="9.84" producto="9788423440245" serial="" sku="9100810" titulo="El viaje del escritor" titulocm="El viaje del escritor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="20" codigo="9100811  " descripcion="La sabiduria de Buffett y Munger" descuento="4901990400  De" ean="PZA   49019904" importe="196.80" linea="68" lista="9.84" producto="9788423440160" serial="" sku="9100811" titulo="La sabiduria de Buffett y Munger" titulocm="La sabiduria de Buffett y Munger" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.26" Punitario="8.26" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="20" codigo="9100813  " descripcion="Tu salud financiera" descuento="4901990400  De" ean="PZA   49019904" importe="165.20" linea="69" lista="8.26" producto="9788423439928" serial="" sku="9100813" titulo="Tu salud financiera" titulocm="Tu salud financiera" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.05" Punitario="9.05" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="10" codigo="9100814  " descripcion="Esto es para todos" descuento="4901990400  De" ean="PZA   49019904" importe="90.50" linea="70" lista="9.05" producto="9788423439942" serial="" sku="9100814" titulo="Esto es para todos" titulocm="Esto es para todos" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn nombre="3101167504"/>
+                <fa:Detallista fechaMercancia="2026-03-25" fechaOrdenCompra="2026-03-25" ordenCompra="00002048" subTotal="18745.24" total="18745.24"/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2026" codCliente="000013164-9" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="HS CODE 49.01.99  EXW" fecha="25/03/2026" noCliente="PedLocDoc:00002062" noOrdenCompra="VLP-093/26" pedidoInterno="00002048" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013164-9" unoObservaciones="NO SURTIR / OC:23383, 84, 85, 86, 87  PRINTED BOOKS"/>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Aria Narrow" n 4
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+25/03/2026
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\002048
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2026-03-25T11:03:25 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+87BD5F00-4CF2-4A74-9BEC-01F0111D5ACB
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "830002048.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2026-03-25T11:03:25
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A.   
+
+3101167504
+
+II ETAPA DE PLAZA MAYOR  2DO P OF 7
+
+PAVAS  ROHRMOSER 
+
+SAN JOSE COSTA RICA C.P. 10109
+
+Proveedor: PedLocDoc:00002062
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013164-9
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+NO SURTIR / OC:23383, 84, 85, 86, 87  PRINTED BOOKS
+
+HS CODE 49.01.99  EXW
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013164-9 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+180 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-093/26
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00002048
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0000128  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Los hilos de la vida
+~# @?Jc
+9788408315599
+~# @?Jr
+10.62
+~# @?Jr
+212.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0000130  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+La neurogastronomia
+~# @?Jc
+9788408315377
+~# @?Jr
+8.26
+~# @?Jr
+41.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0058250  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+El mercado de novias, 1. Votos de sangre
+~# @?Jc
+9788408315612
+~# @?Jr
+7.45
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0058252  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Operación Cowboy
+~# @?Jc
+9788408315551
+~# @?Jr
+7.06
+~# @?Jr
+141.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590730  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 01
+~# @?Jc
+9788411121590
+~# @?Jr
+7.08
+~# @?Jr
+141.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002638/23-10-25/VE23/10/2025
+~# @?Jc
+3-10-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590731  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+The Dangerous Convenience Store n§ 01
+~# @?Jc
+9788411121606
+~# @?Jr
+7.08
+~# @?Jr
+283.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002638/23-10-25/VE23/10/2025
+~# @?Jc
+3-10-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590810  
+~# @?Jc
+15
+~# @?Jc
+H87
+~# @?
+The Dangerous Convenience Store n§ 02
+~# @?Jc
+9788411616782
+~# @?Jr
+7.08
+~# @?Jr
+106.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000040/07-03-25/VE07/03/2025
+~# @?Jc
+7-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590878  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 04
+~# @?Jc
+9788411618366
+~# @?Jr
+7.08
+~# @?Jr
+14.16
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000185/08-05-25/VE08/05/2025
+~# @?Jc
+8-05-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590889  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 03
+~# @?Jc
+9788411617086
+~# @?Jr
+7.08
+~# @?Jr
+21.24
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001163/18-06-25/VE18/06/2025
+~# @?Jc
+8-06-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590903  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+The Dangerous Convenience Store n§ 03
+~# @?Jc
+9788410492073
+~# @?Jr
+7.08
+~# @?Jr
+70.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001190/24-07-25/VE24/07/2025
+~# @?Jc
+4-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590904  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 05
+~# @?Jc
+9788411619110
+~# @?Jr
+7.08
+~# @?Jr
+14.16
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001190/24-07-25/VE24/07/2025
+~# @?Jc
+4-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590986  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 06
+~# @?Jc
+9788410492769
+~# @?Jr
+7.08
+~# @?Jr
+7.08
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002638/23-10-25/VE23/10/2025
+~# @?Jc
+3-10-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591003  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+The Dangerous Convenience Store n§ 04
+~# @?Jc
+9791387780166
+~# @?Jr
+7.08
+~# @?Jr
+35.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002773/24-11-25/VE24/11/2025
+~# @?Jc
+4-11-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591027  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+A Business Proposal n§ 07
+~# @?Jc
+9791387780463
+~# @?Jr
+7.08
+~# @?Jr
+7.08
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002795/19-12-25/VE19/12/2025
+~# @?Jc
+9-12-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591069  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Lluvia
+~# @?Jc
+9788411406628
+~# @?Jr
+9.46
+~# @?Jr
+283.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591079  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Tokyo Girls II n§ 06
+~# @?Jc
+9791387780357
+~# @?Jr
+3.35
+~# @?Jr
+3.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591082  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+The Dangerous Convenience Store n§ 05
+~# @?Jc
+9791387781538
+~# @?Jr
+7.08
+~# @?Jr
+21.24
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591115  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Spawn: Misery
+~# @?Jc
+9791387781705
+~# @?Jr
+7.47
+~# @?Jr
+37.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0591116  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El puno del cielo azul (Souten no Ken) n§ 03/14
+~# @?Jc
+9791387781958
+~# @?Jr
+6.29
+~# @?Jr
+6.29
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011725  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+El poder de la suplementación
+~# @?Jc
+9788408315193
+~# @?Jr
+7.84
+~# @?Jr
+784.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401407  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Estuche Tolkien (El Hobbit + El Senor de los Anill
+~# @?Jc
+9788445018248
+~# @?Jr
+31.07
+~# @?Jr
+621.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000602/06-11-24/VE06/11/2024
+~# @?Jc
+6-11-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1600959  
+~# @?Jc
+300
+~# @?Jc
+H87
+~# @?
+Ciencias del comportamiento
+~# @?Jc
+9791387869007
+~# @?Jr
+8.28
+~# @?Jr
+2,484.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700916  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Ganar feo
+~# @?Jc
+9788408314912
+~# @?Jr
+8.24
+~# @?Jr
+164.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700917  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Neuronas en marcha
+~# @?Jc
+9788408314493
+~# @?Jr
+7.84
+~# @?Jr
+784.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700918  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Camino de Santiago 1
+~# @?Jc
+9788408311768
+~# @?Jr
+10.21
+~# @?Jr
+51.05
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700919  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Costa Rica 10
+~# @?Jc
+9788408311812
+~# @?Jr
+11.00
+~# @?Jr
+220.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700920  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+América Central 1
+~# @?Jc
+9788408311744
+~# @?Jr
+12.57
+~# @?Jr
+125.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1700921  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Juanito
+~# @?Jc
+9788408314875
+~# @?Jr
+7.45
+~# @?Jr
+149.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2100746  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Todo lo que nadie te ha contado sobre el posparto
+~# @?Jc
+9788408314417
+~# @?Jr
+7.47
+~# @?Jr
+74.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2301566  
+~# @?Jc
+89
+~# @?Jc
+H87
+~# @?
+Te quiero (casi siempre)
+~# @?Jc
+9788467043709
+~# @?Jr
+5.90
+~# @?Jr
+525.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302655  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+La fórmula Real Madrid
+~# @?Jc
+9788467080391
+~# @?Jr
+9.03
+~# @?Jr
+903.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302673  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+La alimentación que nos salvará
+~# @?Jc
+9788467079876
+~# @?Jr
+7.84
+~# @?Jr
+78.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302677  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Viajando con Megan Maxwell
+~# @?Jc
+9788467080490
+~# @?Jr
+8.24
+~# @?Jr
+41.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2401052  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+· table 
+~# @?Jc
+9791387761530
+~# @?Jr
+9.81
+~# @?Jr
+29.43
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3003004  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+La hora del corazón
+~# @?Jc
+9788423369409
+~# @?Jr
+7.84
+~# @?Jr
+156.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3003015  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Islandia
+~# @?Jc
+9788423369324
+~# @?Jr
+8.63
+~# @?Jr
+86.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100110  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Cuentos para quererte mejor
+~# @?Jc
+9788408194637
+~# @?Jr
+7.08
+~# @?Jr
+141.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101202  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Twisted 3. Twisted Hate
+~# @?Jc
+9788408278948
+~# @?Jr
+7.47
+~# @?Jr
+298.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101440  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+El superpoder de ser t£
+~# @?Jc
+9788408291442
+~# @?Jr
+7.08
+~# @?Jr
+283.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101655  
+~# @?Jc
+80
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 16. El libro prohibido
+~# @?Jc
+9788408303985
+~# @?Jr
+4.32
+~# @?Jr
+345.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101729  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Fuego
+~# @?Jc
+9788408310303
+~# @?Jr
+7.86
+~# @?Jr
+786.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318496000029/13-02-26/VE13/02/2026
+~# @?Jc
+3-02-26/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101762  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Fuego y metal 1. Metal Slinger
+~# @?Jc
+9788408314820
+~# @?Jr
+9.84
+~# @?Jr
+1,968.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101764  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Gymnastics Star 1. Pasión por la gimnasia
+~# @?Jc
+9788408313380
+~# @?Jr
+4.32
+~# @?Jr
+172.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101766  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Las aventuras de Dani y Evan 14. Invasión dinozomb
+~# @?Jc
+9788408314578
+~# @?Jr
+5.89
+~# @?Jr
+17.67
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101767  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 17. La tormenta arcoiris
+~# @?Jc
+9788408313496
+~# @?Jr
+4.71
+~# @?Jr
+188.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101770  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Llamas
+~# @?Jc
+9788408314790
+~# @?Jr
+7.86
+~# @?Jr
+393.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101777  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Gymnastics Star 2. Volver a confiar
+~# @?Jc
+9788408313403
+~# @?Jr
+4.32
+~# @?Jr
+43.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101780  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Rivales. Quarterback Sneak
+~# @?Jc
+9788408312987
+~# @?Jr
+7.47
+~# @?Jr
+37.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101784  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Clara Nox 2. El secreto del profesor
+~# @?Jc
+9788408314455
+~# @?Jr
+6.29
+~# @?Jr
+125.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101787  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+El caos de Beca 1. El primer dia de mi nueva vida
+~# @?Jc
+9788408315759
+~# @?Jr
+6.29
+~# @?Jr
+943.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101788  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Maldita fortuna
+~# @?Jc
+9788408314998
+~# @?Jr
+7.86
+~# @?Jr
+157.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101789  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+En lo más profundo
+~# @?Jc
+9788408314844
+~# @?Jr
+7.47
+~# @?Jr
+747.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300392  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Cuentos de Lucia, mi pediatra
+~# @?Jc
+9788408201687
+~# @?Jr
+5.90
+~# @?Jr
+59.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300584  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Cuentos para leer con mamá
+~# @?Jc
+9788408275305
+~# @?Jr
+3.92
+~# @?Jr
+156.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000198/04-06-24/VE04/06/2024
+~# @?Jc
+4-06-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300610  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy pastelera 
+~# @?Jc
+9788408308461
+~# @?Jr
+3.92
+~# @?Jr
+78.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300614  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+¨Dónde está la senora Gatita?
+~# @?Jc
+9788408308324
+~# @?Jr
+3.92
+~# @?Jr
+392.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300615  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Perrito?
+~# @?Jc
+9788408308317
+~# @?Jr
+3.92
+~# @?Jr
+392.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300620  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy bombera 
+~# @?Jc
+9788408308478
+~# @?Jr
+3.92
+~# @?Jr
+78.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300634  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+El pequeno libro del océano
+~# @?Jc
+9788408308942
+~# @?Jr
+3.92
+~# @?Jr
+156.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3700518  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Sir Lewis
+~# @?Jc
+9788448045760
+~# @?Jr
+8.65
+~# @?Jr
+173.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3700525  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Tu camino hacia la salud
+~# @?Jc
+9788448045630
+~# @?Jr
+7.29
+~# @?Jr
+72.90
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8001456  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Donde nace la venganza
+~# @?Jc
+9788427054677
+~# @?Jr
+7.45
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8001462  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Si fuéramos eternos
+~# @?Jc
+9788427054622
+~# @?Jr
+7.45
+~# @?Jr
+149.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8001463  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Mi sangre por el Imperio
+~# @?Jc
+9788427054509
+~# @?Jr
+7.45
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8204536  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Bajo las togas
+~# @?Jc
+9788411076760
+~# @?Jr
+9.07
+~# @?Jr
+90.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8204587  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Kiev
+~# @?Jc
+9788411077231
+~# @?Jr
+9.03
+~# @?Jr
+27.09
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100810  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+El viaje del escritor
+~# @?Jc
+9788423440245
+~# @?Jr
+9.84
+~# @?Jr
+196.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100811  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+La sabiduria de Buffett y Munger
+~# @?Jc
+9788423440160
+~# @?Jr
+9.84
+~# @?Jr
+196.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100813  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Tu salud financiera
+~# @?Jc
+9788423439928
+~# @?Jr
+8.26
+~# @?Jr
+165.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100814  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Esto es para todos
+~# @?Jc
+9788423439942
+~# @?Jr
+9.05
+~# @?Jr
+90.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+2,527
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "87BD5F00-4CF2-4A74-9BEC-01F0111D5ACB.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+ 
+
+@6 OPERACIÓN NO OBJETO DE IVA CONFORME AL ARTÍCULO 1 DE LA LEY DEL IVA, AL NO REALIZARSE LA ENAJENACIÓN DE BIENES EN TERRITORIO NACIONAL. 
+
+ 
+
+@5DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M53.53 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+ 
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+18,745.24
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+18,745.24
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(DIECIOCHO MIL SETECIENTOS CUARENTA Y CINCO EUROS 24/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+HPZugSgT8epT/H0UPCFZLGX2YTmh9KCyksrcf/85YVHK8XV6drzJSzNqLfLrO8PXn8djy0yzKJp7E7k52KaHlaZYSK1brilBhSPHJDdWF056NNQeejYK7eF9uhl5jselIgseFFhBo3xFMKWdadJgOHn9pVnquTM4yy6M8zp+16IV6nIg46NjKYyQ1QIEugM2UccUhDyFYe6kbhP3INBP7YrA9bOkz4Cexn8EoDaI31RNWkYO3R3BjTmls21X8X5r62tude4gYrmaIWJGXYMq8gke9Fn2I3vh+XkTnhIWXx+o5qDhf9nHISG97VxS9KvpaENXBbci1ofZ7Lygyo+m4g==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+ThXtkzKafVJYA8RX6ZsZx499flsD02/aR/hqIkVwj9NdA6z27nDvvHNZhF2J5lHhqywerNQqcpTwsN1+fmf0U5vLxPvFVpmFNxf0XlzJEDjYufjnoN3euaTmjGiPWUc/Bqrmb62caRkl7J4DxGVAP7AF1DzVGk4SXSZkhszVI1SiLVmEekdiTTo4NeqEgXFkZEncPs21fbBP1d9nsrvyItoZTwkAmB0IvWxgQAPwwzlZpznv076QCbflU7tT1c9JBAhIEpgERjv9XUHMdMqU+e4z9R+V+5gShKSUbiHyWnJnTlYHWQ4ax3qa6ulZBexCyCJS9zQf+usy2b0W539DYQ==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|87BD5F00-4CF2-4A74-9BEC-01F0111D5ACB|2026-03-25T12:21:25|HPZugSgT8epT/H0UPCFZLGX2YTmh9KCyksrcf/85YVHK8XV6drzJSzNqLfLrO8PXn8djy0yzKJp7E7k52KaHlaZYSK1brilBhSPHJDdWF056NNQeejYK7eF9uhl5jselIgseFFhBo3xFMKWdadJgOHn9pVnquTM4yy6M8zp+16IV6nIg46NjKYyQ1QIEugM2UccUhDyFYe6kbhP3INBP7YrA9bOkz4Cexn8EoDaI31RNWkYO3R3BjTmls21X8X5r62tude4gYrmaIWJGXYMq8gke9Fn2I3vh+XkTnhIWXx+o5qDhf9nHISG97VxS9KvpaENXBbci1ofZ7Lygyo+m4g==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2026-03-25T12:21:25
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

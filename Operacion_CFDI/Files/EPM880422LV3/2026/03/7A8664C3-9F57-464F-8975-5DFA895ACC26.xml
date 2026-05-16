@@ -1,0 +1,3613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" CondicionesDePago="CONTADO" Descuento="0.00" Exportacion="01" Fecha="2026-03-03T10:01:29" Folio="002036" FormaPago="03" LugarExpedicion="11560" MetodoPago="PUE" Moneda="EUR" NoCertificado="00001000000710885331" Sello="HxCZO2hVikKFepDimNdF0wVXppH1IsN4VBaBlUMMQyogPAtO4weHoQUNVUfe8bnbwUf2dAjA2lm+h2hf70vfaa9nMPH354zFQ4wUha1VS0Cuge+plQYO8xrkE68nx8wsZSdgQsTJaqOr/SnlLNqPElO0Zkp8l4eDrdTSD8ViC52teUwNki6/0z14XiSLNLBUPZrMlzq3ZcRPHrMtwJjQ9NNJ9zIwWxKCoHmc6D1Iel0IbVeP1uAKbW/QBW5hfBMmzTLjveRJr5HpqpnyaZ6S7m6Ht0IYkvZx8P9TDcNdTvDJyY/BJ4cryMyYbzoLzwfRXy8b+IFC1KTN8CFIoeP7CA==" Serie="TMC" SubTotal="2323.01" TipoCambio="20.278480" TipoDeComprobante="I" Total="2323.01" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior20.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="WONDER FAMILY COMPANY S.R.L" RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La neurona exploradora. Tengo un nudo en la tripa" Descuento="0.00" Importe="23.70" NoIdentificacion="9788408311393" ObjetoImp="01" ValorUnitario="7.90"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diario de un aldeano pringao. Cómic 1" Descuento="0.00" Importe="18.96" NoIdentificacion="9788408251200" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diario de un aldeano pringao. Cómic 2" Descuento="0.00" Importe="12.64" NoIdentificacion="9788408251217" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diario de un aldeano pringao. Cómic 3" Descuento="0.00" Importe="12.64" NoIdentificacion="9788408251224" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Te quiero (casi siempre)" Descuento="0.00" Importe="31.64" NoIdentificacion="9788467043709" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las aventuras de Dani y Evan. El secreto de los di" Descuento="0.00" Importe="31.64" NoIdentificacion="9788408221920" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="12" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. El Club de la Luna Llena" Descuento="0.00" Importe="69.48" NoIdentificacion="9788408223238" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="7" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. Un problema con alas" Descuento="0.00" Importe="40.53" NoIdentificacion="9788408223245" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Hilo. El chico que vino del espacio" Descuento="0.00" Importe="9.45" NoIdentificacion="9788408222293" ObjetoImp="01" ValorUnitario="3.15"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 1. Tres, dos, uno... ­superpoderes " Descuento="0.00" Importe="33.76" NoIdentificacion="9788408225744" ObjetoImp="01" ValorUnitario="8.44"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 2. S£per Alma en acción" Descuento="0.00" Importe="25.32" NoIdentificacion="9788408227977" ObjetoImp="01" ValorUnitario="8.44"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las aventuras de Dani y Evan. La isla de los ptero" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408233817" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. Fiesta a medianoche" Descuento="0.00" Importe="34.74" NoIdentificacion="9788408233053" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Hilo. Salvando el mundo entero" Descuento="0.00" Importe="6.30" NoIdentificacion="9788408229728" ObjetoImp="01" ValorUnitario="3.15"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 4. Superaventura entre las nubes" Descuento="0.00" Importe="16.88" NoIdentificacion="9788408240143" ObjetoImp="01" ValorUnitario="8.44"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las aventuras de Dani y Evan 3. Entrenadores de di" Descuento="0.00" Importe="15.82" NoIdentificacion="9788408240372" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 6. Pasteles peligrosos" Descuento="0.00" Importe="28.95" NoIdentificacion="9788408241973" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 3. La misteriosa magia de las S£per Ra" Descuento="0.00" Importe="16.88" NoIdentificacion="9788408237099" ObjetoImp="01" ValorUnitario="8.44"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 5. ­Las sirenas existen " Descuento="0.00" Importe="16.88" NoIdentificacion="9788408245865" ObjetoImp="01" ValorUnitario="8.44"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 7. El secreto del bosque" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408245568" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 3. Un monstruo en la banera" Descuento="0.00" Importe="34.74" NoIdentificacion="9788408229964" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Los Once 2. El portero con los brazos más largos d" Descuento="0.00" Importe="13.70" NoIdentificacion="9788408254133" ObjetoImp="01" ValorUnitario="6.85"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 8. El festival de brujeria" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408251354" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 5. La Isla de las Mascotas" Descuento="0.00" Importe="34.74" NoIdentificacion="9788408237990" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 9. Un lobo en escena" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408254096" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 10. La llamada de las sirenas" Descuento="0.00" Importe="28.95" NoIdentificacion="9788408260097" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Fantasticotas 1. Vera y la sorpresa de la pece" Descuento="0.00" Importe="11.01" NoIdentificacion="9788408267140" ObjetoImp="01" ValorUnitario="3.67"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Fantasticotas 2. Mario y el secreto del terrar" Descuento="0.00" Importe="11.01" NoIdentificacion="9788408267157" ObjetoImp="01" ValorUnitario="3.67"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 11. La feria de las sombras" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408269038" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La peor clase del mundo 1" Descuento="0.00" Importe="20.55" NoIdentificacion="9788408267065" ObjetoImp="01" ValorUnitario="6.85"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La peor clase del mundo 2. La peor clase del mundo" Descuento="0.00" Importe="13.70" NoIdentificacion="9788408267072" ObjetoImp="01" ValorUnitario="6.85"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Magic Animals 1. El poder del amuleto" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408271833" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Magic Animals 2. La invasión de las ranas gigantes" Descuento="0.00" Importe="18.96" NoIdentificacion="9788408271840" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 12. Brujos en panales" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408274186" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Aprende a leer con Las Fantasticotas 4. Eva y el r" Descuento="0.00" Importe="7.34" NoIdentificacion="9788408273080" ObjetoImp="01" ValorUnitario="3.67"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Magic Animals 4. El monstruo de los hielos" Descuento="0.00" Importe="12.64" NoIdentificacion="9788408279334" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Magic Animals 3. La ardilla vampira" Descuento="0.00" Importe="12.64" NoIdentificacion="9788408275350" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 14. El reto del volcán" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408288398" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Aprende a leer con... Los Detectives Zoopencos 1." Descuento="0.00" Importe="12.60" NoIdentificacion="9788408278450" ObjetoImp="01" ValorUnitario="4.20"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 13. Peligro en la mansión" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408282464" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Aprende a leer con... Los Detectives Zoopencos 2." Descuento="0.00" Importe="8.40" NoIdentificacion="9788408278467" ObjetoImp="01" ValorUnitario="4.20"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 15. La noche de la impostora" Descuento="0.00" Importe="31.60" NoIdentificacion="9788408297901" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Little Dragons 2. El poder de la amistad" Descuento="0.00" Importe="18.96" NoIdentificacion="9788408303824" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Little Dragons 1. Pequenos dragones mágicos" Descuento="0.00" Importe="25.28" NoIdentificacion="9788408303596" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 16. El libro prohibido" Descuento="0.00" Importe="34.74" NoIdentificacion="9788408303985" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Little Dragons 3. Una fiesta entre nubes" Descuento="0.00" Importe="12.64" NoIdentificacion="9788408307709" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="7" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 17. La tormenta arcoiris" Descuento="0.00" Importe="44.24" NoIdentificacion="9788408313496" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Los Once 1. El delantero que volaba al atardecer." Descuento="0.00" Importe="15.75" NoIdentificacion="9788408305934" ObjetoImp="01" ValorUnitario="3.15"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Aprende a leer con Las Fantasticotas 3. Omar y el" Descuento="0.00" Importe="7.34" NoIdentificacion="9788408269885" ObjetoImp="01" ValorUnitario="3.67"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Bomberos al rescate" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408128342" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Aventura pirata" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408128359" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Un dia en la granja" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408128366" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito.­Vamos a jugar " Descuento="0.00" Importe="26.30" NoIdentificacion="9788408128373" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Safari de dinosaurios" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408147794" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Aventura submarina" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408147800" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. ­Vamos al zoo " Descuento="0.00" Importe="26.30" NoIdentificacion="9788408158080" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Misión espacial" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408158097" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la senora Gallina? Texturas" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408164999" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Buho? Texturas" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408165002" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor León?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408177623" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la senora Mariquita?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408177616" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. La gran carrera" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408186908" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. La casa encantada" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408186915" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos de Lucia, mi pediatra" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408201687" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Te quiero casi siempre. Contrarios" Descuento="0.00" Importe="9.45" NoIdentificacion="9788408212935" ObjetoImp="01" ValorUnitario="3.15"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Si yo fuera un gato. Texturas" Descuento="0.00" Importe="9.45" NoIdentificacion="9788408212942" ObjetoImp="01" ValorUnitario="3.15"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. ­Todos al tren " Descuento="0.00" Importe="26.30" NoIdentificacion="9788408216308" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. ­Vamos en avión " Descuento="0.00" Importe="26.30" NoIdentificacion="9788408216315" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£-tras. Sol" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408221616" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£-tras. Vaca" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408221623" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Estrellas del balón" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408224075" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Pollito?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408221593" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Astronauta?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408227762" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Pingüino?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408227779" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la T. rex?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408233015" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el coche?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408233022" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. ­Vamos a construir " Descuento="0.00" Importe="26.30" NoIdentificacion="9788408241737" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£-tras. Luna" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408241348" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Un dia en la nieve" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408240648" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Lávate las manos " Descuento="0.00" Importe="15.78" NoIdentificacion="9788408246251" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Lávate los dientes " Descuento="0.00" Importe="15.78" NoIdentificacion="9788408246268" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£. Pollito" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408248316" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La neurona exploradora. Necesito un abrazo" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408292517" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El gran libro del cuerpo humano" Descuento="0.00" Importe="18.98" NoIdentificacion="9788408291589" ObjetoImp="01" ValorUnitario="9.49"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La neurona exploradora. Me baila el corazón" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408295235" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£. Te quiero" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408288657" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La neurona exploradora. Hay fuego en mi" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408300687" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Chapuzón en la piscina" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408292845" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la senora Abeja?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408291794" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Hola, perrito  Libro con texturas" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408293521" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Hola, patito  Libro con texturas" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408293538" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy pastelera " Descuento="0.00" Importe="21.04" NoIdentificacion="9788408308461" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está la senora Gatita?" Descuento="0.00" Importe="10.52" NoIdentificacion="9788408308324" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Dónde está el senor Perrito?" Descuento="0.00" Importe="15.78" NoIdentificacion="9788408308317" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Adiós, panal  Un cuento de Lucia, mi pediatra" Descuento="0.00" Importe="18.96" NoIdentificacion="9788408300779" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="­Adiós, chupete  Un cuento de Lucia, mi pediatra" Descuento="0.00" Importe="18.96" NoIdentificacion="9788408302377" ObjetoImp="01" ValorUnitario="6.32"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy bombera " Descuento="0.00" Importe="15.78" NoIdentificacion="9788408308478" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Osito Tito. Un dia en el cole" Descuento="0.00" Importe="26.30" NoIdentificacion="9788408267324" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Con sentimiento" Descuento="0.00" Importe="29.48" NoIdentificacion="9788408280385" ObjetoImp="01" ValorUnitario="7.37"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Me das permiso?" Descuento="0.00" Importe="22.11" NoIdentificacion="9788408287490" ObjetoImp="01" ValorUnitario="7.37"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos de Lucia, mi pediatra 2" Descuento="0.00" Importe="23.73" NoIdentificacion="9788408233008" ObjetoImp="01" ValorUnitario="7.91"/>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuc£. León" Descuento="0.00" Importe="17.37" NoIdentificacion="9788408275893" ObjetoImp="01" ValorUnitario="5.79"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy astronauta " Descuento="0.00" Importe="21.04" NoIdentificacion="9788408293484" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy granjera " Descuento="0.00" Importe="21.04" NoIdentificacion="9788408293491" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy doctora " Descuento="0.00" Importe="21.04" NoIdentificacion="9788408293507" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gatita Rita. ­Soy bailarina " Descuento="0.00" Importe="21.04" NoIdentificacion="9788408293514" ObjetoImp="01" ValorUnitario="5.26"/>
+    </cfdi:Conceptos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="7A8664C3-9F57-464F-8975-5DFA895ACC26" FechaTimbrado="2026-03-03T10:17:49" RfcProvCertif="ASE0209252Q1" SelloCFD="HxCZO2hVikKFepDimNdF0wVXppH1IsN4VBaBlUMMQyogPAtO4weHoQUNVUfe8bnbwUf2dAjA2lm+h2hf70vfaa9nMPH354zFQ4wUha1VS0Cuge+plQYO8xrkE68nx8wsZSdgQsTJaqOr/SnlLNqPElO0Zkp8l4eDrdTSD8ViC52teUwNki6/0z14XiSLNLBUPZrMlzq3ZcRPHrMtwJjQ9NNJ9zIwWxKCoHmc6D1Iel0IbVeP1uAKbW/QBW5hfBMmzTLjveRJr5HpqpnyaZ6S7m6Ht0IYkvZx8P9TDcNdTvDJyY/BJ4cryMyYbzoLzwfRXy8b+IFC1KTN8CFIoeP7CA==" NoCertificadoSAT="00001000000707891043" SelloSAT="VRsaxnsyHU9P0W75Lab8gGZiZDefwLsrmFpS8zoSspg4f9Xjfd4l6RLjpbiiE6710wvStByYyze6eicjv+ruHjZQjo9aJtjH4joMSjW3LtRbz8ZTJmTYelVqM2dLOdPKgXilnqoGV84dO8jahZ0ft/QcOOSdEerRxnN+4apc35OGiYzwPGCkmZc4Vwdgdtc6sx60SY5R4eEVvBmxVErk/lwyrXYxSjiYEY1UqSTgDRzek+YhWYoOHiSVbNvukZDJQykzUd0e6NMOfjiK+3DkgqSRAzOOfkuB6I2NeqcbOJZkf18VKJ8WJfyXO6FhwfpOSlpl4XYIJsgePiu6XBdd6A=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Simoneda="" TotalMx="2323.01" UniGraf="" ValorDelAtributo="" calle="VICTOR GARRIDO PUELLO" cantidadConLetra="(DOS MIL TRESCIENTOS VEINTITRES EUROS 01/100)" cincoNeto="2323.01" codigoPostal="S/N" colonia="EVARISTO MORALES" correos="dteran@planeta.com.mx -t afvazquez@planeta.com.mx -t amonsalvo@planeta.com.mx -t llopez@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="DOM" fac="2026-03-03" fechaEdi102="2026-03-03T10:01:29" fechaEdi204="2026-03-03T10:01:29" ivaMx="" mail="dteran@planeta.com.mx;afvazquez@planeta.com.mx;amonsalvo@planeta.com.mx;llopez@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00002050" noCopiasPrinter="3" noExterior="137" noInterior="" noOrden="VLP-073/26" noProveedor="" nomAtributo="" pais="REPUBLICA DOMINICANA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="2323.01" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="398" unoButo="2323.01" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="7.90" Punitario="7.90" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="0220330  " descripcion="La neurona exploradora. Tengo un nu" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s C£p" importe="23.70" iva="ula" linea="1" lista="7.90" producto="9788408311393" serial="" sku="0220330" titulo="La neurona exploradora. Tengo un nudo en la tripa" titulocm="La neurona exploradora. Tengo un n" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="3" codigo="1008839  " descripcion="Diario de un aldeano pringao. Cómic" descuento="4901990400  Pl" ean="PZA   49019904" importe="18.96" linea="2" lista="6.32" producto="9788408251200" serial="" sku="1008839" titulo="Diario de un aldeano pringao. Cómic 1" titulocm="Diario de un aldeano pringao. Cómi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="2" codigo="1008840  " descripcion="Diario de un aldeano pringao. Cómic" descuento="4901990400  Pl" ean="PZA   49019904" importe="12.64" linea="3" lista="6.32" producto="9788408251217" serial="" sku="1008840" titulo="Diario de un aldeano pringao. Cómic 2" titulocm="Diario de un aldeano pringao. Cómi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="2" codigo="1009161  " descripcion="Diario de un aldeano pringao. Cómic" descuento="4901990400  Pl" ean="PZA   49019904" importe="12.64" linea="4" lista="6.32" producto="9788408251224" serial="" sku="1009161" titulo="Diario de un aldeano pringao. Cómic 3" titulocm="Diario de un aldeano pringao. Cómi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="4" codigo="2301566  " descripcion="Te quiero (casi siempre)" descuento="4901990400  Es" ean="PZA   49019904" importe="31.64" linea="5" lista="7.91" producto="9788467043709" serial="" sku="2301566" titulo="Te quiero (casi siempre)" titulocm="Te quiero (casi siempre)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="4" codigo="3100377  " descripcion="Las aventuras de Dani y Evan. El se" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.64" iva="til &amp;" linea="6" lista="7.91" producto="9788408221920" serial="" sku="3100377" titulo="Las aventuras de Dani y Evan. El secreto de los di" titulocm="Las aventuras de Dani y Evan. El s" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="12" codigo="3100384  " descripcion="Anna Kadabra. El Club de la Luna Ll" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="69.48" iva="til &amp;" linea="7" lista="5.79" producto="9788408223238" serial="" sku="3100384" titulo="Anna Kadabra. El Club de la Luna Llena" titulocm="Anna Kadabra. El Club de la Luna L" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="7" codigo="3100385  " descripcion="Anna Kadabra. Un problema con alas" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="40.53" iva="til &amp;" linea="8" lista="5.79" producto="9788408223245" serial="" sku="3100385" titulo="Anna Kadabra. Un problema con alas" titulocm="Anna Kadabra. Un problema con alas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.15" Punitario="3.15" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3100410  " descripcion="Hilo. El chico que vino del espacio" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="9.45" iva="til &amp;" linea="9" lista="3.15" producto="9788408222293" serial="" sku="3100410" titulo="Hilo. El chico que vino del espacio" titulocm="Hilo. El chico que vino del espaci" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="4" codigo="3100419  " descripcion="Las Ratitas 1. Tres, dos, uno... ­s" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="33.76" iva="til &amp;" linea="10" lista="8.44" producto="9788408225744" serial="" sku="3100419" titulo="Las Ratitas 1. Tres, dos, uno... ­superpoderes " titulocm="Las Ratitas 1. Tres, dos, uno... ­" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3100436  " descripcion="Las Ratitas 2. S£per Alma en acción" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="25.32" iva="til &amp;" linea="11" lista="8.44" producto="9788408227977" serial="" sku="3100436" titulo="Las Ratitas 2. S£per Alma en acción" titulocm="Las Ratitas 2. S£per Alma en acció" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3100473  " descripcion="Las aventuras de Dani y Evan. La is" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="23.73" iva="til &amp;" linea="12" lista="7.91" producto="9788408233817" serial="" sku="3100473" titulo="Las aventuras de Dani y Evan. La isla de los ptero" titulocm="Las aventuras de Dani y Evan. La i" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="6" codigo="3100479  " descripcion="Anna Kadabra. Fiesta a medianoche" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="34.74" iva="til &amp;" linea="13" lista="5.79" producto="9788408233053" serial="" sku="3100479" titulo="Anna Kadabra. Fiesta a medianoche" titulocm="Anna Kadabra. Fiesta a medianoche" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.15" Punitario="3.15" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100501  " descripcion="Hilo. Salvando el mundo entero" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="6.30" iva="til &amp;" linea="14" lista="3.15" producto="9788408229728" serial="" sku="3100501" titulo="Hilo. Salvando el mundo entero" titulocm="Hilo. Salvando el mundo entero" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100539  " descripcion="Las Ratitas 4. Superaventura entre" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="16.88" iva="til &amp;" linea="15" lista="8.44" producto="9788408240143" serial="" sku="3100539" titulo="Las Ratitas 4. Superaventura entre las nubes" titulocm="Las Ratitas 4. Superaventura entre" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100554  " descripcion="Las aventuras de Dani y Evan 3. Ent" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="15.82" iva="til &amp;" linea="16" lista="7.91" producto="9788408240372" serial="" sku="3100554" titulo="Las aventuras de Dani y Evan 3. Entrenadores de di" titulocm="Las aventuras de Dani y Evan 3. En" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3100578  " descripcion="Anna Kadabra 6. Pasteles peligrosos" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="28.95" iva="til &amp;" linea="17" lista="5.79" producto="9788408241973" serial="" sku="3100578" titulo="Anna Kadabra 6. Pasteles peligrosos" titulocm="Anna Kadabra 6. Pasteles peligroso" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100584  " descripcion="Las Ratitas 3. La misteriosa magia" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="16.88" iva="til &amp;" linea="18" lista="8.44" producto="9788408237099" serial="" sku="3100584" titulo="Las Ratitas 3. La misteriosa magia de las S£per Ra" titulocm="Las Ratitas 3. La misteriosa magia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.44" Punitario="8.44" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100625  " descripcion="Las Ratitas 5. ­Las sirenas existen" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="16.88" iva="til &amp;" linea="19" lista="8.44" producto="9788408245865" serial="" sku="3100625" titulo="Las Ratitas 5. ­Las sirenas existen " titulocm="Las Ratitas 5. ­Las sirenas existe" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3100703  " descripcion="Anna Kadabra 7. El secreto del bosq" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="20" lista="6.32" producto="9788408245568" serial="" sku="3100703" titulo="Anna Kadabra 7. El secreto del bosque" titulocm="Anna Kadabra 7. El secreto del bos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="6" codigo="3100744  " descripcion="Anna Kadabra 3. Un monstruo en la b" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="34.74" iva="til &amp;" linea="21" lista="5.79" producto="9788408229964" serial="" sku="3100744" titulo="Anna Kadabra 3. Un monstruo en la banera" titulocm="Anna Kadabra 3. Un monstruo en la" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.85" Punitario="6.85" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3100775  " descripcion="Los Once 2. El portero con los braz" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="13.70" iva="til &amp;" linea="22" lista="6.85" producto="9788408254133" serial="" sku="3100775" titulo="Los Once 2. El portero con los brazos más largos d" titulocm="Los Once 2. El portero con los bra" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3100779  " descripcion="Anna Kadabra 8. El festival de bruj" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="23" lista="6.32" producto="9788408251354" serial="" sku="3100779" titulo="Anna Kadabra 8. El festival de brujeria" titulocm="Anna Kadabra 8. El festival de bru" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="6" codigo="3100876  " descripcion="Anna Kadabra 5. La Isla de las Masc" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="34.74" iva="til &amp;" linea="24" lista="5.79" producto="9788408237990" serial="" sku="3100876" titulo="Anna Kadabra 5. La Isla de las Mascotas" titulocm="Anna Kadabra 5. La Isla de las Mas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3100877  " descripcion="Anna Kadabra 9. Un lobo en escena" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="25" lista="6.32" producto="9788408254096" serial="" sku="3100877" titulo="Anna Kadabra 9. Un lobo en escena" titulocm="Anna Kadabra 9. Un lobo en escena" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3100932  " descripcion="Anna Kadabra 10. La llamada de las" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="28.95" iva="til &amp;" linea="26" lista="5.79" producto="9788408260097" serial="" sku="3100932" titulo="Anna Kadabra 10. La llamada de las sirenas" titulocm="Anna Kadabra 10. La llamada de las" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.67" Punitario="3.67" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101022  " descripcion="Las Fantasticotas 1. Vera y la sorp" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="11.01" iva="til &amp;" linea="27" lista="3.67" producto="9788408267140" serial="" sku="3101022" titulo="Las Fantasticotas 1. Vera y la sorpresa de la pece" titulocm="Las Fantasticotas 1. Vera y la sor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.67" Punitario="3.67" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101023  " descripcion="Las Fantasticotas 2. Mario y el sec" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="11.01" iva="til &amp;" linea="28" lista="3.67" producto="9788408267157" serial="" sku="3101023" titulo="Las Fantasticotas 2. Mario y el secreto del terrar" titulocm="Las Fantasticotas 2. Mario y el se" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101076  " descripcion="Anna Kadabra 11. La feria de las so" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="29" lista="6.32" producto="9788408269038" serial="" sku="3101076" titulo="Anna Kadabra 11. La feria de las sombras" titulocm="Anna Kadabra 11. La feria de las s" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.85" Punitario="6.85" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101084  " descripcion="La peor clase del mundo 1" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="20.55" iva="til &amp;" linea="30" lista="6.85" producto="9788408267065" serial="" sku="3101084" titulo="La peor clase del mundo 1" titulocm="La peor clase del mundo 1" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.85" Punitario="6.85" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101085  " descripcion="La peor clase del mundo 2. La peor" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="13.70" iva="til &amp;" linea="31" lista="6.85" producto="9788408267072" serial="" sku="3101085" titulo="La peor clase del mundo 2. La peor clase del mundo" titulocm="La peor clase del mundo 2. La peor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101092  " descripcion="Magic Animals 1. El poder del amule" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="32" lista="6.32" producto="9788408271833" serial="" sku="3101092" titulo="Magic Animals 1. El poder del amuleto" titulocm="Magic Animals 1. El poder del amul" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101093  " descripcion="Magic Animals 2. La invasión de las" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="18.96" iva="til &amp;" linea="33" lista="6.32" producto="9788408271840" serial="" sku="3101093" titulo="Magic Animals 2. La invasión de las ranas gigantes" titulocm="Magic Animals 2. La invasión de la" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101138  " descripcion="Anna Kadabra 12. Brujos en panales" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="34" lista="6.32" producto="9788408274186" serial="" sku="3101138" titulo="Anna Kadabra 12. Brujos en panales" titulocm="Anna Kadabra 12. Brujos en panales" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.67" Punitario="3.67" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101141  " descripcion="Aprende a leer con Las Fantasticota" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="7.34" iva="til &amp;" linea="35" lista="3.67" producto="9788408273080" serial="" sku="3101141" titulo="Aprende a leer con Las Fantasticotas 4. Eva y el r" titulocm="Aprende a leer con Las Fantasticot" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101219  " descripcion="Magic Animals 4. El monstruo de los" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="12.64" iva="til &amp;" linea="36" lista="6.32" producto="9788408279334" serial="" sku="3101219" titulo="Magic Animals 4. El monstruo de los hielos" titulocm="Magic Animals 4. El monstruo de lo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101220  " descripcion="Magic Animals 3. La ardilla vampira" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="12.64" iva="til &amp;" linea="37" lista="6.32" producto="9788408275350" serial="" sku="3101220" titulo="Magic Animals 3. La ardilla vampira" titulocm="Magic Animals 3. La ardilla vampir" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101377  " descripcion="Anna Kadabra 14. El reto del volcán" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="38" lista="6.32" producto="9788408288398" serial="" sku="3101377" titulo="Anna Kadabra 14. El reto del volcán" titulocm="Anna Kadabra 14. El reto del volcá" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.20" Punitario="4.20" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101390  " descripcion="Aprende a leer con... Los Detective" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="12.60" iva="til &amp;" linea="39" lista="4.20" producto="9788408278450" serial="" sku="3101390" titulo="Aprende a leer con... Los Detectives Zoopencos 1." titulocm="Aprende a leer con... Los Detectiv" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101391  " descripcion="Anna Kadabra 13. Peligro en la mans" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="40" lista="6.32" producto="9788408282464" serial="" sku="3101391" titulo="Anna Kadabra 13. Peligro en la mansión" titulocm="Anna Kadabra 13. Peligro en la man" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.20" Punitario="4.20" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101436  " descripcion="Aprende a leer con... Los Detective" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="8.40" iva="til &amp;" linea="41" lista="4.20" producto="9788408278467" serial="" sku="3101436" titulo="Aprende a leer con... Los Detectives Zoopencos 2." titulocm="Aprende a leer con... Los Detectiv" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101560  " descripcion="Anna Kadabra 15. La noche de la imp" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="31.60" iva="til &amp;" linea="42" lista="6.32" producto="9788408297901" serial="" sku="3101560" titulo="Anna Kadabra 15. La noche de la impostora" titulocm="Anna Kadabra 15. La noche de la im" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="3" codigo="3101638  " descripcion="Little Dragons 2. El poder de la am" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="18.96" iva="til &amp;" linea="43" lista="6.32" producto="9788408303824" serial="" sku="3101638" titulo="Little Dragons 2. El poder de la amistad" titulocm="Little Dragons 2. El poder de la a" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="4" codigo="3101640  " descripcion="Little Dragons 1. Pequenos dragones" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="25.28" iva="til &amp;" linea="44" lista="6.32" producto="9788408303596" serial="" sku="3101640" titulo="Little Dragons 1. Pequenos dragones mágicos" titulocm="Little Dragons 1. Pequenos dragone" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="6" codigo="3101655  " descripcion="Anna Kadabra 16. El libro prohibido" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="34.74" iva="til &amp;" linea="45" lista="5.79" producto="9788408303985" serial="" sku="3101655" titulo="Anna Kadabra 16. El libro prohibido" titulocm="Anna Kadabra 16. El libro prohibid" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101732  " descripcion="Little Dragons 3. Una fiesta entre" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="12.64" iva="til &amp;" linea="46" lista="6.32" producto="9788408307709" serial="" sku="3101732" titulo="Little Dragons 3. Una fiesta entre nubes" titulocm="Little Dragons 3. Una fiesta entre" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="7" codigo="3101767  " descripcion="Anna Kadabra 17. La tormenta arcoir" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="44.24" iva="til &amp;" linea="47" lista="6.32" producto="9788408313496" serial="" sku="3101767" titulo="Anna Kadabra 17. La tormenta arcoiris" titulocm="Anna Kadabra 17. La tormenta arcoi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.15" Punitario="3.15" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="5" codigo="3101781  " descripcion="Los Once 1. El delantero que volaba" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="15.75" iva="til &amp;" linea="48" lista="3.15" producto="9788408305934" serial="" sku="3101781" titulo="Los Once 1. El delantero que volaba al atardecer." titulocm="Los Once 1. El delantero que volab" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.67" Punitario="3.67" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="2" codigo="3101782  " descripcion="Aprende a leer con Las Fantasticota" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="7.34" iva="til &amp;" linea="49" lista="3.67" producto="9788408269885" serial="" sku="3101782" titulo="Aprende a leer con Las Fantasticotas 3. Omar y el" titulocm="Aprende a leer con Las Fantasticot" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300096  " descripcion="Osito Tito. Bomberos al rescate" descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="50" lista="5.26" pedi="Pedimen." producto="9788408128342" serial="1-11-24/MA" sku="3300096" titulo="Osito Tito. Bomberos al rescate" titulocm="Osito Tito. Bomberos al rescate" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300097  " descripcion="Osito Tito. Aventura pirata" descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="51" lista="5.26" pedi="Pedimen." producto="9788408128359" serial="1-11-24/MA" sku="3300097" titulo="Osito Tito. Aventura pirata" titulocm="Osito Tito. Aventura pirata" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300098  " descripcion="Osito Tito. Un dia en la granja" descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="52" lista="5.26" pedi="Pedimen." producto="9788408128366" serial="9-09-25/MA" sku="3300098" titulo="Osito Tito. Un dia en la granja" titulocm="Osito Tito. Un dia en la granja" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300099  " descripcion="Osito Tito.­Vamos a jugar " descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="53" lista="5.26" pedi="Pedimen." producto="9788408128373" serial="1-11-24/MA" sku="3300099" titulo="Osito Tito.­Vamos a jugar " titulocm="Osito Tito.­Vamos a jugar " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300153  " descripcion="Osito Tito. Safari de dinosaurios" descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="54" lista="5.26" pedi="Pedimen." producto="9788408147794" serial="9-09-25/MA" sku="3300153" titulo="Osito Tito. Safari de dinosaurios" titulocm="Osito Tito. Safari de dinosaurios" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="5" codigo="3300154  " descripcion="Osito Tito. Aventura submarina" descuento="4901990100  Ti" ean="PZA   49019901" ieps="s Inf" importe="26.30" iva="antil" linea="55" lista="5.26" producto="9788408147800" serial="" sku="3300154" titulo="Osito Tito. Aventura submarina" titulocm="Osito Tito. Aventura submarina" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300211  " descripcion="Osito Tito. ­Vamos al zoo " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="56" lista="5.26" pedi="Pedimen." producto="9788408158080" serial="1-11-24/MA" sku="3300211" titulo="Osito Tito. ­Vamos al zoo " titulocm="Osito Tito. ­Vamos al zoo " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300213  " descripcion="Osito Tito. Misión espacial" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="57" lista="5.26" pedi="Pedimen." producto="9788408158097" serial="1-11-24/MA" sku="3300213" titulo="Osito Tito. Misión espacial" titulocm="Osito Tito. Misión espacial" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300258  " descripcion="¨Dónde está la senora Gallina? Text" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="58" lista="5.26" producto="9788408164999" serial="" sku="3300258" titulo="¨Dónde está la senora Gallina? Texturas" titulocm="¨Dónde está la senora Gallina? Tex" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300259  " descripcion="¨Dónde está el senor Buho? Texturas" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="59" lista="5.26" producto="9788408165002" serial="" sku="3300259" titulo="¨Dónde está el senor Buho? Texturas" titulocm="¨Dónde está el senor Buho? Textura" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300288  " descripcion="¨Dónde está el senor León?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="60" lista="5.26" producto="9788408177623" serial="" sku="3300288" titulo="¨Dónde está el senor León?" titulocm="¨Dónde está el senor León?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300299  " descripcion="¨Dónde está la senora Mariquita?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="61" lista="5.26" producto="9788408177616" serial="" sku="3300299" titulo="¨Dónde está la senora Mariquita?" titulocm="¨Dónde está la senora Mariquita?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300348  " descripcion="Osito Tito. La gran carrera" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="62" lista="5.26" pedi="Pedimen." producto="9788408186908" serial="9-09-25/MA" sku="3300348" titulo="Osito Tito. La gran carrera" titulocm="Osito Tito. La gran carrera" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318494000198/04-06-24/VE04/06/2024" cantidad="5" codigo="3300349  " descripcion="Osito Tito. La casa encantada" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="63" lista="5.26" pedi="Pedimen." producto="9788408186915" serial="4-06-24/VE" sku="3300349" titulo="Osito Tito. La casa encantada" titulocm="Osito Tito. La casa encantada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300392  " descripcion="Cuentos de Lucia, mi pediatra" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="23.73" iva="antil" linea="64" lista="7.91" producto="9788408201687" serial="" sku="3300392" titulo="Cuentos de Lucia, mi pediatra" titulocm="Cuentos de Lucia, mi pediatra" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.15" Punitario="3.15" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300404  " descripcion="Te quiero casi siempre. Contrarios" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="9.45" iva="antil" linea="65" lista="3.15" producto="9788408212935" serial="" sku="3300404" titulo="Te quiero casi siempre. Contrarios" titulocm="Te quiero casi siempre. Contrarios" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.15" Punitario="3.15" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300408  " descripcion="Si yo fuera un gato. Texturas" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="9.45" iva="antil" linea="66" lista="3.15" producto="9788408212942" serial="" sku="3300408" titulo="Si yo fuera un gato. Texturas" titulocm="Si yo fuera un gato. Texturas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318494000005/12-01-24/VE12/01/2024" cantidad="5" codigo="3300428  " descripcion="Osito Tito. ­Todos al tren " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="67" lista="5.26" pedi="Pedimen." producto="9788408216308" serial="2-01-24/VE" sku="3300428" titulo="Osito Tito. ­Todos al tren " titulocm="Osito Tito. ­Todos al tren " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1639504004155/21-11-24/MA21/11/2024" cantidad="5" codigo="3300429  " descripcion="Osito Tito. ­Vamos en avión " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="68" lista="5.26" pedi="Pedimen." producto="9788408216315" serial="1-11-24/MA" sku="3300429" titulo="Osito Tito. ­Vamos en avión " titulocm="Osito Tito. ­Vamos en avión " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318493000514/24-10-23/VE24/10/2023" cantidad="3" codigo="3300441  " descripcion="Cuc£-tras. Sol" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="69" lista="5.79" pedi="Pedimen." producto="9788408221616" serial="4-10-23/VE" sku="3300441" titulo="Cuc£-tras. Sol" titulocm="Cuc£-tras. Sol" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300442  " descripcion="Cuc£-tras. Vaca" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="70" lista="5.79" producto="9788408221623" serial="" sku="3300442" titulo="Cuc£-tras. Vaca" titulocm="Cuc£-tras. Vaca" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300443  " descripcion="Osito Tito. Estrellas del balón" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="71" lista="5.26" pedi="Pedimen." producto="9788408224075" serial="9-09-25/MA" sku="3300443" titulo="Osito Tito. Estrellas del balón" titulocm="Osito Tito. Estrellas del balón" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000046/13-03-25/VE13/03/2025" cantidad="3" codigo="3300444  " descripcion="¨Dónde está el senor Pollito?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="72" lista="5.26" pedi="Pedimen." producto="9788408221593" serial="3-03-25/VE" sku="3300444" titulo="¨Dónde está el senor Pollito?" titulocm="¨Dónde está el senor Pollito?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300478  " descripcion="¨Dónde está el senor Astronauta?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="73" lista="5.26" producto="9788408227762" serial="" sku="3300478" titulo="¨Dónde está el senor Astronauta?" titulocm="¨Dónde está el senor Astronauta?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000046/13-03-25/VE13/03/2025" cantidad="3" codigo="3300479  " descripcion="¨Dónde está el senor Pingüino?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="74" lista="5.26" pedi="Pedimen." producto="9788408227779" serial="3-03-25/VE" sku="3300479" titulo="¨Dónde está el senor Pingüino?" titulocm="¨Dónde está el senor Pingüino?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300486  " descripcion="¨Dónde está la T. rex?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="75" lista="5.26" producto="9788408233015" serial="" sku="3300486" titulo="¨Dónde está la T. rex?" titulocm="¨Dónde está la T. rex?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300487  " descripcion="¨Dónde está el coche?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="76" lista="5.26" producto="9788408233022" serial="" sku="3300487" titulo="¨Dónde está el coche?" titulocm="¨Dónde está el coche?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300516  " descripcion="Osito Tito. ­Vamos a construir " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="77" lista="5.26" pedi="Pedimen." producto="9788408241737" serial="9-09-25/MA" sku="3300516" titulo="Osito Tito. ­Vamos a construir " titulocm="Osito Tito. ­Vamos a construir " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318493000514/24-10-23/VE24/10/2023" cantidad="3" codigo="3300521  " descripcion="Cuc£-tras. Luna" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="78" lista="5.79" pedi="Pedimen." producto="9788408241348" serial="4-10-23/VE" sku="3300521" titulo="Cuc£-tras. Luna" titulocm="Cuc£-tras. Luna" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="5" codigo="3300528  " descripcion="Osito Tito. Un dia en la nieve" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="79" lista="5.26" producto="9788408240648" serial="" sku="3300528" titulo="Osito Tito. Un dia en la nieve" titulocm="Osito Tito. Un dia en la nieve" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318493000281/12-09-23/VE12/09/2023" cantidad="3" codigo="3300537  " descripcion="­Lávate las manos " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="80" lista="5.26" pedi="Pedimen." producto="9788408246251" serial="2-09-23/VE" sku="3300537" titulo="­Lávate las manos " titulocm="­Lávate las manos " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318493000281/12-09-23/VE12/09/2023" cantidad="3" codigo="3300538  " descripcion="­Lávate los dientes " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="81" lista="5.26" pedi="Pedimen." producto="9788408246268" serial="2-09-23/VE" sku="3300538" titulo="­Lávate los dientes " titulocm="­Lávate los dientes " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300542  " descripcion="Cuc£. Pollito" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="82" lista="5.79" producto="9788408248316" serial="" sku="3300542" titulo="Cuc£. Pollito" titulocm="Cuc£. Pollito" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300591  " descripcion="La neurona exploradora. Necesito un" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="23.73" iva="antil" linea="83" lista="7.91" producto="9788408292517" serial="" sku="3300591" titulo="La neurona exploradora. Necesito un abrazo" titulocm="La neurona exploradora. Necesito u" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.49" Punitario="9.49" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="2" codigo="3300594  " descripcion="El gran libro del cuerpo humano" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="18.98" iva="antil" linea="84" lista="9.49" producto="9788408291589" serial="" sku="3300594" titulo="El gran libro del cuerpo humano" titulocm="El gran libro del cuerpo humano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="N/03-06-25/MEXICO, D.F.  03/06/2025" cantidad="3" codigo="3300595  " descripcion="La neurona exploradora. Me baila el" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="23.73" iva="antil" linea="85" lista="7.91" pedi="Pedimen." producto="9788408295235" serial="CO, D.F." sku="3300595" titulo="La neurona exploradora. Me baila el corazón" titulocm="La neurona exploradora. Me baila e" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000040/07-03-25/VE07/03/2025" cantidad="3" codigo="3300597  " descripcion="Cuc£. Te quiero" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="86" lista="5.79" pedi="Pedimen." producto="9788408288657" serial="7-03-25/VE" sku="3300597" titulo="Cuc£. Te quiero" titulocm="Cuc£. Te quiero" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300598  " descripcion="La neurona exploradora. Hay fuego e" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="23.73" iva="antil" linea="87" lista="7.91" producto="9788408300687" serial="" sku="3300598" titulo="La neurona exploradora. Hay fuego en mi" titulocm="La neurona exploradora. Hay fuego" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000159/04-04-25/VE04/04/2025" cantidad="5" codigo="3300601  " descripcion="Osito Tito. Chapuzón en la piscina" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="88" lista="5.26" pedi="Pedimen." producto="9788408292845" serial="4-04-25/VE" sku="3300601" titulo="Osito Tito. Chapuzón en la piscina" titulocm="Osito Tito. Chapuzón en la piscina" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000046/13-03-25/VE13/03/2025" cantidad="3" codigo="3300602  " descripcion="¨Dónde está la senora Abeja?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="89" lista="5.26" pedi="Pedimen." producto="9788408291794" serial="3-03-25/VE" sku="3300602" titulo="¨Dónde está la senora Abeja?" titulocm="¨Dónde está la senora Abeja?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000159/04-04-25/VE04/04/2025" cantidad="3" codigo="3300603  " descripcion="­Hola, perrito  Libro con texturas" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="90" lista="5.79" pedi="Pedimen." producto="9788408293521" serial="4-04-25/VE" sku="3300603" titulo="­Hola, perrito  Libro con texturas" titulocm="­Hola, perrito  Libro con texturas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="4318495000159/04-04-25/VE04/04/2025" cantidad="3" codigo="3300604  " descripcion="­Hola, patito  Libro con texturas" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="91" lista="5.79" pedi="Pedimen." producto="9788408293538" serial="4-04-25/VE" sku="3300604" titulo="­Hola, patito  Libro con texturas" titulocm="­Hola, patito  Libro con texturas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300610  " descripcion="Gatita Rita. ­Soy pastelera " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="21.04" iva="antil" linea="92" lista="5.26" producto="9788408308461" serial="" sku="3300610" titulo="Gatita Rita. ­Soy pastelera " titulocm="Gatita Rita. ­Soy pastelera " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="2" codigo="3300614  " descripcion="¨Dónde está la senora Gatita?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="10.52" iva="antil" linea="93" lista="5.26" producto="9788408308324" serial="" sku="3300614" titulo="¨Dónde está la senora Gatita?" titulocm="¨Dónde está la senora Gatita?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300615  " descripcion="¨Dónde está el senor Perrito?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="94" lista="5.26" producto="9788408308317" serial="" sku="3300615" titulo="¨Dónde está el senor Perrito?" titulocm="¨Dónde está el senor Perrito?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300617  " descripcion="­Adiós, panal   Un cuento de Lucia," descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="18.96" iva="antil" linea="95" lista="6.32" producto="9788408300779" serial="" sku="3300617" titulo="­Adiós, panal   Un cuento de Lucia, mi pediatra" titulocm="­Adiós, panal   Un cuento de Lucia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.32" Punitario="6.32" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300618  " descripcion="­Adiós, chupete  Un cuento de Lucia" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="18.96" iva="antil" linea="96" lista="6.32" producto="9788408302377" serial="" sku="3300618" titulo="­Adiós, chupete  Un cuento de Lucia, mi pediatra" titulocm="­Adiós, chupete  Un cuento de Luci" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300620  " descripcion="Gatita Rita. ­Soy bombera " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="15.78" iva="antil" linea="97" lista="5.26" producto="9788408308478" serial="" sku="3300620" titulo="Gatita Rita. ­Soy bombera " titulocm="Gatita Rita. ­Soy bombera " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" aduana="1619055000421/19-09-25/MA19/09/2025" cantidad="5" codigo="3300625  " descripcion="Osito Tito. Un dia en el cole" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="26.30" iva="antil" linea="98" lista="5.26" pedi="Pedimen." producto="9788408267324" serial="9-09-25/MA" sku="3300625" titulo="Osito Tito. Un dia en el cole" titulocm="Osito Tito. Un dia en el cole" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.37" Punitario="7.37" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300626  " descripcion="Con sentimiento" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="29.48" iva="antil" linea="99" lista="7.37" producto="9788408280385" serial="" sku="3300626" titulo="Con sentimiento" titulocm="Con sentimiento" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.37" Punitario="7.37" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300627  " descripcion="¨Me das permiso?" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="22.11" iva="antil" linea="100" lista="7.37" producto="9788408287490" serial="" sku="3300627" titulo="¨Me das permiso?" titulocm="¨Me das permiso?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.91" Punitario="7.91" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300628  " descripcion="Cuentos de Lucia, mi pediatra 2" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="23.73" iva="antil" linea="101" lista="7.91" producto="9788408233008" serial="" sku="3300628" titulo="Cuentos de Lucia, mi pediatra 2" titulocm="Cuentos de Lucia, mi pediatra 2" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.79" Punitario="5.79" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="3" codigo="3300629  " descripcion="Cuc£. León" descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="17.37" iva="antil" linea="102" lista="5.79" producto="9788408275893" serial="" sku="3300629" titulo="Cuc£. León" titulocm="Cuc£. León" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300630  " descripcion="Gatita Rita. ­Soy astronauta " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="21.04" iva="antil" linea="103" lista="5.26" producto="9788408293484" serial="" sku="3300630" titulo="Gatita Rita. ­Soy astronauta " titulocm="Gatita Rita. ­Soy astronauta " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300631  " descripcion="Gatita Rita. ­Soy granjera " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="21.04" iva="antil" linea="104" lista="5.26" producto="9788408293491" serial="" sku="3300631" titulo="Gatita Rita. ­Soy granjera " titulocm="Gatita Rita. ­Soy granjera " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300632  " descripcion="Gatita Rita. ­Soy doctora " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="21.04" iva="antil" linea="105" lista="5.26" producto="9788408293507" serial="" sku="3300632" titulo="Gatita Rita. ­Soy doctora " titulocm="Gatita Rita. ­Soy doctora " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="mu" TasaIVA="mu" UM="PIEZA" cantidad="4" codigo="3300633  " descripcion="Gatita Rita. ­Soy bailarina " descuento="4901990400  Ti" ean="PZA   49019904" ieps="s Inf" importe="21.04" iva="antil" linea="106" lista="5.26" producto="9788408293514" serial="" sku="3300633" titulo="Gatita Rita. ­Soy bailarina " titulocm="Gatita Rita. ­Soy bailarina " unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn nombre="132983671"/>
+                <fa:Detallista fechaMercancia="2026-03-03" fechaOrdenCompra="2026-03-03" ordenCompra="00002036" subTotal="2323.01" total="2323.01"/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2026" codCliente="000030437-8" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="RINTED BOOKS  HS CODE 49.01.99  EXW" fecha="03/03/2026" noCliente="PedLocDoc:00002050" noOrdenCompra="VLP-073/26" pedidoInterno="00002036" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000030437-8" unoObservaciones="VÍA AEREA  PEDIDO ESP  / NO SURTIR"/>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Aria Narrow" n 4
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+03/03/2026
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\002036
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2026-03-03T10:01:29 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+7A8664C3-9F57-464F-8975-5DFA895ACC26
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "830002036.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2026-03-03T10:01:29
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+WONDER FAMILY COMPANY S.R.L   
+
+132983671
+
+VICTOR GARRIDO PUELLO  137
+
+EVARISTO MORALES 
+
+DOM REPUBLICA DOMINICANA C.P. S/N
+
+Proveedor: PedLocDoc:00002050
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000030437-8
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+VÍA AEREA  PEDIDO ESP  / NO SURTIR
+
+RINTED BOOKS  HS CODE 49.01.99  EXW
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000030437-8 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+CONTADO
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-073/26
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00002036
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0220330  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La neurona exploradora. Tengo un nudo en la tripa
+~# @?Jc
+9788408311393
+~# @?Jr
+7.90
+~# @?Jr
+23.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008839  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Diario de un aldeano pringao. Cómic 1
+~# @?Jc
+9788408251200
+~# @?Jr
+6.32
+~# @?Jr
+18.96
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008840  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Diario de un aldeano pringao. Cómic 2
+~# @?Jc
+9788408251217
+~# @?Jr
+6.32
+~# @?Jr
+12.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009161  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Diario de un aldeano pringao. Cómic 3
+~# @?Jc
+9788408251224
+~# @?Jr
+6.32
+~# @?Jr
+12.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2301566  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Te quiero (casi siempre)
+~# @?Jc
+9788467043709
+~# @?Jr
+7.91
+~# @?Jr
+31.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100377  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Las aventuras de Dani y Evan. El secreto de los di
+~# @?Jc
+9788408221920
+~# @?Jr
+7.91
+~# @?Jr
+31.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100384  
+~# @?Jc
+12
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. El Club de la Luna Llena
+~# @?Jc
+9788408223238
+~# @?Jr
+5.79
+~# @?Jr
+69.48
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100385  
+~# @?Jc
+7
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. Un problema con alas
+~# @?Jc
+9788408223245
+~# @?Jr
+5.79
+~# @?Jr
+40.53
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100410  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Hilo. El chico que vino del espacio
+~# @?Jc
+9788408222293
+~# @?Jr
+3.15
+~# @?Jr
+9.45
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100419  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Las Ratitas 1. Tres, dos, uno... ­superpoderes 
+~# @?Jc
+9788408225744
+~# @?Jr
+8.44
+~# @?Jr
+33.76
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100436  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Las Ratitas 2. S£per Alma en acción
+~# @?Jc
+9788408227977
+~# @?Jr
+8.44
+~# @?Jr
+25.32
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100473  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Las aventuras de Dani y Evan. La isla de los ptero
+~# @?Jc
+9788408233817
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100479  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. Fiesta a medianoche
+~# @?Jc
+9788408233053
+~# @?Jr
+5.79
+~# @?Jr
+34.74
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100501  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Hilo. Salvando el mundo entero
+~# @?Jc
+9788408229728
+~# @?Jr
+3.15
+~# @?Jr
+6.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100539  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Las Ratitas 4. Superaventura entre las nubes
+~# @?Jc
+9788408240143
+~# @?Jr
+8.44
+~# @?Jr
+16.88
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100554  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Las aventuras de Dani y Evan 3. Entrenadores de di
+~# @?Jc
+9788408240372
+~# @?Jr
+7.91
+~# @?Jr
+15.82
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100578  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 6. Pasteles peligrosos
+~# @?Jc
+9788408241973
+~# @?Jr
+5.79
+~# @?Jr
+28.95
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100584  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Las Ratitas 3. La misteriosa magia de las S£per Ra
+~# @?Jc
+9788408237099
+~# @?Jr
+8.44
+~# @?Jr
+16.88
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100625  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Las Ratitas 5. ­Las sirenas existen 
+~# @?Jc
+9788408245865
+~# @?Jr
+8.44
+~# @?Jr
+16.88
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100703  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 7. El secreto del bosque
+~# @?Jc
+9788408245568
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100744  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 3. Un monstruo en la banera
+~# @?Jc
+9788408229964
+~# @?Jr
+5.79
+~# @?Jr
+34.74
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100775  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Los Once 2. El portero con los brazos más largos d
+~# @?Jc
+9788408254133
+~# @?Jr
+6.85
+~# @?Jr
+13.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100779  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 8. El festival de brujeria
+~# @?Jc
+9788408251354
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100876  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 5. La Isla de las Mascotas
+~# @?Jc
+9788408237990
+~# @?Jr
+5.79
+~# @?Jr
+34.74
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100877  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 9. Un lobo en escena
+~# @?Jc
+9788408254096
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100932  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 10. La llamada de las sirenas
+~# @?Jc
+9788408260097
+~# @?Jr
+5.79
+~# @?Jr
+28.95
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101022  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Las Fantasticotas 1. Vera y la sorpresa de la pece
+~# @?Jc
+9788408267140
+~# @?Jr
+3.67
+~# @?Jr
+11.01
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101023  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Las Fantasticotas 2. Mario y el secreto del terrar
+~# @?Jc
+9788408267157
+~# @?Jr
+3.67
+~# @?Jr
+11.01
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101076  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 11. La feria de las sombras
+~# @?Jc
+9788408269038
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101084  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La peor clase del mundo 1
+~# @?Jc
+9788408267065
+~# @?Jr
+6.85
+~# @?Jr
+20.55
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101085  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La peor clase del mundo 2. La peor clase del mundo
+~# @?Jc
+9788408267072
+~# @?Jr
+6.85
+~# @?Jr
+13.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101092  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Magic Animals 1. El poder del amuleto
+~# @?Jc
+9788408271833
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101093  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Magic Animals 2. La invasión de las ranas gigantes
+~# @?Jc
+9788408271840
+~# @?Jr
+6.32
+~# @?Jr
+18.96
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101138  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 12. Brujos en panales
+~# @?Jc
+9788408274186
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101141  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Aprende a leer con Las Fantasticotas 4. Eva y el r
+~# @?Jc
+9788408273080
+~# @?Jr
+3.67
+~# @?Jr
+7.34
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101219  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Magic Animals 4. El monstruo de los hielos
+~# @?Jc
+9788408279334
+~# @?Jr
+6.32
+~# @?Jr
+12.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101220  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Magic Animals 3. La ardilla vampira
+~# @?Jc
+9788408275350
+~# @?Jr
+6.32
+~# @?Jr
+12.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101377  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 14. El reto del volcán
+~# @?Jc
+9788408288398
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101390  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Aprende a leer con... Los Detectives Zoopencos 1.
+~# @?Jc
+9788408278450
+~# @?Jr
+4.20
+~# @?Jr
+12.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101391  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 13. Peligro en la mansión
+~# @?Jc
+9788408282464
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101436  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Aprende a leer con... Los Detectives Zoopencos 2.
+~# @?Jc
+9788408278467
+~# @?Jr
+4.20
+~# @?Jr
+8.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101560  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 15. La noche de la impostora
+~# @?Jc
+9788408297901
+~# @?Jr
+6.32
+~# @?Jr
+31.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101638  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Little Dragons 2. El poder de la amistad
+~# @?Jc
+9788408303824
+~# @?Jr
+6.32
+~# @?Jr
+18.96
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101640  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Little Dragons 1. Pequenos dragones mágicos
+~# @?Jc
+9788408303596
+~# @?Jr
+6.32
+~# @?Jr
+25.28
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101655  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 16. El libro prohibido
+~# @?Jc
+9788408303985
+~# @?Jr
+5.79
+~# @?Jr
+34.74
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101732  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Little Dragons 3. Una fiesta entre nubes
+~# @?Jc
+9788408307709
+~# @?Jr
+6.32
+~# @?Jr
+12.64
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101767  
+~# @?Jc
+7
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 17. La tormenta arcoiris
+~# @?Jc
+9788408313496
+~# @?Jr
+6.32
+~# @?Jr
+44.24
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101781  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Los Once 1. El delantero que volaba al atardecer.
+~# @?Jc
+9788408305934
+~# @?Jr
+3.15
+~# @?Jr
+15.75
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101782  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Aprende a leer con Las Fantasticotas 3. Omar y el
+~# @?Jc
+9788408269885
+~# @?Jr
+3.67
+~# @?Jr
+7.34
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300096  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Bomberos al rescate
+~# @?Jc
+9788408128342
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300097  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Aventura pirata
+~# @?Jc
+9788408128359
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300098  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Un dia en la granja
+~# @?Jc
+9788408128366
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300099  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito.­Vamos a jugar 
+~# @?Jc
+9788408128373
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300153  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Safari de dinosaurios
+~# @?Jc
+9788408147794
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300154  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Aventura submarina
+~# @?Jc
+9788408147800
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300211  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. ­Vamos al zoo 
+~# @?Jc
+9788408158080
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300213  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Misión espacial
+~# @?Jc
+9788408158097
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300258  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está la senora Gallina? Texturas
+~# @?Jc
+9788408164999
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300259  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Buho? Texturas
+~# @?Jc
+9788408165002
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300288  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor León?
+~# @?Jc
+9788408177623
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300299  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está la senora Mariquita?
+~# @?Jc
+9788408177616
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300348  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. La gran carrera
+~# @?Jc
+9788408186908
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300349  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. La casa encantada
+~# @?Jc
+9788408186915
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000198/04-06-24/VE04/06/2024
+~# @?Jc
+4-06-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300392  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuentos de Lucia, mi pediatra
+~# @?Jc
+9788408201687
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300404  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Te quiero casi siempre. Contrarios
+~# @?Jc
+9788408212935
+~# @?Jr
+3.15
+~# @?Jr
+9.45
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300408  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Si yo fuera un gato. Texturas
+~# @?Jc
+9788408212942
+~# @?Jr
+3.15
+~# @?Jr
+9.45
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300428  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. ­Todos al tren 
+~# @?Jc
+9788408216308
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000005/12-01-24/VE12/01/2024
+~# @?Jc
+2-01-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300429  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. ­Vamos en avión 
+~# @?Jc
+9788408216315
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1639504004155/21-11-24/MA21/11/2024
+~# @?Jc
+1-11-24/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300441  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£-tras. Sol
+~# @?Jc
+9788408221616
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318493000514/24-10-23/VE24/10/2023
+~# @?Jc
+4-10-23/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300442  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£-tras. Vaca
+~# @?Jc
+9788408221623
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300443  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Estrellas del balón
+~# @?Jc
+9788408224075
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300444  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Pollito?
+~# @?Jc
+9788408221593
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000046/13-03-25/VE13/03/2025
+~# @?Jc
+3-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300478  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Astronauta?
+~# @?Jc
+9788408227762
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300479  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Pingüino?
+~# @?Jc
+9788408227779
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000046/13-03-25/VE13/03/2025
+~# @?Jc
+3-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300486  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está la T. rex?
+~# @?Jc
+9788408233015
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300487  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el coche?
+~# @?Jc
+9788408233022
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300516  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. ­Vamos a construir 
+~# @?Jc
+9788408241737
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300521  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£-tras. Luna
+~# @?Jc
+9788408241348
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318493000514/24-10-23/VE24/10/2023
+~# @?Jc
+4-10-23/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300528  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Un dia en la nieve
+~# @?Jc
+9788408240648
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300537  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Lávate las manos 
+~# @?Jc
+9788408246251
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318493000281/12-09-23/VE12/09/2023
+~# @?Jc
+2-09-23/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300538  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Lávate los dientes 
+~# @?Jc
+9788408246268
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318493000281/12-09-23/VE12/09/2023
+~# @?Jc
+2-09-23/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300542  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£. Pollito
+~# @?Jc
+9788408248316
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300591  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La neurona exploradora. Necesito un abrazo
+~# @?Jc
+9788408292517
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300594  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+El gran libro del cuerpo humano
+~# @?Jc
+9788408291589
+~# @?Jr
+9.49
+~# @?Jr
+18.98
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300595  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La neurona exploradora. Me baila el corazón
+~# @?Jc
+9788408295235
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+N/03-06-25/MEXICO, D.F.  03/06/2025
+~# @?Jc
+CO, D.F.
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300597  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£. Te quiero
+~# @?Jc
+9788408288657
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000040/07-03-25/VE07/03/2025
+~# @?Jc
+7-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300598  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La neurona exploradora. Hay fuego en mi
+~# @?Jc
+9788408300687
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300601  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Chapuzón en la piscina
+~# @?Jc
+9788408292845
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000159/04-04-25/VE04/04/2025
+~# @?Jc
+4-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300602  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está la senora Abeja?
+~# @?Jc
+9788408291794
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000046/13-03-25/VE13/03/2025
+~# @?Jc
+3-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300603  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Hola, perrito  Libro con texturas
+~# @?Jc
+9788408293521
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000159/04-04-25/VE04/04/2025
+~# @?Jc
+4-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300604  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Hola, patito  Libro con texturas
+~# @?Jc
+9788408293538
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000159/04-04-25/VE04/04/2025
+~# @?Jc
+4-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300610  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy pastelera 
+~# @?Jc
+9788408308461
+~# @?Jr
+5.26
+~# @?Jr
+21.04
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300614  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+¨Dónde está la senora Gatita?
+~# @?Jc
+9788408308324
+~# @?Jr
+5.26
+~# @?Jr
+10.52
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300615  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Dónde está el senor Perrito?
+~# @?Jc
+9788408308317
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300617  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Adiós, panal   Un cuento de Lucia, mi pediatra
+~# @?Jc
+9788408300779
+~# @?Jr
+6.32
+~# @?Jr
+18.96
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300618  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+­Adiós, chupete  Un cuento de Lucia, mi pediatra
+~# @?Jc
+9788408302377
+~# @?Jr
+6.32
+~# @?Jr
+18.96
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300620  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy bombera 
+~# @?Jc
+9788408308478
+~# @?Jr
+5.26
+~# @?Jr
+15.78
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300625  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Osito Tito. Un dia en el cole
+~# @?Jc
+9788408267324
+~# @?Jr
+5.26
+~# @?Jr
+26.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000421/19-09-25/MA19/09/2025
+~# @?Jc
+9-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300626  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Con sentimiento
+~# @?Jc
+9788408280385
+~# @?Jr
+7.37
+~# @?Jr
+29.48
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300627  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+¨Me das permiso?
+~# @?Jc
+9788408287490
+~# @?Jr
+7.37
+~# @?Jr
+22.11
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300628  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuentos de Lucia, mi pediatra 2
+~# @?Jc
+9788408233008
+~# @?Jr
+7.91
+~# @?Jr
+23.73
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300629  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuc£. León
+~# @?Jc
+9788408275893
+~# @?Jr
+5.79
+~# @?Jr
+17.37
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300630  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy astronauta 
+~# @?Jc
+9788408293484
+~# @?Jr
+5.26
+~# @?Jr
+21.04
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300631  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy granjera 
+~# @?Jc
+9788408293491
+~# @?Jr
+5.26
+~# @?Jr
+21.04
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300632  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy doctora 
+~# @?Jc
+9788408293507
+~# @?Jr
+5.26
+~# @?Jr
+21.04
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3300633  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gatita Rita. ­Soy bailarina 
+~# @?Jc
+9788408293514
+~# @?Jr
+5.26
+~# @?Jr
+21.04
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+398
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "7A8664C3-9F57-464F-8975-5DFA895ACC26.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+ 
+
+@6 OPERACIÓN NO OBJETO DE IVA CONFORME AL ARTÍCULO 1 DE LA LEY DEL IVA, AL NO REALIZARSE LA ENAJENACIÓN DE BIENES EN TERRITORIO NACIONAL. 
+
+ 
+
+@5DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+03
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M53.53 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+ 
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+2,323.01
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+2,323.01
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(DOS MIL TRESCIENTOS VEINTITRES EUROS 01/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+03
+~#|15.1 e+|Jc @4
+
+~#|15.1 e+|Jc @4
+PUE
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+HxCZO2hVikKFepDimNdF0wVXppH1IsN4VBaBlUMMQyogPAtO4weHoQUNVUfe8bnbwUf2dAjA2lm+h2hf70vfaa9nMPH354zFQ4wUha1VS0Cuge+plQYO8xrkE68nx8wsZSdgQsTJaqOr/SnlLNqPElO0Zkp8l4eDrdTSD8ViC52teUwNki6/0z14XiSLNLBUPZrMlzq3ZcRPHrMtwJjQ9NNJ9zIwWxKCoHmc6D1Iel0IbVeP1uAKbW/QBW5hfBMmzTLjveRJr5HpqpnyaZ6S7m6Ht0IYkvZx8P9TDcNdTvDJyY/BJ4cryMyYbzoLzwfRXy8b+IFC1KTN8CFIoeP7CA==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+VRsaxnsyHU9P0W75Lab8gGZiZDefwLsrmFpS8zoSspg4f9Xjfd4l6RLjpbiiE6710wvStByYyze6eicjv+ruHjZQjo9aJtjH4joMSjW3LtRbz8ZTJmTYelVqM2dLOdPKgXilnqoGV84dO8jahZ0ft/QcOOSdEerRxnN+4apc35OGiYzwPGCkmZc4Vwdgdtc6sx60SY5R4eEVvBmxVErk/lwyrXYxSjiYEY1UqSTgDRzek+YhWYoOHiSVbNvukZDJQykzUd0e6NMOfjiK+3DkgqSRAzOOfkuB6I2NeqcbOJZkf18VKJ8WJfyXO6FhwfpOSlpl4XYIJsgePiu6XBdd6A==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|7A8664C3-9F57-464F-8975-5DFA895ACC26|2026-03-03T10:17:49|HxCZO2hVikKFepDimNdF0wVXppH1IsN4VBaBlUMMQyogPAtO4weHoQUNVUfe8bnbwUf2dAjA2lm+h2hf70vfaa9nMPH354zFQ4wUha1VS0Cuge+plQYO8xrkE68nx8wsZSdgQsTJaqOr/SnlLNqPElO0Zkp8l4eDrdTSD8ViC52teUwNki6/0z14XiSLNLBUPZrMlzq3ZcRPHrMtwJjQ9NNJ9zIwWxKCoHmc6D1Iel0IbVeP1uAKbW/QBW5hfBMmzTLjveRJr5HpqpnyaZ6S7m6Ht0IYkvZx8P9TDcNdTvDJyY/BJ4cryMyYbzoLzwfRXy8b+IFC1KTN8CFIoeP7CA==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2026-03-03T10:17:49
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

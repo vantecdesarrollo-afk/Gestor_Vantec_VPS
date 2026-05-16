@@ -1,0 +1,3071 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" CondicionesDePago="90 DIAS" Descuento="30704.10" Exportacion="01" Fecha="2025-10-31T11:42:17" Folio="771929" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000710885331" Sello="B21rejTWWmq9yCeGE5J5Zow/aVT8LAa38ApNdnSXWuYyhrxfMLHeE2LqTzGw/PFYjwFNluLpLrJbEqLiEJbrnT6LTaHrZEQcNxyNHwOgnSLhObmJ+hpMZSR2zPotC8krD3pm2NTdmHFR+B4beNDDSFSwfY6TwPQOCit5+eFbRU1PFhZZpvW27x+ry1y7TZbtlcqrQKY76AToBN7LZLnWWQweqmT2AdOwwpYaTqDPTU3CWt4VqoYqk0A1MpMj2kddpFak/3nFBsefze+UDZPVSNNB6jM/lmbzsyDAGm+cZgtoSrAwEyB+VGHi5tDFidKa3hTV83Yc6HZIhqkml3xK8g==" Serie="AC" SubTotal="87726.00" TipoDeComprobante="I" Total="57021.90" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="07960" Nombre="FRIDA MAGALLY VARELA ROCHE" RegimenFiscalReceptor="612" Rfc="VARF750615S17" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La metamorfosis TD" Descuento="100.80" Importe="288.00" NoIdentificacion="9786070781247" ObjetoImp="02" ValorUnitario="288.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="187.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Alicia en el pais de las maravillas TD" Descuento="93.80" Importe="268.00" NoIdentificacion="9786070784842" ObjetoImp="02" ValorUnitario="268.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="174.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD La casa de los espiritus" Descuento="278.60" Importe="796.00" NoIdentificacion="9786073931687" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD En las montanas de la locura" Descuento="104.30" Importe="298.00" NoIdentificacion="9786073931731" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="193.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La bailarina de Auschwitz TD" Descuento="174.30" Importe="498.00" NoIdentificacion="9786070773808" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="323.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El jardin de las mariposas TD" Descuento="836.50" Importe="2390.00" NoIdentificacion="9786070773907" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1553.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La sombra del viento TD" Descuento="418.60" Importe="1196.00" NoIdentificacion="9786070773853" ObjetoImp="02" ValorUnitario="598.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="777.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Enamórate de ti TD" Descuento="139.30" Importe="398.00" NoIdentificacion="9786070778636" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Nosotros en la luna TD" Descuento="167.30" Importe="478.00" NoIdentificacion="9786070791666" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="310.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que nunca fuimos TD" Descuento="278.60" Importe="796.00" NoIdentificacion="9786070791673" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que somos juntos TD" Descuento="156.80" Importe="448.00" NoIdentificacion="9786070791680" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="291.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Romper el circulo (It Ends with Us) TD" Descuento="313.60" Importe="896.00" NoIdentificacion="9786070793011" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="582.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Verity. La sombra de un engano" Descuento="522.90" Importe="1494.00" NoIdentificacion="9788408269755" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="971.10" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Atrévete a ser quien eres TD" Descuento="264.60" Importe="756.00" NoIdentificacion="9786073905404" ObjetoImp="02" ValorUnitario="378.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="491.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="No sé cómo mostrar dónde me duele TD" Descuento="365.40" Importe="1044.00" NoIdentificacion="9786073905237" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="678.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Más fuerte que nunca TD" Descuento="313.60" Importe="896.00" NoIdentificacion="9786073905206" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="582.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cumbres Borrascosas" Descuento="334.60" Importe="956.00" NoIdentificacion="9788408280026" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="621.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El libro de Bill" Descuento="1043.00" Importe="2980.00" NoIdentificacion="9786073915588" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1937.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD El arte de ser nosotros" Descuento="327.60" Importe="936.00" NoIdentificacion="9786073917230" ObjetoImp="02" ValorUnitario="468.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="608.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD. Alas de ónix (Empireo 3)" Descuento="2268.00" Importe="6480.00" NoIdentificacion="9786073925044" ObjetoImp="02" ValorUnitario="648.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4212.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diario oficial ADS. Te necesito, Violet" Descuento="346.50" Importe="990.00" NoIdentificacion="9786073926232" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="643.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD La ciudad que ya no existe 2" Descuento="801.50" Importe="2290.00" NoIdentificacion="9786073931458" ObjetoImp="02" ValorUnitario="458.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1488.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Desfibrilador" Descuento="609.00" Importe="1740.00" NoIdentificacion="9786073931779" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1131.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Eres el amor de mi otra vida" Descuento="784.00" Importe="2240.00" NoIdentificacion="9786073931748" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1456.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Nada nunca termina, pero hay que decir adiós" Descuento="264.60" Importe="756.00" NoIdentificacion="9786073931762" ObjetoImp="02" ValorUnitario="378.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="491.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Quedará el amor" Descuento="139.30" Importe="398.00" NoIdentificacion="9786073931809" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Por si un dia volvemos" Descuento="348.60" Importe="996.00" NoIdentificacion="9786073931786" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="647.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Los 7 pilares del amor propio" Descuento="278.60" Importe="796.00" NoIdentificacion="9786073931830" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Los amantes de Praga" Descuento="348.60" Importe="996.00" NoIdentificacion="9786073904780" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="647.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD El tatuador de Auschwitz" Descuento="348.60" Importe="996.00" NoIdentificacion="9786073931670" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="647.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Alas de sangre (Empireo 1)" Descuento="1743.00" Importe="4980.00" NoIdentificacion="9786073925020" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3237.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Alas de hierro (Empireo 2)" Descuento="2093.00" Importe="5980.00" NoIdentificacion="9786073925037" ObjetoImp="02" ValorUnitario="598.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3887.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Vargas Llosa: el escribidor y la vida" Descuento="348.60" Importe="996.00" NoIdentificacion="9786123321338" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="647.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Diario 3 TD" Descuento="1393.00" Importe="3980.00" NoIdentificacion="9786070747021" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2587.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Atletas fuera de serie 1. La mujer más rápida del" Descuento="86.80" Importe="248.00" NoIdentificacion="9786070799457" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="161.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Atletas fuera de serie 2. El gran salto" Descuento="173.60" Importe="496.00" NoIdentificacion="9786073900836" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="322.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Atletas fuera de serie 3. ­En guardia " Descuento="260.40" Importe="744.00" NoIdentificacion="9786073905916" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="483.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Atletas fuera de serie 4. La arquera" Descuento="173.60" Importe="496.00" NoIdentificacion="9786073908252" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="322.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuentos. Ilustrados" Descuento="313.60" Importe="896.00" NoIdentificacion="9786070760952" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="582.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La nina a la que se le vino el mundo encima TD" Descuento="243.60" Importe="696.00" NoIdentificacion="9786070778629" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="452.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las 5 heridas que impiden ser uno mismo TD" Descuento="299.60" Importe="856.00" NoIdentificacion="9786070778650" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cómo curar un corazón roto TD. 10 Aniversario" Descuento="278.60" Importe="796.00" NoIdentificacion="9786070778964" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El profeta" Descuento="82.60" Importe="236.00" NoIdentificacion="9786070788215" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="153.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las siete leyes espirituales del éxito TD" Descuento="434.00" Importe="1240.00" NoIdentificacion="9786070790065" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="806.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cien anos de soledad. Edición ilustrada TD" Descuento="680.40" Importe="1944.00" NoIdentificacion="9786070796203" ObjetoImp="02" ValorUnitario="648.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1263.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La muerte del amor TD" Descuento="208.60" Importe="596.00" NoIdentificacion="9786073903349" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="387.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La revolución de la glucosa TD" Descuento="257.60" Importe="736.00" NoIdentificacion="9786073905152" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="478.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Del amor y otros demonios TD" Descuento="111.30" Importe="318.00" NoIdentificacion="9786073904872" ObjetoImp="02" ValorUnitario="318.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="206.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="En agosto nos vemos TD" Descuento="609.00" Importe="1740.00" NoIdentificacion="9786073911290" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1131.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Mananas milagrosas TD" Descuento="139.30" Importe="398.00" NoIdentificacion="9786073912518" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD La muerte: un amanecer" Descuento="243.60" Importe="696.00" NoIdentificacion="9786073920384" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="452.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD T£ puedes sanar tu vida" Descuento="278.60" Importe="796.00" NoIdentificacion="9786073931724" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Fahrenheit 451" Descuento="278.60" Importe="796.00" NoIdentificacion="9786073931700" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diccionario de mexicanismos. Propios y compartidos" Descuento="942.90" Importe="2694.00" NoIdentificacion="9786070780660" ObjetoImp="02" ValorUnitario="898.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1751.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Encuentra tu persona vitamina TD" Descuento="299.60" Importe="856.00" NoIdentificacion="9786070796258" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cómo hacer que te pasen cosas buenas TD Nueva edic" Descuento="1498.00" Importe="4280.00" NoIdentificacion="9786073904070" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2782.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Recupera tu mente, reconquista tu vida" Descuento="149.80" Importe="428.00" NoIdentificacion="9786073912945" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="278.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La ridicula idea de no volver a verte TD" Descuento="257.60" Importe="736.00" NoIdentificacion="9786070780929" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="478.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Persona normal TD" Descuento="243.60" Importe="696.00" NoIdentificacion="9786070791123" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="452.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Arsne Lupin, caballero ladrón TD" Descuento="104.30" Importe="298.00" NoIdentificacion="9786073904902" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="193.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Otra vez t£ TD" Descuento="111.30" Importe="318.00" NoIdentificacion="9786073904919" ObjetoImp="02" ValorUnitario="318.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="206.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Arráncame la vida. 35 Aniversario TD" Descuento="365.40" Importe="1044.00" NoIdentificacion="9786073904605" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="678.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Aristóteles y Dante descubren los secretos del uni" Descuento="139.30" Importe="398.00" NoIdentificacion="9786073904797" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD El diario de Ana Frank" Descuento="346.50" Importe="990.00" NoIdentificacion="9786073917322" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="643.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Meditaciones" Descuento="693.00" Importe="1980.00" NoIdentificacion="9786073927130" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1287.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El principito (TD)" Descuento="518.00" Importe="1480.00" NoIdentificacion="9786070730535" ObjetoImp="02" ValorUnitario="148.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="962.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuando no queden más estrellas que contar TD" Descuento="334.60" Importe="956.00" NoIdentificacion="9786073905411" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="621.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD La magia de las casualidades imposibles" Descuento="278.60" Importe="796.00" NoIdentificacion="9786073931816" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Mousai 1. Canción de la lluvia eterna" Descuento="191.80" Importe="548.00" NoIdentificacion="9788408305682" ObjetoImp="02" ValorUnitario="548.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="356.20" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La insoportable levedad del ser TD" Descuento="139.30" Importe="398.00" NoIdentificacion="9786070773792" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Primera persona del singular TD" Descuento="327.60" Importe="936.00" NoIdentificacion="9786070780776" ObjetoImp="02" ValorUnitario="468.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="608.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Las batallas en el desierto" Descuento="260.40" Importe="744.00" NoIdentificacion="9786073931823" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="483.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="55073.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+            <cfdi:Traslado Base="1948.70" Impuesto="002" TipoFactor="Exento"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="DAF48BBD-F286-4A1E-96C5-A123DBE25236" FechaTimbrado="2025-10-31T11:48:32" RfcProvCertif="ASE0209252Q1" SelloCFD="B21rejTWWmq9yCeGE5J5Zow/aVT8LAa38ApNdnSXWuYyhrxfMLHeE2LqTzGw/PFYjwFNluLpLrJbEqLiEJbrnT6LTaHrZEQcNxyNHwOgnSLhObmJ+hpMZSR2zPotC8krD3pm2NTdmHFR+B4beNDDSFSwfY6TwPQOCit5+eFbRU1PFhZZpvW27x+ry1y7TZbtlcqrQKY76AToBN7LZLnWWQweqmT2AdOwwpYaTqDPTU3CWt4VqoYqk0A1MpMj2kddpFak/3nFBsefze+UDZPVSNNB6jM/lmbzsyDAGm+cZgtoSrAwEyB+VGHi5tDFidKa3hTV83Yc6HZIhqkml3xK8g==" NoCertificadoSAT="00001000000707891043" SelloSAT="nyOuUtkOVTf4wjtPHRweO7hNomHenZw1Bz7maqWz9X7w7bjxh9+G2U/k8mTu2CfUo+qseX7xCA5rDC17PwGzv6+j5sf7e0glRfxsiLBI6OjblJ8U2Qr3QoTfegUfLK3W4ESdsbo2mcwnJxtB8p/pd4IJF7Qh1Pe+HBEssvJ9XB8WO6SZFeTrdw1OKG3LjGBMen/Nb2kL2lzV0twifEyLkZBtuxsU9HnVsbmdxhAHPs+IKH7DwQwjJGTy8Y5HYWlKffpBlbT0EBO/vur7Tu0xB8vbmlIJmEd/+Vi93HuvE/P254dIUi8S8S4mstUmq9nERcrLCDUn5B9qeXvXa39v/A=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="MXN" TotalMx="57021.90" UniGraf="D63" ValorDelAtributo="" afectada="" calle="GUINEAS NO.31" cantidadConLetra="(CINCUENTA Y SIETE MIL VEINTIUN PESOS 90/100 M.N.)" cincoNeto="57021.90" codigoPostal="07960" colonia="CERRO PRIETO -DELEGACION GUSTAVO A. MADERO" correos="seprecom_libreria@hotmail.com -t seprecom.donceles32@gmail.com -t seprecom.bucareli@gmail.com -t seprecom.alcaldegdl@gmail.com -t cesar.barrera@planeta.com.mx -t jgonzalez@planeta.com.mx -t gmercado@planeta.com.mx" cuatroIva="" descuentoMx="30704.10" dosDescuento="30704.10" estado="CIUDAD DE MEXICO       CDMX" fac="2025-10-31" fechaEdi102="2025-10-31T11:42:17" fechaEdi204="2025-10-31T11:42:17" fechaOrden="" ivaMx="0.00" mail="seprecom_libreria@hotmail.com;seprecom.donceles32@gmail.com;seprecom.bucareli@gmail.com;seprecom.alcaldegdl@gmail.com;cesar.barrera@planeta.com.mx;jgonzalez@planeta.com.mx;gmercado@planeta.com.mx" moneda="MN" noCliente="PedLocDoc:00711121" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="bucareli" noProveedor="" nomAtributo="" pais="MEXICO" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="87726.00" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="222" unoButo="87726.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="288.00" Punitario="288.00" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="1" codigo="0230885  " descripcion="La metamorfosis TD" descuento="4901990400  Au" ean="PZA   49019904" ieps="" importe="288.00" iva="" linea="1" lista="288.00" pedi="Pedimen." producto="9786070781247" serial="5-08-25/VE" sku="0230885" titulo="La metamorfosis TD" titulocm="La metamorfosis TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="268.00" Punitario="268.00" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="" cantidad="1" codigo="0230918  " descripcion="Alicia en el pais de las maravillas" descuento="4901990100  Au" ean="PZA   49019901" ieps="" importe="268.00" iva="" linea="2" lista="268.00" pedi="" producto="9786070784842" serial="" sku="0230918" titulo="Alicia en el pais de las maravillas TD" titulocm="Alicia en el pais de las maravilla" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="0231180  " descripcion="TD La casa de los espiritus" descuento="4901990400  Au" ean="PZA   49019904" ieps="" importe="796.00" iva="" linea="3" lista="398.00" pedi="Pedimen." producto="9786073931687" serial="5-08-25/VE" sku="0231180" titulo="TD La casa de los espiritus" titulocm="TD La casa de los espiritus" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="1" codigo="0231181  " descripcion="TD En las montanas de la locura" descuento="4901990400  Au" ean="PZA   49019904" ieps="" importe="298.00" iva="" linea="4" lista="298.00" pedi="Pedimen." producto="9786073931731" serial="9-08-25/VE" sku="0231181" titulo="TD En las montanas de la locura" titulocm="TD En las montanas de la locura" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1008019  " descripcion="La bailarina de Auschwitz TD" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="498.00" iva="" linea="5" lista="498.00" pedi="" producto="9786070773808" serial="" sku="1008019" titulo="La bailarina de Auschwitz TD" titulocm="La bailarina de Auschwitz TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="5" codigo="1008021  " descripcion="El jardin de las mariposas TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="2390.00" iva="" linea="6" lista="478.00" pedi="Pedimen." producto="9786070773907" serial="5-08-25/VE" sku="1008021" titulo="El jardin de las mariposas TD" titulocm="El jardin de las mariposas TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="598.00" Punitario="598.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="2" codigo="1008022  " descripcion="La sombra del viento TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="1196.00" iva="" linea="7" lista="598.00" pedi="Pedimen." producto="9786070773853" serial="5-08-25/VE" sku="1008022" titulo="La sombra del viento TD" titulocm="La sombra del viento TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1008267  " descripcion="Enamórate de ti TD" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="398.00" iva="" linea="8" lista="398.00" pedi="" producto="9786070778636" serial="" sku="1008267" titulo="Enamórate de ti TD" titulocm="Enamórate de ti TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="1" codigo="1009144  " descripcion="Nosotros en la luna TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="478.00" iva="" linea="9" lista="478.00" pedi="Pedimen." producto="9786070791666" serial="5-08-25/VE" sku="1009144" titulo="Nosotros en la luna TD" titulocm="Nosotros en la luna TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1009145  " descripcion="Todo lo que nunca fuimos TD" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="796.00" iva="" linea="10" lista="398.00" pedi="" producto="9786070791673" serial="" sku="1009145" titulo="Todo lo que nunca fuimos TD" titulocm="Todo lo que nunca fuimos TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1009146  " descripcion="Todo lo que somos juntos TD" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="448.00" iva="" linea="11" lista="448.00" pedi="" producto="9786070791680" serial="" sku="1009146" titulo="Todo lo que somos juntos TD" titulocm="Todo lo que somos juntos TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="2" codigo="1009213  " descripcion="Romper el circulo (It Ends with Us)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="896.00" iva="" linea="12" lista="448.00" pedi="Pedimen." producto="9786070793011" serial="5-08-25/VE" sku="1009213" titulo="Romper el circulo (It Ends with Us) TD" titulocm="Romper el circulo (It Ends with Us" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001198/31-07-25/VE31/07/2025" cantidad="3" codigo="1009674  " descripcion="Verity. La sombra de un engano" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="1494.00" iva="" linea="13" lista="498.00" pedi="Pedimen." producto="9788408269755" serial="1-07-25/VE" sku="1009674" titulo="Verity. La sombra de un engano" titulocm="Verity. La sombra de un engano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="378.00" Punitario="378.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1009870  " descripcion="Atrévete a ser quien eres TD" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="756.00" iva="" linea="14" lista="378.00" pedi="" producto="9786073905404" serial="" sku="1009870" titulo="Atrévete a ser quien eres TD" titulocm="Atrévete a ser quien eres TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1009873  " descripcion="No sé cómo mostrar dónde me duele T" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="1044.00" iva="" linea="15" lista="348.00" pedi="" producto="9786073905237" serial="" sku="1009873" titulo="No sé cómo mostrar dónde me duele TD" titulocm="No sé cómo mostrar dónde me duele" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="1009875  " descripcion="Más fuerte que nunca TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="896.00" iva="" linea="16" lista="448.00" pedi="Pedimen." producto="9786073905206" serial="5-08-25/VE" sku="1009875" titulo="Más fuerte que nunca TD" titulocm="Más fuerte que nunca TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318493000540/05-12-23/VE05/12/2023" cantidad="2" codigo="1010215  " descripcion="Cumbres Borrascosas" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="956.00" iva="" linea="17" lista="478.00" pedi="Pedimen." producto="9788408280026" serial="5-12-23/VE" sku="1010215" titulo="Cumbres Borrascosas" titulocm="Cumbres Borrascosas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="10" codigo="1010371  " descripcion="El libro de Bill" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="2980.00" iva="" linea="18" lista="298.00" pedi="" producto="9786073915588" serial="" sku="1010371" titulo="El libro de Bill" titulocm="El libro de Bill" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="468.00" Punitario="468.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="1010511  " descripcion="TD El arte de ser nosotros" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="936.00" iva="" linea="19" lista="468.00" pedi="Pedimen." producto="9786073917230" serial="5-08-25/VE" sku="1010511" titulo="TD El arte de ser nosotros" titulocm="TD El arte de ser nosotros" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="648.00" Punitario="648.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="1619055000443/22-09-25/MA22/09/2025" cantidad="10" codigo="1010791  " descripcion="TD. Alas de ónix (Empireo 3)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="6480.00" iva="" linea="20" lista="648.00" pedi="Pedimen." producto="9786073925044" serial="2-09-25/MA" sku="1010791" titulo="TD. Alas de ónix (Empireo 3)" titulocm="TD. Alas de ónix (Empireo 3)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="5" codigo="1010878  " descripcion="Diario oficial ADS. Te necesito, Vi" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="990.00" iva="" linea="21" lista="198.00" pedi="" producto="9786073926232" serial="" sku="1010878" titulo="Diario oficial ADS. Te necesito, Violet" titulocm="Diario oficial ADS. Te necesito, V" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="458.00" Punitario="458.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="5" codigo="1011083  " descripcion="TD La ciudad que ya no existe 2" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="2290.00" iva="" linea="22" lista="458.00" pedi="Pedimen." producto="9786073931458" serial="9-08-25/VE" sku="1011083" titulo="TD La ciudad que ya no existe 2" titulocm="TD La ciudad que ya no existe 2" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="5" codigo="1011144  " descripcion="TD Desfibrilador" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="1740.00" iva="" linea="23" lista="348.00" pedi="Pedimen." producto="9786073931779" serial="5-08-25/VE" sku="1011144" titulo="TD Desfibrilador" titulocm="TD Desfibrilador" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="5" codigo="1011145  " descripcion="TD Eres el amor de mi otra vida" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="2240.00" iva="" linea="24" lista="448.00" pedi="Pedimen." producto="9786073931748" serial="5-08-25/VE" sku="1011145" titulo="TD Eres el amor de mi otra vida" titulocm="TD Eres el amor de mi otra vida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="378.00" Punitario="378.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="2" codigo="1011147  " descripcion="TD Nada nunca termina, pero hay que" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="756.00" iva="" linea="25" lista="378.00" pedi="Pedimen." producto="9786073931762" serial="9-08-25/VE" sku="1011147" titulo="TD Nada nunca termina, pero hay que decir adiós" titulocm="TD Nada nunca termina, pero hay qu" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="1" codigo="1011148  " descripcion="TD Quedará el amor" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="398.00" iva="" linea="26" lista="398.00" pedi="Pedimen." producto="9786073931809" serial="9-08-25/VE" sku="1011148" titulo="TD Quedará el amor" titulocm="TD Quedará el amor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="1011150  " descripcion="TD Por si un dia volvemos" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="996.00" iva="" linea="27" lista="498.00" pedi="Pedimen." producto="9786073931786" serial="5-08-25/VE" sku="1011150" titulo="TD Por si un dia volvemos" titulocm="TD Por si un dia volvemos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="1011152  " descripcion="TD Los 7 pilares del amor propio" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="796.00" iva="" linea="28" lista="398.00" pedi="Pedimen." producto="9786073931830" serial="5-08-25/VE" sku="1011152" titulo="TD Los 7 pilares del amor propio" titulocm="TD Los 7 pilares del amor propio" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="1011153  " descripcion="TD Los amantes de Praga" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="996.00" iva="" linea="29" lista="498.00" pedi="Pedimen." producto="9786073904780" serial="5-08-25/VE" sku="1011153" titulo="TD Los amantes de Praga" titulocm="TD Los amantes de Praga" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="2" codigo="1011154  " descripcion="TD El tatuador de Auschwitz" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="996.00" iva="" linea="30" lista="498.00" pedi="Pedimen." producto="9786073931670" serial="9-08-25/VE" sku="1011154" titulo="TD El tatuador de Auschwitz" titulocm="TD El tatuador de Auschwitz" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="1619055000438/22-09-25/MA22/09/2025" cantidad="10" codigo="1011155  " descripcion="TD Alas de sangre (Empireo 1)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="4980.00" iva="" linea="31" lista="498.00" pedi="Pedimen." producto="9786073925020" serial="2-09-25/MA" sku="1011155" titulo="TD Alas de sangre (Empireo 1)" titulocm="TD Alas de sangre (Empireo 1)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="598.00" Punitario="598.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="1619055000442/22-09-25/MA22/09/2025" cantidad="10" codigo="1011156  " descripcion="TD Alas de hierro (Empireo 2)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="5980.00" iva="" linea="32" lista="598.00" pedi="Pedimen." producto="9786073925037" serial="2-09-25/MA" sku="1011156" titulo="TD Alas de hierro (Empireo 2)" titulocm="TD Alas de hierro (Empireo 2)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="N/02-09-25/MEXICO, D.F.  02/09/2025" cantidad="2" codigo="1011366  " descripcion="Vargas Llosa: el escribidor y la vi" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="996.00" iva="" linea="33" lista="498.00" pedi="Pedimen." producto="9786123321338" serial="CO, D.F." sku="1011366" titulo="Vargas Llosa: el escribidor y la vida" titulocm="Vargas Llosa: el escribidor y la v" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="10" codigo="1201222  " descripcion="Gravity Falls. Diario 3 TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Infan" importe="3980.00" iva="til" linea="34" lista="398.00" pedi="Pedimen." producto="9786070747021" serial="5-08-25/VE" sku="1201222" titulo="Gravity Falls. Diario 3 TD" titulocm="Gravity Falls. Diario 3 TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201899  " descripcion="Atletas fuera de serie 1. La mujer" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="248.00" iva="til" linea="35" lista="248.00" pedi="" producto="9786070799457" serial="" sku="1201899" titulo="Atletas fuera de serie 1. La mujer más rápida del" titulocm="Atletas fuera de serie 1. La mujer" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1201900  " descripcion="Atletas fuera de serie 2. El gran s" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="496.00" iva="til" linea="36" lista="248.00" pedi="" producto="9786073900836" serial="" sku="1201900" titulo="Atletas fuera de serie 2. El gran salto" titulocm="Atletas fuera de serie 2. El gran" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1202083  " descripcion="Atletas fuera de serie 3. ­En guard" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="744.00" iva="til" linea="37" lista="248.00" pedi="" producto="9786073905916" serial="" sku="1202083" titulo="Atletas fuera de serie 3. ­En guardia " titulocm="Atletas fuera de serie 3. ­En guar" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202084  " descripcion="Atletas fuera de serie 4. La arquer" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="496.00" iva="til" linea="38" lista="248.00" pedi="" producto="9786073908252" serial="" sku="1202084" titulo="Atletas fuera de serie 4. La arquera" titulocm="Atletas fuera de serie 4. La arque" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1301250  " descripcion="Cuentos. Ilustrados" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="896.00" iva="" linea="39" lista="448.00" pedi="" producto="9786070760952" serial="" sku="1301250" titulo="Cuentos. Ilustrados" titulocm="Cuentos. Ilustrados" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="1301407  " descripcion="La nina a la que se le vino el mund" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="696.00" iva="" linea="40" lista="348.00" pedi="Pedimen." producto="9786070778629" serial="5-08-25/VE" sku="1301407" titulo="La nina a la que se le vino el mundo encima TD" titulocm="La nina a la que se le vino el mun" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="1301411  " descripcion="Las 5 heridas que impiden ser uno m" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="856.00" iva="" linea="41" lista="428.00" pedi="Pedimen." producto="9786070778650" serial="5-08-25/VE" sku="1301411" titulo="Las 5 heridas que impiden ser uno mismo TD" titulocm="Las 5 heridas que impiden ser uno" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="1301415  " descripcion="Cómo curar un corazón roto TD. 10 A" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="796.00" iva="" linea="42" lista="398.00" pedi="Pedimen." producto="9786070778964" serial="5-08-25/VE" sku="1301415" titulo="Cómo curar un corazón roto TD. 10 Aniversario" titulocm="Cómo curar un corazón roto TD. 10" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1301556  " descripcion="El profeta" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="236.00" iva="" linea="43" lista="118.00" pedi="" producto="9786070788215" serial="" sku="1301556" titulo="El profeta" titulocm="El profeta" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="5" codigo="1301579  " descripcion="Las siete leyes espirituales del éx" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="1240.00" iva="" linea="44" lista="248.00" pedi="" producto="9786070790065" serial="" sku="1301579" titulo="Las siete leyes espirituales del éxito TD" titulocm="Las siete leyes espirituales del é" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="648.00" Punitario="648.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="3" codigo="1301646  " descripcion="Cien anos de soledad. Edición ilust" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="1944.00" iva="" linea="45" lista="648.00" pedi="Pedimen." producto="9786070796203" serial="9-08-25/VE" sku="1301646" titulo="Cien anos de soledad. Edición ilustrada TD" titulocm="Cien anos de soledad. Edición ilus" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1301737  " descripcion="La muerte del amor TD" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="596.00" iva="" linea="46" lista="298.00" pedi="" producto="9786073903349" serial="" sku="1301737" titulo="La muerte del amor TD" titulocm="La muerte del amor TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="1301787  " descripcion="La revolución de la glucosa TD" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="736.00" iva="" linea="47" lista="368.00" pedi="Pedimen." producto="9786073905152" serial="5-08-25/VE" sku="1301787" titulo="La revolución de la glucosa TD" titulocm="La revolución de la glucosa TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="318.00" Punitario="318.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1301788  " descripcion="Del amor y otros demonios TD" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="318.00" iva="" linea="48" lista="318.00" pedi="" producto="9786073904872" serial="" sku="1301788" titulo="Del amor y otros demonios TD" titulocm="Del amor y otros demonios TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="5" codigo="1301894  " descripcion="En agosto nos vemos TD" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="1740.00" iva="" linea="49" lista="348.00" pedi="" producto="9786073911290" serial="" sku="1301894" titulo="En agosto nos vemos TD" titulocm="En agosto nos vemos TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1301898  " descripcion="Mananas milagrosas TD" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="398.00" iva="" linea="50" lista="398.00" pedi="" producto="9786073912518" serial="" sku="1301898" titulo="Mananas milagrosas TD" titulocm="Mananas milagrosas TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1302051  " descripcion="TD La muerte: un amanecer" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="696.00" iva="" linea="51" lista="348.00" pedi="" producto="9786073920384" serial="" sku="1302051" titulo="TD La muerte: un amanecer" titulocm="TD La muerte: un amanecer" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="2" codigo="1302226  " descripcion="TD T£ puedes sanar tu vida" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="796.00" iva="" linea="52" lista="398.00" pedi="Pedimen." producto="9786073931724" serial="9-08-25/VE" sku="1302226" titulo="TD T£ puedes sanar tu vida" titulocm="TD T£ puedes sanar tu vida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="2" codigo="1401518  " descripcion="TD Fahrenheit 451" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="796.00" iva="" linea="53" lista="398.00" pedi="Pedimen." producto="9786073931700" serial="5-08-25/VE" sku="1401518" titulo="TD Fahrenheit 451" titulocm="TD Fahrenheit 451" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="898.00" Punitario="898.00" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" aduana="" cantidad="3" codigo="2301960  " descripcion="Diccionario de mexicanismos. Propio" descuento="4901990100  Es" ean="PZA   49019901" ieps="" importe="2694.00" iva="" linea="54" lista="898.00" pedi="" producto="9786070780660" serial="" sku="2301960" titulo="Diccionario de mexicanismos. Propios y compartidos" titulocm="Diccionario de mexicanismos. Propi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" aduana="" cantidad="2" codigo="2302182  " descripcion="Encuentra tu persona vitamina TD" descuento="4901990100  Es" ean="PZA   49019901" ieps="" importe="856.00" iva="" linea="55" lista="428.00" pedi="" producto="9786070796258" serial="" sku="2302182" titulo="Encuentra tu persona vitamina TD" titulocm="Encuentra tu persona vitamina TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="10" codigo="2302294  " descripcion="Cómo hacer que te pasen cosas buena" descuento="4901990400  Es" ean="PZA   49019904" ieps="" importe="4280.00" iva="" linea="56" lista="428.00" pedi="Pedimen." producto="9786073904070" serial="5-08-25/VE" sku="2302294" titulo="Cómo hacer que te pasen cosas buenas TD Nueva edic" titulocm="Cómo hacer que te pasen cosas buen" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" aduana="" cantidad="1" codigo="2302379  " descripcion="TD Recupera tu mente, reconquista t" descuento="4901990100  Es" ean="PZA   49019901" ieps="" importe="428.00" iva="" linea="57" lista="428.00" pedi="" producto="9786073912945" serial="" sku="2302379" titulo="TD Recupera tu mente, reconquista tu vida" titulocm="TD Recupera tu mente, reconquista" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="2" codigo="2504911  " descripcion="La ridicula idea de no volver a ver" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="736.00" iva="" linea="58" lista="368.00" pedi="Pedimen." producto="9786070780929" serial="5-08-25/VE" sku="2504911" titulo="La ridicula idea de no volver a verte TD" titulocm="La ridicula idea de no volver a ve" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="2" codigo="2505328  " descripcion="Persona normal TD" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="696.00" iva="" linea="59" lista="348.00" pedi="Pedimen." producto="9786070791123" serial="5-08-25/VE" sku="2505328" titulo="Persona normal TD" titulocm="Persona normal TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505762  " descripcion="Arsne Lupin, caballero ladrón TD" descuento="4901990100  Bo" ean="PZA   49019901" ieps="" importe="298.00" iva="" linea="60" lista="298.00" pedi="" producto="9786073904902" serial="" sku="2505762" titulo="Arsne Lupin, caballero ladrón TD" titulocm="Arsne Lupin, caballero ladrón TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="318.00" Punitario="318.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505765  " descripcion="Otra vez t£ TD" descuento="4901990100  Bo" ean="PZA   49019901" ieps="" importe="318.00" iva="" linea="61" lista="318.00" pedi="" producto="9786073904919" serial="" sku="2505765" titulo="Otra vez t£ TD" titulocm="Otra vez t£ TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="3" codigo="2505771  " descripcion="Arráncame la vida. 35 Aniversario T" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="1044.00" iva="" linea="62" lista="348.00" pedi="Pedimen." producto="9786073904605" serial="5-08-25/VE" sku="2505771" titulo="Arráncame la vida. 35 Aniversario TD" titulocm="Arráncame la vida. 35 Aniversario" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505775  " descripcion="Aristóteles y Dante descubren los s" descuento="4901990100  Bo" ean="PZA   49019901" ieps="" importe="398.00" iva="" linea="63" lista="398.00" pedi="" producto="9786073904797" serial="" sku="2505775" titulo="Aristóteles y Dante descubren los secretos del uni" titulocm="Aristóteles y Dante descubren los" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="5" codigo="2506161  " descripcion="TD El diario de Ana Frank" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="990.00" iva="" linea="64" lista="198.00" pedi="Pedimen." producto="9786073917322" serial="5-08-25/VE" sku="2506161" titulo="TD El diario de Ana Frank" titulocm="TD El diario de Ana Frank" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="10" codigo="2506425  " descripcion="Meditaciones" descuento="4901990100  Bo" ean="PZA   49019901" ieps="" importe="1980.00" iva="" linea="65" lista="198.00" pedi="" producto="9786073927130" serial="" sku="2506425" titulo="Meditaciones" titulocm="Meditaciones" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="148.00" Punitario="148.00" SUM="H87" TasaIEPS="ec" TasaIVA="ec" UM="PIEZA" aduana="" cantidad="10" codigo="2600405  " descripcion="El principito (TD)" descuento="4901990100  Em" ean="PZA   49019901" ieps="" importe="1480.00" iva="" linea="66" lista="148.00" pedi="" producto="9786070730535" serial="" sku="2600405" titulo="El principito (TD)" titulocm="El principito (TD)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="2" codigo="3101129  " descripcion="Cuando no queden más estrellas que" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="956.00" iva="" linea="67" lista="478.00" pedi="Pedimen." producto="9786073905411" serial="5-08-25/VE" sku="3101129" titulo="Cuando no queden más estrellas que contar TD" titulocm="Cuando no queden más estrellas que" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="2" codigo="3101633  " descripcion="TD La magia de las casualidades imp" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="796.00" iva="" linea="68" lista="398.00" pedi="Pedimen." producto="9786073931816" serial="9-08-25/VE" sku="3101633" titulo="TD La magia de las casualidades imposibles" titulocm="TD La magia de las casualidades im" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="548.00" Punitario="548.00" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4318495001266/22-08-25/VE22/08/2025" cantidad="1" codigo="3101660  " descripcion="Mousai 1. Canción de la lluvia eter" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="548.00" iva="" linea="69" lista="548.00" pedi="Pedimen." producto="9788408305682" serial="2-08-25/VE" sku="3101660" titulo="Mousai 1. Canción de la lluvia eterna" titulocm="Mousai 1. Canción de la lluvia ete" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="1" codigo="8203724  " descripcion="La insoportable levedad del ser TD" descuento="4901990400  Tu" ean="PZA   49019904" ieps="" importe="398.00" iva="" linea="70" lista="398.00" pedi="Pedimen." producto="9786070773792" serial="5-08-25/VE" sku="8203724" titulo="La insoportable levedad del ser TD" titulocm="La insoportable levedad del ser TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="468.00" Punitario="468.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="2" codigo="8203808  " descripcion="Primera persona del singular TD" descuento="4901990100  Tu" ean="PZA   49019901" ieps="" importe="936.00" iva="" linea="71" lista="468.00" pedi="" producto="9786070780776" serial="" sku="8203808" titulo="Primera persona del singular TD" titulocm="Primera persona del singular TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="4336925001748/29-08-25/VE29/08/2025" cantidad="3" codigo="8204479  " descripcion="TD Las batallas en el desierto" descuento="4901990400  Tu" ean="PZA   49019904" ieps="" importe="744.00" iva="" linea="72" lista="248.00" pedi="Pedimen." producto="9786073931823" serial="9-08-25/VE" sku="8204479" titulo="TD Las batallas en el desierto" titulocm="TD Las batallas en el desierto" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="BUCARELI 42" codigoPostal="06000" colonia="COL.CENTRO-CUAUHTEMOC" estado="CIUDAD DE MEXICO       CDMX" localidad="" municipio="" noExterior="" noInterior="" nombre="SUC. BUCARELI" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2025-10-31" fechaOrdenCompra="2025-10-31" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00871416" subTotal="87726.00" total="87726.00" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0040116" TotalUnidadesFactura="" ZonadeEntrega="" actividad="700" ano="2025" codCliente="000019435-7" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="31/10/2025" noCliente="PedLocDoc:00711121" noOrdenCompra="bucareli" pedidoInterno="00871416" porcentajeDeDescuentoTotal="35.00" referenciaBanca="Referencia Bancaria:000019435-7" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="55073.20" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="1948.70" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+31/10/2025
+~#|e+|M35.35 Jl @2
+700
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+AC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\771929
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2025-10-31T11:42:17 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+DAF48BBD-F286-4A1E-96C5-A123DBE25236
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "700771929.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2025-10-31T11:42:17
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv10 
+RFC Cliente:VARF750615S17
+
+FRIDA MAGALLY VARELA ROCHE   
+
+SUC. BUCARELI
+
+GUINEAS NO.31  
+
+CERRO PRIETO -DELEGACION GUSTAVO A. MADERO 
+
+CIUDAD DE MEXICO       CDMX MEXICO C.P. 07960
+
+Regimen Fiscal: 612  
+
+Proveedor: PedLocDoc:00711121
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000019435-7
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:  BUCARELI 42   COL.CENTRO-CUAUHTEMOC 
+
+  CIUDAD DE MEXICO       CDMX  06000 
+
+
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000019435-7 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+35.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+90 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0040116
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+bucareli
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00871416
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0230885  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+La metamorfosis TD
+~# @?Jc
+9786070781247
+~# @?Jr
+288.00
+~# @?Jr
+288.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0230918  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Alicia en el pais de las maravillas TD
+~# @?Jc
+9786070784842
+~# @?Jr
+268.00
+~# @?Jr
+268.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0231180  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD La casa de los espiritus
+~# @?Jc
+9786073931687
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0231181  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+TD En las montanas de la locura
+~# @?Jc
+9786073931731
+~# @?Jr
+298.00
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008019  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+La bailarina de Auschwitz TD
+~# @?Jc
+9786070773808
+~# @?Jr
+498.00
+~# @?Jr
+498.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008021  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+El jardin de las mariposas TD
+~# @?Jc
+9786070773907
+~# @?Jr
+478.00
+~# @?Jr
+2,390.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008022  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La sombra del viento TD
+~# @?Jc
+9786070773853
+~# @?Jr
+598.00
+~# @?Jr
+1,196.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008267  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Enamórate de ti TD
+~# @?Jc
+9786070778636
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009144  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Nosotros en la luna TD
+~# @?Jc
+9786070791666
+~# @?Jr
+478.00
+~# @?Jr
+478.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009145  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Todo lo que nunca fuimos TD
+~# @?Jc
+9786070791673
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009146  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Todo lo que somos juntos TD
+~# @?Jc
+9786070791680
+~# @?Jr
+448.00
+~# @?Jr
+448.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009213  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Romper el circulo (It Ends with Us) TD
+~# @?Jc
+9786070793011
+~# @?Jr
+448.00
+~# @?Jr
+896.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009674  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Verity. La sombra de un engano
+~# @?Jc
+9788408269755
+~# @?Jr
+498.00
+~# @?Jr
+1,494.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001198/31-07-25/VE31/07/2025
+~# @?Jc
+1-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009870  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Atrévete a ser quien eres TD
+~# @?Jc
+9786073905404
+~# @?Jr
+378.00
+~# @?Jr
+756.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009873  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+No sé cómo mostrar dónde me duele TD
+~# @?Jc
+9786073905237
+~# @?Jr
+348.00
+~# @?Jr
+1,044.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009875  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Más fuerte que nunca TD
+~# @?Jc
+9786073905206
+~# @?Jr
+448.00
+~# @?Jr
+896.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010215  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Cumbres Borrascosas
+~# @?Jc
+9788408280026
+~# @?Jr
+478.00
+~# @?Jr
+956.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318493000540/05-12-23/VE05/12/2023
+~# @?Jc
+5-12-23/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010371  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+El libro de Bill
+~# @?Jc
+9786073915588
+~# @?Jr
+298.00
+~# @?Jr
+2,980.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010511  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD El arte de ser nosotros
+~# @?Jc
+9786073917230
+~# @?Jr
+468.00
+~# @?Jr
+936.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010791  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+TD. Alas de ónix (Empireo 3)
+~# @?Jc
+9786073925044
+~# @?Jr
+648.00
+~# @?Jr
+6,480.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000443/22-09-25/MA22/09/2025
+~# @?Jc
+2-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010878  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Diario oficial ADS. Te necesito, Violet
+~# @?Jc
+9786073926232
+~# @?Jr
+198.00
+~# @?Jr
+990.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011083  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+TD La ciudad que ya no existe 2
+~# @?Jc
+9786073931458
+~# @?Jr
+458.00
+~# @?Jr
+2,290.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011144  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+TD Desfibrilador
+~# @?Jc
+9786073931779
+~# @?Jr
+348.00
+~# @?Jr
+1,740.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011145  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+TD Eres el amor de mi otra vida
+~# @?Jc
+9786073931748
+~# @?Jr
+448.00
+~# @?Jr
+2,240.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011147  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD Nada nunca termina, pero hay que decir adiós
+~# @?Jc
+9786073931762
+~# @?Jr
+378.00
+~# @?Jr
+756.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011148  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+TD Quedará el amor
+~# @?Jc
+9786073931809
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011150  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD Por si un dia volvemos
+~# @?Jc
+9786073931786
+~# @?Jr
+498.00
+~# @?Jr
+996.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011152  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD Los 7 pilares del amor propio
+~# @?Jc
+9786073931830
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011153  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD Los amantes de Praga
+~# @?Jc
+9786073904780
+~# @?Jr
+498.00
+~# @?Jr
+996.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011154  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD El tatuador de Auschwitz
+~# @?Jc
+9786073931670
+~# @?Jr
+498.00
+~# @?Jr
+996.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011155  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+TD Alas de sangre (Empireo 1)
+~# @?Jc
+9786073925020
+~# @?Jr
+498.00
+~# @?Jr
+4,980.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000438/22-09-25/MA22/09/2025
+~# @?Jc
+2-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011156  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+TD Alas de hierro (Empireo 2)
+~# @?Jc
+9786073925037
+~# @?Jr
+598.00
+~# @?Jr
+5,980.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000442/22-09-25/MA22/09/2025
+~# @?Jc
+2-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011366  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Vargas Llosa: el escribidor y la vida
+~# @?Jc
+9786123321338
+~# @?Jr
+498.00
+~# @?Jr
+996.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+N/02-09-25/MEXICO, D.F.  02/09/2025
+~# @?Jc
+CO, D.F.
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201222  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Diario 3 TD
+~# @?Jc
+9786070747021
+~# @?Jr
+398.00
+~# @?Jr
+3,980.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201899  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Atletas fuera de serie 1. La mujer más rápida del
+~# @?Jc
+9786070799457
+~# @?Jr
+248.00
+~# @?Jr
+248.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201900  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Atletas fuera de serie 2. El gran salto
+~# @?Jc
+9786073900836
+~# @?Jr
+248.00
+~# @?Jr
+496.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202083  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Atletas fuera de serie 3. ­En guardia 
+~# @?Jc
+9786073905916
+~# @?Jr
+248.00
+~# @?Jr
+744.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202084  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Atletas fuera de serie 4. La arquera
+~# @?Jc
+9786073908252
+~# @?Jr
+248.00
+~# @?Jr
+496.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301250  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Cuentos. Ilustrados
+~# @?Jc
+9786070760952
+~# @?Jr
+448.00
+~# @?Jr
+896.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301407  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La nina a la que se le vino el mundo encima TD
+~# @?Jc
+9786070778629
+~# @?Jr
+348.00
+~# @?Jr
+696.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301411  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Las 5 heridas que impiden ser uno mismo TD
+~# @?Jc
+9786070778650
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301415  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Cómo curar un corazón roto TD. 10 Aniversario
+~# @?Jc
+9786070778964
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301556  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+El profeta
+~# @?Jc
+9786070788215
+~# @?Jr
+118.00
+~# @?Jr
+236.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301579  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Las siete leyes espirituales del éxito TD
+~# @?Jc
+9786070790065
+~# @?Jr
+248.00
+~# @?Jr
+1,240.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301646  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cien anos de soledad. Edición ilustrada TD
+~# @?Jc
+9786070796203
+~# @?Jr
+648.00
+~# @?Jr
+1,944.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301737  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La muerte del amor TD
+~# @?Jc
+9786073903349
+~# @?Jr
+298.00
+~# @?Jr
+596.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301787  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La revolución de la glucosa TD
+~# @?Jc
+9786073905152
+~# @?Jr
+368.00
+~# @?Jr
+736.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301788  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Del amor y otros demonios TD
+~# @?Jc
+9786073904872
+~# @?Jr
+318.00
+~# @?Jr
+318.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301894  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+En agosto nos vemos TD
+~# @?Jc
+9786073911290
+~# @?Jr
+348.00
+~# @?Jr
+1,740.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301898  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Mananas milagrosas TD
+~# @?Jc
+9786073912518
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1302051  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD La muerte: un amanecer
+~# @?Jc
+9786073920384
+~# @?Jr
+348.00
+~# @?Jr
+696.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1302226  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD T£ puedes sanar tu vida
+~# @?Jc
+9786073931724
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401518  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD Fahrenheit 451
+~# @?Jc
+9786073931700
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2301960  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Diccionario de mexicanismos. Propios y compartidos
+~# @?Jc
+9786070780660
+~# @?Jr
+898.00
+~# @?Jr
+2,694.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302182  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Encuentra tu persona vitamina TD
+~# @?Jc
+9786070796258
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302294  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Cómo hacer que te pasen cosas buenas TD Nueva edic
+~# @?Jc
+9786073904070
+~# @?Jr
+428.00
+~# @?Jr
+4,280.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302379  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+TD Recupera tu mente, reconquista tu vida
+~# @?Jc
+9786073912945
+~# @?Jr
+428.00
+~# @?Jr
+428.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504911  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La ridicula idea de no volver a verte TD
+~# @?Jc
+9786070780929
+~# @?Jr
+368.00
+~# @?Jr
+736.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505328  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Persona normal TD
+~# @?Jc
+9786070791123
+~# @?Jr
+348.00
+~# @?Jr
+696.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505762  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Arsne Lupin, caballero ladrón TD
+~# @?Jc
+9786073904902
+~# @?Jr
+298.00
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505765  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Otra vez t£ TD
+~# @?Jc
+9786073904919
+~# @?Jr
+318.00
+~# @?Jr
+318.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505771  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Arráncame la vida. 35 Aniversario TD
+~# @?Jc
+9786073904605
+~# @?Jr
+348.00
+~# @?Jr
+1,044.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505775  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Aristóteles y Dante descubren los secretos del uni
+~# @?Jc
+9786073904797
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2506161  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+TD El diario de Ana Frank
+~# @?Jc
+9786073917322
+~# @?Jr
+198.00
+~# @?Jr
+990.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2506425  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Meditaciones
+~# @?Jc
+9786073927130
+~# @?Jr
+198.00
+~# @?Jr
+1,980.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2600405  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+El principito (TD)
+~# @?Jc
+9786070730535
+~# @?Jr
+148.00
+~# @?Jr
+1,480.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101129  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Cuando no queden más estrellas que contar TD
+~# @?Jc
+9786073905411
+~# @?Jr
+478.00
+~# @?Jr
+956.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101633  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+TD La magia de las casualidades imposibles
+~# @?Jc
+9786073931816
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101660  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Mousai 1. Canción de la lluvia eterna
+~# @?Jc
+9788408305682
+~# @?Jr
+548.00
+~# @?Jr
+548.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001266/22-08-25/VE22/08/2025
+~# @?Jc
+2-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8203724  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+La insoportable levedad del ser TD
+~# @?Jc
+9786070773792
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8203808  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Primera persona del singular TD
+~# @?Jc
+9786070780776
+~# @?Jr
+468.00
+~# @?Jr
+936.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8204479  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+TD Las batallas en el desierto
+~# @?Jc
+9786073931823
+~# @?Jr
+248.00
+~# @?Jr
+744.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001748/29-08-25/VE29/08/2025
+~# @?Jc
+9-08-25/VE
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+222
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "DAF48BBD-F286-4A1E-96C5-A123DBE25236.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+1,948.70
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+55,073.20
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+87,726.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+30,704.10 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+57,021.90
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(CINCUENTA Y SIETE MIL VEINTIUN PESOS 90/100 M.N.)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+B21rejTWWmq9yCeGE5J5Zow/aVT8LAa38ApNdnSXWuYyhrxfMLHeE2LqTzGw/PFYjwFNluLpLrJbEqLiEJbrnT6LTaHrZEQcNxyNHwOgnSLhObmJ+hpMZSR2zPotC8krD3pm2NTdmHFR+B4beNDDSFSwfY6TwPQOCit5+eFbRU1PFhZZpvW27x+ry1y7TZbtlcqrQKY76AToBN7LZLnWWQweqmT2AdOwwpYaTqDPTU3CWt4VqoYqk0A1MpMj2kddpFak/3nFBsefze+UDZPVSNNB6jM/lmbzsyDAGm+cZgtoSrAwEyB+VGHi5tDFidKa3hTV83Yc6HZIhqkml3xK8g==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+nyOuUtkOVTf4wjtPHRweO7hNomHenZw1Bz7maqWz9X7w7bjxh9+G2U/k8mTu2CfUo+qseX7xCA5rDC17PwGzv6+j5sf7e0glRfxsiLBI6OjblJ8U2Qr3QoTfegUfLK3W4ESdsbo2mcwnJxtB8p/pd4IJF7Qh1Pe+HBEssvJ9XB8WO6SZFeTrdw1OKG3LjGBMen/Nb2kL2lzV0twifEyLkZBtuxsU9HnVsbmdxhAHPs+IKH7DwQwjJGTy8Y5HYWlKffpBlbT0EBO/vur7Tu0xB8vbmlIJmEd/+Vi93HuvE/P254dIUi8S8S4mstUmq9nERcrLCDUn5B9qeXvXa39v/A==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|DAF48BBD-F286-4A1E-96C5-A123DBE25236|2025-10-31T11:48:32|B21rejTWWmq9yCeGE5J5Zow/aVT8LAa38ApNdnSXWuYyhrxfMLHeE2LqTzGw/PFYjwFNluLpLrJbEqLiEJbrnT6LTaHrZEQcNxyNHwOgnSLhObmJ+hpMZSR2zPotC8krD3pm2NTdmHFR+B4beNDDSFSwfY6TwPQOCit5+eFbRU1PFhZZpvW27x+ry1y7TZbtlcqrQKY76AToBN7LZLnWWQweqmT2AdOwwpYaTqDPTU3CWt4VqoYqk0A1MpMj2kddpFak/3nFBsefze+UDZPVSNNB6jM/lmbzsyDAGm+cZgtoSrAwEyB+VGHi5tDFidKa3hTV83Yc6HZIhqkml3xK8g==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2025-10-31T11:48:32
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

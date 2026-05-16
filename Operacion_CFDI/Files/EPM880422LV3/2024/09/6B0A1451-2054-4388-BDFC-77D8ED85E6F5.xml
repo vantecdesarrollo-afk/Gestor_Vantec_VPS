@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="120 DIAS" Descuento="3124.80" Exportacion="01" Fecha="2024-09-05T14:05:20" Folio="726032" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000505710997" Sello="Jxd/OUoazcBBRNe+bQHbxsLWqoF0dp5tQvZnImmTQrslY9KD00f1c9u47/PMjwQGYhJhW0+EWQVJxk6d0z6ZGJcf3ADCHapnD1cM8Y/oEigtrFvYKe9rCea5sQqtHT6mwLj1ctbVWRlhTaP/MjulhX3QoP2aD4UnN1Su0ickbFV9g+nXE5kiUAV28rHywcKfC0rH8e2pf5Cx5ZSNNQql6R8PcWNq+F75RjUvWr5h/NSockFNmdRadpyi6XL7HZC/+JSlKONCYVaQl7ftNPcS4EKZDeHnlwZbYORf2sqNP73X0gdLVyg4lxGZ69pKx56MOrVaQu8UaB5Yj6kp8Jlhgg==" Serie="AC" SubTotal="7440.00" TipoDeComprobante="I" Total="4315.20" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="04310" Nombre="LIBRERIA DEL SOTANO COYOACAN" RegimenFiscalReceptor="601" Rfc="LSC860522T94" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ámate a ti mismo" Descuento="3124.80" Importe="7440.00" NoIdentificacion="9786073915502" ObjetoImp="02" ValorUnitario="248.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4315.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="4315.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="6B0A1451-2054-4388-BDFC-77D8ED85E6F5" FechaTimbrado="2024-09-05T14:09:49" RfcProvCertif="ASE0209252Q1" SelloCFD="Jxd/OUoazcBBRNe+bQHbxsLWqoF0dp5tQvZnImmTQrslY9KD00f1c9u47/PMjwQGYhJhW0+EWQVJxk6d0z6ZGJcf3ADCHapnD1cM8Y/oEigtrFvYKe9rCea5sQqtHT6mwLj1ctbVWRlhTaP/MjulhX3QoP2aD4UnN1Su0ickbFV9g+nXE5kiUAV28rHywcKfC0rH8e2pf5Cx5ZSNNQql6R8PcWNq+F75RjUvWr5h/NSockFNmdRadpyi6XL7HZC/+JSlKONCYVaQl7ftNPcS4EKZDeHnlwZbYORf2sqNP73X0gdLVyg4lxGZ69pKx56MOrVaQu8UaB5Yj6kp8Jlhgg==" NoCertificadoSAT="00001000000505371432" SelloSAT="O+LtCAojH8kydkpVPJBZfc/XAnuoTVuU1UT8nlujaUEJ2tER40zY/ll08pvagUXHPspJq1d5RwGD1K2gNb0Uag9YAajl5Saa51VmQcsbwK+bidFoABxl0gStj8MuTPhirblHBGDqYfvVnqIxEPHJu40NK68ev5H4kzjDtjOZ8BAMc/FWphWxl+55wxrk9ixweRrtwJzPQCtQKohxhfvEKPOEM0fGQ3xJdDS0b1AY9SudQiQlu+DYxLQhyZTqr3pVwqcdhm0V8VhUlvXdMEewBEc+N8DUPcVTWR/FFETm7VydQJFU4kPCBZ/gTfi7blNkenfVbeGM9xIaUX3xxbPUYw=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="MXN" TotalMx="4315.20" UniGraf="D63" ValorDelAtributo="" afectada="" calle="MIGUEL ANGEL DE QUEVEDO NO. 209" cantidadConLetra="(CUATRO MIL TRESCIENTOS QUINCE PESOS 20/100 M.N.)" cincoNeto="4315.20" codigoPostal="04310" colonia="ROMERO DE TERREROS -DELEGACION COYOACAN" correos="feguadalajara@elsotano.com -t complementodepagocoyoacan@elsotano.com -t tsilva@planeta.com.mx -t giromero@planeta.com.mx" cuatroIva="" descuentoMx="3124.80" dosDescuento="3124.80" estado="CIUDAD DE MEXICO       CDMX" fac="2024-09-05" fechaEdi102="2024-09-05T14:05:20" fechaEdi204="2024-09-05T14:05:20" fechaOrden="" ivaMx="0.00" mail="feguadalajara@elsotano.com;complementodepagocoyoacan@elsotano.com;tsilva@planeta.com.mx;giromero@planeta.com.mx" moneda="MN" noCliente="PedLocDoc:00661356" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="74627" noProveedor="" nomAtributo="" pais="MEXICO" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="7440.00" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="30" unoButo="7440.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="248.00" Punitario="248.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="30" codigo="1301824  " descripcion="Ámate a ti mismo" descuento="4901990100  Di" ean="PZA   49019901" ieps="" importe="7440.00" iva="" linea="1" lista="248.00" pedi="" producto="9786073915502" serial="" sku="1301824" titulo="Ámate a ti mismo" titulocm="Ámate a ti mismo" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="AV. GUADALUPE NO. 1294" codigoPostal="45040" colonia="JARDINES DE SAN IGNACIO -ZAPOPAN" estado="JALISCO                 JAL." localidad="" municipio="" noExterior="" noInterior="" nombre="SUC. GUADALAJARA" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2024-09-05" fechaOrdenCompra="2024-09-05" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00817473" subTotal="7440.00" total="7440.00" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0040112" TotalUnidadesFactura="" ZonadeEntrega="1B" actividad="700" ano="2024" codCliente="009630503-2" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="05/09/2024" noCliente="PedLocDoc:00661356" noOrdenCompra="74627" pedidoInterno="00817473" porcentajeDeDescuentoTotal="42.00" referenciaBanca="Referencia Bancaria:009630503-2" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="4315.20" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+05/09/2024
+~#|e+|M35.35 Jl @2
+700
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+AC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\726032
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2024-09-05T14:05:20 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+6B0A1451-2054-4388-BDFC-77D8ED85E6F5
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000505710997
+~]
+~#
+~[30
+~#D M90.90 "700726032.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2024-09-05T14:05:20
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv10 
+RFC Cliente:LSC860522T94
+
+LIBRERIA DEL SOTANO COYOACAN   
+
+SUC. GUADALAJARA
+
+MIGUEL ANGEL DE QUEVEDO NO. 209  
+
+ROMERO DE TERREROS -DELEGACION COYOACAN 
+
+CIUDAD DE MEXICO       CDMX MEXICO C.P. 04310
+
+Regimen Fiscal: 601  
+
+Proveedor: PedLocDoc:00661356
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:009630503-2
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:  AV. GUADALUPE NO. 1294   JARDINES DE SAN IGNACIO -ZAPOPAN 
+
+  JALISCO                 JAL.  45040 
+
+
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+009630503-2 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+42.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+120 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0040112
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+74627
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00817473
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+1B
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301824  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Ámate a ti mismo
+~# @?Jc
+9786073915502
+~# @?Jr
+248.00
+~# @?Jr
+7,440.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+30
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "6B0A1451-2054-4388-BDFC-77D8ED85E6F5.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+4,315.20
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+7,440.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+3,124.80 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+4,315.20
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(CUATRO MIL TRESCIENTOS QUINCE PESOS 20/100 M.N.)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+Jxd/OUoazcBBRNe+bQHbxsLWqoF0dp5tQvZnImmTQrslY9KD00f1c9u47/PMjwQGYhJhW0+EWQVJxk6d0z6ZGJcf3ADCHapnD1cM8Y/oEigtrFvYKe9rCea5sQqtHT6mwLj1ctbVWRlhTaP/MjulhX3QoP2aD4UnN1Su0ickbFV9g+nXE5kiUAV28rHywcKfC0rH8e2pf5Cx5ZSNNQql6R8PcWNq+F75RjUvWr5h/NSockFNmdRadpyi6XL7HZC/+JSlKONCYVaQl7ftNPcS4EKZDeHnlwZbYORf2sqNP73X0gdLVyg4lxGZ69pKx56MOrVaQu8UaB5Yj6kp8Jlhgg==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+O+LtCAojH8kydkpVPJBZfc/XAnuoTVuU1UT8nlujaUEJ2tER40zY/ll08pvagUXHPspJq1d5RwGD1K2gNb0Uag9YAajl5Saa51VmQcsbwK+bidFoABxl0gStj8MuTPhirblHBGDqYfvVnqIxEPHJu40NK68ev5H4kzjDtjOZ8BAMc/FWphWxl+55wxrk9ixweRrtwJzPQCtQKohxhfvEKPOEM0fGQ3xJdDS0b1AY9SudQiQlu+DYxLQhyZTqr3pVwqcdhm0V8VhUlvXdMEewBEc+N8DUPcVTWR/FFETm7VydQJFU4kPCBZ/gTfi7blNkenfVbeGM9xIaUX3xxbPUYw==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|6B0A1451-2054-4388-BDFC-77D8ED85E6F5|2024-09-05T14:09:49|Jxd/OUoazcBBRNe+bQHbxsLWqoF0dp5tQvZnImmTQrslY9KD00f1c9u47/PMjwQGYhJhW0+EWQVJxk6d0z6ZGJcf3ADCHapnD1cM8Y/oEigtrFvYKe9rCea5sQqtHT6mwLj1ctbVWRlhTaP/MjulhX3QoP2aD4UnN1Su0ickbFV9g+nXE5kiUAV28rHywcKfC0rH8e2pf5Cx5ZSNNQql6R8PcWNq+F75RjUvWr5h/NSockFNmdRadpyi6XL7HZC/+JSlKONCYVaQl7ftNPcS4EKZDeHnlwZbYORf2sqNP73X0gdLVyg4lxGZ69pKx56MOrVaQu8UaB5Yj6kp8Jlhgg==|00001000000505371432||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000505371432
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2024-09-05T14:09:49
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

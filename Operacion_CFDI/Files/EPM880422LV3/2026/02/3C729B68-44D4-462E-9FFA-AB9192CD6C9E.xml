@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" CondicionesDePago="180 DIAS" Descuento="0.00" Exportacion="01" Fecha="2026-02-09T22:00:58" Folio="002002" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000710885331" Sello="kN0YBX2OFHa14/zPyIt5RduFfEOdfJL7nweLMaQ9vuLa3ZkvY06vSG/z5k9qFOStbNw5p0mar0lUmmxGXw3v7tOpMW7ssLHP1cftF3HZAPh+QQN1LTCPw5sCr+CGzxtaRQOv9ljQNoiqGopz7LjCt32QcVN7VnzOM5g5IvJ5ym20Qo0c/I9rYAj7+v3LCO5Y0TI0pUQvn0lLT5EyFf5oNohWSE6/9+h9iH07uyl4erAbLsqfSOAXiiLA0fprxmlXFGWoydKKOiZJyU78mrud6EpMrJSYSgObXh0eBEUvTfxxpn2mDPQli/1eJg5bSpZTRrKj0bYMOrWAVEYhciQwtg==" Serie="TMC" SubTotal="34494.40" TipoCambio="20.313115" TipoDeComprobante="I" Total="34494.40" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior20.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="500" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Verity. La sombra de un engano" Descuento="0.00" Importe="4120.00" NoIdentificacion="9788408269755" ObjetoImp="01" ValorUnitario="8.24"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La serpiente y las alas de la noche (Edición Delu" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408292487" ObjetoImp="01" ValorUnitario="9.42"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Maxton Hall 2 (Edición especial)" Descuento="0.00" Importe="376.80" NoIdentificacion="9788408300540" ObjetoImp="01" ValorUnitario="9.42"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Maxton Hall 3 (Edición especial)" Descuento="0.00" Importe="376.80" NoIdentificacion="9788408300557" ObjetoImp="01" ValorUnitario="9.42"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Nuestro lugar en el mundo" Descuento="0.00" Importe="1648.00" NoIdentificacion="9788408299585" ObjetoImp="01" ValorUnitario="8.24"/>
+        <cfdi:Concepto Cantidad="90" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Maxton Hall 1 (Edición especial)" Descuento="0.00" Importe="847.80" NoIdentificacion="9788408300533" ObjetoImp="01" ValorUnitario="9.42"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La bailarina de Auschwitz (Edición Young Adult)" Descuento="0.00" Importe="141.20" NoIdentificacion="9788408301295" ObjetoImp="01" ValorUnitario="7.06"/>
+        <cfdi:Concepto Cantidad="15" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Hobbit (NE)" Descuento="0.00" Importe="123.90" NoIdentificacion="9788445012802" ObjetoImp="01" ValorUnitario="8.26"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Silmarillion. Ilustrado por Ted Nasmith (edició" Descuento="0.00" Importe="138.00" NoIdentificacion="9788445013618" ObjetoImp="01" ValorUnitario="13.80"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Silmarillion. Edición ilustrada por el autor" Descuento="0.00" Importe="394.20" NoIdentificacion="9788445016794" ObjetoImp="01" ValorUnitario="19.71"/>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Hobbit (edición revisada,anotada e ilustrada)" Descuento="0.00" Importe="118.10" NoIdentificacion="9788445013533" ObjetoImp="01" ValorUnitario="11.81"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Dos Torres. Ilustrado por Alan Lee (NE revisad" Descuento="0.00" Importe="236.60" NoIdentificacion="9788445019719" ObjetoImp="01" ValorUnitario="11.83"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Retorno del Rey. Ilustrado por Alan Lee (NE rev" Descuento="0.00" Importe="236.60" NoIdentificacion="9788445019818" ObjetoImp="01" ValorUnitario="11.83"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La Comunidad del Anillo. Ilustrado por Alan Lee (N" Descuento="0.00" Importe="473.20" NoIdentificacion="9788445017319" ObjetoImp="01" ValorUnitario="11.83"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El arte del café" Descuento="0.00" Importe="786.00" NoIdentificacion="9788418820502" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El principito" Descuento="0.00" Importe="8.63" NoIdentificacion="9788410378810" ObjetoImp="01" ValorUnitario="8.63"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Uno siempre cambia al amor de su vida. (Por otro a" Descuento="0.00" Importe="629.00" NoIdentificacion="9788408210856" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="300" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. El Club de la Luna Llena" Descuento="0.00" Importe="1296.00" NoIdentificacion="9788408223238" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="170" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. Un problema con alas" Descuento="0.00" Importe="734.40" NoIdentificacion="9788408223245" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="300" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 1. Tres, dos, uno... ­superpoderes " Descuento="0.00" Importe="1887.00" NoIdentificacion="9788408225744" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 2. S£per Alma en acción" Descuento="0.00" Importe="943.50" NoIdentificacion="9788408227977" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra. Fiesta a medianoche" Descuento="0.00" Importe="432.00" NoIdentificacion="9788408233053" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="80" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 4. Superaventura entre las nubes" Descuento="0.00" Importe="503.20" NoIdentificacion="9788408240143" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 6. Pasteles peligrosos" Descuento="0.00" Importe="432.00" NoIdentificacion="9788408241973" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 3. La misteriosa magia de las S£per Ra" Descuento="0.00" Importe="629.00" NoIdentificacion="9788408237099" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="70" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 5. ­Las sirenas existen " Descuento="0.00" Importe="440.30" NoIdentificacion="9788408245865" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 7. El secreto del bosque" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408245568" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 3. Un monstruo en la banera" Descuento="0.00" Importe="648.00" NoIdentificacion="9788408229964" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 8. El festival de brujeria" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408251354" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="60" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 6. El poder de los munecos de nieve" Descuento="0.00" Importe="377.40" NoIdentificacion="9788408249306" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 7. Cupcakes con sorpresa" Descuento="0.00" Importe="251.60" NoIdentificacion="9788408253679" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 5. La Isla de las Mascotas" Descuento="0.00" Importe="432.00" NoIdentificacion="9788408237990" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 9. Un lobo en escena" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408254096" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 10. La llamada de las sirenas" Descuento="0.00" Importe="432.00" NoIdentificacion="9788408260097" ObjetoImp="01" ValorUnitario="4.32"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 8. El bosque de las hadas luminosas" Descuento="0.00" Importe="188.70" NoIdentificacion="9788408253761" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 11. La feria de las sombras" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408269038" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 12. Brujos en panales" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408274186" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 9. La cabana embrujada" Descuento="0.00" Importe="125.80" NoIdentificacion="9788408260233" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="15" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 10. La magia está en ti" Descuento="0.00" Importe="94.35" NoIdentificacion="9788408276968" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de rosas y espinas. Edición especial" Descuento="0.00" Importe="1968.00" NoIdentificacion="9788408285298" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 1. Rey de la ira. Edición especial" Descuento="0.00" Importe="1888.00" NoIdentificacion="9788408289722" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 14. El reto del volcán" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408288398" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 13. Peligro en la mansión" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408282464" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="8" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de niebla y furia. Edición especial" Descuento="0.00" Importe="75.52" NoIdentificacion="9788408290964" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="120" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 2. Rey de la soberbia. Edición especial" Descuento="0.00" Importe="1132.80" NoIdentificacion="9788408292661" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 12. Violeta, la hermana secreta" Descuento="0.00" Importe="125.80" NoIdentificacion="9788408295440" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Anna Kadabra 15. La noche de la impostora" Descuento="0.00" Importe="471.00" NoIdentificacion="9788408297901" ObjetoImp="01" ValorUnitario="4.71"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 3. Rey de la codicia. Edición especial" Descuento="0.00" Importe="472.00" NoIdentificacion="9788408299707" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Acelerando en rojo" Descuento="0.00" Importe="1572.00" NoIdentificacion="9788408299615" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="15" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 13. Detectives por un dia" Descuento="0.00" Importe="94.35" NoIdentificacion="9788408301684" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuando despierten las flores" Descuento="0.00" Importe="393.00" NoIdentificacion="9788408302155" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 4. Rey de la desidia. Edición especial" Descuento="0.00" Importe="472.00" NoIdentificacion="9788408304029" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="15" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las Ratitas 14. El gran tesoro pirata" Descuento="0.00" Importe="94.35" NoIdentificacion="9788408306122" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La Academia 2. Aurora" Descuento="0.00" Importe="452.50" NoIdentificacion="9788408305491" ObjetoImp="01" ValorUnitario="9.05"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ojalá nunca lo leas" Descuento="0.00" Importe="149.00" NoIdentificacion="9788427053977" ObjetoImp="01" ValorUnitario="7.45"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La insoportable levedad del ser" Descuento="0.00" Importe="864.00" NoIdentificacion="9788411070775" ObjetoImp="01" ValorUnitario="4.32"/>
+    </cfdi:Conceptos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="3C729B68-44D4-462E-9FFA-AB9192CD6C9E" FechaTimbrado="2026-02-10T08:16:37" RfcProvCertif="ASE0209252Q1" SelloCFD="kN0YBX2OFHa14/zPyIt5RduFfEOdfJL7nweLMaQ9vuLa3ZkvY06vSG/z5k9qFOStbNw5p0mar0lUmmxGXw3v7tOpMW7ssLHP1cftF3HZAPh+QQN1LTCPw5sCr+CGzxtaRQOv9ljQNoiqGopz7LjCt32QcVN7VnzOM5g5IvJ5ym20Qo0c/I9rYAj7+v3LCO5Y0TI0pUQvn0lLT5EyFf5oNohWSE6/9+h9iH07uyl4erAbLsqfSOAXiiLA0fprxmlXFGWoydKKOiZJyU78mrud6EpMrJSYSgObXh0eBEUvTfxxpn2mDPQli/1eJg5bSpZTRrKj0bYMOrWAVEYhciQwtg==" NoCertificadoSAT="00001000000707891043" SelloSAT="KTfObSstn1yikI/4A8/tJ9FqQMieE6FLr/2l/3PrzOqVfSyf6D5Pu3Ov2ykB2jOKqZNYpIGWzE4+qUAEo0dKAPRXR72xT5z+E99/PBrOHscLDPlj2s+i50RptIOE9vLHjaJBnepblw2sThMpqF+blwNISHnvS2hBi6ezqQJN+tBacVmgehAyYlAr/O6DQSC8qLNFZs7d401vF9t+dPxUC2v9b/6wa/zoS7Sjp7DYv7SHOANyCZnDMsYxTNWaYzIUKRaLjyvGPhh03NucQ0eMbtW5vqUecCr2xrG8yt9yfWvQw9jsVjI03ZG/NHsp0q+GXz5tp6+hPG74fv8YbWXEUA=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Simoneda="" TotalMx="34494.40" UniGraf="D63" ValorDelAtributo="" calle="II ETAPA DE PLAZA MAYOR" cantidadConLetra="(TREINTA Y CUATRO MIL CUATROCIENTOS NOVENTA Y CUATRO EUROS 40/100)" cincoNeto="34494.40" codigoPostal="10109" colonia="PAVAS  ROHRMOSER" correos="dteran@planeta.com.mx -t llopez@planeta.com.mx -t amonzalvo@planeta.com.mx -t afvazquez@planeta.com.mx -t dteran@planeta.com.mx -t anagabriela.puga@planeta.com.mx -t oscaraugusto.garcia@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="SAN JOSE" fac="2026-02-09" fechaEdi102="2026-02-09T22:00:58" fechaEdi204="2026-02-09T22:00:58" ivaMx="" mail="dteran@planeta.com.mx;llopez@planeta.com.mx;amonzalvo@planeta.com.mx;afvazquez@planeta.com.mx;dteran@planeta.com.mx;anagabriela.puga@planeta.com.mx;oscaraugusto.garcia@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00002016" noCopiasPrinter="3" noExterior="2DO P OF 7" noInterior="" noOrden="VLP-031/26" noProveedor="" nomAtributo="" pais="COSTA RICA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="34494.40" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="5,159" unoButo="34494.40" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="8.24" Punitario="8.24" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001198/31-07-25/VE31/07/2025" cantidad="500" codigo="1009674  " descripcion="Verity. La sombra de un engano" descuento="4901990400  Pl" ean="PZA   49019904" importe="4120.00" linea="1" lista="8.24" pedi="Pedimen." producto="9788408269755" serial="1-07-25/VE" sku="1009674" titulo="Verity. La sombra de un engano" titulocm="Verity. La sombra de un engano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.42" Punitario="9.42" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="50" codigo="1010698  " descripcion="La serpiente y las alas de la noche" descuento="4901990400  Pl" ean="PZA   49019904" importe="471.00" linea="2" lista="9.42" producto="9788408292487" serial="" sku="1010698" titulo="La serpiente y las alas de la noche  (Edición Delu" titulocm="La serpiente y las alas de la noch" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.42" Punitario="9.42" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="40" codigo="1011000  " descripcion="Maxton Hall 2 (Edición especial)" descuento="4901990400  Pl" ean="PZA   49019904" importe="376.80" linea="3" lista="9.42" producto="9788408300540" serial="" sku="1011000" titulo="Maxton Hall 2 (Edición especial)" titulocm="Maxton Hall 2 (Edición especial)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.42" Punitario="9.42" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="40" codigo="1011001  " descripcion="Maxton Hall 3 (Edición especial)" descuento="4901990400  Pl" ean="PZA   49019904" importe="376.80" linea="4" lista="9.42" producto="9788408300557" serial="" sku="1011001" titulo="Maxton Hall 3 (Edición especial)" titulocm="Maxton Hall 3 (Edición especial)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.24" Punitario="8.24" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000185/08-05-25/VE08/05/2025" cantidad="200" codigo="1011004  " descripcion="Nuestro lugar en el mundo" descuento="4901990400  Pl" ean="PZA   49019904" importe="1648.00" linea="5" lista="8.24" pedi="Pedimen." producto="9788408299585" serial="8-05-25/VE" sku="1011004" titulo="Nuestro lugar en el mundo" titulocm="Nuestro lugar en el mundo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.42" Punitario="9.42" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="90" codigo="1011007  " descripcion="Maxton Hall 1 (Edición especial)" descuento="4901990400  Pl" ean="PZA   49019904" importe="847.80" linea="6" lista="9.42" producto="9788408300533" serial="" sku="1011007" titulo="Maxton Hall 1 (Edición especial)" titulocm="Maxton Hall 1 (Edición especial)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.06" Punitario="7.06" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="20" codigo="1011051  " descripcion="La bailarina de Auschwitz (Edición" descuento="4901990400  Pl" ean="PZA   49019904" importe="141.20" linea="7" lista="7.06" producto="9788408301295" serial="" sku="1011051" titulo="La bailarina de Auschwitz (Edición Young Adult)" titulocm="La bailarina de Auschwitz (Edición" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.26" Punitario="8.26" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" cantidad="15" codigo="1401008  " descripcion="El Hobbit (NE)" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="123.90" linea="8" lista="8.26" producto="9788445012802" serial="" sku="1401008" titulo="El Hobbit (NE)" titulocm="El Hobbit (NE)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="13.80" Punitario="13.80" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" cantidad="10" codigo="1401211  " descripcion="El Silmarillion. Ilustrado por Ted" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="138.00" linea="9" lista="13.80" producto="9788445013618" serial="" sku="1401211" titulo="El Silmarillion. Ilustrado por Ted Nasmith (edició" titulocm="El Silmarillion. Ilustrado por Ted" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="19.71" Punitario="19.71" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4318495002638/23-10-25/VE23/10/2025" cantidad="20" codigo="1401357  " descripcion="El Silmarillion. Edición ilustrada" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="394.20" linea="10" lista="19.71" pedi="Pedimen." producto="9788445016794" serial="3-10-25/VE" sku="1401357" titulo="El Silmarillion. Edición ilustrada por el autor" titulocm="El Silmarillion. Edición ilustrada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.81" Punitario="11.81" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4318494000338/01-08-24/VE01/08/2024" cantidad="10" codigo="1401375  " descripcion="El Hobbit (edición revisada,anotada" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="118.10" linea="11" lista="11.81" pedi="Pedimen." producto="9788445013533" serial="1-08-24/VE" sku="1401375" titulo="El Hobbit (edición revisada,anotada e ilustrada)" titulocm="El Hobbit (edición revisada,anotad" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.83" Punitario="11.83" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" cantidad="20" codigo="1401542  " descripcion="Las Dos Torres. Ilustrado por Alan" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="236.60" linea="12" lista="11.83" producto="9788445019719" serial="" sku="1401542" titulo="Las Dos Torres. Ilustrado por Alan Lee (NE revisad" titulocm="Las Dos Torres. Ilustrado por Alan" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.83" Punitario="11.83" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" cantidad="20" codigo="1401543  " descripcion="El Retorno del Rey. Ilustrado por A" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="236.60" linea="13" lista="11.83" producto="9788445019818" serial="" sku="1401543" titulo="El Retorno del Rey. Ilustrado por Alan Lee (NE rev" titulocm="El Retorno del Rey. Ilustrado por" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.83" Punitario="11.83" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" cantidad="40" codigo="1401548  " descripcion="La Comunidad del Anillo. Ilustrado" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="473.20" linea="14" lista="11.83" producto="9788445017319" serial="" sku="1401548" titulo="La Comunidad del Anillo. Ilustrado por Alan Lee (N" titulocm="La Comunidad del Anillo. Ilustrado" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="nw" TasaIVA="nw" UM="PIEZA" cantidad="100" codigo="2400905  " descripcion="El arte del café" descuento="4901990400  Lu" ean="PZA   49019904" importe="786.00" linea="15" lista="7.86" producto="9788418820502" serial="" sku="2400905" titulo="El arte del café" titulocm="El arte del café" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.63" Punitario="8.63" SUM="H87" TasaIEPS="nw" TasaIVA="nw" UM="PIEZA" aduana="4318495001175/24-06-25/VE24/06/2025" cantidad="1" codigo="2401026  " descripcion="El principito" descuento="4901990400  Lu" ean="PZA   49019904" importe="8.63" linea="16" lista="8.63" pedi="Pedimen." producto="9788410378810" serial="4-06-25/VE" sku="2401026" titulo="El principito" titulocm="El principito" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="100" codigo="3100249  " descripcion="Uno siempre cambia al amor de su vi" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="629.00" linea="17" lista="6.29" producto="9788408210856" serial="" sku="3100249" titulo="Uno siempre cambia al amor de su vida. (Por otro a" titulocm="Uno siempre cambia al amor de su v" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="300" codigo="3100384  " descripcion="Anna Kadabra. El Club de la Luna Ll" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="1296.00" iva="til &amp;" linea="18" lista="4.32" producto="9788408223238" serial="" sku="3100384" titulo="Anna Kadabra. El Club de la Luna Llena" titulocm="Anna Kadabra. El Club de la Luna L" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="170" codigo="3100385  " descripcion="Anna Kadabra. Un problema con alas" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="734.40" iva="til &amp;" linea="19" lista="4.32" producto="9788408223245" serial="" sku="3100385" titulo="Anna Kadabra. Un problema con alas" titulocm="Anna Kadabra. Un problema con alas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="300" codigo="3100419  " descripcion="Las Ratitas 1. Tres, dos, uno... ­s" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="1887.00" iva="til &amp;" linea="20" lista="6.29" producto="9788408225744" serial="" sku="3100419" titulo="Las Ratitas 1. Tres, dos, uno... ­superpoderes " titulocm="Las Ratitas 1. Tres, dos, uno... ­" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="150" codigo="3100436  " descripcion="Las Ratitas 2. S£per Alma en acción" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="943.50" iva="til &amp;" linea="21" lista="6.29" producto="9788408227977" serial="" sku="3100436" titulo="Las Ratitas 2. S£per Alma en acción" titulocm="Las Ratitas 2. S£per Alma en acció" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100479  " descripcion="Anna Kadabra. Fiesta a medianoche" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="432.00" iva="til &amp;" linea="22" lista="4.32" producto="9788408233053" serial="" sku="3100479" titulo="Anna Kadabra. Fiesta a medianoche" titulocm="Anna Kadabra. Fiesta a medianoche" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="80" codigo="3100539  " descripcion="Las Ratitas 4. Superaventura entre" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="503.20" iva="til &amp;" linea="23" lista="6.29" producto="9788408240143" serial="" sku="3100539" titulo="Las Ratitas 4. Superaventura entre las nubes" titulocm="Las Ratitas 4. Superaventura entre" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100578  " descripcion="Anna Kadabra 6. Pasteles peligrosos" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="432.00" iva="til &amp;" linea="24" lista="4.32" producto="9788408241973" serial="" sku="3100578" titulo="Anna Kadabra 6. Pasteles peligrosos" titulocm="Anna Kadabra 6. Pasteles peligroso" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100584  " descripcion="Las Ratitas 3. La misteriosa magia" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="629.00" iva="til &amp;" linea="25" lista="6.29" producto="9788408237099" serial="" sku="3100584" titulo="Las Ratitas 3. La misteriosa magia de las S£per Ra" titulocm="Las Ratitas 3. La misteriosa magia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="70" codigo="3100625  " descripcion="Las Ratitas 5. ­Las sirenas existen" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="440.30" iva="til &amp;" linea="26" lista="6.29" producto="9788408245865" serial="" sku="3100625" titulo="Las Ratitas 5. ­Las sirenas existen " titulocm="Las Ratitas 5. ­Las sirenas existe" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100703  " descripcion="Anna Kadabra 7. El secreto del bosq" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="27" lista="4.71" producto="9788408245568" serial="" sku="3100703" titulo="Anna Kadabra 7. El secreto del bosque" titulocm="Anna Kadabra 7. El secreto del bos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="150" codigo="3100744  " descripcion="Anna Kadabra 3. Un monstruo en la b" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="648.00" iva="til &amp;" linea="28" lista="4.32" producto="9788408229964" serial="" sku="3100744" titulo="Anna Kadabra 3. Un monstruo en la banera" titulocm="Anna Kadabra 3. Un monstruo en la" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100779  " descripcion="Anna Kadabra 8. El festival de bruj" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="29" lista="4.71" producto="9788408251354" serial="" sku="3100779" titulo="Anna Kadabra 8. El festival de brujeria" titulocm="Anna Kadabra 8. El festival de bru" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="60" codigo="3100817  " descripcion="Las Ratitas 6. El poder de los mune" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="377.40" iva="til &amp;" linea="30" lista="6.29" producto="9788408249306" serial="" sku="3100817" titulo="Las Ratitas 6. El poder de los munecos de nieve" titulocm="Las Ratitas 6. El poder de los mun" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="3100835  " descripcion="Las Ratitas 7. Cupcakes con sorpres" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="251.60" iva="til &amp;" linea="31" lista="6.29" producto="9788408253679" serial="" sku="3100835" titulo="Las Ratitas 7. Cupcakes con sorpresa" titulocm="Las Ratitas 7. Cupcakes con sorpre" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100876  " descripcion="Anna Kadabra 5. La Isla de las Masc" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="432.00" iva="til &amp;" linea="32" lista="4.32" producto="9788408237990" serial="" sku="3100876" titulo="Anna Kadabra 5. La Isla de las Mascotas" titulocm="Anna Kadabra 5. La Isla de las Mas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100877  " descripcion="Anna Kadabra 9. Un lobo en escena" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="33" lista="4.71" producto="9788408254096" serial="" sku="3100877" titulo="Anna Kadabra 9. Un lobo en escena" titulocm="Anna Kadabra 9. Un lobo en escena" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3100932  " descripcion="Anna Kadabra 10. La llamada de las" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="432.00" iva="til &amp;" linea="34" lista="4.32" producto="9788408260097" serial="" sku="3100932" titulo="Anna Kadabra 10. La llamada de las sirenas" titulocm="Anna Kadabra 10. La llamada de las" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="30" codigo="3100968  " descripcion="Las Ratitas 8. El bosque de las had" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="188.70" iva="til &amp;" linea="35" lista="6.29" producto="9788408253761" serial="" sku="3100968" titulo="Las Ratitas 8. El bosque de las hadas luminosas" titulocm="Las Ratitas 8. El bosque de las ha" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3101076  " descripcion="Anna Kadabra 11. La feria de las so" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="36" lista="4.71" producto="9788408269038" serial="" sku="3101076" titulo="Anna Kadabra 11. La feria de las sombras" titulocm="Anna Kadabra 11. La feria de las s" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3101138  " descripcion="Anna Kadabra 12. Brujos en panales" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="37" lista="4.71" producto="9788408274186" serial="" sku="3101138" titulo="Anna Kadabra 12. Brujos en panales" titulocm="Anna Kadabra 12. Brujos en panales" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="20" codigo="3101139  " descripcion="Las Ratitas 9. La cabana embrujada" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="125.80" iva="til &amp;" linea="38" lista="6.29" producto="9788408260233" serial="" sku="3101139" titulo="Las Ratitas 9. La cabana embrujada" titulocm="Las Ratitas 9. La cabana embrujada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="15" codigo="3101222  " descripcion="Las Ratitas 10. La magia está en ti" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="94.35" iva="til &amp;" linea="39" lista="6.29" producto="9788408276968" serial="" sku="3101222" titulo="Las Ratitas 10. La magia está en ti" titulocm="Las Ratitas 10. La magia está en t" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101275  " descripcion="Una corte de rosas y espinas. Edici" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1968.00" linea="40" lista="9.84" producto="9788408285298" serial="" sku="3101275" titulo="Una corte de rosas y espinas. Edición especial" titulocm="Una corte de rosas y espinas. Edic" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101352  " descripcion="Pecados 1. Rey de la ira. Edición e" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1888.00" linea="41" lista="9.44" producto="9788408289722" serial="" sku="3101352" titulo="Pecados 1. Rey de la ira. Edición especial" titulocm="Pecados 1. Rey de la ira. Edición" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3101377  " descripcion="Anna Kadabra 14. El reto del volcán" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="42" lista="4.71" producto="9788408288398" serial="" sku="3101377" titulo="Anna Kadabra 14. El reto del volcán" titulocm="Anna Kadabra 14. El reto del volcá" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3101391  " descripcion="Anna Kadabra 13. Peligro en la mans" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="43" lista="4.71" producto="9788408282464" serial="" sku="3101391" titulo="Anna Kadabra 13. Peligro en la mansión" titulocm="Anna Kadabra 13. Peligro en la man" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="8" codigo="3101447  " descripcion="Una corte de niebla y furia. Edició" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="75.52" linea="44" lista="9.44" producto="9788408290964" serial="" sku="3101447" titulo="Una corte de niebla y furia. Edición especial" titulocm="Una corte de niebla y furia. Edici" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="120" codigo="3101452  " descripcion="Pecados 2. Rey de la soberbia. Edic" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1132.80" linea="45" lista="9.44" producto="9788408292661" serial="" sku="3101452" titulo="Pecados 2. Rey de la soberbia. Edición especial" titulocm="Pecados 2. Rey de la soberbia. Edi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="20" codigo="3101529  " descripcion="Las Ratitas 12. Violeta, la hermana" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="125.80" iva="til &amp;" linea="46" lista="6.29" producto="9788408295440" serial="" sku="3101529" titulo="Las Ratitas 12. Violeta, la hermana secreta" titulocm="Las Ratitas 12. Violeta, la herman" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.71" Punitario="4.71" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="100" codigo="3101560  " descripcion="Anna Kadabra 15. La noche de la imp" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="471.00" iva="til &amp;" linea="47" lista="4.71" producto="9788408297901" serial="" sku="3101560" titulo="Anna Kadabra 15. La noche de la impostora" titulocm="Anna Kadabra 15. La noche de la im" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101589  " descripcion="Pecados 3. Rey de la codicia. Edici" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="472.00" linea="48" lista="9.44" producto="9788408299707" serial="" sku="3101589" titulo="Pecados 3. Rey de la codicia. Edición especial" titulocm="Pecados 3. Rey de la codicia. Edic" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101601  " descripcion="Acelerando en rojo" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1572.00" linea="49" lista="7.86" producto="9788408299615" serial="" sku="3101601" titulo="Acelerando en rojo" titulocm="Acelerando en rojo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="15" codigo="3101614  " descripcion="Las Ratitas 13. Detectives por un d" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="94.35" iva="til &amp;" linea="50" lista="6.29" producto="9788408301684" serial="" sku="3101614" titulo="Las Ratitas 13. Detectives por un dia" titulocm="Las Ratitas 13. Detectives por un" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101628  " descripcion="Cuando despierten las flores" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="393.00" linea="51" lista="7.86" producto="9788408302155" serial="" sku="3101628" titulo="Cuando despierten las flores" titulocm="Cuando despierten las flores" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101641  " descripcion="Pecados 4. Rey de la desidia. Edici" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="472.00" linea="52" lista="9.44" producto="9788408304029" serial="" sku="3101641" titulo="Pecados 4. Rey de la desidia. Edición especial" titulocm="Pecados 4. Rey de la desidia. Edic" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="15" codigo="3101663  " descripcion="Las Ratitas 14. El gran tesoro pira" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="94.35" iva="til &amp;" linea="53" lista="6.29" producto="9788408306122" serial="" sku="3101663" titulo="Las Ratitas 14. El gran tesoro pirata" titulocm="Las Ratitas 14. El gran tesoro pir" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.05" Punitario="9.05" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101675  " descripcion="La Academia 2. Aurora" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="452.50" linea="54" lista="9.05" producto="9788408305491" serial="" sku="3101675" titulo="La Academia 2. Aurora" titulocm="La Academia 2. Aurora" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.45" Punitario="7.45" SUM="H87" TasaIEPS="rt" TasaIVA="rt" UM="PIEZA" cantidad="20" codigo="8001415  " descripcion="Ojalá nunca lo leas" descuento="4901990400  Ma" ean="PZA   49019904" ieps="Roca" importe="149.00" linea="55" lista="7.45" producto="9788427053977" serial="" sku="8001415" titulo="Ojalá nunca lo leas" titulocm="Ojalá nunca lo leas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.32" Punitario="4.32" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" cantidad="200" codigo="8203897  " descripcion="La insoportable levedad del ser" descuento="4901990400  Tu" ean="PZA   49019904" importe="864.00" linea="56" lista="4.32" producto="9788411070775" serial="" sku="8203897" titulo="La insoportable levedad del ser" titulocm="La insoportable levedad del ser" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn nombre="3101167504"/>
+                <fa:Detallista fechaMercancia="2026-02-09" fechaOrdenCompra="2026-02-09" ordenCompra="00002002" subTotal="34494.40" total="34494.40"/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2026" codCliente="000013164-9" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="NO SURTIR  EXW" fecha="09/02/2026" noCliente="PedLocDoc:00002016" noOrdenCompra="VLP-031/26" pedidoInterno="00002002" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013164-9" unoObservaciones="OC:23117  PRINTED BOOKS  HS CODE 49.01.99"/>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Aria Narrow" n 4
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+09/02/2026
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\002002
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2026-02-09T22:00:58 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+3C729B68-44D4-462E-9FFA-AB9192CD6C9E
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "830002002.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2026-02-09T22:00:58
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A.   
+
+3101167504
+
+II ETAPA DE PLAZA MAYOR  2DO P OF 7
+
+PAVAS  ROHRMOSER 
+
+SAN JOSE COSTA RICA C.P. 10109
+
+Proveedor: PedLocDoc:00002016
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013164-9
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+OC:23117  PRINTED BOOKS  HS CODE 49.01.99
+
+NO SURTIR  EXW
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013164-9 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+180 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-031/26
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00002002
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1009674  
+~# @?Jc
+500
+~# @?Jc
+H87
+~# @?
+Verity. La sombra de un engano
+~# @?Jc
+9788408269755
+~# @?Jr
+8.24
+~# @?Jr
+4,120.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001198/31-07-25/VE31/07/2025
+~# @?Jc
+1-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010698  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+La serpiente y las alas de la noche  (Edición Delu
+~# @?Jc
+9788408292487
+~# @?Jr
+9.42
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011000  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Maxton Hall 2 (Edición especial)
+~# @?Jc
+9788408300540
+~# @?Jr
+9.42
+~# @?Jr
+376.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011001  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Maxton Hall 3 (Edición especial)
+~# @?Jc
+9788408300557
+~# @?Jr
+9.42
+~# @?Jr
+376.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011004  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Nuestro lugar en el mundo
+~# @?Jc
+9788408299585
+~# @?Jr
+8.24
+~# @?Jr
+1,648.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000185/08-05-25/VE08/05/2025
+~# @?Jc
+8-05-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011007  
+~# @?Jc
+90
+~# @?Jc
+H87
+~# @?
+Maxton Hall 1 (Edición especial)
+~# @?Jc
+9788408300533
+~# @?Jr
+9.42
+~# @?Jr
+847.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011051  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+La bailarina de Auschwitz (Edición Young Adult)
+~# @?Jc
+9788408301295
+~# @?Jr
+7.06
+~# @?Jr
+141.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401008  
+~# @?Jc
+15
+~# @?Jc
+H87
+~# @?
+El Hobbit (NE)
+~# @?Jc
+9788445012802
+~# @?Jr
+8.26
+~# @?Jr
+123.90
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401211  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+El Silmarillion. Ilustrado por Ted Nasmith (edició
+~# @?Jc
+9788445013618
+~# @?Jr
+13.80
+~# @?Jr
+138.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401357  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+El Silmarillion. Edición ilustrada por el autor
+~# @?Jc
+9788445016794
+~# @?Jr
+19.71
+~# @?Jr
+394.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002638/23-10-25/VE23/10/2025
+~# @?Jc
+3-10-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401375  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+El Hobbit (edición revisada,anotada e ilustrada)
+~# @?Jc
+9788445013533
+~# @?Jr
+11.81
+~# @?Jr
+118.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000338/01-08-24/VE01/08/2024
+~# @?Jc
+1-08-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401542  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Las Dos Torres. Ilustrado por Alan Lee (NE revisad
+~# @?Jc
+9788445019719
+~# @?Jr
+11.83
+~# @?Jr
+236.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401543  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+El Retorno del Rey. Ilustrado por Alan Lee (NE rev
+~# @?Jc
+9788445019818
+~# @?Jr
+11.83
+~# @?Jr
+236.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401548  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+La Comunidad del Anillo. Ilustrado por Alan Lee (N
+~# @?Jc
+9788445017319
+~# @?Jr
+11.83
+~# @?Jr
+473.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2400905  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+El arte del café
+~# @?Jc
+9788418820502
+~# @?Jr
+7.86
+~# @?Jr
+786.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2401026  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El principito
+~# @?Jc
+9788410378810
+~# @?Jr
+8.63
+~# @?Jr
+8.63
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001175/24-06-25/VE24/06/2025
+~# @?Jc
+4-06-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100249  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Uno siempre cambia al amor de su vida. (Por otro a
+~# @?Jc
+9788408210856
+~# @?Jr
+6.29
+~# @?Jr
+629.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100384  
+~# @?Jc
+300
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. El Club de la Luna Llena
+~# @?Jc
+9788408223238
+~# @?Jr
+4.32
+~# @?Jr
+1,296.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100385  
+~# @?Jc
+170
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. Un problema con alas
+~# @?Jc
+9788408223245
+~# @?Jr
+4.32
+~# @?Jr
+734.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100419  
+~# @?Jc
+300
+~# @?Jc
+H87
+~# @?
+Las Ratitas 1. Tres, dos, uno... ­superpoderes 
+~# @?Jc
+9788408225744
+~# @?Jr
+6.29
+~# @?Jr
+1,887.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100436  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Las Ratitas 2. S£per Alma en acción
+~# @?Jc
+9788408227977
+~# @?Jr
+6.29
+~# @?Jr
+943.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100479  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra. Fiesta a medianoche
+~# @?Jc
+9788408233053
+~# @?Jr
+4.32
+~# @?Jr
+432.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100539  
+~# @?Jc
+80
+~# @?Jc
+H87
+~# @?
+Las Ratitas 4. Superaventura entre las nubes
+~# @?Jc
+9788408240143
+~# @?Jr
+6.29
+~# @?Jr
+503.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100578  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 6. Pasteles peligrosos
+~# @?Jc
+9788408241973
+~# @?Jr
+4.32
+~# @?Jr
+432.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100584  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Las Ratitas 3. La misteriosa magia de las S£per Ra
+~# @?Jc
+9788408237099
+~# @?Jr
+6.29
+~# @?Jr
+629.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100625  
+~# @?Jc
+70
+~# @?Jc
+H87
+~# @?
+Las Ratitas 5. ­Las sirenas existen 
+~# @?Jc
+9788408245865
+~# @?Jr
+6.29
+~# @?Jr
+440.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100703  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 7. El secreto del bosque
+~# @?Jc
+9788408245568
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100744  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 3. Un monstruo en la banera
+~# @?Jc
+9788408229964
+~# @?Jr
+4.32
+~# @?Jr
+648.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100779  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 8. El festival de brujeria
+~# @?Jc
+9788408251354
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100817  
+~# @?Jc
+60
+~# @?Jc
+H87
+~# @?
+Las Ratitas 6. El poder de los munecos de nieve
+~# @?Jc
+9788408249306
+~# @?Jr
+6.29
+~# @?Jr
+377.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100835  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Las Ratitas 7. Cupcakes con sorpresa
+~# @?Jc
+9788408253679
+~# @?Jr
+6.29
+~# @?Jr
+251.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100876  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 5. La Isla de las Mascotas
+~# @?Jc
+9788408237990
+~# @?Jr
+4.32
+~# @?Jr
+432.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100877  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 9. Un lobo en escena
+~# @?Jc
+9788408254096
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100932  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 10. La llamada de las sirenas
+~# @?Jc
+9788408260097
+~# @?Jr
+4.32
+~# @?Jr
+432.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100968  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Las Ratitas 8. El bosque de las hadas luminosas
+~# @?Jc
+9788408253761
+~# @?Jr
+6.29
+~# @?Jr
+188.70
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101076  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 11. La feria de las sombras
+~# @?Jc
+9788408269038
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101138  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 12. Brujos en panales
+~# @?Jc
+9788408274186
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101139  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Las Ratitas 9. La cabana embrujada
+~# @?Jc
+9788408260233
+~# @?Jr
+6.29
+~# @?Jr
+125.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101222  
+~# @?Jc
+15
+~# @?Jc
+H87
+~# @?
+Las Ratitas 10. La magia está en ti
+~# @?Jc
+9788408276968
+~# @?Jr
+6.29
+~# @?Jr
+94.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101275  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Una corte de rosas y espinas. Edición especial
+~# @?Jc
+9788408285298
+~# @?Jr
+9.84
+~# @?Jr
+1,968.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101352  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Pecados 1. Rey de la ira. Edición especial
+~# @?Jc
+9788408289722
+~# @?Jr
+9.44
+~# @?Jr
+1,888.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101377  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 14. El reto del volcán
+~# @?Jc
+9788408288398
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101391  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 13. Peligro en la mansión
+~# @?Jc
+9788408282464
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101447  
+~# @?Jc
+8
+~# @?Jc
+H87
+~# @?
+Una corte de niebla y furia. Edición especial
+~# @?Jc
+9788408290964
+~# @?Jr
+9.44
+~# @?Jr
+75.52
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101452  
+~# @?Jc
+120
+~# @?Jc
+H87
+~# @?
+Pecados 2. Rey de la soberbia. Edición especial
+~# @?Jc
+9788408292661
+~# @?Jr
+9.44
+~# @?Jr
+1,132.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101529  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Las Ratitas 12. Violeta, la hermana secreta
+~# @?Jc
+9788408295440
+~# @?Jr
+6.29
+~# @?Jr
+125.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101560  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Anna Kadabra 15. La noche de la impostora
+~# @?Jc
+9788408297901
+~# @?Jr
+4.71
+~# @?Jr
+471.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101589  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Pecados 3. Rey de la codicia. Edición especial
+~# @?Jc
+9788408299707
+~# @?Jr
+9.44
+~# @?Jr
+472.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101601  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Acelerando en rojo
+~# @?Jc
+9788408299615
+~# @?Jr
+7.86
+~# @?Jr
+1,572.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101614  
+~# @?Jc
+15
+~# @?Jc
+H87
+~# @?
+Las Ratitas 13. Detectives por un dia
+~# @?Jc
+9788408301684
+~# @?Jr
+6.29
+~# @?Jr
+94.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101628  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Cuando despierten las flores
+~# @?Jc
+9788408302155
+~# @?Jr
+7.86
+~# @?Jr
+393.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101641  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Pecados 4. Rey de la desidia. Edición especial
+~# @?Jc
+9788408304029
+~# @?Jr
+9.44
+~# @?Jr
+472.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101663  
+~# @?Jc
+15
+~# @?Jc
+H87
+~# @?
+Las Ratitas 14. El gran tesoro pirata
+~# @?Jc
+9788408306122
+~# @?Jr
+6.29
+~# @?Jr
+94.35
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101675  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+La Academia 2. Aurora
+~# @?Jc
+9788408305491
+~# @?Jr
+9.05
+~# @?Jr
+452.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8001415  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Ojalá nunca lo leas
+~# @?Jc
+9788427053977
+~# @?Jr
+7.45
+~# @?Jr
+149.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8203897  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+La insoportable levedad del ser
+~# @?Jc
+9788411070775
+~# @?Jr
+4.32
+~# @?Jr
+864.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+5,159
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "3C729B68-44D4-462E-9FFA-AB9192CD6C9E.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+ 
+
+@6 OPERACIÓN NO OBJETO DE IVA CONFORME AL ARTÍCULO 1 DE LA LEY DEL IVA, AL NO REALIZARSE LA ENAJENACIÓN DE BIENES EN TERRITORIO NACIONAL. 
+
+ 
+
+@5DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M53.53 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+ 
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+34,494.40
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+34,494.40
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(TREINTA Y CUATRO MIL CUATROCIENTOS NOVENTA Y CUATRO EUROS 40/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+kN0YBX2OFHa14/zPyIt5RduFfEOdfJL7nweLMaQ9vuLa3ZkvY06vSG/z5k9qFOStbNw5p0mar0lUmmxGXw3v7tOpMW7ssLHP1cftF3HZAPh+QQN1LTCPw5sCr+CGzxtaRQOv9ljQNoiqGopz7LjCt32QcVN7VnzOM5g5IvJ5ym20Qo0c/I9rYAj7+v3LCO5Y0TI0pUQvn0lLT5EyFf5oNohWSE6/9+h9iH07uyl4erAbLsqfSOAXiiLA0fprxmlXFGWoydKKOiZJyU78mrud6EpMrJSYSgObXh0eBEUvTfxxpn2mDPQli/1eJg5bSpZTRrKj0bYMOrWAVEYhciQwtg==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+KTfObSstn1yikI/4A8/tJ9FqQMieE6FLr/2l/3PrzOqVfSyf6D5Pu3Ov2ykB2jOKqZNYpIGWzE4+qUAEo0dKAPRXR72xT5z+E99/PBrOHscLDPlj2s+i50RptIOE9vLHjaJBnepblw2sThMpqF+blwNISHnvS2hBi6ezqQJN+tBacVmgehAyYlAr/O6DQSC8qLNFZs7d401vF9t+dPxUC2v9b/6wa/zoS7Sjp7DYv7SHOANyCZnDMsYxTNWaYzIUKRaLjyvGPhh03NucQ0eMbtW5vqUecCr2xrG8yt9yfWvQw9jsVjI03ZG/NHsp0q+GXz5tp6+hPG74fv8YbWXEUA==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|3C729B68-44D4-462E-9FFA-AB9192CD6C9E|2026-02-10T08:16:37|kN0YBX2OFHa14/zPyIt5RduFfEOdfJL7nweLMaQ9vuLa3ZkvY06vSG/z5k9qFOStbNw5p0mar0lUmmxGXw3v7tOpMW7ssLHP1cftF3HZAPh+QQN1LTCPw5sCr+CGzxtaRQOv9ljQNoiqGopz7LjCt32QcVN7VnzOM5g5IvJ5ym20Qo0c/I9rYAj7+v3LCO5Y0TI0pUQvn0lLT5EyFf5oNohWSE6/9+h9iH07uyl4erAbLsqfSOAXiiLA0fprxmlXFGWoydKKOiZJyU78mrud6EpMrJSYSgObXh0eBEUvTfxxpn2mDPQli/1eJg5bSpZTRrKj0bYMOrWAVEYhciQwtg==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2026-02-10T08:16:37
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

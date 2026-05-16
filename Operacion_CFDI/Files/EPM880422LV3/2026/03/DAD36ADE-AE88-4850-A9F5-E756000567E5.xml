@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="120 DIAS" Descuento="0.00" Exportacion="01" Fecha="2026-03-09T11:57:47" Folio="002040" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000710885331" Sello="iB1WdJGkxPzhXfVLNvoGMlQ+YX9wEMUNO5Q3IFapUXDct1ZACmAVlPKLo9DiUoViI02B2msKunj316mzbDjM1lieCgi3dDarc9rJcZ4XA6Q3cPKd4kqg0qWHlMzOWbRK4uYP6QgIdtqRs53lkgL7p4oyeKSVVV/3qA9KYOUMuUoG9ddIwJkNLYYhivRDDRsiG7LgJUfv3wSIdaUoISPdW/wDlHInNG0de3WefLAAQoUgVVuAz5JmlBYtXEau+0wC5HbWZyIUPnVSgpPI0i+j7RbHDvQAONdowGGdEFI2s+2NRfxRnC06n/rDjcUHFdaQeG9XU0EGIVIROBMBU3pwTg==" Serie="TMC" SubTotal="13049.08" TipoCambio="20.817495" TipoDeComprobante="I" Total="13049.08" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior20.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="CENTRO CUESTA NACIONAL SAS" RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="De la A a la Z" Descuento="0.00" Importe="8.58" NoIdentificacion="9788408266419" ObjetoImp="01" ValorUnitario="2.86"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Madame Bovary. Edición limitada con cantos decorad" Descuento="0.00" Importe="306.80" NoIdentificacion="9788467080605" ObjetoImp="01" ValorUnitario="7.67"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La senora Dalloway. Edición limitada con cantos de" Descuento="0.00" Importe="215.40" NoIdentificacion="9788408315261" ObjetoImp="01" ValorUnitario="7.18"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que nunca fuimos" Descuento="0.00" Importe="258.00" NoIdentificacion="9788408204824" ObjetoImp="01" ValorUnitario="8.60"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Alas de sangre (Empireo 1)" Descuento="0.00" Importe="275.25" NoIdentificacion="9788408279990" ObjetoImp="01" ValorUnitario="11.01"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Nuestro lugar en el mundo" Descuento="0.00" Importe="251.25" NoIdentificacion="9788408299585" ObjetoImp="01" ValorUnitario="10.05"/>
+        <cfdi:Concepto Cantidad="70" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Hundida" Descuento="0.00" Importe="703.50" NoIdentificacion="9788408315827" ObjetoImp="01" ValorUnitario="10.05"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El arte de amar bien" Descuento="0.00" Importe="455.50" NoIdentificacion="9788408315087" ObjetoImp="01" ValorUnitario="9.11"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cómo hacer que te pasen cosas buenas" Descuento="0.00" Importe="502.50" NoIdentificacion="9788467053302" ObjetoImp="01" ValorUnitario="10.05"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Encuentra tu persona vitamina" Descuento="0.00" Importe="502.50" NoIdentificacion="9788467062212" ObjetoImp="01" ValorUnitario="10.05"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cómo hacer que te pasen cosas buenas (Edición espe" Descuento="0.00" Importe="1149.00" NoIdentificacion="9788467079449" ObjetoImp="01" ValorUnitario="11.49"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Madera de lider" Descuento="0.00" Importe="239.00" NoIdentificacion="9788467079289" ObjetoImp="01" ValorUnitario="9.56"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Mi revolución anticáncer" Descuento="0.00" Importe="131.50" NoIdentificacion="9788408215066" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="75" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que nunca fuimos" Descuento="0.00" Importe="394.50" NoIdentificacion="9788408221951" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo lo que somos juntos" Descuento="0.00" Importe="210.40" NoIdentificacion="9788408221968" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="75" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Los 7 hábitos de la gente altamente efectiva" Descuento="0.00" Importe="430.50" NoIdentificacion="9788408276791" ObjetoImp="01" ValorUnitario="5.74"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El faro de los amores dormidos" Descuento="0.00" Importe="131.50" NoIdentificacion="9788408287599" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Verity. La sombra de un engano" Descuento="0.00" Importe="107.50" NoIdentificacion="9788408304524" ObjetoImp="01" ValorUnitario="4.30"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Alas de sangre. Edición especial limitada con cant" Descuento="0.00" Importe="767.00" NoIdentificacion="9788408316084" ObjetoImp="01" ValorUnitario="7.67"/>
+        <cfdi:Concepto Cantidad="42" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Amor a todo gas" Descuento="0.00" Importe="220.92" NoIdentificacion="9788427054899" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="75" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las cadenas del rey" Descuento="0.00" Importe="394.50" NoIdentificacion="9788408315421" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Nuestro lugar en el mundo" Descuento="0.00" Importe="526.00" NoIdentificacion="9788408315308" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El faro de los amores dormidos" Descuento="0.00" Importe="478.00" NoIdentificacion="9788408315674" ObjetoImp="01" ValorUnitario="4.78"/>
+        <cfdi:Concepto Cantidad="12" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Arriesgada farsa de amor" Descuento="0.00" Importe="63.12" NoIdentificacion="9788408315469" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="éltimas noticias de Jes£s" Descuento="0.00" Importe="131.50" NoIdentificacion="9788467080629" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Cómo empezó todo?" Descuento="0.00" Importe="143.40" NoIdentificacion="9788408315711" ObjetoImp="01" ValorUnitario="4.78"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Qué hay dentro de un agujero negro?" Descuento="0.00" Importe="143.40" NoIdentificacion="9788408315698" ObjetoImp="01" ValorUnitario="4.78"/>
+        <cfdi:Concepto Cantidad="35" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Birthday Girl" Descuento="0.00" Importe="184.10" NoIdentificacion="9788408315476" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="35" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El sindrome de la impostora" Descuento="0.00" Importe="184.10" NoIdentificacion="9788411004633" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Las hijas de la criada" Descuento="0.00" Importe="335.00" NoIdentificacion="9788408315278" ObjetoImp="01" ValorUnitario="6.70"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Piensa como un emperador romano" Descuento="0.00" Importe="263.00" NoIdentificacion="9791387869540" ObjetoImp="01" ValorUnitario="5.26"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="¨Nos sobrepasará la inteligencia artificial?" Descuento="0.00" Importe="239.00" NoIdentificacion="9788408315735" ObjetoImp="01" ValorUnitario="4.78"/>
+        <cfdi:Concepto Cantidad="35" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El perfume del rey" Descuento="0.00" Importe="318.85" NoIdentificacion="9788408275961" ObjetoImp="01" ValorUnitario="9.11"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Rebelión en la granja" Descuento="0.00" Importe="167.50" NoIdentificacion="9788408299646" ObjetoImp="01" ValorUnitario="6.70"/>
+        <cfdi:Concepto Cantidad="21" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 4. Twisted Lies. Edición especial" Descuento="0.00" Importe="241.71" NoIdentificacion="9788408309642" ObjetoImp="01" ValorUnitario="11.51"/>
+        <cfdi:Concepto Cantidad="35" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Donde habitan las sirenas" Descuento="0.00" Importe="335.65" NoIdentificacion="9788408308607" ObjetoImp="01" ValorUnitario="9.59"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Fuego y metal 1. Metal Slinger" Descuento="0.00" Importe="299.75" NoIdentificacion="9788408314820" ObjetoImp="01" ValorUnitario="11.99"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Llamas" Descuento="0.00" Importe="383.60" NoIdentificacion="9788408314790" ObjetoImp="01" ValorUnitario="9.59"/>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Rey 3. El corazón del rey" Descuento="0.00" Importe="273.30" NoIdentificacion="9788408310495" ObjetoImp="01" ValorUnitario="9.11"/>
+        <cfdi:Concepto Cantidad="25" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Si Rusia ganara" Descuento="0.00" Importe="203.00" NoIdentificacion="9788411004619" ObjetoImp="01" ValorUnitario="8.12"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El pequeno libro de la sabiduria estoica" Descuento="0.00" Importe="479.50" NoIdentificacion="9788423440184" ObjetoImp="01" ValorUnitario="9.59"/>
+    </cfdi:Conceptos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="DAD36ADE-AE88-4850-A9F5-E756000567E5" FechaTimbrado="2026-03-09T12:16:11" RfcProvCertif="ASE0209252Q1" SelloCFD="iB1WdJGkxPzhXfVLNvoGMlQ+YX9wEMUNO5Q3IFapUXDct1ZACmAVlPKLo9DiUoViI02B2msKunj316mzbDjM1lieCgi3dDarc9rJcZ4XA6Q3cPKd4kqg0qWHlMzOWbRK4uYP6QgIdtqRs53lkgL7p4oyeKSVVV/3qA9KYOUMuUoG9ddIwJkNLYYhivRDDRsiG7LgJUfv3wSIdaUoISPdW/wDlHInNG0de3WefLAAQoUgVVuAz5JmlBYtXEau+0wC5HbWZyIUPnVSgpPI0i+j7RbHDvQAONdowGGdEFI2s+2NRfxRnC06n/rDjcUHFdaQeG9XU0EGIVIROBMBU3pwTg==" NoCertificadoSAT="00001000000707891043" SelloSAT="BkZoeON2RBDjLp88JRshj2JKz+ZtPqFs2mVZo59duqFMyzzae6w888FXNGQgGhKDg6CRl3ozwc3uF2mmc0LdL2myomFBpzhbgUKKl2Krq4Vr73w9fymxHIZBo3+ysnm6kUW1Lqz6WG0G1TZS7Rmy4hGBFSrwg7bmLWWpfh2fH3H5NzEJ0Qwml5ia/zNZhOCVJmZzhwKd4V0f5vq8BX8aUV8iM9Nzrfv2H8Ecr68twIS6UE5QdslowvGRcE/7UQpWWiaMWp9Remw6xblbXT7aji3Lb+FEVLcjd3tvlfV6KjqAbJZBNLK5URsstWJ7/x3uiBFXVxDAgpN5zbGAVmLWZg=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Simoneda="" TotalMx="13049.08" UniGraf="" ValorDelAtributo="" calle="AV.LUPERON ESQ.GUSTAVO MEJIA RICART" cantidadConLetra="(TRECE MIL CUARENTA Y NUEVE EUROS 08/100)" cincoNeto="13049.08" codigoPostal="S/I" colonia="LAS PRADERAS" correos="dteran@planeta.com.mx -t llopez@planeta.com.mx -t afvazquez@planeta.com.mx -t amonzalvo@planeta.com.mx -t anagabriela.puga@planeta.com.mx -t  yesenia.chagoya@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="DO" fac="2026-03-09" fechaEdi102="2026-03-09T11:57:47" fechaEdi204="2026-03-09T11:57:47" ivaMx="" mail="dteran@planeta.com.mx;llopez@planeta.com.mx;afvazquez@planeta.com.mx;amonzalvo@planeta.com.mx;anagabriela.puga@planeta.com.mx; yesenia.chagoya@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00002054" noCopiasPrinter="3" noExterior="S/N" noInterior="" noOrden="VLP-077/26" noProveedor="" nomAtributo="" pais="REPUBLICA DOMINICANA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="13049.08" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="1,783" unoButo="13049.08" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="2.86" Punitario="2.86" SUM="H87" TasaIEPS="en" TasaIVA="en" UM="PIEZA" cantidad="3" codigo="0058129  " descripcion="De la A a la Z" descuento="4901990400  Es" ean="PZA   49019904" ieps="Méxic" importe="8.58" iva="o" linea="1" lista="2.86" producto="9788408266419" serial="" sku="0058129" titulo="De la A a la Z" titulocm="De la A a la Z" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.67" Punitario="7.67" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="0231234  " descripcion="Madame Bovary. Edición limitada con" descuento="4901990400  Au" ean="PZA   49019904" importe="306.80" linea="2" lista="7.67" producto="9788467080605" serial="" sku="0231234" titulo="Madame Bovary. Edición limitada con cantos decorad" titulocm="Madame Bovary. Edición limitada co" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.18" Punitario="7.18" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="30" codigo="0231235  " descripcion="La senora Dalloway. Edición limitad" descuento="4901990400  Au" ean="PZA   49019904" importe="215.40" linea="3" lista="7.18" producto="9788408315261" serial="" sku="0231235" titulo="La senora Dalloway. Edición limitada con cantos de" titulocm="La senora Dalloway. Edición limita" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.60" Punitario="8.60" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="30" codigo="1007066  " descripcion="Todo lo que nunca fuimos" descuento="4901990400  Pl" ean="PZA   49019904" importe="258.00" linea="4" lista="8.60" producto="9788408204824" serial="" sku="1007066" titulo="Todo lo que nunca fuimos" titulocm="Todo lo que nunca fuimos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.01" Punitario="11.01" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="25" codigo="1010016  " descripcion="Alas de sangre (Empireo 1)" descuento="4901990400  Pl" ean="PZA   49019904" importe="275.25" linea="5" lista="11.01" producto="9788408279990" serial="" sku="1010016" titulo="Alas de sangre (Empireo 1)" titulocm="Alas de sangre (Empireo 1)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.05" Punitario="10.05" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000185/08-05-25/VE08/05/2025" cantidad="25" codigo="1011004  " descripcion="Nuestro lugar en el mundo" descuento="4901990400  Pl" ean="PZA   49019904" importe="251.25" linea="6" lista="10.05" pedi="Pedimen." producto="9788408299585" serial="8-05-25/VE" sku="1011004" titulo="Nuestro lugar en el mundo" titulocm="Nuestro lugar en el mundo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.05" Punitario="10.05" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="70" codigo="1011688  " descripcion="Hundida" descuento="4901990400  Pl" ean="PZA   49019904" importe="703.50" linea="7" lista="10.05" producto="9788408315827" serial="" sku="1011688" titulo="Hundida" titulocm="Hundida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.11" Punitario="9.11" SUM="H87" TasaIEPS="ni" TasaIVA="ni" UM="PIEZA" cantidad="50" codigo="2100745  " descripcion="El arte de amar bien" descuento="4901990400  Ze" ean="PZA   49019904" importe="455.50" linea="8" lista="9.11" producto="9788408315087" serial="" sku="2100745" titulo="El arte de amar bien" titulocm="El arte de amar bien" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.05" Punitario="10.05" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="50" codigo="2301736  " descripcion="Cómo hacer que te pasen cosas buena" descuento="4901990400  Es" ean="PZA   49019904" importe="502.50" linea="9" lista="10.05" producto="9788467053302" serial="" sku="2301736" titulo="Cómo hacer que te pasen cosas buenas" titulocm="Cómo hacer que te pasen cosas buen" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="10.05" Punitario="10.05" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="50" codigo="2302032  " descripcion="Encuentra tu persona vitamina" descuento="4901990400  Es" ean="PZA   49019904" importe="502.50" linea="10" lista="10.05" producto="9788467062212" serial="" sku="2302032" titulo="Encuentra tu persona vitamina" titulocm="Encuentra tu persona vitamina" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.49" Punitario="11.49" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" aduana="4318496000029/13-02-26/VE13/02/2026" cantidad="100" codigo="2302636  " descripcion="Cómo hacer que te pasen cosas buena" descuento="4901990400  Es" ean="PZA   49019904" importe="1149.00" linea="11" lista="11.49" pedi="Pedimen." producto="9788467079449" serial="3-02-26/VE" sku="2302636" titulo="Cómo hacer que te pasen cosas buenas (Edición espe" titulocm="Cómo hacer que te pasen cosas buen" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.56" Punitario="9.56" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="25" codigo="2302639  " descripcion="Madera de lider" descuento="4901990400  Es" ean="PZA   49019904" importe="239.00" linea="12" lista="9.56" producto="9788467079289" serial="" sku="2302639" titulo="Madera de lider" titulocm="Madera de lider" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="25" codigo="2504328  " descripcion="Mi revolución anticáncer" descuento="4901990400  Bo" ean="PZA   49019904" importe="131.50" linea="13" lista="5.26" producto="9788408215066" serial="" sku="2504328" titulo="Mi revolución anticáncer" titulocm="Mi revolución anticáncer" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="75" codigo="2504443  " descripcion="Todo lo que nunca fuimos" descuento="4901990400  Bo" ean="PZA   49019904" importe="394.50" linea="14" lista="5.26" producto="9788408221951" serial="" sku="2504443" titulo="Todo lo que nunca fuimos" titulocm="Todo lo que nunca fuimos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="40" codigo="2504459  " descripcion="Todo lo que somos juntos" descuento="4901990400  Bo" ean="PZA   49019904" importe="210.40" linea="15" lista="5.26" producto="9788408221968" serial="" sku="2504459" titulo="Todo lo que somos juntos" titulocm="Todo lo que somos juntos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.74" Punitario="5.74" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="75" codigo="2505877  " descripcion="Los 7 hábitos de la gente altamente" descuento="4901990400  Bo" ean="PZA   49019904" importe="430.50" linea="16" lista="5.74" producto="9788408276791" serial="" sku="2505877" titulo="Los 7 hábitos de la gente altamente efectiva" titulocm="Los 7 hábitos de la gente altament" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="25" codigo="2506171  " descripcion="El faro de los amores dormidos" descuento="4901990400  Bo" ean="PZA   49019904" importe="131.50" linea="17" lista="5.26" producto="9788408287599" serial="" sku="2506171" titulo="El faro de los amores dormidos" titulocm="El faro de los amores dormidos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.30" Punitario="4.30" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="25" codigo="2506613  " descripcion="Verity. La sombra de un engano" descuento="4901990400  Bo" ean="PZA   49019904" importe="107.50" linea="18" lista="4.30" producto="9788408304524" serial="" sku="2506613" titulo="Verity. La sombra de un engano" titulocm="Verity. La sombra de un engano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.67" Punitario="7.67" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="100" codigo="2506979  " descripcion="Alas de sangre. Edición especial li" descuento="4901990400  Bo" ean="PZA   49019904" importe="767.00" linea="19" lista="7.67" producto="9788408316084" serial="" sku="2506979" titulo="Alas de sangre. Edición especial limitada con cant" titulocm="Alas de sangre. Edición especial l" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="42" codigo="2507006  " descripcion="Amor a todo gas" descuento="4901990400  Bo" ean="PZA   49019904" importe="220.92" linea="20" lista="5.26" producto="9788427054899" serial="" sku="2507006" titulo="Amor a todo gas" titulocm="Amor a todo gas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="75" codigo="2507007  " descripcion="Las cadenas del rey" descuento="4901990400  Bo" ean="PZA   49019904" importe="394.50" linea="21" lista="5.26" producto="9788408315421" serial="" sku="2507007" titulo="Las cadenas del rey" titulocm="Las cadenas del rey" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="100" codigo="2507008  " descripcion="Nuestro lugar en el mundo" descuento="4901990400  Bo" ean="PZA   49019904" importe="526.00" linea="22" lista="5.26" producto="9788408315308" serial="" sku="2507008" titulo="Nuestro lugar en el mundo" titulocm="Nuestro lugar en el mundo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.78" Punitario="4.78" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="100" codigo="2507009  " descripcion="El faro de los amores dormidos" descuento="4901990400  Bo" ean="PZA   49019904" importe="478.00" linea="23" lista="4.78" producto="9788408315674" serial="" sku="2507009" titulo="El faro de los amores dormidos" titulocm="El faro de los amores dormidos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="12" codigo="2507020  " descripcion="Arriesgada farsa de amor" descuento="4901990400  Bo" ean="PZA   49019904" importe="63.12" linea="24" lista="5.26" producto="9788408315469" serial="" sku="2507020" titulo="Arriesgada farsa de amor" titulocm="Arriesgada farsa de amor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="25" codigo="2507021  " descripcion="éltimas noticias de Jes£s" descuento="4901990400  Bo" ean="PZA   49019904" importe="131.50" linea="25" lista="5.26" producto="9788467080629" serial="" sku="2507021" titulo="éltimas noticias de Jes£s" titulocm="éltimas noticias de Jes£s" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.78" Punitario="4.78" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="30" codigo="2507022  " descripcion="¨Cómo empezó todo?" descuento="4901990400  Bo" ean="PZA   49019904" importe="143.40" linea="26" lista="4.78" producto="9788408315711" serial="" sku="2507022" titulo="¨Cómo empezó todo?" titulocm="¨Cómo empezó todo?" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.78" Punitario="4.78" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="30" codigo="2507023  " descripcion="¨Qué hay dentro de un agujero negro" descuento="4901990400  Bo" ean="PZA   49019904" importe="143.40" linea="27" lista="4.78" producto="9788408315698" serial="" sku="2507023" titulo="¨Qué hay dentro de un agujero negro?" titulocm="¨Qué hay dentro de un agujero negr" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="35" codigo="2507024  " descripcion="Birthday Girl" descuento="4901990400  Bo" ean="PZA   49019904" importe="184.10" linea="28" lista="5.26" producto="9788408315476" serial="" sku="2507024" titulo="Birthday Girl" titulocm="Birthday Girl" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="35" codigo="2507025  " descripcion="El sindrome de la impostora" descuento="4901990400  Bo" ean="PZA   49019904" importe="184.10" linea="29" lista="5.26" producto="9788411004633" serial="" sku="2507025" titulo="El sindrome de la impostora" titulocm="El sindrome de la impostora" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.70" Punitario="6.70" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="50" codigo="2507026  " descripcion="Las hijas de la criada" descuento="4901990400  Bo" ean="PZA   49019904" importe="335.00" linea="30" lista="6.70" producto="9788408315278" serial="" sku="2507026" titulo="Las hijas de la criada" titulocm="Las hijas de la criada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.26" Punitario="5.26" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="50" codigo="2507027  " descripcion="Piensa como un emperador romano" descuento="4901990400  Bo" ean="PZA   49019904" importe="263.00" linea="31" lista="5.26" producto="9791387869540" serial="" sku="2507027" titulo="Piensa como un emperador romano" titulocm="Piensa como un emperador romano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.78" Punitario="4.78" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" cantidad="50" codigo="2507028  " descripcion="¨Nos sobrepasará la inteligencia ar" descuento="4901990400  Bo" ean="PZA   49019904" importe="239.00" linea="32" lista="4.78" producto="9788408315735" serial="" sku="2507028" titulo="¨Nos sobrepasará la inteligencia artificial?" titulocm="¨Nos sobrepasará la inteligencia a" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.11" Punitario="9.11" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="35" codigo="3101159  " descripcion="El perfume del rey" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="318.85" linea="33" lista="9.11" producto="9788408275961" serial="" sku="3101159" titulo="El perfume del rey" titulocm="El perfume del rey" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.70" Punitario="6.70" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="25" codigo="3101593  " descripcion="Rebelión en la granja" descuento="4901990400  De" ean="PZA   49019904" ieps="Infan" importe="167.50" iva="til &amp;" linea="34" lista="6.70" producto="9788408299646" serial="" sku="3101593" titulo="Rebelión en la granja" titulocm="Rebelión en la granja" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.51" Punitario="11.51" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4318495002795/19-12-25/VE19/12/2025" cantidad="21" codigo="3101726  " descripcion="Twisted 4. Twisted Lies. Edición es" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="241.71" linea="35" lista="11.51" pedi="Pedimen." producto="9788408309642" serial="9-12-25/VE" sku="3101726" titulo="Twisted 4. Twisted Lies. Edición especial" titulocm="Twisted 4. Twisted Lies. Edición e" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.59" Punitario="9.59" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="35" codigo="3101730  " descripcion="Donde habitan las sirenas" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="335.65" linea="36" lista="9.59" producto="9788408308607" serial="" sku="3101730" titulo="Donde habitan las sirenas" titulocm="Donde habitan las sirenas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="11.99" Punitario="11.99" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="25" codigo="3101762  " descripcion="Fuego y metal 1. Metal Slinger" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="299.75" linea="37" lista="11.99" producto="9788408314820" serial="" sku="3101762" titulo="Fuego y metal 1. Metal Slinger" titulocm="Fuego y metal 1. Metal Slinger" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.59" Punitario="9.59" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="40" codigo="3101770  " descripcion="Llamas" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="383.60" linea="38" lista="9.59" producto="9788408314790" serial="" sku="3101770" titulo="Llamas" titulocm="Llamas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.11" Punitario="9.11" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="30" codigo="3101790  " descripcion="Rey 3. El corazón del rey" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="273.30" linea="39" lista="9.11" producto="9788408310495" serial="" sku="3101790" titulo="Rey 3. El corazón del rey" titulocm="Rey 3. El corazón del rey" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.12" Punitario="8.12" SUM="H87" TasaIEPS="ni" TasaIVA="ni" UM="PIEZA" cantidad="25" codigo="5353319  " descripcion="Si Rusia ganara" descuento="4901990400  Pe" ean="PZA   49019904" ieps="a Mex" importe="203.00" iva="ico" linea="40" lista="8.12" producto="9788411004619" serial="" sku="5353319" titulo="Si Rusia ganara" titulocm="Si Rusia ganara" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.59" Punitario="9.59" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="50" codigo="9100809  " descripcion="El pequeno libro de la sabiduria es" descuento="4901990400  De" ean="PZA   49019904" importe="479.50" linea="41" lista="9.59" producto="9788423440184" serial="" sku="9100809" titulo="El pequeno libro de la sabiduria estoica" titulocm="El pequeno libro de la sabiduria e" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn nombre="101019921"/>
+                <fa:Detallista fechaMercancia="2026-03-09" fechaOrdenCompra="2026-03-09" ordenCompra="00002039" subTotal="13049.08" total="13049.08"/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2026" codCliente="000013144-1" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="PRINTED BOOKS  HS CDOE 49.01.99  EXW / NO SURTIR" fecha="09/03/2026" noCliente="PedLocDoc:00002054" noOrdenCompra="VLP-077/26" pedidoInterno="00002039" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013144-1" unoObservaciones="PED VIA MARITIMA ESPAÑA - OC 230226-1 FACT 2"/>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Aria Narrow" n 4
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+09/03/2026
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\002040
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2026-03-09T11:57:47 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+DAD36ADE-AE88-4850-A9F5-E756000567E5
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "830002040.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2026-03-09T11:57:47
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+CENTRO CUESTA NACIONAL SAS   
+
+101019921
+
+AV.LUPERON ESQ.GUSTAVO MEJIA RICART  S/N
+
+LAS PRADERAS 
+
+DO REPUBLICA DOMINICANA C.P. S/I
+
+Proveedor: PedLocDoc:00002054
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013144-1
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+PED VIA MARITIMA ESPAÑA - OC 230226-1 FACT 2
+
+PRINTED BOOKS  HS CDOE 49.01.99  EXW / NO SURTIR
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013144-1 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+120 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-077/26
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00002039
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0058129  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+De la A a la Z
+~# @?Jc
+9788408266419
+~# @?Jr
+2.86
+~# @?Jr
+8.58
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0231234  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Madame Bovary. Edición limitada con cantos decorad
+~# @?Jc
+9788467080605
+~# @?Jr
+7.67
+~# @?Jr
+306.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0231235  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+La senora Dalloway. Edición limitada con cantos de
+~# @?Jc
+9788408315261
+~# @?Jr
+7.18
+~# @?Jr
+215.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1007066  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Todo lo que nunca fuimos
+~# @?Jc
+9788408204824
+~# @?Jr
+8.60
+~# @?Jr
+258.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010016  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Alas de sangre (Empireo 1)
+~# @?Jc
+9788408279990
+~# @?Jr
+11.01
+~# @?Jr
+275.25
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011004  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Nuestro lugar en el mundo
+~# @?Jc
+9788408299585
+~# @?Jr
+10.05
+~# @?Jr
+251.25
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000185/08-05-25/VE08/05/2025
+~# @?Jc
+8-05-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011688  
+~# @?Jc
+70
+~# @?Jc
+H87
+~# @?
+Hundida
+~# @?Jc
+9788408315827
+~# @?Jr
+10.05
+~# @?Jr
+703.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2100745  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+El arte de amar bien
+~# @?Jc
+9788408315087
+~# @?Jr
+9.11
+~# @?Jr
+455.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2301736  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Cómo hacer que te pasen cosas buenas
+~# @?Jc
+9788467053302
+~# @?Jr
+10.05
+~# @?Jr
+502.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302032  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Encuentra tu persona vitamina
+~# @?Jc
+9788467062212
+~# @?Jr
+10.05
+~# @?Jr
+502.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302636  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Cómo hacer que te pasen cosas buenas (Edición espe
+~# @?Jc
+9788467079449
+~# @?Jr
+11.49
+~# @?Jr
+1,149.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318496000029/13-02-26/VE13/02/2026
+~# @?Jc
+3-02-26/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302639  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Madera de lider
+~# @?Jc
+9788467079289
+~# @?Jr
+9.56
+~# @?Jr
+239.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504328  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Mi revolución anticáncer
+~# @?Jc
+9788408215066
+~# @?Jr
+5.26
+~# @?Jr
+131.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504443  
+~# @?Jc
+75
+~# @?Jc
+H87
+~# @?
+Todo lo que nunca fuimos
+~# @?Jc
+9788408221951
+~# @?Jr
+5.26
+~# @?Jr
+394.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504459  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Todo lo que somos juntos
+~# @?Jc
+9788408221968
+~# @?Jr
+5.26
+~# @?Jr
+210.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505877  
+~# @?Jc
+75
+~# @?Jc
+H87
+~# @?
+Los 7 hábitos de la gente altamente efectiva
+~# @?Jc
+9788408276791
+~# @?Jr
+5.74
+~# @?Jr
+430.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2506171  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+El faro de los amores dormidos
+~# @?Jc
+9788408287599
+~# @?Jr
+5.26
+~# @?Jr
+131.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2506613  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Verity. La sombra de un engano
+~# @?Jc
+9788408304524
+~# @?Jr
+4.30
+~# @?Jr
+107.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2506979  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Alas de sangre. Edición especial limitada con cant
+~# @?Jc
+9788408316084
+~# @?Jr
+7.67
+~# @?Jr
+767.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507006  
+~# @?Jc
+42
+~# @?Jc
+H87
+~# @?
+Amor a todo gas
+~# @?Jc
+9788427054899
+~# @?Jr
+5.26
+~# @?Jr
+220.92
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507007  
+~# @?Jc
+75
+~# @?Jc
+H87
+~# @?
+Las cadenas del rey
+~# @?Jc
+9788408315421
+~# @?Jr
+5.26
+~# @?Jr
+394.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507008  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Nuestro lugar en el mundo
+~# @?Jc
+9788408315308
+~# @?Jr
+5.26
+~# @?Jr
+526.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507009  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+El faro de los amores dormidos
+~# @?Jc
+9788408315674
+~# @?Jr
+4.78
+~# @?Jr
+478.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507020  
+~# @?Jc
+12
+~# @?Jc
+H87
+~# @?
+Arriesgada farsa de amor
+~# @?Jc
+9788408315469
+~# @?Jr
+5.26
+~# @?Jr
+63.12
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507021  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+éltimas noticias de Jes£s
+~# @?Jc
+9788467080629
+~# @?Jr
+5.26
+~# @?Jr
+131.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507022  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+¨Cómo empezó todo?
+~# @?Jc
+9788408315711
+~# @?Jr
+4.78
+~# @?Jr
+143.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507023  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+¨Qué hay dentro de un agujero negro?
+~# @?Jc
+9788408315698
+~# @?Jr
+4.78
+~# @?Jr
+143.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507024  
+~# @?Jc
+35
+~# @?Jc
+H87
+~# @?
+Birthday Girl
+~# @?Jc
+9788408315476
+~# @?Jr
+5.26
+~# @?Jr
+184.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507025  
+~# @?Jc
+35
+~# @?Jc
+H87
+~# @?
+El sindrome de la impostora
+~# @?Jc
+9788411004633
+~# @?Jr
+5.26
+~# @?Jr
+184.10
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507026  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Las hijas de la criada
+~# @?Jc
+9788408315278
+~# @?Jr
+6.70
+~# @?Jr
+335.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507027  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Piensa como un emperador romano
+~# @?Jc
+9791387869540
+~# @?Jr
+5.26
+~# @?Jr
+263.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2507028  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+¨Nos sobrepasará la inteligencia artificial?
+~# @?Jc
+9788408315735
+~# @?Jr
+4.78
+~# @?Jr
+239.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101159  
+~# @?Jc
+35
+~# @?Jc
+H87
+~# @?
+El perfume del rey
+~# @?Jc
+9788408275961
+~# @?Jr
+9.11
+~# @?Jr
+318.85
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101593  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Rebelión en la granja
+~# @?Jc
+9788408299646
+~# @?Jr
+6.70
+~# @?Jr
+167.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101726  
+~# @?Jc
+21
+~# @?Jc
+H87
+~# @?
+Twisted 4. Twisted Lies. Edición especial
+~# @?Jc
+9788408309642
+~# @?Jr
+11.51
+~# @?Jr
+241.71
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002795/19-12-25/VE19/12/2025
+~# @?Jc
+9-12-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101730  
+~# @?Jc
+35
+~# @?Jc
+H87
+~# @?
+Donde habitan las sirenas
+~# @?Jc
+9788408308607
+~# @?Jr
+9.59
+~# @?Jr
+335.65
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101762  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Fuego y metal 1. Metal Slinger
+~# @?Jc
+9788408314820
+~# @?Jr
+11.99
+~# @?Jr
+299.75
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101770  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Llamas
+~# @?Jc
+9788408314790
+~# @?Jr
+9.59
+~# @?Jr
+383.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101790  
+~# @?Jc
+30
+~# @?Jc
+H87
+~# @?
+Rey 3. El corazón del rey
+~# @?Jc
+9788408310495
+~# @?Jr
+9.11
+~# @?Jr
+273.30
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+5353319  
+~# @?Jc
+25
+~# @?Jc
+H87
+~# @?
+Si Rusia ganara
+~# @?Jc
+9788411004619
+~# @?Jr
+8.12
+~# @?Jr
+203.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100809  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+El pequeno libro de la sabiduria estoica
+~# @?Jc
+9788423440184
+~# @?Jr
+9.59
+~# @?Jr
+479.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+1,783
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "DAD36ADE-AE88-4850-A9F5-E756000567E5.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+ 
+
+@6 OPERACIÓN NO OBJETO DE IVA CONFORME AL ARTÍCULO 1 DE LA LEY DEL IVA, AL NO REALIZARSE LA ENAJENACIÓN DE BIENES EN TERRITORIO NACIONAL. 
+
+ 
+
+@5DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M53.53 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+ 
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+13,049.08
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+13,049.08
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(TRECE MIL CUARENTA Y NUEVE EUROS 08/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+iB1WdJGkxPzhXfVLNvoGMlQ+YX9wEMUNO5Q3IFapUXDct1ZACmAVlPKLo9DiUoViI02B2msKunj316mzbDjM1lieCgi3dDarc9rJcZ4XA6Q3cPKd4kqg0qWHlMzOWbRK4uYP6QgIdtqRs53lkgL7p4oyeKSVVV/3qA9KYOUMuUoG9ddIwJkNLYYhivRDDRsiG7LgJUfv3wSIdaUoISPdW/wDlHInNG0de3WefLAAQoUgVVuAz5JmlBYtXEau+0wC5HbWZyIUPnVSgpPI0i+j7RbHDvQAONdowGGdEFI2s+2NRfxRnC06n/rDjcUHFdaQeG9XU0EGIVIROBMBU3pwTg==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+BkZoeON2RBDjLp88JRshj2JKz+ZtPqFs2mVZo59duqFMyzzae6w888FXNGQgGhKDg6CRl3ozwc3uF2mmc0LdL2myomFBpzhbgUKKl2Krq4Vr73w9fymxHIZBo3+ysnm6kUW1Lqz6WG0G1TZS7Rmy4hGBFSrwg7bmLWWpfh2fH3H5NzEJ0Qwml5ia/zNZhOCVJmZzhwKd4V0f5vq8BX8aUV8iM9Nzrfv2H8Ecr68twIS6UE5QdslowvGRcE/7UQpWWiaMWp9Remw6xblbXT7aji3Lb+FEVLcjd3tvlfV6KjqAbJZBNLK5URsstWJ7/x3uiBFXVxDAgpN5zbGAVmLWZg==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|DAD36ADE-AE88-4850-A9F5-E756000567E5|2026-03-09T12:16:11|iB1WdJGkxPzhXfVLNvoGMlQ+YX9wEMUNO5Q3IFapUXDct1ZACmAVlPKLo9DiUoViI02B2msKunj316mzbDjM1lieCgi3dDarc9rJcZ4XA6Q3cPKd4kqg0qWHlMzOWbRK4uYP6QgIdtqRs53lkgL7p4oyeKSVVV/3qA9KYOUMuUoG9ddIwJkNLYYhivRDDRsiG7LgJUfv3wSIdaUoISPdW/wDlHInNG0de3WefLAAQoUgVVuAz5JmlBYtXEau+0wC5HbWZyIUPnVSgpPI0i+j7RbHDvQAONdowGGdEFI2s+2NRfxRnC06n/rDjcUHFdaQeG9XU0EGIVIROBMBU3pwTg==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2026-03-09T12:16:11
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

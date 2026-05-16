@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>body { background: white; padding: 20px; text-align: center; font-family: sans-serif; }</style>
+</head>
+<body>
+<div class="mermaid">
+erDiagram
+    COMPROBANTES ||--o{ CFDI_CONCEPTOS : "contiene"
+    COMPROBANTES ||--o{ CFDI_RELACIONADOS : "emite_pago a"
+    COMPROBANTES {
+        uuid uuid PK
+        varchar entidad_id FK
+        varchar tipo_comprobante "I(Ingreso), P(Pago), T(Traslado)"
+        decimal total
+        varchar pdf_path "SSoT - Ruta Local"
+    }
+    CFDI_RELACIONADOS {
+        uuid id PK
+        uuid cfdi_id FK "UUID del Pago"
+        varchar uuid_relacionado "UUID de la Factura"
+        decimal monto_pagado "Pilar L6"
+        decimal saldo_anterior
+    }
+</div>
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+</body>
+</html>

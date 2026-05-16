@@ -1,9 +1,0 @@
-Testing with Entidad: 550e8400-e29b-41d4-a716-446655440000
-Found 7 comprobantes
-REP Payment af41872d-1e12-44ec-9d58-614b23e9655c parsed monto: 106575.0
-REP Payment d2a9308b-f4d9-4357-8adf-de186a7ef5d1 parsed monto: 28820.03
-
-=== RESULTS ===
-Total Ingresos: 346691.52
-Charts labels: ['13/01', '18/08', '28/04', '07/10', '02/07', '02/03']
-Charts values: [26216.0, 106575.0, 28177.56, 135395.03, 28820.03, 21507.9]

@@ -1,4 +1,0 @@
-User: eroblesj, Is Superadmin: True
-
-=== PAYLOAD DECODE ===
-{'sub': '660e8400-e29b-41d4-a716-446655440000', 'username': 'eroblesj', 'is_superadmin': True, 'entidades': [{'id': '550e8400-e29b-41d4-a716-446655440000', 'rfc': 'VCO123456ABC', 'razon_social': 'Vantec Consultores'}, {'id': 'e6f64bb0-3971-4cc8-b883-cd183eca77d7', 'rfc': 'VCO1307234VA', 'razon_social': 'Vantec Consultores'}], 'exp': 1773896913}

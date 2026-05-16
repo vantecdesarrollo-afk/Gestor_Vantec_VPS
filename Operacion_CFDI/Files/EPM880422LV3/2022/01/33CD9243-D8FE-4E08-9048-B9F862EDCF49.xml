@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="TMC" Folio="000771" Fecha="2022-01-11T07:44:10" Sello="Pk8WXKcqnRtHjyxvvWHYTGmlpG9s0z806AOWdeS0slBGdheZlDchUeKBt8HnJWzYwyOuIT0/H/AmZYhkraj5Lw8jwi+/zhNpeL/hyKwnr4bUoPubqZppSzCVr3FVwU9fyEVzx1s4pyce7dEqrQ1ufShz/BYI1FZh9ReebeYw8Yj7aOv1NlmWjEbTA9GpZP5fyFZSo7zJmM5GxtWu7qyskqVQGBU65OI4cuzYrDQgihJvRFFx7aZaxAqGaJyVOAVDWHcjQXCM9O1R46/OsbSfVTpsVX6gp7fSug88VPtShp0ZqwnYMvq5J5D1xCNDGjIAup5aGoyQ4ZxEXd7hsj5PFg==" FormaPago="99" NoCertificado="00001000000505710997" Certificado="MIIGFTCCA/2gAwIBAgIUMDAwMDEwMDAwMDA1MDU3MTA5OTcwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMDExMTgwMjI4MzdaFw0yNDExMTgwMjI4MzdaMIHjMSwwKgYDVQQDEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEKRMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxLDAqBgNVBAoTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSUwIwYDVQQtExxFUE04ODA0MjJMVjMgLyBDQVdKNjYwODI1SFBBMR4wHAYDVQQFExUgLyBDQVdKNjYwODI1SERGTUxSMDExEDAOBgNVBAsTB1BPTEFOQ08wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChlNzJsHm5N9/gy3IBIU/MwTM3sdfesOvxW1dRyDOldWYAOaUx88hdfCYx9NBXD14cYdAL0aZZi3MkPCKHn2/WXi8Dh37O6G5WefHyyQIYM0Sgy7g4R3XeS4PCVD4WB0LJIuR49v1egVud+faoEV6Op627wfwg52cDhKC5LxNwUNKAiYq5kqMqq2wGEH8ZBlp7YCANhjhenA3LPIrbg3E2aOouiVcs5uvWNkPAEAoVAK4wAjQilztK6caA8SMKGKkpLZoQcDxbNuLnXk54W0HwTK3vFT8xAJBs0OC1smESNc2xiJ336WFmrvhAbzk7Ck8OGSb1+2Pxn1p5DOjhqOuBAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQB4dEuV+h83vm1wOU9GcnJCRA0IksPgR6BX5/lCvRx3GkCG5hMoWyp6lyemZezQNicrDp6EhGeyiy0rszJcFBN3xQZgGCHUzcNzBVPT6C7MMhyqV7oRK9Ea2MFzLu3oYSNlmhIf+8n6vxHYwAqj0IldnwwxJLFEAA0zpotjqhjCvfvj0V29HYs3LSE84z9XCHnGa4UNPdhkudhZ3obpHVsTgbSP7mVmQNHUSyYyXBtiTqQa0Dhpv8N37xAdsfHkwgzAnpUTJff5h5Eob937S1XgKrQK4haBtYeztMFjP+a96g3RE/O7AQnRnR7zBB4WFaPwNK3tj1CDREb/4lMHjw59g3wcXigvxIqWipB5yvqKpu4hDz932cLYA8yzXm5FZEc6mCutN2Y7Dsi/kiNd08b77qCf5Mdnx1q0JyOs5bVWB7lpv+eJaQt+pgAm6122xf8IKKUugwtB2qpvN5v86ntqh5R+w8xNA1LzsBIbBQiIlKuudJGU2YghaFh2db+PeBi68SV9U0wkdch4SRhec2cDaHpMYkHAsp4c5BcdgrnlBwXBVVq3C8iuHki3qmtNqWE0BQaEMeVrFfcHqWYwJTG3gURTA4FPhaFxClh4TkDOB7bcMchD13JEfrknK4pRdlNEdW8n1z+4mThqoz3bCqeg7Jp4bGZd24KmbYXdjicyIQ==" CondicionesDePago="180 DIAS" SubTotal="1512.83" Moneda="EUR" TipoCambio="23.00" Total="1512.83" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="11560">
+  <cfdi:Emisor Rfc="EPM880422LV3" Nombre="EDITORIAL PLANETA MEXICANA, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." ResidenciaFiscal="CRI" NumRegIdTrib="3101167504" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2801567" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Aion" ValorUnitario="11.25" Importe="56.25">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="56.25" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2804433" Cantidad="3.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Psicología y simbólica del arquetipo" ValorUnitario="7.36" Importe="22.08">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="22.08" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2810007" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Símbolos de transformación" ValorUnitario="12.98" Importe="64.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="64.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2810016" Cantidad="3.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Formaciones de lo inconsciente" ValorUnitario="7.79" Importe="23.37">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="23.37" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2812457" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Breve historia de la filosofía occidental" ValorUnitario="13.85" Importe="69.25">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="69.25" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2812638" Cantidad="10.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Terapia cognitiva de las drogodependencias" ValorUnitario="14.71" Importe="147.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="147.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2812709" Cantidad="10.00" ClaveUnidad="H87" Unidad="H87" Descripcion="La trampa de la inteligencia" ValorUnitario="9.52" Importe="95.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="95.20" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2812904" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="El cambio psicológico" ValorUnitario="7.33" Importe="36.65">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="36.65" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2812955" Cantidad="3.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Diccionario filosófico" ValorUnitario="16.44" Importe="49.32">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="49.32" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2815231" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Terapia cognitiva de los trastornos de personalida" ValorUnitario="15.58" Importe="77.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="77.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2838502" Cantidad="30.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Arquetipos e inconsciente colectivo" ValorUnitario="6.49" Importe="194.70">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="194.70" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2838901" Cantidad="20.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Sentirse bien" ValorUnitario="10.82" Importe="216.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="216.40" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2838902" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Autoestima en 10 días" ValorUnitario="10.82" Importe="54.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="54.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="2839540" Cantidad="3.00" ClaveUnidad="H87" Unidad="H87" Descripcion="El narcisismo" ValorUnitario="7.31" Importe="21.93">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="21.93" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="8900641" Cantidad="1.00" ClaveUnidad="H87" Unidad="H87" Descripcion="¨Cómo habla Dios?" ValorUnitario="8.18" Importe="8.18">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8.18" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="8901194" Cantidad="10.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Churchill" ValorUnitario="16.87" Importe="168.70">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="168.70" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="8901326" Cantidad="10.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Los cínicos" ValorUnitario="9.91" Importe="99.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="99.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="8901425" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Hasta el final del tiempo" ValorUnitario="10.77" Importe="53.85">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="53.85" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="55101510" NoIdentificacion="8901506" Cantidad="5.00" ClaveUnidad="H87" Unidad="H87" Descripcion="Hernán Cortés" ValorUnitario="10.77" Importe="53.85">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="53.85" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="33CD9243-D8FE-4E08-9048-B9F862EDCF49" FechaTimbrado="2022-01-11T07:44:12" SelloCFD="Pk8WXKcqnRtHjyxvvWHYTGmlpG9s0z806AOWdeS0slBGdheZlDchUeKBt8HnJWzYwyOuIT0/H/AmZYhkraj5Lw8jwi+/zhNpeL/hyKwnr4bUoPubqZppSzCVr3FVwU9fyEVzx1s4pyce7dEqrQ1ufShz/BYI1FZh9ReebeYw8Yj7aOv1NlmWjEbTA9GpZP5fyFZSo7zJmM5GxtWu7qyskqVQGBU65OI4cuzYrDQgihJvRFFx7aZaxAqGaJyVOAVDWHcjQXCM9O1R46/OsbSfVTpsVX6gp7fSug88VPtShp0ZqwnYMvq5J5D1xCNDGjIAup5aGoyQ4ZxEXd7hsj5PFg==" NoCertificadoSAT="00001000000505600468" SelloSAT="aK8pjJM7Mgpsnby4lh1dIypvHw+h3v4rdEVkIa8IiWtf69X5CyeBmqo4Y5Zl+7PlHyiT3ZegIa7PoDMZ62Pd+pv+jbWBZyGZqH14tA0/wIhIbz0KpYLZn9IRW5pPjGmgwymG+ajh4mkRVTJzTpleGI2slon2HNb4TkKLuA3FT/iv/ZJThvalGz2rwq7/sn+wGqUhnl0WDIquBo8iKLuAOvAD/CI3jv+l3P3wDTk7jMxIMrXYexActWKeYgUwLbYHJ9LmrXwZkOlLI5svZ0mdpTZzp4vafxCrzQtiKoETPk1EscmLnx7zGwev2ZFScvyUPSi/Aa/TWSoN8uuevHc4qQ==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

@@ -1,3 +1,0 @@
-ID: 856896bc-a190-4997-9de6-783b25704c0f | Username: admin | Hash: $2b$12$C2yTWgIUNsJ53NnmXMUbuujajxT/M05.0/.dbG7gREd/xCwNexD1a | Active: True
-ID: 660e8400-e29b-41d4-a716-446655440000 | Username: eroblesj | Hash: $2b$12$a7iIhu8BrP5kRf9Jt7N/b.jdCDBxWfXGg1BBUpfsv0tQe7iCYuEd2 | Active: True
-ID: c0d6c195-2855-4c0f-b244-d6e70e460502 | Username: test_agent | Hash: $2b$12$2slXnWY3WAXaXpiErBIEfuIApZqFCjBS0CvHNG3hlMdU1mgzODnR2 | Active: True

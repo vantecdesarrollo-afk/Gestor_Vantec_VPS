@@ -1,9 +1,0 @@
-Updating paths...
-Updated paths for 5 comprobantes.
-
-Fixing Folio 303 via CfdiProcessor...
-Found XML File: C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\10\D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1.xml
-Cfdi processed successfully! UUID: D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1, Total: 28820.030000
-Updated Comprobante total to 28820.030000
-
-Done.

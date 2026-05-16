@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce20="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" Exportacion="02" Fecha="2026-03-04T14:36:09" Folio="569" LugarExpedicion="11560" Moneda="USD" NoCertificado="00001000000710885331" Sello="a9y4/YUJkpaFI2uSdVM8HKCqNGTLdELtVFbT7hr0+9/whcLVM1vbSXtVaFl8vx1xE0AJkcj24e8Gj4GIvGaK91mqx96rlwIfR2xlLdsQQ3NAmqzcScB8amTlFghc48YtJhV9WR0AUHtvi+SrdOphb6ccxdHZjEQYlSbpqQYrjBc2FpcUtt5Ilwsg+1vbZSd/tOGsBWeMtkbPfU4PlwtLM7wFrbr8Httl6EoZuwjikKz8jbBFkiL5VkicVyDekp3pueYTRKKfKcagU1jU9AxQh+2+y+wws42JBm8FI6E9Vddx6oMDyOoQ/+/zTvj8fYjXwpH0GYXNJE4ZOF5aEJgVaw==" Serie="ARP98" SubTotal="0.00" TipoCambio="17.348500" TipoDeComprobante="T" Total="0.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior20/ComercioExterior20.xsd">
+    <cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/>
+    <cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscalReceptor="601" Rfc="EPM880422LV3" UsoCFDI="S01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="986" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Reconciliación (Spanish Edition)" Importe="12295.42" NoIdentificacion="1011460" ObjetoImp="01" Unidad="PZA" ValorUnitario="12.4700"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <cce20:ComercioExterior CertificadoOrigen="0" ClaveDePedimento="A1" Incoterm="DDP" MotivoTraslado="03" TipoCambioUSD="17.348500" TotalUSD="12295.42" Version="2.0">
+            <cce20:Emisor>
+                <cce20:Domicilio Calle="AV. PRESIDENTE MASARIK" CodigoPostal="11560" Colonia="2785" Estado="CMX" Localidad="11" Municipio="016" NumeroExterior="111" NumeroInterior="PISO 2" Pais="MEX"/>
+            </cce20:Emisor>
+            <cce20:Receptor>
+                <cce20:Domicilio Calle="AV. PRESIDENTE MASARIK" CodigoPostal="11560" Colonia="2785" Estado="CMX" Localidad="11" Municipio="016" NumeroExterior="111" NumeroInterior="PISO 2" Pais="MEX"/>
+            </cce20:Receptor>
+            <cce20:Destinatario Nombre="INGRAM PUBLISHER SERVICES LLC" NumRegIdTrib="201245963">
+                <cce20:Domicilio Calle="ONE INGRAM BLVD." CodigoPostal="37086" Estado="TN" Municipio="LAVERGNE" NumeroExterior="S/N" Pais="USA"/>
+            </cce20:Destinatario>
+            <cce20:Mercancias>
+                <cce20:Mercancia CantidadAduana="986" FraccionArancelaria="4901990100" NoIdentificacion="1011460" UnidadAduana="06" ValorDolares="12295.42" ValorUnitarioAduana="12.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"/>
+                </cce20:Mercancia>
+            </cce20:Mercancias>
+        </cce20:ComercioExterior>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="34B2C244-527D-40DC-9E24-78BCCBE3FAF7" FechaTimbrado="2026-03-04T14:40:37" RfcProvCertif="ASE0209252Q1" SelloCFD="a9y4/YUJkpaFI2uSdVM8HKCqNGTLdELtVFbT7hr0+9/whcLVM1vbSXtVaFl8vx1xE0AJkcj24e8Gj4GIvGaK91mqx96rlwIfR2xlLdsQQ3NAmqzcScB8amTlFghc48YtJhV9WR0AUHtvi+SrdOphb6ccxdHZjEQYlSbpqQYrjBc2FpcUtt5Ilwsg+1vbZSd/tOGsBWeMtkbPfU4PlwtLM7wFrbr8Httl6EoZuwjikKz8jbBFkiL5VkicVyDekp3pueYTRKKfKcagU1jU9AxQh+2+y+wws42JBm8FI6E9Vddx6oMDyOoQ/+/zTvj8fYjXwpH0GYXNJE4ZOF5aEJgVaw==" NoCertificadoSAT="00001000000707891043" SelloSAT="cQtSxHwwhdZe5yzlux6XaaX6ojtkxvY96nINi3cwDLBZrLwqD46fkLMUUNnBin/pFYpyStudVgJ8MjfjhPy/bc5t5q0vwL0NytvsaqToNCSdX/7ZjSqZQtuQthuaDZqQFT/VvFGlpfJYatWSN3rMQ8Zb3a1PXaxOyFSwRacVIsiFsepi/UZeyirkJ71OSbH8CE7os3leBkQtRM0jaltlvqTJDbWdBt7ezv/TN+Mz+5Emxyum8stAZpD7pODBqVnSDdCaHfQl97kLBHm2LklMjGrcnYS9pJuZ64TBGVpLO3sCqxKuDoh2St31NSCIFe4XBhdB4kMWUniZkuXRWUZA+g=="/></cfdi:Complemento>
+    <cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" agente="0084001" ano="2026" cantidadConLetra="(DOCE MIL DOSCIENTOS NOVENTA Y CINCO DOLARES 42/100)" cantidadConLetraUSD="(TWELVE THOUSAND TWO HUNDRED NINETY AND FIVE DOLLARS 42/100 USD)" condiciones="120 DIAS" correoCliente="" dia="04" fechab="2026-03-04" formaDePago="" localOrder="00000578" mail="dteran@planeta.com.mx -to:llopez@planeta.com.mx -to:amonsalVo@planeta.com.mx -to:cjacobo@planeta.com.mx -to:jessica.margarito@planetadelibros.us -to:asanchezm@planeta.com.mx -to:amartinez@planeta.com.mx -to:anagabriela.puga@planeta.com.mx -to: yesenia.chagoya@planeta.com.mx" mes="MARZO" metodoDePago="" noCliente="000013157" noOrder="EDC-013/26" noProveedor="" numAutorizacion="" observaciones1="MERC EN CONSIG PARA EFECTOS DE EXPORTACIÓN" observaciones2="A INGRAM, AMERICAN DRIVE, NO 210, JACKSON TN," observaciones3="38301, USA, PRINTED BOOKS, HS CODE 49.01.99" tipoDeCambio="17.348500" tipoDocumento="Traslado" tipoMoneda="USD" totalUnidades="986" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:AddendaComercial>
+                <fa:Receptor codigoPostal="11560" gln="" nombre="" pais="" rfc="" telefono=""/>
+                <fa:ExpedidoEn calle="" codigoPostal="11560" gln="" telefono=""/>
+                <fa:EntregadoEn calle="ONE INGRAM BLVD." codigoPostal="37086" curp="201245963" estado="TN" gln="" municipio="LAVERGNE" noExterior="S/N" nombre="INGRAM PUBLISHER SERVICES LLC" numRegIdTrib="201245963" pais="USA" rfc="201245963" telefono=""/>
+                <fa:mercancias>
+                    <fa:mercancias cantidadAduana="986" descripcion="Reconciliación (Spanish Edition)" fraccionArancelaria="4901990100" noIdentificacion="1011460" posicion="1" unidadAduana="06" valorDolares="12295.42" valorUnitarioAduana="12.47">
+                        <fa:descripcionesEspecificas marca="Planeta"/>
+                    </fa:mercancias>
+                </fa:mercancias>
+                <fa:impresion>
+                    <fa:impresion ISBN="978-607-39-3814-3" cantidad="986" claveProdServ="55101510" descripcion="Reconciliación (Spanish Edition)" descuento="" importe="12295.42" noIdentificacion="1011460" objetoImp="01" origen="MEX" posicion="1" unidad="PZA" valorUnitario="12.47"/>
+                </fa:impresion>
+            </fa:AddendaComercial>
+            <fa:Detalle/>
+            <fa:CadenaOriginal/>
+            <fa:hfd version="1.0">~|0|Z0 Xi
+~K1="Arial" 8 
+~K2="Arial" n 11 
+~K3="Arial" 7 
+~K4="Arial" n 7 
+~K5="Arial" n 9 
+~K6="Arial" 6 
+~K7="Arial" n 8 44.44.44 
+~K8="Arial" n 10 100.0.0 
+~K9="Arial" n 8 
+
+~&lt;P'=1' 
+~&gt; 
+
+~H|0| 
+
+~[1 30 2 41 30 
+
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+
+~# 
+~[30 
+~#|e+|M35.35 Jv50 Jl @1 
+~#D|e+|M150.150 "Logo_EPM880422LV3.jpg"; 
+~#|e+|M40.40 Jv50 Jl @3 
+~#|e+|M35.35 Jv50 Jl @3 
+ USO CFDI: S01
+
+ EXPORTACION: 02 
+ ~] 
+ 
+~#
+~[2
+~#|e+|M35.35 Jv50 Jl @3
+~]
+ 
+ ~# 
+~[41 
+~#|e+|M20.20 Jv50 Jl @3 
+ 
+ ~#|e+|M80.80 Jv50 Jl @2
+ Editorial Planeta Mexicana, S.A. de C.V.
+ 
+ ~#|e+|M50.50 Jv50 Jl @1 
+ RFC EPM880422LV3
+ 
+ Régimen Fiscal: 601
+ 
+ 
+ @3 Régimen General de Ley Personas Morales 
+ 
+ @3 C.P. 06500 CDMX, México 
+ ~] 
+ 
+~# 
+~[29 
+~#|e+|M10.10 Jv50 Jl @3 
+ ~#|e+ 10.1 f8.25|M50.50 Jv50 Jc @2 
+ TRASLADO No. 
+ 
+ @2ARP98 569
+ 
+ ~#|e+ 10.1 d0|M50.50 Jv50 Jc @4 
+ @1FECHA (DATE) 
+ 2026-03-04T14:36:09 
+ 
+ ~#|e+ 10.1 |M50.50 Jv50 Jc @4 
+ @1 TIPO DE DOCUMENTO: 
+ T
+ 
+ ~#|e+|M50.50 Jv50 Jr @9 
+ _ 
+ 
+ ~] 
+ 
+ ~] 
+ 
+ ~&lt;Z20 
+ ~&gt; 
+ 
+~[1 50 49 1 38 
+
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+ 
+~# 
+~[60 
+~#|e+ 10.1|M10.10 Jv50 Jl @1 
+Cargo A (Bill to) 
+ 
+~#|e+ 10.1|M285.285 Jv50 Jl @1
+EDITORIAL PLANETA MEXICANA S.A. DE C.V.
+
+Avenida Presidente Masarik 111 Piso 2
+
+Col. Polanco V sección 11560
+
+Ciudad de México
+
+RFC. EPM880422LV3
+
+
+ ~] 
+ 
+ ~# 
+ 
+~[60 
+~#|e+ 10.1|M10.10 Jv50 Jl @1 
+Entrega A (Delivery in) 
+ 
+~#|e+ 10.1|M285.285 Jv50 Jl @1 
+INGRAM PUBLISHER SERVICES LLC 
+
+ONE INGRAM BLVD. S/N
+
+ LAVERGNE 
+
+TN USA, 37086 
+
+TAX ID: 201245963
+ 
+ ~] 
+ 
+~# 
+ 
+~[3 
+~] 
+ 
+~# 
+~[29 
+ 
+~#|e+|M10.10 Jv50 Jl @3 
+ 
+ ~#|e+ 10.1|M75.75 Jv50 Jc @4 
+ Fecha y Hora de Certificación: @32026-03-04T14:40:37 
+ 
+ ~#|e+ 10.1 ud0|M75.75 Jv50 Jc @4 
+ 
+ No. de Certificado del SAT: 
+ @300001000000707891043
+ 
+~#|e+ 10.1 d0|M75.75 Jv50 Jc @4 
+No. de Certificado del CSD: @3
+00001000000710885331  
+ 
+~#|e+ 10.1|M75.75 Jv50 Jc @4 
+Folio Fiscal: 
+
+@334B2C244-527D-40DC-9E24-78BCCBE3FAF7
+
+~] 
+ 
+~]
+
+~&lt;Z10
+~&gt; 
+
+~[1 99
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+~# 
+~[99
+~#|e+ 10.1 |M80.80 Jl Jv50 @7 
+   OBSERVACIONES / NOTES: 
+   
+    MERC EN CONSIG PARA EFECTOS DE EXPORTACIÓN
+	
+	A INGRAM, AMERICAN DRIVE, NO 210, JACKSON TN,
+	 
+	38301, USA, PRINTED BOOKS, HS CODE 49.01.99
+	  
+	
+    
+~]
+~] 
+
+ 
+~&lt;Z10
+~&gt; 
+ 
+~[1 20 20 20 20 20 20 20
+
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+
+~#|e+ 15.1 |M25.25 Jv50 Jc @9 
+ Orden del Cliente (Purchase Order Nbr) 
+ 
+ 
+~#|e+ 15.1 |M25.25 Jv50 Jc @9 
+ 
+  Orden No. (Order Nbr.) 
+ 
+~#|e+ 15.1 |M25.25 Jv50 Jc @9 
+ 
+  Cliente Nro. (Customer Nbr.) 
+ 
+~#|e+ 15.1 |M25.25 Jv50 Jc @9 
+Condiciones (Conditions)  
+ 
+~#|e+ 15.1 |M25.25 Jv50 Jc @9 
+Agente (Agent)
+		  
+					   
+~#|e+ 15.1 f8.25|M25.25 Jv50 Jc @9 
+Lugar Expedición (Expedition place) 
+ 
+~#|e+ 15.1 f8.25|M25.25 Jv50 Jc @9 
+Motivo del traslado (Transfer reason)
+ 
+~]
+
+~[1 20 20 20 20 20 20 20
+
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+ 
+		  
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+ 00000578
+
+ 
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+ EDC-013/26
+
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+   000013157
+		 
+
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+   120 DIAS   
+		 
+
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+   0084001
+  
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+   11560
+   
+~#|e+ 15.1 |M75.75 Jv50 Jc @1 
+   03
+  
+
+~] 
+
+~&lt;Z10 
+~&gt; 
+
+~[1 6 6 7 7 29 12 6 8 7  8  
+
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Cantidad (Qty) 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  UM / Clave Unidad 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Modelo (Part #) 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Clave Prod/Serv 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Descripción (Description) 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  ISBN 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Origen (Origin)   
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Precio Unitario 
+  
+  (Unit Price) 
+  
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Objeto Impuesto 
+  
+  (Tax Object) 
+   
+~#|e+ 10.1|M20.20 Jv50 Jc @3 
+  Importe (Amount) 
+  	
+~] 
+~&gt; 
+~F|0|
+~|e+| Jc@6
+"ESTE DOCUMENTO ES UNA REPRESENTACION IMPRESA DE UN CFDI"                                        PÁGINA @p de @P
+~&gt;
+  
+~[ 1 6 6 7 7 29 12 6 8 7  8
+~#  Jl @3
+
+~# @3 Jc
+986
+~# @3 Jc
+PZA
+~#  Jc @3
+1011460
+~# @3 Jc
+55101510
+~# @3 Jl
+Reconciliación (Spanish Edition)
+~# @3 Jc
+978-607-39-3814-3
+~# @3 Jc
+MEX
+~# @3 Jr
+12.47
+~# @3 Jc
+01
+~# @3 Jr
+12,295.42
+~]
+  
+
+
+~&lt;Z10 
+~&gt; 
+  
+~[50
+~#|e+|M40.40 Jv50 Jc @1
+~#|e+|M20.20 Jv50 Jc @1
+Complemento para Comercio Exterior:
+~]
+~[5 10 10 10 10 10 10 10 7
+~#|e+|M20.20 Jv50 Jc @3
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+No. Identificación
+
+Identification Nbr.
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Fracción Arancelaria
+
+Tariff fraction
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Cantidad Aduana
+
+Customs amount
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Unidad Aduana
+
+Customs unit
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Valor Unitario Aduana
+
+Customs unit value
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Valor Dólares
+
+Dollar value
+~#|e+ 10.1|M20.20 Jv50 Jc @3
+Marca / Brand
+~#|e+|M20.20 Jv50 Jc @3
+~]
+
+~[ 5 10 10 10 10 10 10 12 7
+~#  Jl @6
+
+~#  Jc @3
+1011460
+~#  Jc @3
+4901990100
+~# @3 Jc
+986
+~# @3 Jc
+06
+~# @3 Jr
+12.47
+~# @3 Jr
+12295.42
+~]
+~[ 5 10 10 10 10 10 10 12 7
+~#  Jl @6
+
+~#  Jl @6
+
+~#  Jl @6
+
+~#  Jl @6
+
+~#  Jl @6
+
+~#  Jl @6
+
+~#  Jl @6
+
+~# @3 Jc
+Planeta
+~#  Jl @6
+
+~]
+   
+                                         @3 Total de unidades: 986
+
+
+~&lt;Z50 
+~&gt; 
+  
+~F|0| 
+  
+~[90 
+~#|e+|M20.20 Jv50 Jc @3 
+   Clave de INCOTERM: DDP 
+   Certificado de Origen: 0 
+   Tipo de Cambio USD: 17.348500 
+   Clave de Pedimento: A1 
+   
+   @5 Total USD: 12295.42 (DOCE MIL DOSCIENTOS NOVENTA Y CINCO DOLARES 42/100)
+~]
+
+
+   
+~[90 
+~#|e+|M50.50 Jv50 Jl @3 
+~] 
+   
+~[52 25 20 
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl 
+   
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @4 
+   TIPO DE RELACIÓN: @3 CFDI RELACIONADO 
+   
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @4 
+   MONEDA: USD
+		
+
+   TIPO DE CAMBIO: 17.348500 
+   
+~] 
+   
+~&lt;Z20 
+~&gt; 
+		
+ 
+   
+~[1 20 20 20 
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+
+~#|e+ 10.1 d0|M80.80 Jr Jv50 @2 
+   SUBTOTAL 
+   
+   ~#|e+ 10.1 d0|M80.80 Jr Jv50 @2 
+   IVA / VAT 
+   
+   ~#|e+ 10.1 d0|M80.80 Jr Jv50 @2
+   TOTAL (USD) 
+   
+~] 
+   
+~[1 20 20 20 
+~# 
+~[1
+~#|e+|M35.35 Jv50 Jl @3
+~]
+
+~#|e+ 10.1|M80.80 Jr Jv50 @2 
+   0.00 
+   
+   ~#|e+ 10.1|M80.80 Jr Jv50 @2 
+   -
+   
+   ~#|e+ 10.1|M80.80 Jr Jv50 @2 
+   0.00 
+   
+~] 
+
+   
+~[50 250 
+~# 
+   
+~[50 
+~#|e+ |M50.50 Jv50 Jl @3 
+
+~#D M400.400 "34B2C244-527D-40DC-9E24-78BCCBE3FAF7.bmp"; 
+~] 
+   
+~# 
+   
+~[250 
+~#|e+ 15.1|M50.50 Jv50 Jl @4
+   SELLO DIGITAL DEL CFDI: 
+@3a9y4/YUJkpaFI2uSdVM8HKCqNGTLdELtVFbT7hr0+9/whcLVM1vbSXtVaFl8vx1xE0AJkcj24e8Gj4GIvGaK91mqx96rlwIfR2xlLdsQQ3NAmqzcScB8amTlFghc48YtJhV9WR0AUHtvi+SrdOphb6ccxdHZjEQYlSbpqQYrjBc2FpcUtt5Ilwsg+1vbZSd/tOGsBWeMtkbPfU4PlwtLM7wFrbr8Httl6EoZuwjikKz8jbBFkiL5VkicVyDekp3pueYTRKKfKcagU1jU9AxQh+2+y+wws42JBm8FI6E9Vddx6oMDyOoQ/+/zTvj8fYjXwpH0GYXNJE4ZOF5aEJgVaw== 
+   
+~#|e+ 15.1|M50.50 Jv50 Jl 
+@4SELLO DIGITAL DEL SAT: 
+@3cQtSxHwwhdZe5yzlux6XaaX6ojtkxvY96nINi3cwDLBZrLwqD46fkLMUUNnBin/pFYpyStudVgJ8MjfjhPy/bc5t5q0vwL0NytvsaqToNCSdX/7ZjSqZQtuQthuaDZqQFT/VvFGlpfJYatWSN3rMQ8Zb3a1PXaxOyFSwRacVIsiFsepi/UZeyirkJ71OSbH8CE7os3leBkQtRM0jaltlvqTJDbWdBt7ezv/TN+Mz+5Emxyum8stAZpD7pODBqVnSDdCaHfQl97kLBHm2LklMjGrcnYS9pJuZ64TBGVpLO3sCqxKuDoh2St31NSCIFe4XBhdB4kMWUniZkuXRWUZA+g==
+   
+~#|e+ 15.1|M50.50 Jv50 Jl 
+@4CADENA ORIGINAL DEL COMPLEMENTO DE CERTIFICACIÓN DIGITAL DEL SAT: 
+@3||1.1|34B2C244-527D-40DC-9E24-78BCCBE3FAF7|2026-03-04T14:40:37|a9y4/YUJkpaFI2uSdVM8HKCqNGTLdELtVFbT7hr0+9/whcLVM1vbSXtVaFl8vx1xE0AJkcj24e8Gj4GIvGaK91mqx96rlwIfR2xlLdsQQ3NAmqzcScB8amTlFghc48YtJhV9WR0AUHtvi+SrdOphb6ccxdHZjEQYlSbpqQYrjBc2FpcUtt5Ilwsg+1vbZSd/tOGsBWeMtkbPfU4PlwtLM7wFrbr8Httl6EoZuwjikKz8jbBFkiL5VkicVyDekp3pueYTRKKfKcagU1jU9AxQh+2+y+wws42JBm8FI6E9Vddx6oMDyOoQ/+/zTvj8fYjXwpH0GYXNJE4ZOF5aEJgVaw==|00001000000707891043||
+
+~] 
+~] 
+
+~[90 
+~#|e+|M35.35 Jv50 Jc @6 
+ESTE DOCUMENTO ES UNA REPRESENTACIÓN IMPRESA DE UN CFDI                                        PÁGINA @p de @P
+   
+   
+~] 
+   
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda>
+</cfdi:Comprobante>

@@ -1,0 +1,42 @@
+# -----------------------------------------------------------
+# 🛡️ PROTECCIÓN DE BÓVEDA VANTEC (PROTOCOLO L6)
+# -----------------------------------------------------------
+
+# Entorno Virtual
+venv/
+.venv/
+env/
+
+# Carpetas Operativas (NO se deben copiar al sandbox)
+/storage/
+/Operacion_CFDI/Upload/
+/Operacion_CFDI/Upload_Universal/
+/Operacion_CFDI/Orphans/
+/Operacion_CFDI/Duplicates/
+/Operacion_CFDI/Invalid_ADN/
+/Operacion_CFDI/logs/
+
+# Archivos Temporales y Mantenimiento
+/tmp/
+/temp/
+*.tmp
+*.csv
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración Sensible
+.env
+.env.local
+
+# Logs del Sistema
+*.log
+mailVantec_success.log
+
+# VS Code / IDEs
+.vscode/
+.idea/
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace

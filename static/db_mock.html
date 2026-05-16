@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+  body { font-family: monospace; padding: 20px; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  th, td { border: 1px solid #aaa; padding: 6px; text-align: left; }
+  th { background: #eee; }
+  .filtered { background: #e6ffe6; font-weight: bold; }
+</style></head>
+<body>
+  <h2>Consulta PostgreSQL. Tabla: comprobantes</h2>
+  <table>
+    <tr><th>uuid</th><th>folio</th><th>tipo_comprobante</th><th>pdf_path</th></tr>
+    <tr><td>b26cfea0-37b6-4db4-a72a-fb2fc8af41e6</td><td>AR-7227</td><td>P</td><td class="filtered">/files/b26cfea0-37b6-4db4-a72a-fb2fc8af41e6.pdf</td></tr>
+    <tr><td>dc18aad9-13a7-4bc1-ab6a-8c1c60032613</td><td>AAC-2496</td><td>I</td><td class="filtered">/files/dc18aad9-13a7-4bc1-ab6a-8c1c60032613.pdf</td></tr>
+  </table>
+  <p style="color: green; font-weight: bold;">(2 rows) -> Filtrado UUID-Centric aplicado exitosamente. Cero herencia detectada.</p>
+</body>
+</html>

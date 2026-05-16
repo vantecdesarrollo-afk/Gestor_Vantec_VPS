@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reporte CSV - Sábana Atómica</title>
+    <style>
+        body { font-family: sans-serif; background: white; padding: 40px;}
+        table { border-collapse: collapse; width: 100%; font-size: 13px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align:right;}
+        th { background: #f4f4f4; text-align: center;}
+        .bold { font-weight: bold; }
+        .title { margin-bottom: 20px; font-size: 24px; color: #1E3A5F; font-weight: 900;}
+    </style>
+</head>
+<body>
+    <div class="title">Vantec VCore - Sábana Atómica (Exportación CSV)</div>
+    <table>
+        <tr>
+            <th>parent_uuid</th><th>folio</th><th>fecha</th><th>rfc_emisor</th><th>...</th><th>naturaleza</th><th>total_auditado_mxn</th><th>parcialidad</th><th>saldo_anterior</th><th style="background:#eef;">monto_pagado</th><th>saldo_insoluto</th>
+        </tr>
+        <tr>
+            <td style="text-align:left;">b26cfea0-37b6-4db4-a7...</td><td style="text-align:left;">AR-7227</td><td style="text-align:left;">2020-02-07 12:00:00</td><td style="text-align:left;">PEIG660207545</td><td>...</td><td>PAGO_IMPACTO</td><td>14860.80</td><td>1</td><td>14860.80</td><td style="background:#fcfcff;">14860.80</td><td>0.00</td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">...</td><td style="text-align:left;">...</td><td style="text-align:left;">...</td><td style="text-align:left;">...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td style="background:#fcfcff;">...</td><td>...</td>
+        </tr>
+        <tr class="bold" style="background:#e2e8f0; font-size: 15px;">
+            <td style="text-align:left;">GRAN TOTAL</td>
+            <td></td><td></td><td></td><td></td><td></td><td>$ 23,286,667.43</td><td></td><td></td><td style="background:#d4edda; color: #155724;">$ 2,530,638.24</td><td></td>
+        </tr>
+    </table>
+</body>
+</html>

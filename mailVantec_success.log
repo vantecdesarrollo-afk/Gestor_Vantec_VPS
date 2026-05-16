@@ -1,28 +1,8 @@
-2026-03-17 10:05:23 - EXITOSO - [Envío de Comprobante Fiscal - Folio 303] -> Enviado a: eroblesj@hotmail.com | Archivos (1): D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1.xml
-2026-03-17 10:06:00 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (2): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml, 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.pdf
-2026-03-17 10:10:20 - EXITOSO - [Envío de Comprobante Fiscal - Folio 0000000305] -> Enviado a: eroblesj@hotmail.com | Archivos (1): AF41872D-1E12-44EC-9D58-614B23E9655C.xml
-2026-03-20 10:42:49 - EXITOSO - [Prueba de dos correos] -> Enviado a: eroblesj@hotmail.com, eroblesj@gmail.com | Archivos (1): 24A75E3B-261F-455A-9D04-B30BE95865BD.xml
-2026-03-20 11:00:04 - EXITOSO - [Envío de Comprobante Fiscal - Folio 819] -> Enviado a: eroblesj@hotmail.com | Archivos (1): ED8F8687-D336-40B9-ADE2-F5CFCDB692FB.xml
-2026-03-20 12:33:02 - EXITOSO - [Envío de Comprobante Fiscal - Folio 819] -> Enviado a: cme9906177e9@correo.com | Archivos (1): ED8F8687-D336-40B9-ADE2-F5CFCDB692FB.xml
-2026-03-20 12:34:09 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com,druiz@vantec-consultores.com.mx | Archivos (1): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
-2026-03-20 12:43:17 - EXITOSO - [Prueba Directa Factura 804 correos con adjuntos] -> Enviado a: eroblesj@hotmail.com,eroblesj@gmail.com | Archivos (2): 804.xml, 804.pdf
-2026-03-20 12:46:47 - EXITOSO - [Envío de Comprobante Fiscal - Folio 798] -> Enviado a: eroblesj@hotmail.com | Archivos (1): 491F13FB-050F-41A0-A4D3-796860C95C57.xml
-2026-03-20 12:46:51 - EXITOSO - [Envío de Comprobante Fiscal - Folio 798] -> Enviado a: eroblesj@hotmail.com | Archivos (1): 491F13FB-050F-41A0-A4D3-796860C95C57.xml
-2026-03-20 13:29:24 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (1): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
-2026-03-20 13:30:24 - EXITOSO - [Envío de Comprobante Fiscal - Folio 305] -> Enviado a: eroblesj@hotmail.com | Archivos (1): AF41872D-1E12-44EC-9D58-614B23E9655C.xml
-2026-03-20 13:31:23 - EXITOSO - [Prueba Directa Factura 804 correos con adjuntos] -> Enviado a: eroblesj@hotmail.com,eroblesj@gmail.com | Archivos (2): 804.xml, 804.pdf
-2026-03-20 13:34:16 - EXITOSO - [Envío de Comprobante Fiscal - Folio 0000000303] -> Enviado a: eroblesj@hotmail.com | Archivos (1): D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1.xml
-2026-03-21 13:09:25 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (1): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
-2026-03-21 13:12:02 - EXITOSO - [Envío de Comprobante Fiscal - Folio 0000000305] -> Enviado a: eroblesj@hotmail.com | Archivos (1): AF41872D-1E12-44EC-9D58-614B23E9655C.xml
-2026-03-21 13:23:12 - EXITOSO - [Envío de Comprobante Fiscal - Folio 800] -> Enviado a: eroblesj@hotmail.com | Archivos (1): D1D1F7D4-7683-4F46-A545-5E08C907CB11.xml
-2026-03-21 13:28:06 - EXITOSO - [Envío de Comprobante Fiscal - Folio 798] -> Enviado a: eroblesj@hotmail.com | Archivos (1): 491F13FB-050F-41A0-A4D3-796860C95C57.xml
-2026-03-21 13:46:03 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: epm880422lv3@correo.com | Archivos (1): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
-2026-03-21 13:46:28 - EXITOSO - [Envío de Comprobante Fiscal - Folio 800] -> Enviado a: eroblesj@hotmail.com | Archivos (1): D1D1F7D4-7683-4F46-A545-5E08C907CB11.xml
-2026-03-21 15:17:33 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (2): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml, 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.pdf
-2026-03-21 15:21:42 - EXITOSO - [Envío de Comprobante Fiscal - Folio 0000000305] -> Enviado a: eroblesj@hotmail.com | Archivos (2): AF41872D-1E12-44EC-9D58-614B23E9655C.xml, AF41872D-1E12-44EC-9D58-614B23E9655C.pdf
-2026-03-21 17:37:37 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (2): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml, 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.pdf
-2026-03-21 20:21:13 - EXITOSO - [Envío de Comprobante Fiscal - Folio 804] -> Enviado a: eroblesj@hotmail.com | Archivos (2): 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml, 39E5E6E4-534A-4B08-A5AE-77A6E3B41C91_preview.pdf
-2026-03-21 20:36:06 - EXITOSO - [Envío de Comprobante Fiscal - Folio 800] -> Enviado a: eroblesj@hotmail.com | Archivos (2): D1D1F7D4-7683-4F46-A545-5E08C907CB11.xml, D1D1F7D4-7683-4F46-A545-5E08C907CB11_preview.pdf
-2026-03-21 21:10:57 - EXITOSO - [envo folio 798] -> Enviado a: eroblesj@hotmail.com | Archivos (2): 491F13FB-050F-41A0-A4D3-796860C95C57.xml, 798.pdf
-2026-03-21 21:12:48 - EXITOSO - [303] -> Enviado a: eroblesj@hotmail.com | Archivos (2): D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1.xml, D2A9308B-F4D9-4357-8ADF-DE186A7EF5D1_preview.pdf
-2026-03-21 21:21:05 - EXITOSO - [305] -> Enviado a: eroblesj@hotmail.com | Archivos (2): AF41872D-1E12-44EC-9D58-614B23E9655C.xml, 305.pdf
+2026-04-18 13:25:40 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:32:28 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:35:14 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:43:28 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:49:29 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:50:24 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 13:58:39 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx
+2026-04-18 14:02:19 - EXITOSO - Enviado a erobles@vantec-consultores.com.mx

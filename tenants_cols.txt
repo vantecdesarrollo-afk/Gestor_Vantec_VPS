@@ -1,6 +1,0 @@
-tenant_id (uuid)
-rfc (character varying)
-business_name (character varying)
-logo_path (character varying)
-is_active (boolean)
-created_at (timestamp with time zone)

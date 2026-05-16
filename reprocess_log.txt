@@ -1,6 +1,0 @@
---- REPROCESANDO RELACIONES ---
-Found 2 payment documents.
-✅ Processed Folio 0000000305 (UUID: af41872d-1e12-44ec-9d58-614b23e9655c): set sub_relations, total: 106575.000000
-✅ Processed Folio 0000000303 (UUID: d2a9308b-f4d9-4357-8adf-de186a7ef5d1): set sub_relations, total: 28820.030000
-
-Successfully reprocessed 2 payments.

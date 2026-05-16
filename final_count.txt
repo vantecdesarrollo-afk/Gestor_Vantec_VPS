@@ -1,2 +1,0 @@
-Total CFDI in DB: 18
- - e6f64bb0-3971-4cc8-b883-cd183eca77d7: 18

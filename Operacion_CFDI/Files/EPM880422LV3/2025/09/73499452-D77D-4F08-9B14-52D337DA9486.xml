@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="90 DIAS" Descuento="6297.20" Exportacion="01" Fecha="2025-09-24T14:43:48" Folio="767967" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000710885331" Sello="dTJ++GEMvH2r/B/WQG6/QUexbRUwOMpdV3JRmwVVJJa1NjE2/XkZP9H1g8OWYSE5NUwJ6l7eThLkGqkwCnyI3e0c2ekB37tgbGns20K4tZTqi471UnnWEe3zPvY5jOV7Ax9zWQ0Jd5LbsMUYzW5IDrkH+fzin9j4XQpz4NAXsyJw0sigl4h9B2/Kut/VUrrIbnZ8VWVRNAZ7Wsy96+ECpk2zo11ECBeuE8cpYbA+BnsrHDkctZ/z2BNhMDHYmILFe68CXMmunrkf2EeE3X2iL3TKeiZd4UDlc5mpDNemf5G1/7gJ8Za5K6hZhDf4LuzUUPXhj+tXOGpqZcidmC1A2A==" Serie="AC" SubTotal="17992.00" TipoDeComprobante="I" Total="11694.80" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="88240" Nombre="HUGO CESAR TALAMAS MONTEMAYOR" RegimenFiscalReceptor="612" Rfc="TAMH880205FE3" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El viaje de Elaina n§ 01/06" Descuento="277.20" Importe="792.00" NoIdentificacion="9788411403016" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="514.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Wandance n§ 01" Descuento="249.20" Importe="712.00" NoIdentificacion="9788411612937" ObjetoImp="02" ValorUnitario="178.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="462.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="What Does The Fox Say? n§ 01" Descuento="264.60" Importe="756.00" NoIdentificacion="9788411615570" ObjetoImp="02" ValorUnitario="378.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="491.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Kase y las campanillas azules n§ 01/05" Descuento="249.20" Importe="712.00" NoIdentificacion="9788411613569" ObjetoImp="02" ValorUnitario="178.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="462.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Wandance n§ 02" Descuento="249.20" Importe="712.00" NoIdentificacion="9788411613538" ObjetoImp="02" ValorUnitario="178.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="462.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bullet The Wizard n§ 02/02" Descuento="449.40" Importe="1284.00" NoIdentificacion="9788411617062" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="834.60" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El hombre invisible y su futura esposa n§ 01" Descuento="249.20" Importe="712.00" NoIdentificacion="9788411617024" ObjetoImp="02" ValorUnitario="178.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="462.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Wandance n§ 03" Descuento="277.20" Importe="792.00" NoIdentificacion="9788411617918" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="514.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Return of the Demon Master n§ 01" Descuento="250.60" Importe="716.00" NoIdentificacion="9788411617932" ObjetoImp="02" ValorUnitario="358.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="465.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bullet The Wizard n§ 01/02" Descuento="449.40" Importe="1284.00" NoIdentificacion="9788411613576" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="834.60" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="What Does The Fox Say? n§ 03" Descuento="299.60" Importe="856.00" NoIdentificacion="9788411618373" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="What Does The Fox Say? n§ 02" Descuento="299.60" Importe="856.00" NoIdentificacion="9788411617093" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El viaje de Elaina n§ 02/06" Descuento="277.20" Importe="792.00" NoIdentificacion="9788411618694" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="514.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="What Does The Fox Say? n§ 04" Descuento="299.60" Importe="856.00" NoIdentificacion="9788411619127" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El hombre invisible y su futura esposa n§ 02" Descuento="319.20" Importe="912.00" NoIdentificacion="9788411618670" ObjetoImp="02" ValorUnitario="228.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="592.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Return of the Demon Master n§ 02" Descuento="278.60" Importe="796.00" NoIdentificacion="9788411618700" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="517.40" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La lavanderia de Minato n§ 04" Descuento="277.20" Importe="792.00" NoIdentificacion="9788411618656" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="514.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="10" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Blue Lock n§ 26" Descuento="588.00" Importe="1680.00" NoIdentificacion="9788411618915" ObjetoImp="02" ValorUnitario="168.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1092.00" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Wandance n§ 04" Descuento="277.20" Importe="792.00" NoIdentificacion="9788411619066" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="514.80" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="No puedo ser solo tu amigo n§ 01/03" Descuento="415.80" Importe="1188.00" NoIdentificacion="9788411617871" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="772.20" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos>
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="11694.80" Impuesto="002" TipoFactor="Exento"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="73499452-D77D-4F08-9B14-52D337DA9486" FechaTimbrado="2025-09-24T14:48:16" RfcProvCertif="ASE0209252Q1" SelloCFD="dTJ++GEMvH2r/B/WQG6/QUexbRUwOMpdV3JRmwVVJJa1NjE2/XkZP9H1g8OWYSE5NUwJ6l7eThLkGqkwCnyI3e0c2ekB37tgbGns20K4tZTqi471UnnWEe3zPvY5jOV7Ax9zWQ0Jd5LbsMUYzW5IDrkH+fzin9j4XQpz4NAXsyJw0sigl4h9B2/Kut/VUrrIbnZ8VWVRNAZ7Wsy96+ECpk2zo11ECBeuE8cpYbA+BnsrHDkctZ/z2BNhMDHYmILFe68CXMmunrkf2EeE3X2iL3TKeiZd4UDlc5mpDNemf5G1/7gJ8Za5K6hZhDf4LuzUUPXhj+tXOGpqZcidmC1A2A==" NoCertificadoSAT="00001000000707891043" SelloSAT="Su7ULylvfhuCSfNnxurOCyZWXU7h8YehL94jwagPw/Pvhld6MTgfkrHTCsThLcq/QEA5aI3abNOLzWfLGvOnMUahLJ4vf9p/jInsgvJV8hLwMX8mApq3/1iRzQKShCmR2D20ymB9v/D+2sJfIxPBwneDusGX/EEoVSARokoIuJ17JTaQ02bvW2Rd9F8AWsyRKzPnpp0ynzbXCIgXnWGhb4JqOGKOlSxCedeKEHbqBdUA6pHjWPZMQOxWWRuYaYuAt6uxMLrsdiDriIRhogA2sKvw+lBm6oCIbmMDNLNDYRtlYPzSbi7OrSS/TgcEMAOKnhELWgyj5SUhEr4j7UV7Fw=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="MXN" TotalMx="11694.80" UniGraf="D63" ValorDelAtributo="" afectada="" calle="AV. GUERRERO NO.1729 LOCAL 5" cantidadConLetra="(ONCE MIL SEISCIENTOS NOVENTA Y CUATRO PESOS 80/100 M.N.)" cincoNeto="11694.80" codigoPostal="88240" colonia="GUERRERO -NUEVO LAREDO" correos="pedidos@grupotalamas.com -t hugo_talamas@hotmail.com -t administracion@grupotalamas.com -t tvlugo@planeta.com.mx -t cesar.barrera@planeta.com.mx" cuatroIva="" descuentoMx="6297.20" dosDescuento="6297.20" estado="TAMAULIPAS              TAMPS." fac="2025-09-24" fechaEdi102="2025-09-24T14:43:48" fechaEdi204="2025-09-24T14:43:48" fechaOrden="" ivaMx="" mail="pedidos@grupotalamas.com;hugo_talamas@hotmail.com;administracion@grupotalamas.com;tvlugo@planeta.com.mx;cesar.barrera@planeta.com.mx" moneda="MN" noCliente="PedLocDoc:00706750" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="HT000009" noProveedor="" nomAtributo="" pais="MEXICO" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="17992.00" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="74" unoButo="17992.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318494000619/26-11-24/VE26/11/2024" cantidad="4" codigo="0590707  " descripcion="El viaje de Elaina n§ 01/06" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="792.00" iva="s Mex" linea="1" lista="198.00" pedi="Pedimen." producto="9788411403016" serial="6-11-24/VE" sku="0590707" titulo="El viaje de Elaina n§ 01/06" titulocm="El viaje de Elaina n§ 01/06" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="178.00" Punitario="178.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318494000601/06-11-24/VE06/11/2024" cantidad="4" codigo="0590728  " descripcion="Wandance n§ 01" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="712.00" iva="s Mex" linea="2" lista="178.00" pedi="Pedimen." producto="9788411612937" serial="6-11-24/VE" sku="0590728" titulo="Wandance n§ 01" titulocm="Wandance n§ 01" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="378.00" Punitario="378.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318494000601/06-11-24/VE06/11/2024" cantidad="2" codigo="0590732  " descripcion="What Does The Fox Say? n§ 01" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="756.00" iva="s Mex" linea="3" lista="378.00" pedi="Pedimen." producto="9788411615570" serial="6-11-24/VE" sku="0590732" titulo="What Does The Fox Say? n§ 01" titulocm="What Does The Fox Say? n§ 01" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="178.00" Punitario="178.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318494000633/27-12-24/VE27/12/2024" cantidad="4" codigo="0590773  " descripcion="Kase y las campanillas azules n§ 01" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="712.00" iva="s Mex" linea="4" lista="178.00" pedi="Pedimen." producto="9788411613569" serial="7-12-24/VE" sku="0590773" titulo="Kase y las campanillas azules n§ 01/05" titulocm="Kase y las campanillas azules n§ 0" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="178.00" Punitario="178.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318494000633/27-12-24/VE27/12/2024" cantidad="4" codigo="0590778  " descripcion="Wandance n§ 02" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="712.00" iva="s Mex" linea="5" lista="178.00" pedi="Pedimen." producto="9788411613538" serial="7-12-24/VE" sku="0590778" titulo="Wandance n§ 02" titulocm="Wandance n§ 02" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000046/13-03-25/VE13/03/2025" cantidad="3" codigo="0590829  " descripcion="Bullet The Wizard n§ 02/02" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="1284.00" iva="s Mex" linea="6" lista="428.00" pedi="Pedimen." producto="9788411617062" serial="3-03-25/VE" sku="0590829" titulo="Bullet The Wizard n§ 02/02" titulocm="Bullet The Wizard n§ 02/02" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="178.00" Punitario="178.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000170/10-04-25/VE10/04/2025" cantidad="4" codigo="0590839  " descripcion="El hombre invisible y su futura esp" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="712.00" iva="s Mex" linea="7" lista="178.00" pedi="Pedimen." producto="9788411617024" serial="0-04-25/VE" sku="0590839" titulo="El hombre invisible y su futura esposa n§ 01" titulocm="El hombre invisible y su futura es" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000170/10-04-25/VE10/04/2025" cantidad="4" codigo="0590847  " descripcion="Wandance n§ 03" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="792.00" iva="s Mex" linea="8" lista="198.00" pedi="Pedimen." producto="9788411617918" serial="0-04-25/VE" sku="0590847" titulo="Wandance n§ 03" titulocm="Wandance n§ 03" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="358.00" Punitario="358.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000170/10-04-25/VE10/04/2025" cantidad="2" codigo="0590848  " descripcion="The Return of the Demon Master n§ 0" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="716.00" iva="s Mex" linea="9" lista="358.00" pedi="Pedimen." producto="9788411617932" serial="0-04-25/VE" sku="0590848" titulo="The Return of the Demon Master n§ 01" titulocm="The Return of the Demon Master n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000185/08-05-25/VE08/05/2025" cantidad="3" codigo="0590870  " descripcion="Bullet The Wizard n§ 01/02" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="1284.00" iva="s Mex" linea="10" lista="428.00" pedi="Pedimen." producto="9788411613576" serial="8-05-25/VE" sku="0590870" titulo="Bullet The Wizard n§ 01/02" titulocm="Bullet The Wizard n§ 01/02" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495000185/08-05-25/VE08/05/2025" cantidad="2" codigo="0590881  " descripcion="What Does The Fox Say? n§ 03" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="856.00" iva="s Mex" linea="11" lista="428.00" pedi="Pedimen." producto="9788411618373" serial="8-05-25/VE" sku="0590881" titulo="What Does The Fox Say? n§ 03" titulocm="What Does The Fox Say? n§ 03" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001163/18-06-25/VE18/06/2025" cantidad="2" codigo="0590890  " descripcion="What Does The Fox Say? n§ 02" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="856.00" iva="s Mex" linea="12" lista="428.00" pedi="Pedimen." producto="9788411617093" serial="8-06-25/VE" sku="0590890" titulo="What Does The Fox Say? n§ 02" titulocm="What Does The Fox Say? n§ 02" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001190/24-07-25/VE24/07/2025" cantidad="4" codigo="0590896  " descripcion="El viaje de Elaina n§ 02/06" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="792.00" iva="s Mex" linea="13" lista="198.00" pedi="Pedimen." producto="9788411618694" serial="4-07-25/VE" sku="0590896" titulo="El viaje de Elaina n§ 02/06" titulocm="El viaje de Elaina n§ 02/06" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001190/24-07-25/VE24/07/2025" cantidad="2" codigo="0590905  " descripcion="What Does The Fox Say? n§ 04" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="856.00" iva="s Mex" linea="14" lista="428.00" pedi="Pedimen." producto="9788411619127" serial="4-07-25/VE" sku="0590905" titulo="What Does The Fox Say? n§ 04" titulocm="What Does The Fox Say? n§ 04" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="228.00" Punitario="228.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001175/24-06-25/VE24/06/2025" cantidad="4" codigo="0590912  " descripcion="El hombre invisible y su futura esp" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="912.00" iva="s Mex" linea="15" lista="228.00" pedi="Pedimen." producto="9788411618670" serial="4-06-25/VE" sku="0590912" titulo="El hombre invisible y su futura esposa n§ 02" titulocm="El hombre invisible y su futura es" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001175/24-06-25/VE24/06/2025" cantidad="2" codigo="0590913  " descripcion="The Return of the Demon Master n§ 0" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="796.00" iva="s Mex" linea="16" lista="398.00" pedi="Pedimen." producto="9788411618700" serial="4-06-25/VE" sku="0590913" titulo="The Return of the Demon Master n§ 02" titulocm="The Return of the Demon Master n§" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001190/24-07-25/VE24/07/2025" cantidad="4" codigo="0590952  " descripcion="La lavanderia de Minato n§ 04" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="792.00" iva="s Mex" linea="17" lista="198.00" pedi="Pedimen." producto="9788411618656" serial="4-07-25/VE" sku="0590952" titulo="La lavanderia de Minato n§ 04" titulocm="La lavanderia de Minato n§ 04" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="168.00" Punitario="168.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001198/31-07-25/VE31/07/2025" cantidad="10" codigo="0590957  " descripcion="Blue Lock n§ 26" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="1680.00" iva="s Mex" linea="18" lista="168.00" pedi="Pedimen." producto="9788411618915" serial="1-07-25/VE" sku="0590957" titulo="Blue Lock n§ 26" titulocm="Blue Lock n§ 26" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001198/31-07-25/VE31/07/2025" cantidad="4" codigo="0590959  " descripcion="Wandance n§ 04" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="792.00" iva="s Mex" linea="19" lista="198.00" pedi="Pedimen." producto="9788411619066" serial="1-07-25/VE" sku="0590959" titulo="Wandance n§ 04" titulocm="Wandance n§ 04" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4318495001266/22-08-25/VE22/08/2025" cantidad="6" codigo="0590969  " descripcion="No puedo ser solo tu amigo n§ 01/03" descuento="4901990400  Pl" ean="PZA   49019904" ieps="Comic" importe="1188.00" iva="s Mex" linea="20" lista="198.00" pedi="Pedimen." producto="9788411617871" serial="2-08-25/VE" sku="0590969" titulo="No puedo ser solo tu amigo n§ 01/03" titulocm="No puedo ser solo tu amigo n§ 01/0" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2025-09-24" fechaOrdenCompra="2025-09-24" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00866683" subTotal="17992.00" total="17992.00" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0040119" TotalUnidadesFactura="" ZonadeEntrega="." actividad="700" ano="2025" codCliente="000019380-5" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="24/09/2025" noCliente="PedLocDoc:00706750" noOrdenCompra="HT000009" pedidoInterno="00866683" porcentajeDeDescuentoTotal="35.00" referenciaBanca="Referencia Bancaria:000019380-5" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="0.00" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="11694.80" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+24/09/2025
+~#|e+|M35.35 Jl @2
+700
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+AC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\767967
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2025-09-24T14:43:48 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+73499452-D77D-4F08-9B14-52D337DA9486
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "700767967.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2025-09-24T14:43:48
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv10 
+RFC Cliente:TAMH880205FE3
+
+HUGO CESAR TALAMAS MONTEMAYOR   
+
+
+
+AV. GUERRERO NO.1729 LOCAL 5  
+
+GUERRERO -NUEVO LAREDO 
+
+TAMAULIPAS              TAMPS. MEXICO C.P. 88240
+
+Regimen Fiscal: 612  
+
+Proveedor: PedLocDoc:00706750
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000019380-5
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000019380-5 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+35.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+90 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0040119
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+HT000009
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00866683
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+.
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590707  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+El viaje de Elaina n§ 01/06
+~# @?Jc
+9788411403016
+~# @?Jr
+198.00
+~# @?Jr
+792.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000619/26-11-24/VE26/11/2024
+~# @?Jc
+6-11-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590728  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Wandance n§ 01
+~# @?Jc
+9788411612937
+~# @?Jr
+178.00
+~# @?Jr
+712.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000601/06-11-24/VE06/11/2024
+~# @?Jc
+6-11-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590732  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+What Does The Fox Say? n§ 01
+~# @?Jc
+9788411615570
+~# @?Jr
+378.00
+~# @?Jr
+756.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000601/06-11-24/VE06/11/2024
+~# @?Jc
+6-11-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590773  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Kase y las campanillas azules n§ 01/05
+~# @?Jc
+9788411613569
+~# @?Jr
+178.00
+~# @?Jr
+712.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000633/27-12-24/VE27/12/2024
+~# @?Jc
+7-12-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590778  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Wandance n§ 02
+~# @?Jc
+9788411613538
+~# @?Jr
+178.00
+~# @?Jr
+712.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000633/27-12-24/VE27/12/2024
+~# @?Jc
+7-12-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590829  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Bullet The Wizard n§ 02/02
+~# @?Jc
+9788411617062
+~# @?Jr
+428.00
+~# @?Jr
+1,284.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000046/13-03-25/VE13/03/2025
+~# @?Jc
+3-03-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590839  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+El hombre invisible y su futura esposa n§ 01
+~# @?Jc
+9788411617024
+~# @?Jr
+178.00
+~# @?Jr
+712.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000170/10-04-25/VE10/04/2025
+~# @?Jc
+0-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590847  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Wandance n§ 03
+~# @?Jc
+9788411617918
+~# @?Jr
+198.00
+~# @?Jr
+792.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000170/10-04-25/VE10/04/2025
+~# @?Jc
+0-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590848  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+The Return of the Demon Master n§ 01
+~# @?Jc
+9788411617932
+~# @?Jr
+358.00
+~# @?Jr
+716.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000170/10-04-25/VE10/04/2025
+~# @?Jc
+0-04-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590870  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Bullet The Wizard n§ 01/02
+~# @?Jc
+9788411613576
+~# @?Jr
+428.00
+~# @?Jr
+1,284.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000185/08-05-25/VE08/05/2025
+~# @?Jc
+8-05-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590881  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+What Does The Fox Say? n§ 03
+~# @?Jc
+9788411618373
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495000185/08-05-25/VE08/05/2025
+~# @?Jc
+8-05-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590890  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+What Does The Fox Say? n§ 02
+~# @?Jc
+9788411617093
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001163/18-06-25/VE18/06/2025
+~# @?Jc
+8-06-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590896  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+El viaje de Elaina n§ 02/06
+~# @?Jc
+9788411618694
+~# @?Jr
+198.00
+~# @?Jr
+792.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001190/24-07-25/VE24/07/2025
+~# @?Jc
+4-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590905  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+What Does The Fox Say? n§ 04
+~# @?Jc
+9788411619127
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001190/24-07-25/VE24/07/2025
+~# @?Jc
+4-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590912  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+El hombre invisible y su futura esposa n§ 02
+~# @?Jc
+9788411618670
+~# @?Jr
+228.00
+~# @?Jr
+912.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001175/24-06-25/VE24/06/2025
+~# @?Jc
+4-06-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590913  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+The Return of the Demon Master n§ 02
+~# @?Jc
+9788411618700
+~# @?Jr
+398.00
+~# @?Jr
+796.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001175/24-06-25/VE24/06/2025
+~# @?Jc
+4-06-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590952  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+La lavanderia de Minato n§ 04
+~# @?Jc
+9788411618656
+~# @?Jr
+198.00
+~# @?Jr
+792.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001190/24-07-25/VE24/07/2025
+~# @?Jc
+4-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590957  
+~# @?Jc
+10
+~# @?Jc
+H87
+~# @?
+Blue Lock n§ 26
+~# @?Jc
+9788411618915
+~# @?Jr
+168.00
+~# @?Jr
+1,680.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001198/31-07-25/VE31/07/2025
+~# @?Jc
+1-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590959  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Wandance n§ 04
+~# @?Jc
+9788411619066
+~# @?Jr
+198.00
+~# @?Jr
+792.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001198/31-07-25/VE31/07/2025
+~# @?Jc
+1-07-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0590969  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+No puedo ser solo tu amigo n§ 01/03
+~# @?Jc
+9788411617871
+~# @?Jr
+198.00
+~# @?Jr
+1,188.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001266/22-08-25/VE22/08/2025
+~# @?Jc
+2-08-25/VE
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+74
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "73499452-D77D-4F08-9B14-52D337DA9486.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+11,694.80
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+17,992.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+6,297.20 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+11,694.80
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(ONCE MIL SEISCIENTOS NOVENTA Y CUATRO PESOS 80/100 M.N.)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+dTJ++GEMvH2r/B/WQG6/QUexbRUwOMpdV3JRmwVVJJa1NjE2/XkZP9H1g8OWYSE5NUwJ6l7eThLkGqkwCnyI3e0c2ekB37tgbGns20K4tZTqi471UnnWEe3zPvY5jOV7Ax9zWQ0Jd5LbsMUYzW5IDrkH+fzin9j4XQpz4NAXsyJw0sigl4h9B2/Kut/VUrrIbnZ8VWVRNAZ7Wsy96+ECpk2zo11ECBeuE8cpYbA+BnsrHDkctZ/z2BNhMDHYmILFe68CXMmunrkf2EeE3X2iL3TKeiZd4UDlc5mpDNemf5G1/7gJ8Za5K6hZhDf4LuzUUPXhj+tXOGpqZcidmC1A2A==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+Su7ULylvfhuCSfNnxurOCyZWXU7h8YehL94jwagPw/Pvhld6MTgfkrHTCsThLcq/QEA5aI3abNOLzWfLGvOnMUahLJ4vf9p/jInsgvJV8hLwMX8mApq3/1iRzQKShCmR2D20ymB9v/D+2sJfIxPBwneDusGX/EEoVSARokoIuJ17JTaQ02bvW2Rd9F8AWsyRKzPnpp0ynzbXCIgXnWGhb4JqOGKOlSxCedeKEHbqBdUA6pHjWPZMQOxWWRuYaYuAt6uxMLrsdiDriIRhogA2sKvw+lBm6oCIbmMDNLNDYRtlYPzSbi7OrSS/TgcEMAOKnhELWgyj5SUhEr4j7UV7Fw==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|73499452-D77D-4F08-9B14-52D337DA9486|2025-09-24T14:48:16|dTJ++GEMvH2r/B/WQG6/QUexbRUwOMpdV3JRmwVVJJa1NjE2/XkZP9H1g8OWYSE5NUwJ6l7eThLkGqkwCnyI3e0c2ekB37tgbGns20K4tZTqi471UnnWEe3zPvY5jOV7Ax9zWQ0Jd5LbsMUYzW5IDrkH+fzin9j4XQpz4NAXsyJw0sigl4h9B2/Kut/VUrrIbnZ8VWVRNAZ7Wsy96+ECpk2zo11ECBeuE8cpYbA+BnsrHDkctZ/z2BNhMDHYmILFe68CXMmunrkf2EeE3X2iL3TKeiZd4UDlc5mpDNemf5G1/7gJ8Za5K6hZhDf4LuzUUPXhj+tXOGpqZcidmC1A2A==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2025-09-24T14:48:16
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

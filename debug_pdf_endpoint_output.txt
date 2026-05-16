@@ -1,7 +1,0 @@
-UUID: 39e5e6e4-534a-4b08-a5ae-77a6e3b41c91
-1. actual_path (init): C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\08\39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.xml
-2. actual_path (after replace): C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\Files\VCO1307234VA\2025\08\39E5E6E4-534A-4B08-A5AE-77A6E3B41C91.pdf
-Path does not exist, looking in find_cfdi_attachments...
-att[pdf_path]: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\804.pdf
-3. actual_path (after attachments): C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\804.pdf
-Skipping wkhtmltopdf block! PATH IS VALID: C:\ITC\Fappeal\Planeta\Outfile\SAT\Factura\0-2K\804.pdf

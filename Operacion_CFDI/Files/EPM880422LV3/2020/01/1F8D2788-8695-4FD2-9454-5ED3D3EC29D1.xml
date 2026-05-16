@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="180 DIAS" Descuento="0.00" Fecha="2020-01-06T22:26:18" Folio="000215" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000404247185" Sello="baEfPDLGUEgavk75WrZVSeex1PhQU6nVSerMP1rtMLw/nriMx71wzWcK+XGvXrUV8e0KAqoluF/8TZmUbID4rtfiiB6gSRr0XZbzEDtVajgWR6Vo241R27OmOPSCXFCSmJImokeUHq+9Yfmc/CfPoDyCLarOS+hBHjsJiOOcKaGdAOdEz3q+LFQ4BvFQ7fyWogKwWqwV0HS+hf2al2FYuXfyE2A6OJQZjfUosTEM9cYpDPxohEK/rGgeDBNl49jqi3rpWper3atGvOLcj6I425OPVq3A5ODvZswxM8JJFTlwRuv9biZA3oBZ/OTtf8OimjOR3TGAc23UmgZKSOBM9g==" Serie="TMC" SubTotal="1789.50" TipoCambio="20.818018" TipoDeComprobante="I" Total="1789.50" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd"><cfdi:Emisor Nombre="Editorial Planeta Mexicana, S.A. de C.V." RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." Rfc="XEXX010101000" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="La sospecha de Sofía" Descuento="0.00" Importe="437.00" NoIdentificacion="9788408205623" ValorUnitario="8.74">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="437.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Una corte de rosas y espinas" Descuento="0.00" Importe="338.00" NoIdentificacion="9788408155089" ValorUnitario="6.76">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="338.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El hogar de Miss Peregrine para niños peculiares" Descuento="0.00" Importe="298.50" NoIdentificacion="9788408158035" ValorUnitario="5.97">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="298.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Cuentos para quererte mejor" Descuento="0.00" Importe="716.00" NoIdentificacion="9788408194637" ValorUnitario="7.16">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="716.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="1F8D2788-8695-4FD2-9454-5ED3D3EC29D1" FechaTimbrado="2020-01-07T06:29:18" RfcProvCertif="ASE0209252Q1" SelloCFD="baEfPDLGUEgavk75WrZVSeex1PhQU6nVSerMP1rtMLw/nriMx71wzWcK+XGvXrUV8e0KAqoluF/8TZmUbID4rtfiiB6gSRr0XZbzEDtVajgWR6Vo241R27OmOPSCXFCSmJImokeUHq+9Yfmc/CfPoDyCLarOS+hBHjsJiOOcKaGdAOdEz3q+LFQ4BvFQ7fyWogKwWqwV0HS+hf2al2FYuXfyE2A6OJQZjfUosTEM9cYpDPxohEK/rGgeDBNl49jqi3rpWper3atGvOLcj6I425OPVq3A5ODvZswxM8JJFTlwRuv9biZA3oBZ/OTtf8OimjOR3TGAc23UmgZKSOBM9g==" NoCertificadoSAT="00001000000404481161" SelloSAT="Llq8xkiR4h6IBBR6DFYpp+w/xhvWRTsmbZ5bNnw1KsHLJoyR7Shf7zfmTdy7ltq24qMAHZ0ElRld65SkhWLtUOYCMoqiJlqPHjiomma7VEMfuQ+vszwWwZJD/R6GJ1RmT9ypnjtx7XVqRn92S/fNx7tqn3s1jQ/Lu5sjbbjvKqDEwF+D+prEVyGeeXB5a58908AXmwyoGc166QorlUvXbhvXHW2YhtQvSA7MP59HUUKp57qI92w77o9LC15ixc+y2Zkkh1ATClqk12oLSZ9e26LzZTvZDpaqj9NVSe24fJKu1NDCva08BJ+QzIDmJQLwz+/PAzLdag4w5lTvJXFbJA=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" NombreDelAtributo2="" Simoneda="" TotalMx="1789.50" UniGraf="H87" ValorDelAtributo1="" ValorDelAtributo2="" afectada="" calle="DEL RESTAURANTE EL FOGONCITO BLVD. ROHRMOSER 100 OESTE Y 25 SUR" cantidadConLetra="(UN MIL SETECIENTOS OCHENTA Y NUEVE EUROS 50/100)" cincoNeto="1789.50" codigoPostal="10109" colonia="" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="SAN JOSE" fac="2020-01-06" fechaEdi102="2020-01-06T22:26:18" fechaEdi204="2020-01-06T22:26:18" fechaOrden="" ivaMx="0.00" mail="eroca@planeta.com.mx;mherrera@planeta.com.mx;llopez@planeta.com.mx;jtrejo@planeta.com.mx;rgutierrezm@planeta.com.mx;esanchez@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00000217" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="VLP-004" noProveedor="" nomAtributo="" pais="COSTA RICA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="1789.50" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="250" unoButo="1789.50" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="8.74" Punitario="8.74" SUM="H87" TasaIEPS="et" TasaIVA="et" UM="PIEZA" aduana="" cantidad="50" codigo="1007069  " descripcion="La sospecha de Sofía" descuento="49019904  Plan" ean="PZA   49019904" ieps="" importe="437.00" iva="" linea="1" lista="8.74" pedi="" producto="9788408205623" serial="" sku="1007069" titulo="La sospecha de Sofía" titulocm="La sospecha de Sofía" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.76" Punitario="6.76" SUM="H87" TasaIEPS="in" TasaIVA="in" UM="PIEZA" aduana="" cantidad="50" codigo="3001720  " descripcion="Una corte de rosas y espinas" descuento="49019904  Dest" ean="PZA   49019904" ieps="" importe="338.00" iva="" linea="2" lista="6.76" pedi="" producto="9788408155089" serial="" sku="3001720" titulo="Una corte de rosas y espinas" titulocm="Una corte de rosas y espinas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="5.97" Punitario="5.97" SUM="H87" TasaIEPS="in" TasaIVA="in" UM="PIEZA" aduana="" cantidad="50" codigo="3001853  " descripcion="El hogar de Miss Peregrine para niñ" descuento="49019904  Dest" ean="PZA   49019904" ieps="" importe="298.50" iva="" linea="3" lista="5.97" pedi="" producto="9788408158035" serial="" sku="3001853" titulo="El hogar de Miss Peregrine para niños peculiares" titulocm="El hogar de Miss Peregrine para ni" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.16" Punitario="7.16" SUM="H87" TasaIEPS="in" TasaIVA="in" UM="PIEZA" aduana="" cantidad="100" codigo="3100110  " descripcion="Cuentos para quererte mejor" descuento="49019904  Dest" ean="PZA   49019904" ieps="fanti" importe="716.00" iva="l Y J" linea="4" lista="7.16" pedi="" producto="9788408194637" serial="" sku="3100110" titulo="Cuentos para quererte mejor" titulocm="Cuentos para quererte mejor" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="3101167504" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2020-01-06" fechaOrdenCompra="2020-01-06" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00000215" subTotal="1789.50" total="1789.50" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0084004" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2020" codCliente="000013164-9" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="2422KGS PESO BRUTO, INCOTERMS:EXW" fecha="06/01/2020" noCliente="PedLocDoc:00000217" noOrdenCompra="VLP-004" pedidoInterno="00000215" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013164-9" unoObservaciones="OC#10508, 5200UNIDADES, 13BULTOS, 2238KGS PESO NETO"/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="1789.50" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+06/01/2020
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\000215
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Mèxico D.F., 2020-01-06T22:26:18 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+1F8D2788-8695-4FD2-9454-5ED3D3EC29D1
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000404247185
+~]
+~#
+~[30
+~#D M90.90 "830000215.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2020-01-06T22:26:18
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A.   
+
+3101167504
+
+DEL RESTAURANTE EL FOGONCITO BLVD. ROHRMOSER 100 OESTE Y 25 SUR  
+
+ 
+
+SAN JOSE COSTA RICA C.P. 10109
+
+Proveedor: PedLocDoc:00000217
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013164-9
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+OC#10508, 5200UNIDADES, 13BULTOS, 2238KGS PESO NETO
+
+2422KGS PESO BRUTO, INCOTERMS:EXW
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013164-9 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+180 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0084004
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-004
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00000215
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1007069  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+La sospecha de Sofía
+~# @?Jc
+9788408205623
+~# @?Jr
+8.74
+~# @?Jr
+437.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3001720  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Una corte de rosas y espinas
+~# @?Jc
+9788408155089
+~# @?Jr
+6.76
+~# @?Jr
+338.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3001853  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+El hogar de Miss Peregrine para niños peculiares
+~# @?Jc
+9788408158035
+~# @?Jr
+5.97
+~# @?Jr
+298.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100110  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Cuentos para quererte mejor
+~# @?Jc
+9788408194637
+~# @?Jr
+7.16
+~# @?Jr
+716.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+250
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "1F8D2788-8695-4FD2-9454-5ED3D3EC29D1.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+1,789.50
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+1,789.50
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+1,789.50
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(UN MIL SETECIENTOS OCHENTA Y NUEVE EUROS 50/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+No. de Cuenta de Pago:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+H87
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+baEfPDLGUEgavk75WrZVSeex1PhQU6nVSerMP1rtMLw/nriMx71wzWcK+XGvXrUV8e0KAqoluF/8TZmUbID4rtfiiB6gSRr0XZbzEDtVajgWR6Vo241R27OmOPSCXFCSmJImokeUHq+9Yfmc/CfPoDyCLarOS+hBHjsJiOOcKaGdAOdEz3q+LFQ4BvFQ7fyWogKwWqwV0HS+hf2al2FYuXfyE2A6OJQZjfUosTEM9cYpDPxohEK/rGgeDBNl49jqi3rpWper3atGvOLcj6I425OPVq3A5ODvZswxM8JJFTlwRuv9biZA3oBZ/OTtf8OimjOR3TGAc23UmgZKSOBM9g==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+Llq8xkiR4h6IBBR6DFYpp+w/xhvWRTsmbZ5bNnw1KsHLJoyR7Shf7zfmTdy7ltq24qMAHZ0ElRld65SkhWLtUOYCMoqiJlqPHjiomma7VEMfuQ+vszwWwZJD/R6GJ1RmT9ypnjtx7XVqRn92S/fNx7tqn3s1jQ/Lu5sjbbjvKqDEwF+D+prEVyGeeXB5a58908AXmwyoGc166QorlUvXbhvXHW2YhtQvSA7MP59HUUKp57qI92w77o9LC15ixc+y2Zkkh1ATClqk12oLSZ9e26LzZTvZDpaqj9NVSe24fJKu1NDCva08BJ+QzIDmJQLwz+/PAzLdag4w5lTvJXFbJA==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.0|1F8D2788-8695-4FD2-9454-5ED3D3EC29D1|2020-01-07T06:29:18|baEfPDLGUEgavk75WrZVSeex1PhQU6nVSerMP1rtMLw/nriMx71wzWcK+XGvXrUV8e0KAqoluF/8TZmUbID4rtfiiB6gSRr0XZbzEDtVajgWR6Vo241R27OmOPSCXFCSmJImokeUHq+9Yfmc/CfPoDyCLarOS+hBHjsJiOOcKaGdAOdEz3q+LFQ4BvFQ7fyWogKwWqwV0HS+hf2al2FYuXfyE2A6OJQZjfUosTEM9cYpDPxohEK/rGgeDBNl49jqi3rpWper3atGvOLcj6I425OPVq3A5ODvZswxM8JJFTlwRuv9biZA3oBZ/OTtf8OimjOR3TGAc23UmgZKSOBM9g==|00001000000404481161||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000404481161
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2020-01-07T06:29:18
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

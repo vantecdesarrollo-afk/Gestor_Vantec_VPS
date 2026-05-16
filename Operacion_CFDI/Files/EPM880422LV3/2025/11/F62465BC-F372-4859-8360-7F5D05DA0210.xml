@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="90 DIAS" Descuento="14713.30" Exportacion="01" Fecha="2025-11-06T14:46:22" Folio="772922" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000710885331" Sello="EZjPKPZgd2qoE8X1L01qu/j/fdfVfiOYJSsxDxKKJQd2vQvC1M0S5hbNRWWKiX/Mu19t7NeFD4zKQ1IMXi2M00hZ0l2FO2gFlColnPj9mxlX9xG4y710CsaDs35a9wRucw34treGkBZ1Bj4TYm2nFoePUkEx7ZqMpVcwNaUi6NL26bDtxa0VSBBfyvON9srKAYsD1XoGBE1zQV5YCSXL4MNF5GbaYtZeteswTOwJKMOZyyBBQvb5RIW/LZxOaJnacz9NkndC/MD7fpZ31F1Glu2ghUdyLbx6i2Ln8DoC4B9MFJIlQmXveUUBrlNKXq20vmiCqFsID9QrS3Dmden/IQ==" Serie="AC" SubTotal="42038.00" TipoDeComprobante="I" Total="27324.70" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="88240" Nombre="HUGO CESAR TALAMAS MONTEMAYOR" RegimenFiscalReceptor="612" Rfc="TAMH880205FE3" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El jardin de las mariposas TD" Descuento="836.50" Importe="2390.00" NoIdentificacion="9786070773907" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1553.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Desfibrilador" Descuento="609.00" Importe="1740.00" NoIdentificacion="9786073931779" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1131.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="8" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Eres el amor de mi otra vida" Descuento="1254.40" Importe="3584.00" NoIdentificacion="9786073931748" ObjetoImp="02" ValorUnitario="448.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2329.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="37" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Alas de sangre (Empireo 1)" Descuento="6449.10" Importe="18426.00" NoIdentificacion="9786073925020" ObjetoImp="02" ValorUnitario="498.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="11976.90" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="16" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="TD Alas de hierro (Empireo 2)" Descuento="3348.80" Importe="9568.00" NoIdentificacion="9786073925037" ObjetoImp="02" ValorUnitario="598.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="6219.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La nina a la que se le vino el mundo encima TD" Descuento="365.40" Importe="1044.00" NoIdentificacion="9786070778629" ObjetoImp="02" ValorUnitario="348.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="678.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="6" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La ridicula idea de no volver a verte TD" Descuento="772.80" Importe="2208.00" NoIdentificacion="9786070780929" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1435.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuando no queden más estrellas que contar TD" Descuento="501.90" Importe="1434.00" NoIdentificacion="9786073905411" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="932.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 3. Twisted Hate. Edición especial" Descuento="575.40" Importe="1644.00" NoIdentificacion="9788408305378" ObjetoImp="02" ValorUnitario="548.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1068.60" Impuesto="002" TipoFactor="Exento"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="26256.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+            <cfdi:Traslado Base="1068.60" Impuesto="002" TipoFactor="Exento"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="F62465BC-F372-4859-8360-7F5D05DA0210" FechaTimbrado="2025-11-06T14:47:42" RfcProvCertif="ASE0209252Q1" SelloCFD="EZjPKPZgd2qoE8X1L01qu/j/fdfVfiOYJSsxDxKKJQd2vQvC1M0S5hbNRWWKiX/Mu19t7NeFD4zKQ1IMXi2M00hZ0l2FO2gFlColnPj9mxlX9xG4y710CsaDs35a9wRucw34treGkBZ1Bj4TYm2nFoePUkEx7ZqMpVcwNaUi6NL26bDtxa0VSBBfyvON9srKAYsD1XoGBE1zQV5YCSXL4MNF5GbaYtZeteswTOwJKMOZyyBBQvb5RIW/LZxOaJnacz9NkndC/MD7fpZ31F1Glu2ghUdyLbx6i2Ln8DoC4B9MFJIlQmXveUUBrlNKXq20vmiCqFsID9QrS3Dmden/IQ==" NoCertificadoSAT="00001000000707891043" SelloSAT="imw04hopsmqZJbs4qnVq5W/VqedzDI/qJx4QS0gn/GWM+iBNVYRqzLJzp7qoc7s9/ntysFbdkpdqfvEQDOPn/Fp5B+lDv7EtHGNZv5I3/zzBMQAIpEYQNWCfq/OYjQFrszkxR8JWHJ3875obJCLjcfgUS0X25CpJOrlFJHmWJcq1UGpQ/rQZFAebSEeU5rjH/nOZPeVsOO1issGrQfOBBaC02CIZ7FuhNpB3fUzCqZiNCMeCgASERjN41bSZHGtuwwuc0siRYxKWYf34Xp7uymxK3TyisCRjtqCy7alaXvCFlSgn9iAkUO5PGW4invFkaihOObBT0gTc/4vcmxKbng=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="MXN" TotalMx="27324.70" UniGraf="D63" ValorDelAtributo="" afectada="" calle="AV. GUERRERO NO.1729 LOCAL 5" cantidadConLetra="(VEINTISIETE MIL TRESCIENTOS VEINTICUATRO PESOS 70/100 M.N.)" cincoNeto="27324.70" codigoPostal="88240" colonia="GUERRERO -NUEVO LAREDO" correos="pedidos@grupotalamas.com -t hugo_talamas@hotmail.com -t administracion@grupotalamas.com -t tvlugo@planeta.com.mx -t cesar.barrera@planeta.com.mx" cuatroIva="" descuentoMx="14713.30" dosDescuento="14713.30" estado="TAMAULIPAS              TAMPS." fac="2025-11-06" fechaEdi102="2025-11-06T14:46:22" fechaEdi204="2025-11-06T14:46:22" fechaOrden="" ivaMx="0.00" mail="pedidos@grupotalamas.com;hugo_talamas@hotmail.com;administracion@grupotalamas.com;tvlugo@planeta.com.mx;cesar.barrera@planeta.com.mx" moneda="MN" noCliente="PedLocDoc:00711103" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="00711103" noProveedor="" nomAtributo="" pais="MEXICO" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="42038.00" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="86" unoButo="42038.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="5" codigo="1008021  " descripcion="El jardin de las mariposas TD" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="2390.00" iva="" linea="1" lista="478.00" pedi="Pedimen." producto="9786070773907" serial="5-08-25/VE" sku="1008021" titulo="El jardin de las mariposas TD" titulocm="El jardin de las mariposas TD" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="5" codigo="1011144  " descripcion="TD Desfibrilador" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="1740.00" iva="" linea="2" lista="348.00" pedi="Pedimen." producto="9786073931779" serial="5-08-25/VE" sku="1011144" titulo="TD Desfibrilador" titulocm="TD Desfibrilador" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="448.00" Punitario="448.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001704/15-08-25/VE15/08/2025" cantidad="8" codigo="1011145  " descripcion="TD Eres el amor de mi otra vida" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="3584.00" iva="" linea="3" lista="448.00" pedi="Pedimen." producto="9786073931748" serial="5-08-25/VE" sku="1011145" titulo="TD Eres el amor de mi otra vida" titulocm="TD Eres el amor de mi otra vida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="498.00" Punitario="498.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="1619055000438/22-09-25/MA22/09/2025" cantidad="37" codigo="1011155  " descripcion="TD Alas de sangre (Empireo 1)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="18426.00" iva="" linea="4" lista="498.00" pedi="Pedimen." producto="9786073925020" serial="2-09-25/MA" sku="1011155" titulo="TD Alas de sangre (Empireo 1)" titulocm="TD Alas de sangre (Empireo 1)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="598.00" Punitario="598.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="1619055000442/22-09-25/MA22/09/2025" cantidad="16" codigo="1011156  " descripcion="TD Alas de hierro (Empireo 2)" descuento="4901990400  Pl" ean="PZA   49019904" ieps="" importe="9568.00" iva="" linea="5" lista="598.00" pedi="Pedimen." producto="9786073925037" serial="2-09-25/MA" sku="1011156" titulo="TD Alas de hierro (Empireo 2)" titulocm="TD Alas de hierro (Empireo 2)" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="348.00" Punitario="348.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="3" codigo="1301407  " descripcion="La nina a la que se le vino el mund" descuento="4901990400  Di" ean="PZA   49019904" ieps="" importe="1044.00" iva="" linea="6" lista="348.00" pedi="Pedimen." producto="9786070778629" serial="5-08-25/VE" sku="1301407" titulo="La nina a la que se le vino el mundo encima TD" titulocm="La nina a la que se le vino el mun" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="4336925001702/15-08-25/VE15/08/2025" cantidad="6" codigo="2504911  " descripcion="La ridicula idea de no volver a ver" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="2208.00" iva="" linea="7" lista="368.00" pedi="Pedimen." producto="9786070780929" serial="5-08-25/VE" sku="2504911" titulo="La ridicula idea de no volver a verte TD" titulocm="La ridicula idea de no volver a ve" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4336925001706/15-08-25/VE15/08/2025" cantidad="3" codigo="3101129  " descripcion="Cuando no queden más estrellas que" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1434.00" iva="" linea="8" lista="478.00" pedi="Pedimen." producto="9786073905411" serial="5-08-25/VE" sku="3101129" titulo="Cuando no queden más estrellas que contar TD" titulocm="Cuando no queden más estrellas que" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="548.00" Punitario="548.00" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" aduana="4318495001266/22-08-25/VE22/08/2025" cantidad="3" codigo="3101651  " descripcion="Twisted 3. Twisted Hate. Edición es" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1644.00" iva="" linea="9" lista="548.00" pedi="Pedimen." producto="9788408305378" serial="2-08-25/VE" sku="3101651" titulo="Twisted 3. Twisted Hate. Edición especial" titulocm="Twisted 3. Twisted Hate. Edición e" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2025-11-06" fechaOrdenCompra="2025-11-06" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00872650" subTotal="42038.00" total="42038.00" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0040106" TotalUnidadesFactura="" ZonadeEntrega="" actividad="700" ano="2025" codCliente="000019380-5" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="06/11/2025" noCliente="PedLocDoc:00711103" noOrdenCompra="00711103" pedidoInterno="00872650" porcentajeDeDescuentoTotal="35.00" referenciaBanca="Referencia Bancaria:000019380-5" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="26256.10" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="1068.60" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+06/11/2025
+~#|e+|M35.35 Jl @2
+700
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+AC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\772922
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2025-11-06T14:46:22 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+F62465BC-F372-4859-8360-7F5D05DA0210
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "700772922.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2025-11-06T14:46:22
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv10 
+RFC Cliente:TAMH880205FE3
+
+HUGO CESAR TALAMAS MONTEMAYOR   
+
+
+
+AV. GUERRERO NO.1729 LOCAL 5  
+
+GUERRERO -NUEVO LAREDO 
+
+TAMAULIPAS              TAMPS. MEXICO C.P. 88240
+
+Regimen Fiscal: 612  
+
+Proveedor: PedLocDoc:00711103
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000019380-5
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000019380-5 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+35.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+90 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0040106
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+00711103
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00872650
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1008021  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+El jardin de las mariposas TD
+~# @?Jc
+9786070773907
+~# @?Jr
+478.00
+~# @?Jr
+2,390.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011144  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+TD Desfibrilador
+~# @?Jc
+9786073931779
+~# @?Jr
+348.00
+~# @?Jr
+1,740.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011145  
+~# @?Jc
+8
+~# @?Jc
+H87
+~# @?
+TD Eres el amor de mi otra vida
+~# @?Jc
+9786073931748
+~# @?Jr
+448.00
+~# @?Jr
+3,584.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001704/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011155  
+~# @?Jc
+37
+~# @?Jc
+H87
+~# @?
+TD Alas de sangre (Empireo 1)
+~# @?Jc
+9786073925020
+~# @?Jr
+498.00
+~# @?Jr
+18,426.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000438/22-09-25/MA22/09/2025
+~# @?Jc
+2-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1011156  
+~# @?Jc
+16
+~# @?Jc
+H87
+~# @?
+TD Alas de hierro (Empireo 2)
+~# @?Jc
+9786073925037
+~# @?Jr
+598.00
+~# @?Jr
+9,568.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+1619055000442/22-09-25/MA22/09/2025
+~# @?Jc
+2-09-25/MA
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301407  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+La nina a la que se le vino el mundo encima TD
+~# @?Jc
+9786070778629
+~# @?Jr
+348.00
+~# @?Jr
+1,044.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504911  
+~# @?Jc
+6
+~# @?Jc
+H87
+~# @?
+La ridicula idea de no volver a verte TD
+~# @?Jc
+9786070780929
+~# @?Jr
+368.00
+~# @?Jr
+2,208.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001702/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101129  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Cuando no queden más estrellas que contar TD
+~# @?Jc
+9786073905411
+~# @?Jr
+478.00
+~# @?Jr
+1,434.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4336925001706/15-08-25/VE15/08/2025
+~# @?Jc
+5-08-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101651  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Twisted 3. Twisted Hate. Edición especial
+~# @?Jc
+9788408305378
+~# @?Jr
+548.00
+~# @?Jr
+1,644.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495001266/22-08-25/VE22/08/2025
+~# @?Jc
+2-08-25/VE
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+86
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "F62465BC-F372-4859-8360-7F5D05DA0210.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+1,068.60
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+26,256.10
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+42,038.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+14,713.30 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+27,324.70
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(VEINTISIETE MIL TRESCIENTOS VEINTICUATRO PESOS 70/100 M.N.)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+EZjPKPZgd2qoE8X1L01qu/j/fdfVfiOYJSsxDxKKJQd2vQvC1M0S5hbNRWWKiX/Mu19t7NeFD4zKQ1IMXi2M00hZ0l2FO2gFlColnPj9mxlX9xG4y710CsaDs35a9wRucw34treGkBZ1Bj4TYm2nFoePUkEx7ZqMpVcwNaUi6NL26bDtxa0VSBBfyvON9srKAYsD1XoGBE1zQV5YCSXL4MNF5GbaYtZeteswTOwJKMOZyyBBQvb5RIW/LZxOaJnacz9NkndC/MD7fpZ31F1Glu2ghUdyLbx6i2Ln8DoC4B9MFJIlQmXveUUBrlNKXq20vmiCqFsID9QrS3Dmden/IQ==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+imw04hopsmqZJbs4qnVq5W/VqedzDI/qJx4QS0gn/GWM+iBNVYRqzLJzp7qoc7s9/ntysFbdkpdqfvEQDOPn/Fp5B+lDv7EtHGNZv5I3/zzBMQAIpEYQNWCfq/OYjQFrszkxR8JWHJ3875obJCLjcfgUS0X25CpJOrlFJHmWJcq1UGpQ/rQZFAebSEeU5rjH/nOZPeVsOO1issGrQfOBBaC02CIZ7FuhNpB3fUzCqZiNCMeCgASERjN41bSZHGtuwwuc0siRYxKWYf34Xp7uymxK3TyisCRjtqCy7alaXvCFlSgn9iAkUO5PGW4invFkaihOObBT0gTc/4vcmxKbng==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|F62465BC-F372-4859-8360-7F5D05DA0210|2025-11-06T14:47:42|EZjPKPZgd2qoE8X1L01qu/j/fdfVfiOYJSsxDxKKJQd2vQvC1M0S5hbNRWWKiX/Mu19t7NeFD4zKQ1IMXi2M00hZ0l2FO2gFlColnPj9mxlX9xG4y710CsaDs35a9wRucw34treGkBZ1Bj4TYm2nFoePUkEx7ZqMpVcwNaUi6NL26bDtxa0VSBBfyvON9srKAYsD1XoGBE1zQV5YCSXL4MNF5GbaYtZeteswTOwJKMOZyyBBQvb5RIW/LZxOaJnacz9NkndC/MD7fpZ31F1Glu2ghUdyLbx6i2Ln8DoC4B9MFJIlQmXveUUBrlNKXq20vmiCqFsID9QrS3Dmden/IQ==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2025-11-06T14:47:42
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

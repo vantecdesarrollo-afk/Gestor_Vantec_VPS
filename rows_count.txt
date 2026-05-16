@@ -1,4 +1,0 @@
-Cfdi: 7
-Comprobante: 7
-Usuario: 3
-Tenant: 2

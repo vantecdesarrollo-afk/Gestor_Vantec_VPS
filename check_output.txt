@@ -1,2 +1,0 @@
-Tenant VCO1307234VA ID: e6f64bb0-3971-4cc8-b883-cd183eca77d7
-Actual tenant_ids in Cfdi table: ['550e8400-e29b-41d4-a716-446655440000']

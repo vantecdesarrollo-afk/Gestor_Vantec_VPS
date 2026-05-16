@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Exportacion="01" Fecha="2026-03-02T22:26:16" Folio="31327" LugarExpedicion="11560" Moneda="XXX" NoCertificado="00001000000710885331" Sello="ctlYGn64v0QvSWabtETNQdJtufGnyAb/SXHLWT2qG9Rmd0crzq2y8yMAyYsPkNfFRXBlBeTcN98Wagxqe+owr4d5tDYgDFd0mVOP2XK+NdHHnFXFKGehqOm5AUdEatcYiNYGLMVfIyRPwR6tTEhI7Q3umte7oYefMsIQJPnZXaFcFkePr4+4NTp33rY12dwVYxquUV1PjZah/Ei1zbhB3gHTMi4otYzzbUjjxQDjpYFDWxS0qPcC5LxLB/lGLZUZQ/H2Y6S2PskVYocKzYVujQsFjgQo7MQaDZ8U6Avmpv2FigmOs66XLEw44i55D0KeRlCtbFZ0+mTSfaIu7krxXQ==" Serie="AR" SubTotal="0" TipoDeComprobante="P" Total="0" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="54900" Nombre="BUSCALIBRE MEXICO" RegimenFiscalReceptor="601" Rfc="BME111107JL3" UsoCFDI="CP01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="Pago" Importe="0" ObjetoImp="01" ValorUnitario="0"/>
+    </cfdi:Conceptos><cfdi:Complemento>
+        <pago20:Pagos xmlns:pago20="http://www.sat.gob.mx/Pagos20" Version="2.0" xsi:schemaLocation="http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd">
+            <pago20:Totales MontoTotalPagos="855528.25" TotalTrasladosBaseIVA0="611908.77" TotalTrasladosBaseIVA16="363.10" TotalTrasladosBaseIVAExento="243198.28" TotalTrasladosImpuestoIVA0="0.00" TotalTrasladosImpuestoIVA16="58.10"/>
+            <pago20:Pago FechaPago="2026-02-26T12:00:00" FormaDePagoP="03" MonedaP="MXN" Monto="855528.25" NumOperacion="026022026" TipoCambioP="1">
+                <pago20:DoctoRelacionado EquivalenciaDR="1" Folio="007900" IdDocumento="65AA166F-4889-4B26-8B13-89606677D8CA" ImpPagado="692463.15" ImpSaldoAnt="692463.15" ImpSaldoInsoluto="0.00" MonedaDR="MXN" NumParcialidad="1" ObjetoImpDR="02" Serie="KKC">
+                    <pago20:ImpuestosDR>
+                        <pago20:TrasladosDR>
+                            <pago20:TrasladoDR BaseDR="203659.87" ImpuestoDR="002" TipoFactorDR="Exento"/>
+                            <pago20:TrasladoDR BaseDR="488382.05" ImporteDR="0.00" ImpuestoDR="002" TasaOCuotaDR="0.000000" TipoFactorDR="Tasa"/>
+                            <pago20:TrasladoDR BaseDR="363.10" ImporteDR="58.10" ImpuestoDR="002" TasaOCuotaDR="0.160000" TipoFactorDR="Tasa"/>
+                        </pago20:TrasladosDR>
+                    </pago20:ImpuestosDR>
+                </pago20:DoctoRelacionado>
+                <pago20:DoctoRelacionado EquivalenciaDR="1" Folio="007901" IdDocumento="13BF034B-1146-4377-AE58-485F08CAB1E1" ImpPagado="163065.10" ImpSaldoAnt="163065.10" ImpSaldoInsoluto="0.00" MonedaDR="MXN" NumParcialidad="1" ObjetoImpDR="02" Serie="KKC">
+                    <pago20:ImpuestosDR>
+                        <pago20:TrasladosDR>
+                            <pago20:TrasladoDR BaseDR="39538.41" ImpuestoDR="002" TipoFactorDR="Exento"/>
+                            <pago20:TrasladoDR BaseDR="123526.72" ImporteDR="0.00" ImpuestoDR="002" TasaOCuotaDR="0.000000" TipoFactorDR="Tasa"/>
+                        </pago20:TrasladosDR>
+                    </pago20:ImpuestosDR>
+                </pago20:DoctoRelacionado>
+                <pago20:ImpuestosP>
+                    <pago20:TrasladosP>
+                        <pago20:TrasladoP BaseP="243198.28" ImpuestoP="002" TipoFactorP="Exento"/>
+                        <pago20:TrasladoP BaseP="611908.77" ImporteP="0.00" ImpuestoP="002" TasaOCuotaP="0.000000" TipoFactorP="Tasa"/>
+                        <pago20:TrasladoP BaseP="363.10" ImporteP="58.10" ImpuestoP="002" TasaOCuotaP="0.160000" TipoFactorP="Tasa"/>
+                    </pago20:TrasladosP>
+                </pago20:ImpuestosP>
+            </pago20:Pago>
+        </pago20:Pagos>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="88CF12F3-769D-48B5-BC1A-CE85C35C646B" FechaTimbrado="2026-03-02T23:06:46" RfcProvCertif="ASE0209252Q1" SelloCFD="ctlYGn64v0QvSWabtETNQdJtufGnyAb/SXHLWT2qG9Rmd0crzq2y8yMAyYsPkNfFRXBlBeTcN98Wagxqe+owr4d5tDYgDFd0mVOP2XK+NdHHnFXFKGehqOm5AUdEatcYiNYGLMVfIyRPwR6tTEhI7Q3umte7oYefMsIQJPnZXaFcFkePr4+4NTp33rY12dwVYxquUV1PjZah/Ei1zbhB3gHTMi4otYzzbUjjxQDjpYFDWxS0qPcC5LxLB/lGLZUZQ/H2Y6S2PskVYocKzYVujQsFjgQo7MQaDZ8U6Avmpv2FigmOs66XLEw44i55D0KeRlCtbFZ0+mTSfaIu7krxXQ==" NoCertificadoSAT="00001000000707891043" SelloSAT="xGvzdO+Kaf56j1HsVppyzqdfgf+HrBE3KXdGpXXW8/cxDlFez2046zSmUrnrqPo3rMMIbERlrUfeiMyyvI50ZWumbrIjUF7d+4koA4uB79CPmXHMl365iJ3TED6jm9Lsmmvh6XhhBfw3Lk87xtgGZudzMcgQtMDSj1ktHrPo6xB4FrHecg9iam07UTPb+CvJ+tDYKF86rGAwxuXzt2Z/p0iKfeF69idGh6y60yiCRT5R76TSuJhIzUVsn/ha/DJaAJiIQAYJw2CktcWa5roVQk0/paUzhTAcHHquL4CfH6aA0KBh303Oio/m1f3DzHO+EvxZ+SvKBUoNskwiO7D0sQ=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="ELECT" TotalMx="855528.25" afectada="" calle="" cantidadConLetra="(OCHOCIENTOS CINCUENTA Y CINCO MIL QUINIENTOS VEINTIOCHO PESOS 25/100 M.N.))" cincoNeto="855528.25" correos="inventariosenconsignacion@gplaneta.onmicrosoft.com -t factura.mx@buscalibre.com" cuatroIva="0.00" descuentoMx="0.00" dosDescuento="0.00" fac="2026-03-02" fechaEdi204="2026-03-02T22:26:16" fechaOrden="" fechapago="26/02/2026" ivaMx="0.00" mail="inventariosenconsignacion@gplaneta.onmicrosoft.com;factura.mx@buscalibre.com" moneda="MN" noCliente="" noCopiasPrinter="1" noCopiasPrinterExtra="" noOrden="" passEncript="" printer="ToshMasar" printerExtra="" reportada="" status="" subTotalMx="" tipoCambio="0.000000" tipoDocumento="RECIBO" tresEnvio="" unidadesFacturadas="" unoButo="0.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle/>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="" pais="" referencia="" telefono=""/>
+                <fa:Domicilio calle="AV. MEXIQUENSE PARCELA 208 Z-1, BODEGA 4D-1" codigoPostal="54900" colonia="SANTIAGO TEYAHUALCO - TULTITLAN" estado="MEXICO EDO.MEX." pais="MEXICO"/>
+                <fa:DomicilioFiscal calle="AVENIDA PRESIDENTE MASARIK NO. 111, 2DO. PISO" codigoPostal="11560" colonia="POLANCO V SECCIÓN - MIGUEL HIDALGO" estado="CIUDAD DE MEXICO CDMX" municipio="Miguel Hidalgo" pais="MEXICO"/>
+                <fa:Detallista GlnComprador="" fechaMercancia="2026-03-02" fechaOrdenCompra="2026-03-02" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="000000000" subTotal="" total="" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="" TotalUnidadesFactura="" ZonadeEntrega="" actividad="" ano="2026" codCliente="000026704" comentarioLeyenda="" dosObservaciones="" fecha="" noCliente="" noOrdenCompra="" pedidoInterno="000000000" porcentajeDeDescuentoTotal="0.00" referenciaBanca="" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="00" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="00" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="00" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="0.00" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0|Z0 Xi
+~K1="Arial" n 6
+~K2="Arial" 7
+~K3="Arial" n 6
+~K4="Arial" n 11
+~K5="Arial" n 9
+~K6="Arial" n 5
+~K7="Arial" n 9 90.90.10
+~K8="Arial" n 7
+~K9="Arial" 9
+
+
+~&lt;P'=1'
+~&gt;
+
+~H|0|
+
+~[90
+
+~#
+~[2
+~#|e+|M150.150 Jv50 Jl @1
+~]
+~]
+~[3 20 1 10 44 2 25
+
+~#
+~[2
+~]
+
+~#
+~[20
+~#D|e+|M300.300 "Logo_EPM880422LV3.jpg";
+~]
+
+
+~#
+~[2
+~]
+
+~#
+~[30
+~#|e+|M35.35 Jv50 Jl @1
+
+~#|e+|M35.35 Jv50 Jl @1
+
+
+~]
+
+
+~#
+~[35
+~#|e+|M55.55 Jv50 Jl @1
+@4 EDITORIAL PLANETA MEXICANA
+
+~#|e+|M35.35 Jv50 Jl @1
+AVENIDA PRESIDENTE MASARIK NO. 111, 2DO. PISO   
+
+COL. POLANCO V SECCIÓN - MIGUEL HIDALGO
+
+Miguel Hidalgo  CIUDAD DE MEXICO CDMX
+
+Lugar de Expedición:  11560, Régimen fiscal: 601 
+
+@1 R.F.C. EPM880422LV3
+
+~]
+
+~#
+~[2
+~]
+
+~#
+~[35
+~#|e+|M20.20 Jv50 Jl @5
+
+Pago: AR-31327
+~#|e+|M20.20 Jv50 Jl @4
+
+@9 Tipo de Comprobante: P
+
+@9 Fecha: 2026-03-02T22:26:16
+
+@9 Moneda: XXX
+
+@9 Pagina  @p de @P
+~]
+
+
+~]
+
+
+~[4 90 10
+
+~#
+~[5
+~]
+~#
+~[50
+~#|e+ 15.1 rl0|M340.340 Jv50 Jl @5
+NOMBRE: BUSCALIBRE MEXICO       
+
+RFC:   BME111107JL3
+
+CALLE Y NÚMERO: AV. MEXIQUENSE PARCELA 208 Z-1, BODEGA 4D-1    
+ 
+COLONIA: SANTIAGO TEYAHUALCO - TULTITLAN    DELEGACIÓN: 
+
+ESTADO: MEXICO EDO.MEX.  C.P.: 54900 
+
+Uso del CFDI: CP01, Régimen Fiscal:  601 
+
+~]
+
+~#
+~[50
+~#|e+ 15.1 rl0|M340.340 Jv50 Jl @5
+
+~]
+
+
+~]
+
+~&lt;Z20
+~&gt;
+
+~[4 25 25 25 35
+~#|e+|M50.50 Jv50 Jl @8
+~#|e+ 15.3|M50.50 Jv50 Jc @8
+Fecha y Hora de Certificación: 
+
+@22026-03-02T23:06:46
+~#|e+ 15.3|M50.50 Jv50 Jc @8
+No. de Certificado del SAT: 
+
+@200001000000707891043
+~#|e+ 15.3|M50.50 Jv50 Jc @8
+No. de Certificado del CSD: 
+
+@200001000000710885331
+~#|e+ 15.3|M50.50 Jv50 Jc @8
+Folio Fiscal: 
+
+@288CF12F3-769D-48B5-BC1A-CE85C35C646B
+~]
+
+
+~&lt;Z40
+~&gt;
+
+
+
+~[4 15 15 20 15 15 18 18 3
+~#
+~[5
+
+~]
+~#
+~[44
+~#|e+ 15.3 lru0|M105.105 Jv50 Jl @1
+
+Clave Pdto/Serv
+
+~]
+
+
+~#
+~[44
+~#|e+ 15.3 lru0|M105.105 Jv50 Jl @1
+Unidad
+~]
+
+
+
+~#
+~[44
+~#|e+ 15.3 lru0|M105.105 Jv50 Jl @1
+
+Descripción
+~]
+
+~#
+~[15
+~#|e+ 15.3 lru0|M105.105 Jv50 Jc @1
+Cantidad
+~]
+
+~#
+~[15
+~#|e+ 15.3 lru0|M105.105 Jv50 Jc @1
+ObjetoImp
+~]
+
+~#
+~[23
+~#|e+ 15.3 lru0|M105.105 Jv50 Jr @1
+Valor Unitario
+~]
+
+
+~#
+~[23
+~#|e+ 15.3 lru0|M105.105 Jv50 Jr @1
+Importe
+~]
+
+~#
+~[3
+~]
+~]
+
+~&gt;
+
+~[ 4 15 15 20 15 15 18 18 3
+~# @8 Jl
+
+~# @3 Jc
+84111506
+~# @3 Jl
+ACT
+~# @3 Jl
+Pago
+~# @3 Jc
+1
+~# @3 Jc
+01
+~# @3 Jr
+0
+~# @3 Jr
+0
+~]
+
+~&lt;Z30
+~&gt;
+
+~[5 90
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @8
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jc @4
+Complemento de Pago Versión 2.0
+~]
+
+~[3 18 4 8 4 6 5 5 9 9 9
+~#|e+|M20.20 Jv50 Jc @2
+
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+ID Documento
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Serie
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Folio
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Moneda
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Equivalencia
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+ObjetoImp
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+NumParc
+
+ /  Base
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Imp. Saldo Anterior
+
+ /  Impuesto
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Imp. Pagado
+
+ /  TasaOCuota
+~#|e+ f4.10|M20.20 Jv50 Jc @2
+Imp. Saldo Insoluto
+
+ / Importe
+~]
+
+~[ 3 18 4 8 4 6 4 5 9 9 9
+~# @6 Jl
+
+~# @3 Jl
+65AA166F-4889-4B26-8B13-89606677D8CA
+~# @3 Jc
+KKC
+~# @3 Jc
+007900
+~# @3 Jc
+MXN
+~# @3 Jc
+1
+~# @3 Jc
+02
+~# @3 Jc
+1
+~# @3 Jr
+692,463.15
+~# @3 Jr
+692,463.15
+~# @3 Jr
+0.00
+~]
+~[ 3 18 4 8 4 6 4 5 9 9 9
+~# @6 Jl
+
+~# @3 Jl
+13BF034B-1146-4377-AE58-485F08CAB1E1
+~# @3 Jc
+KKC
+~# @3 Jc
+007901
+~# @3 Jc
+MXN
+~# @3 Jc
+1
+~# @3 Jc
+02
+~# @3 Jc
+1
+~# @3 Jr
+163,065.10
+~# @3 Jr
+163,065.10
+~# @3 Jr
+0.00
+~]
+
+~&lt;Z30
+~&gt;
+
+~[90
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jc @4
+Impuesto Pago
+~]
+
+~[15 15 15 15 15
+~#
+~[44
+~#|e+ 15.3 lru0|M30.30 Jv50 Jc @2
+           Base
+~]
+
+~#
+~[44
+~#|e+ 15.3 lru0|M30.30 Jv50 Jl @2
+Impuesto
+~]
+
+~#
+~[44
+~#|e+ 15.3 lru0|M30.30 Jv50 Jl @2
+     TipoFactor
+~]
+
+~#
+~[15
+~#|e+ 15.3 lru0|M30.30 Jv50 Jc @2
+           TasaOCuota
+~]
+
+~#
+~[15
+~#|e+ 15.3 lru0|M30.30 Jv50 Jc @2
+                       Importe
+~]
+~]
+
+~[ 10 15 15 15 15 3
+~# @3 Jr
+243,198.28
+~# @3 Jc
+002
+~# @3 Jc
+Exento
+~# @3 Jr
+
+~# @3 Jr
+
+~# @3 Jl
+
+~]
+~[ 10 15 15 15 15 3
+~# @3 Jr
+611,908.77
+~# @3 Jc
+002
+~# @3 Jc
+Tasa
+~# @3 Jr
+0.000000
+~# @3 Jr
+0.00
+~# @3 Jl
+
+~]
+~[ 10 15 15 15 15 3
+~# @3 Jr
+363.10
+~# @3 Jc
+002
+~# @3 Jc
+Tasa
+~# @3 Jr
+0.160000
+~# @3 Jr
+58.10
+~# @3 Jl
+
+~]
+
+~&lt;Z30
+~&gt;
+
+~[90
+~#|e+ 15.1 url0|M50.50 Jv50 Jc @4
+Totales Pago     
+~]
+
+~[15 15 16 15 16 13
+~#
+~[44
+~#|e+ 15.1 lrdu0|M30.30 Jv50 Jc @2
+TotalRetencionesIVA:
+
+@2 
+~]
+
+~#
+~[44
+~#|e+ 15.1 lrdu0|M20.20 Jv50 Jc @2
+TotalTrasladosBaseIVA16:
+
+@2 363.10
+~]
+
+~#
+~[44
+~#|e+ 15.1 lrdu0|M20.20 Jv50 Jc @2
+TotalTrasladosImpuestoIVA16:
+
+@2 58.10
+~]
+
+~#
+~[44
+~#|e+ 15.1 lrdu0|M20.20 Jv50 Jc @2
+TotalTrasladosBaseIVA0:
+
+@2 611,908.77
+~]
+
+~#
+~[44
+~#|e+ 15.1 lrdu0|M20.20 Jv50 Jc @2
+TotalTrasladosImpuestoIVA0:
+
+@2 0.00
+~]
+
+~#
+~[44
+~#|e+ 15.1 lrdu0|M20.20 Jv50 Jc @2
+MontoTotalPagos:
+
+@2 855,528.25
+~]
+~]
+
+~F|0|
+
+~&lt;Z50
+~&gt;
+~[13 70 20
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @8
+
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @8
+TIPO DE RELACIÓN: @2 
+
+CFDI RELACIONADO: 
+
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @8
+@5        Subtotal: @90
+
+@5Importe Total: @90
+
+~]
+
+
+~&lt;Z30
+~&gt;
+
+
+~[5 90
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jl @8
+~#|e+ 15.1 udrl0|M50.50 Jv50 Jc @4
+Complemento de Pago Versión 2.0
+~]
+
+
+~[8 320
+~#|e+|M20.20 Jv50 Jc @1
+
+~#|e+ 15.1 glug|M20.20 Jv50 Jl @1
+
+DATOS DEL PAGO
+~]
+
+~[4 40 40 40 40
+
+~#|e+|M20.20 Jv50 Jl @1
+
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+FECHA DEL PAGO:
+
+@22026-02-26T12:00:00
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+FORMA DE PAGO:
+
+@203
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+MONEDA:
+
+@2MXN
+~#|e+ 15.1 u0|M20.20 Jv50 Jl @1
+TIPO DE CAMBIO:
+
+@21
+~]
+
+~[4 40 40 40 40
+
+~#|e+|M20.20 Jv50 Jl @1
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+MONTO:
+
+@2855,528.25
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+NUMERO DE OPERACIÓN:
+
+@2026022026
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+RFC EMISOR CTA ORD:
+
+@2
+~#|e+ 15.1 u0|M20.20 Jv50 Jl @1
+NOMBRE BANCO ORD EXT:
+
+@2
+~]
+
+~[4 40 40 40 40
+
+~#|e+|M20.20 Jv50 Jl @1
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+CUENTA ORDENANTE:
+
+@2
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+RFC EMISOR CTA BEN:
+
+@2
+~#|e+ 15.1 ru0|M20.20 Jv50 Jl @1
+CUENTA BENEFICIARIO:
+
+@2
+~#|e+ 15.1 u0|M20.20 Jv50 Jl @1
+TIPO CADENA DE PAGO:
+
+@2
+~]
+
+
+
+
+~&lt;Z10
+~&gt;
+~[7 200 80
+
+~#
+~[26
+
+~]
+~#
+~[250
+~#|e+ 15.1|M50.50 Jv50 Jl 
+@3SELLO DIGITAL DEL CFDI:
+
+
+@6ctlYGn64v0QvSWabtETNQdJtufGnyAb/SXHLWT2qG9Rmd0crzq2y8yMAyYsPkNfFRXBlBeTcN98Wagxqe+owr4d5tDYgDFd0mVOP2XK+NdHHnFXFKGehqOm5AUdEatcYiNYGLMVfIyRPwR6tTEhI7Q3umte7oYefMsIQJPnZXaFcFkePr4+4NTp33rY12dwVYxquUV1PjZah/Ei1zbhB3gHTMi4otYzzbUjjxQDjpYFDWxS0qPcC5LxLB/lGLZUZQ/H2Y6S2PskVYocKzYVujQsFjgQo7MQaDZ8U6Avmpv2FigmOs66XLEw44i55D0KeRlCtbFZ0+mTSfaIu7krxXQ==
+~#|e+ 15.1|M50.50 Jv50 Jl 
+@3SELLO DIGITAL DEL SAT:
+
+
+@6xGvzdO+Kaf56j1HsVppyzqdfgf+HrBE3KXdGpXXW8/cxDlFez2046zSmUrnrqPo3rMMIbERlrUfeiMyyvI50ZWumbrIjUF7d+4koA4uB79CPmXHMl365iJ3TED6jm9Lsmmvh6XhhBfw3Lk87xtgGZudzMcgQtMDSj1ktHrPo6xB4FrHecg9iam07UTPb+CvJ+tDYKF86rGAwxuXzt2Z/p0iKfeF69idGh6y60yiCRT5R76TSuJhIzUVsn/ha/DJaAJiIQAYJw2CktcWa5roVQk0/paUzhTAcHHquL4CfH6aA0KBh303Oio/m1f3DzHO+EvxZ+SvKBUoNskwiO7D0sQ==
+~#|e+ 15.1|M50.50 Jv50 Jl 
+@3CADENA ORIGINAL DEL COMPLEMENTO DE CERTIFICACIÓN DIGITAL DEL SAT:
+
+
+@6||1.1|88CF12F3-769D-48B5-BC1A-CE85C35C646B|2026-03-02T23:06:46|ASE0209252Q1|ctlYGn64v0QvSWabtETNQdJtufGnyAb/SXHLWT2qG9Rmd0crzq2y8yMAyYsPkNfFRXBlBeTcN98Wagxqe+owr4d5tDYgDFd0mVOP2XK+NdHHnFXFKGehqOm5AUdEatcYiNYGLMVfIyRPwR6tTEhI7Q3umte7oYefMsIQJPnZXaFcFkePr4+4NTp33rY12dwVYxquUV1PjZah/Ei1zbhB3gHTMi4otYzzbUjjxQDjpYFDWxS0qPcC5LxLB/lGLZUZQ/H2Y6S2PskVYocKzYVujQsFjgQo7MQaDZ8U6Avmpv2FigmOs66XLEw44i55D0KeRlCtbFZ0+mTSfaIu7krxXQ==|00001000000707891043||
+~]
+
+~#
+~[50
+~#D M390.390 "88CF12F3-769D-48B5-BC1A-CE85C35C646B.bmp";
+~]
+
+~]
+
+
+~[7 89
+~#
+~[8
+
+~]
+~#
+~[8
+~#|e+ 15.1 drl0|M20.20 Jv50 Jc @5
+"ESTE DOCUMENTO ES UNA REPRESENTACIÓN IMPRESA DE UN CFDI 4.0"
+~]
+~]
+
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

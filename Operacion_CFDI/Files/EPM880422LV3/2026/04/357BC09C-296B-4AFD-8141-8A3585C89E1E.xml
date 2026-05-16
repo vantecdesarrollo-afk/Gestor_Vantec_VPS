@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce20="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Exportacion="02" Fecha="2026-04-17T09:11:38" Folio="578" LugarExpedicion="11560" Moneda="USD" NoCertificado="00001000000710885331" Sello="Tu/Lx1kkv/p7/P2bO220Zz7L6y+ks0RgFEUOsNo3awQLVF0zs3psFiSkY8KG+S7nW3Yyy9GkXJxD+5Au7xSa0DH0EsqdtTtzN/WUUEaWHMJ3+W2SdhbZP+1qd4iOxHK4DUOAaTReGn2QyYAEfYYGknN1EQld5O8tquE1ihjvDZhSqt3FAUbdhqvLskqfdf30BCCoddZzbBsyP155JqzQtGTirec27Xlhz20wcFwP59WuUnxv3fUIosqZPNTuOpl05N8rJ5kzE2Rk7ciAPl9zQXysJ87vNe71NvzO+QEQ9pBO3s0IyQZjcAutCXx5uGVQAV9+uYRRCe7royyFnp5A9w==" Serie="ARP98" SubTotal="0.00" TipoCambio="17.262300" TipoDeComprobante="T" Total="0.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior20/ComercioExterior20.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"></cfdi:Emisor><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscalReceptor="601" Rfc="EPM880422LV3" UsoCFDI="S01"></cfdi:Receptor><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="83" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Las penas del joven Werther" Importe="495.51" NoIdentificacion="0231054" ObjetoImp="01" Unidad="PZA" ValorUnitario="5.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="44" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Aristóteles y Dante descubren LOS SECRETOS DEL UNI" Importe="438.68" NoIdentificacion="1003114" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="28" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Comer, viajar, descubrir" Importe="349.16" NoIdentificacion="1008300" ObjetoImp="01" Unidad="PZA" ValorUnitario="12.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="64" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El hombre más feliz del mundo" Importe="510.08" NoIdentificacion="1008799" ObjetoImp="01" Unidad="PZA" ValorUnitario="7.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="115" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Una vida, muchas vidas" Importe="1434.05" NoIdentificacion="1009190" ObjetoImp="01" Unidad="PZA" ValorUnitario="12.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="46" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Habitación 706" Importe="458.62" NoIdentificacion="1010651" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="48" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Estimula tu nervio vago" Importe="478.56" NoIdentificacion="1010782" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="54" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Vargas Llosa, su otra gran pasión" Importe="673.38" NoIdentificacion="1011114" ObjetoImp="01" Unidad="PZA" ValorUnitario="12.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="19" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Windsors 4. Los votos rotos" Importe="217.93" NoIdentificacion="1011378" ObjetoImp="01" Unidad="PZA" ValorUnitario="11.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="16" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Una historia de la felicidad" Importe="183.52" NoIdentificacion="1011439" ObjetoImp="01" Unidad="PZA" ValorUnitario="11.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="34" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Artes 2. Impasse" Importe="338.98" NoIdentificacion="1011493" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="180" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El arte de ser nosotros (edición especial)" Importe="2244.60" NoIdentificacion="1011539" ObjetoImp="01" Unidad="PZA" ValorUnitario="12.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="60" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Guinness World Records 2026 LA" Importe="1198.20" NoIdentificacion="1202440" ObjetoImp="01" Unidad="PZA" ValorUnitario="19.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="140" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Pensar bien, sentirse bien" Importe="975.80" NoIdentificacion="1301098" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="58" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Curar el trauma" Importe="404.26" NoIdentificacion="1301572" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="44" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="No es histeria" Importe="504.68" NoIdentificacion="1302220" ObjetoImp="01" Unidad="PZA" ValorUnitario="11.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El sol y sus flores" Importe="1994.00" NoIdentificacion="2001255" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="17" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Maridos" Importe="169.49" NoIdentificacion="2001476" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="114" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Los héroes numerados" Importe="1022.58" NoIdentificacion="2002180" ObjetoImp="01" Unidad="PZA" ValorUnitario="8.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="26" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Balón dividido" Importe="285.22" NoIdentificacion="2002182" ObjetoImp="01" Unidad="PZA" ValorUnitario="10.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="30" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Venganza" Importe="449.10" NoIdentificacion="2302588" ObjetoImp="01" Unidad="PZA" ValorUnitario="14.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="75" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Los Doce" Importe="822.75" NoIdentificacion="2302615" ObjetoImp="01" Unidad="PZA" ValorUnitario="10.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Masada. Caballo de Troya 2 (Nueva edic.)" Importe="947.00" NoIdentificacion="2501855" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="72" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Poirot investiga" Importe="357.84" NoIdentificacion="2503746" ObjetoImp="01" Unidad="PZA" ValorUnitario="4.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="62" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="La llama doble" Importe="370.14" NoIdentificacion="2503978" ObjetoImp="01" Unidad="PZA" ValorUnitario="5.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="102" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Cómo hablar para que los ninos escuchen" Importe="710.94" NoIdentificacion="2504976" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="60" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El misterio de Pale Horse" Importe="358.20" NoIdentificacion="2505008" ObjetoImp="01" Unidad="PZA" ValorUnitario="5.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El t£nel" Importe="597.00" NoIdentificacion="2505027" ObjetoImp="01" Unidad="PZA" ValorUnitario="5.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El verano en que me enamoré" Importe="1294.00" NoIdentificacion="2505390" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="56" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El mago de Oz" Importe="278.32" NoIdentificacion="2506320" ObjetoImp="01" Unidad="PZA" ValorUnitario="4.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="156" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Piensa como un emperador romano" Importe="1165.32" NoIdentificacion="2506725" ObjetoImp="01" Unidad="PZA" ValorUnitario="7.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="69" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Como perros y gatos" Importe="411.93" NoIdentificacion="2506815" ObjetoImp="01" Unidad="PZA" ValorUnitario="5.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="360" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El principito (TD)" Importe="1789.20" NoIdentificacion="2600405" ObjetoImp="01" Unidad="PZA" ValorUnitario="4.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="140" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Oficio de tinieblas" Importe="1605.80" NoIdentificacion="2700468" ObjetoImp="01" Unidad="PZA" ValorUnitario="11.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="260" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El arte de amar" Importe="1812.20" NoIdentificacion="2811769" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Neuro oratoria" Importe="747.00" NoIdentificacion="2812412" ObjetoImp="01" Unidad="PZA" ValorUnitario="7.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="36" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Busca el tesoro (en tus bolsillos)" Importe="232.92" NoIdentificacion="2813144" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1305" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Hábitos atómicos. Edición especial TD" Importe="22798.35" NoIdentificacion="2813605" ObjetoImp="01" Unidad="PZA" ValorUnitario="17.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="130" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Mujeres que piensan demasiado" Importe="1036.10" NoIdentificacion="2813905" ObjetoImp="01" Unidad="PZA" ValorUnitario="7.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="96" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="La ciudad de las luces muertas" Importe="909.12" NoIdentificacion="3002996" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="160" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Anna Kadabra 2. Un problema con alas" Importe="1035.20" NoIdentificacion="3100628" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="476" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Stuntboy. El superhéroe de los superhéroes" Importe="4269.72" NoIdentificacion="3100895" ObjetoImp="01" Unidad="PZA" ValorUnitario="8.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="34" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Desaparición para expertos" Importe="321.98" NoIdentificacion="3100908" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="34" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Sombra 1. Matar a una sombra" Importe="338.98" NoIdentificacion="3100950" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="208" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Jamás me enamoraré" Importe="2073.76" NoIdentificacion="3100969" ObjetoImp="01" Unidad="PZA" ValorUnitario="9.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="98" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Janis canta una canción" Importe="683.06" NoIdentificacion="4100443" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="41" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Esto es marketing" Importe="326.77" NoIdentificacion="4202596" ObjetoImp="01" Unidad="PZA" ValorUnitario="7.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="85" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="La buena suerte" Importe="592.45" NoIdentificacion="4202597" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="180" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Piénsalo otra vez" Importe="1164.60" NoIdentificacion="4202696" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="47" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Este libro es una caca" Importe="398.09" NoIdentificacion="8001436" ObjetoImp="01" Unidad="PZA" ValorUnitario="8.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="374" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Tokio Blues" Importe="2606.78" NoIdentificacion="8201135" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="56" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="La vergüenza" Importe="362.32" NoIdentificacion="8203977" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="120" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="El acontecimiento" Importe="776.40" NoIdentificacion="8203978" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.4700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="37" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Filosofia para todos los dias" Importe="257.89" NoIdentificacion="8902311" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="16" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Franco" Importe="239.52" NoIdentificacion="8902314" ObjetoImp="01" Unidad="PZA" ValorUnitario="14.9700"></cfdi:Concepto>
+        <cfdi:Concepto Cantidad="468" ClaveProdServ="55101510" ClaveUnidad="H87" Descripcion="Nazi-Comunismo" Importe="3261.96" NoIdentificacion="8902411" ObjetoImp="01" Unidad="PZA" ValorUnitario="6.9700"></cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Complemento>
+        <cce20:ComercioExterior CertificadoOrigen="0" ClaveDePedimento="A1" Incoterm="DDP" MotivoTraslado="03" TipoCambioUSD="17.262300" TotalUSD="71780.01" Version="2.0">
+            <cce20:Emisor>
+                <cce20:Domicilio Calle="AV. PRESIDENTE MASARIK" CodigoPostal="11560" Colonia="2785" Estado="CMX" Localidad="11" Municipio="016" NumeroExterior="111" NumeroInterior="PISO 2" Pais="MEX"></cce20:Domicilio>
+            </cce20:Emisor>
+            <cce20:Receptor>
+                <cce20:Domicilio Calle="AV. PRESIDENTE MASARIK" CodigoPostal="11560" Colonia="2785" Estado="CMX" Localidad="11" Municipio="016" NumeroExterior="111" NumeroInterior="PISO 2" Pais="MEX"></cce20:Domicilio>
+            </cce20:Receptor>
+            <cce20:Destinatario Nombre="INGRAM PUBLISHER SERVICES LLC" NumRegIdTrib="201245963">
+                <cce20:Domicilio Calle="ONE INGRAM BLVD." CodigoPostal="37086" Estado="TN" Municipio="LAVERGNE" NumeroExterior="S/N" Pais="USA"></cce20:Domicilio>
+            </cce20:Destinatario>
+            <cce20:Mercancias>
+                <cce20:Mercancia CantidadAduana="83" FraccionArancelaria="4901990100" NoIdentificacion="0231054" UnidadAduana="06" ValorDolares="495.51" ValorUnitarioAduana="5.97">
+                    <cce20:DescripcionesEspecificas Marca="Austral"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="44" FraccionArancelaria="4901990100" NoIdentificacion="1003114" UnidadAduana="06" ValorDolares="438.68" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="28" FraccionArancelaria="4901990100" NoIdentificacion="1008300" UnidadAduana="06" ValorDolares="349.16" ValorUnitarioAduana="12.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="64" FraccionArancelaria="4901990100" NoIdentificacion="1008799" UnidadAduana="06" ValorDolares="510.08" ValorUnitarioAduana="7.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="115" FraccionArancelaria="4901990100" NoIdentificacion="1009190" UnidadAduana="06" ValorDolares="1434.05" ValorUnitarioAduana="12.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="46" FraccionArancelaria="4901990100" NoIdentificacion="1010651" UnidadAduana="06" ValorDolares="458.62" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="48" FraccionArancelaria="4901990100" NoIdentificacion="1010782" UnidadAduana="06" ValorDolares="478.56" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="54" FraccionArancelaria="4901990100" NoIdentificacion="1011114" UnidadAduana="06" ValorDolares="673.38" ValorUnitarioAduana="12.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="19" FraccionArancelaria="4901990100" NoIdentificacion="1011378" UnidadAduana="06" ValorDolares="217.93" ValorUnitarioAduana="11.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="16" FraccionArancelaria="4901990100" NoIdentificacion="1011439" UnidadAduana="06" ValorDolares="183.52" ValorUnitarioAduana="11.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="34" FraccionArancelaria="4901990100" NoIdentificacion="1011493" UnidadAduana="06" ValorDolares="338.98" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Crossbooks"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="180" FraccionArancelaria="4901990400" NoIdentificacion="1011539" UnidadAduana="06" ValorDolares="2244.60" ValorUnitarioAduana="12.47">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="60" FraccionArancelaria="4901990400" NoIdentificacion="1202440" UnidadAduana="06" ValorDolares="1198.20" ValorUnitarioAduana="19.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta Junior Mexico"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="140" FraccionArancelaria="4901990100" NoIdentificacion="1301098" UnidadAduana="06" ValorDolares="975.80" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="58" FraccionArancelaria="4901990100" NoIdentificacion="1301572" UnidadAduana="06" ValorDolares="404.26" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Diana"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="44" FraccionArancelaria="4901990100" NoIdentificacion="1302220" UnidadAduana="06" ValorDolares="504.68" ValorUnitarioAduana="11.47">
+                    <cce20:DescripcionesEspecificas Marca="Diana"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="200" FraccionArancelaria="4901990100" NoIdentificacion="2001255" UnidadAduana="06" ValorDolares="1994.00" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Seix Barral"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="17" FraccionArancelaria="4901990100" NoIdentificacion="2001476" UnidadAduana="06" ValorDolares="169.49" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Seix Barral"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="114" FraccionArancelaria="4901990100" NoIdentificacion="2002180" UnidadAduana="06" ValorDolares="1022.58" ValorUnitarioAduana="8.97">
+                    <cce20:DescripcionesEspecificas Marca="Seix Barral"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="26" FraccionArancelaria="4901990100" NoIdentificacion="2002182" UnidadAduana="06" ValorDolares="285.22" ValorUnitarioAduana="10.97">
+                    <cce20:DescripcionesEspecificas Marca="Seix Barral"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="30" FraccionArancelaria="4901990100" NoIdentificacion="2302588" UnidadAduana="06" ValorDolares="449.10" ValorUnitarioAduana="14.97">
+                    <cce20:DescripcionesEspecificas Marca="Espasa"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="75" FraccionArancelaria="4901990100" NoIdentificacion="2302615" UnidadAduana="06" ValorDolares="822.75" ValorUnitarioAduana="10.97">
+                    <cce20:DescripcionesEspecificas Marca="Espasa"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="100" FraccionArancelaria="4901990100" NoIdentificacion="2501855" UnidadAduana="06" ValorDolares="947.00" ValorUnitarioAduana="9.47">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="72" FraccionArancelaria="4901990100" NoIdentificacion="2503746" UnidadAduana="06" ValorDolares="357.84" ValorUnitarioAduana="4.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="62" FraccionArancelaria="4901990100" NoIdentificacion="2503978" UnidadAduana="06" ValorDolares="370.14" ValorUnitarioAduana="5.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="102" FraccionArancelaria="4901990100" NoIdentificacion="2504976" UnidadAduana="06" ValorDolares="710.94" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="60" FraccionArancelaria="4901990100" NoIdentificacion="2505008" UnidadAduana="06" ValorDolares="358.20" ValorUnitarioAduana="5.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="100" FraccionArancelaria="4901990100" NoIdentificacion="2505027" UnidadAduana="06" ValorDolares="597.00" ValorUnitarioAduana="5.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="200" FraccionArancelaria="4901990100" NoIdentificacion="2505390" UnidadAduana="06" ValorDolares="1294.00" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="56" FraccionArancelaria="4901990100" NoIdentificacion="2506320" UnidadAduana="06" ValorDolares="278.32" ValorUnitarioAduana="4.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="156" FraccionArancelaria="4901990100" NoIdentificacion="2506725" UnidadAduana="06" ValorDolares="1165.32" ValorUnitarioAduana="7.47">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="69" FraccionArancelaria="4901990100" NoIdentificacion="2506815" UnidadAduana="06" ValorDolares="411.93" ValorUnitarioAduana="5.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="360" FraccionArancelaria="4901990100" NoIdentificacion="2600405" UnidadAduana="06" ValorDolares="1789.20" ValorUnitarioAduana="4.97">
+                    <cce20:DescripcionesEspecificas Marca="Emecé"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="140" FraccionArancelaria="4901990100" NoIdentificacion="2700468" UnidadAduana="06" ValorDolares="1605.80" ValorUnitarioAduana="11.47">
+                    <cce20:DescripcionesEspecificas Marca="Joaquin Mortiz"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="260" FraccionArancelaria="4901990100" NoIdentificacion="2811769" UnidadAduana="06" ValorDolares="1812.20" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="100" FraccionArancelaria="4901990100" NoIdentificacion="2812412" UnidadAduana="06" ValorDolares="747.00" ValorUnitarioAduana="7.47">
+                    <cce20:DescripcionesEspecificas Marca="Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="36" FraccionArancelaria="4901990100" NoIdentificacion="2813144" UnidadAduana="06" ValorDolares="232.92" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="1305" FraccionArancelaria="4901990100" NoIdentificacion="2813605" UnidadAduana="06" ValorDolares="22798.35" ValorUnitarioAduana="17.47">
+                    <cce20:DescripcionesEspecificas Marca="Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="130" FraccionArancelaria="4901990100" NoIdentificacion="2813905" UnidadAduana="06" ValorDolares="1036.10" ValorUnitarioAduana="7.97">
+                    <cce20:DescripcionesEspecificas Marca="Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="96" FraccionArancelaria="4901990100" NoIdentificacion="3002996" UnidadAduana="06" ValorDolares="909.12" ValorUnitarioAduana="9.47">
+                    <cce20:DescripcionesEspecificas Marca="Destino"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="160" FraccionArancelaria="4901990100" NoIdentificacion="3100628" UnidadAduana="06" ValorDolares="1035.20" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Destino Infantil &amp; Juvenil Méx"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="476" FraccionArancelaria="4901990100" NoIdentificacion="3100895" UnidadAduana="06" ValorDolares="4269.72" ValorUnitarioAduana="8.97">
+                    <cce20:DescripcionesEspecificas Marca="Destino Infantil &amp; Juvenil Méx"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="34" FraccionArancelaria="4901990100" NoIdentificacion="3100908" UnidadAduana="06" ValorDolares="321.98" ValorUnitarioAduana="9.47">
+                    <cce20:DescripcionesEspecificas Marca="Crossbooks"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="34" FraccionArancelaria="4901990100" NoIdentificacion="3100950" UnidadAduana="06" ValorDolares="338.98" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="208" FraccionArancelaria="4901990100" NoIdentificacion="3100969" UnidadAduana="06" ValorDolares="2073.76" ValorUnitarioAduana="9.97">
+                    <cce20:DescripcionesEspecificas Marca="Planeta Comics Mexico"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="98" FraccionArancelaria="4901990100" NoIdentificacion="4100443" UnidadAduana="06" ValorDolares="683.06" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Planetalector"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="41" FraccionArancelaria="4901990100" NoIdentificacion="4202596" UnidadAduana="06" ValorDolares="326.77" ValorUnitarioAduana="7.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="85" FraccionArancelaria="4901990100" NoIdentificacion="4202597" UnidadAduana="06" ValorDolares="592.45" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Booket Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="180" FraccionArancelaria="4901990100" NoIdentificacion="4202696" UnidadAduana="06" ValorDolares="1164.60" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Booket Paidós"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="47" FraccionArancelaria="4901990100" NoIdentificacion="8001436" UnidadAduana="06" ValorDolares="398.09" ValorUnitarioAduana="8.47">
+                    <cce20:DescripcionesEspecificas Marca="Martinez Roca"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="374" FraccionArancelaria="4901990100" NoIdentificacion="8201135" UnidadAduana="06" ValorDolares="2606.78" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Tusquets"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="56" FraccionArancelaria="4901990100" NoIdentificacion="8203977" UnidadAduana="06" ValorDolares="362.32" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Tusquets"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="120" FraccionArancelaria="4901990100" NoIdentificacion="8203978" UnidadAduana="06" ValorDolares="776.40" ValorUnitarioAduana="6.47">
+                    <cce20:DescripcionesEspecificas Marca="Tusquets"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="37" FraccionArancelaria="4901990100" NoIdentificacion="8902311" UnidadAduana="06" ValorDolares="257.89" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Ariel"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="16" FraccionArancelaria="4901990100" NoIdentificacion="8902314" UnidadAduana="06" ValorDolares="239.52" ValorUnitarioAduana="14.97">
+                    <cce20:DescripcionesEspecificas Marca="Critica"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+                <cce20:Mercancia CantidadAduana="468" FraccionArancelaria="4901990100" NoIdentificacion="8902411" UnidadAduana="06" ValorDolares="3261.96" ValorUnitarioAduana="6.97">
+                    <cce20:DescripcionesEspecificas Marca="Ariel"></cce20:DescripcionesEspecificas>
+                </cce20:Mercancia>
+            </cce20:Mercancias>
+        </cce20:ComercioExterior>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="357BC09C-296B-4AFD-8141-8A3585C89E1E" FechaTimbrado="2026-04-17T09:24:29" RfcProvCertif="ASE0209252Q1" SelloCFD="Tu/Lx1kkv/p7/P2bO220Zz7L6y+ks0RgFEUOsNo3awQLVF0zs3psFiSkY8KG+S7nW3Yyy9GkXJxD+5Au7xSa0DH0EsqdtTtzN/WUUEaWHMJ3+W2SdhbZP+1qd4iOxHK4DUOAaTReGn2QyYAEfYYGknN1EQld5O8tquE1ihjvDZhSqt3FAUbdhqvLskqfdf30BCCoddZzbBsyP155JqzQtGTirec27Xlhz20wcFwP59WuUnxv3fUIosqZPNTuOpl05N8rJ5kzE2Rk7ciAPl9zQXysJ87vNe71NvzO+QEQ9pBO3s0IyQZjcAutCXx5uGVQAV9+uYRRCe7royyFnp5A9w==" NoCertificadoSAT="00001000000707891043" SelloSAT="CdBCiQSxLa/COBeO8MwWykCK/sP5pHLr4YmX5DHGyxWWyU0uSnjw36F2TklSVSuOUuiR3F/RtRcJEGEuADkB1aWtDr0ymVAhhQbrb+NdTWd7NlpYAguYEwrpPZGcJQcALZidB7kAWobSH4TWYtnwv4InuizwL8q2CyNr5YSzUUc7b8fiS7Qg8ixrgnU7MXx3QVEd91OJFZEYshJ+C1OCy7y88i30r8ZHjce+9ajC7qS0h4nhbNVpRPdg6DXcpBA6of0caknLLTEBPfWzWhBlk0nolva+YVLjE5NEh1GCE2g2b7Em+xrpK0rxwbTnyOYF8jNxjCa5aXemInlhijF7Eg=="></tfd:TimbreFiscalDigital></cfdi:Complemento></cfdi:Comprobante>

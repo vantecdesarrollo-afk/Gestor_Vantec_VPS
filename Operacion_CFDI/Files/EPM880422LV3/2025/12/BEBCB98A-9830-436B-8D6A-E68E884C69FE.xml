@@ -1,0 +1,2602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQTCCBCmgAwIBAgIUMDAwMDEwMDAwMDA3MTA4ODUzMzEwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MTAyMTIwMDUwNFoXDTI4MTAyMTIwMDUwNFowgf4xLDAqBgNVBAMTI0VESVRPUklBTCBQTEFORVRBIE1FWElDQU5BIFNBIERFIENWMSwwKgYDVQQpEyNFRElUT1JJQUwgUExBTkVUQSBNRVhJQ0FOQSBTQSBERSBDVjEsMCoGA1UEChMjRURJVE9SSUFMIFBMQU5FVEEgTUVYSUNBTkEgU0EgREUgQ1YxJTAjBgNVBC0THEVQTTg4MDQyMkxWMyAvIENBV0o2NjA4MjVIUEExHjAcBgNVBAUTFSAvIENBV0o2NjA4MjVIREZNTFIwMTErMCkGA1UECxMiRURJVE9SSUFMIFBMQU5FVEEgTUVYSUFOQSBTQSBERSBDVjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJmub/YE/5/fXep86rx7XFqOxNNVmSWHT9bcUCdZk7wN0aKbDkkV2N0tLaxAPicLYXsOQ3+h4AzvQUyTrcPCNbKhVo31thKjcPTT4Ijw6Qk8J17v/sCaG1yUxSLuU5/Z1zTAhf65bhAoAeXTjlpT6QhGX2gLJ+m2MTsEhf4sjWMTXmkRfDXHFH1XixgYOJEEsdUHK8Z+kbBkCOy3oZ19CTpqLFHIpWD7EpkuhgtF1n0hhnTKZJ5QKjfjgj6EINgvv4xNA7VO151GqYVSFuojbJXfVgjbqRwxZ12U9aZ/1VTEFZbxNqSdQP/kn45Z85K3VHPxFo+k1L1IYA71zrC7QMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBALQz/VRr4i0hCSoWH+RsxzvKNRHP/CIuJ3MaWzrCDnKDnBkRvLAsNwxDLlQALYI9v6Kmj/XhxIHgS6LUmWLTn7GcW+XV8GlRVaBx0BOppBq7v9D/N1JH7ajXT7mYtS4Ex1Ff2AM2DBZr58027TZTF0yecxrBV+U+3G6ZFQkVByw+S5RReYbYJBhRuo6gQRWYi1eUvEsXGjgGMiksBPnSu0ivuKGUbFSHq3QS/iK08iNCNij4mXoKETDk1y7QLVq0fQ6A7IQzTTOC5+iTKNIh8ugv4cDp879NEioW79M5jDqwUGtOWOFkZfW7kQuNQkavjPjheo+JIR04YKB3n2ByC3ZWZGiUcoir9x7MyRXOh58XmAlNxA/qGyMmgY3jMpW319eyWG/bWZTYtRq6t+bwqRHgEvWbvIgNHt21a28c33FPQQUrw9ytCuaxbHZMvXBH0MjUCH70YGWJAPLVl1YHrUXZSKwPiYrWl+wgDGMJPhYJvoPX7rOBrBSfHCdSG3uOOqt6a0K8zO5ozcga80iSQE3Lf5BqFr2cV4oSwiHNvQH2jp2dfViZj4Ci3ZUdEBLODDfLfMvu9PPwKicY2QMHlyvq5r+pPIxfOo/OuxDJNZP0o2Wfvhdq7Pktl3z6pphs+kxA32NhEoams5KZlmvHwtQiuMru9AkoNcHJxgx8VfSG" CondicionesDePago="90 DIAS" Descuento="7819.00" Exportacion="01" Fecha="2025-12-17T22:02:44" Folio="777583" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000710885331" Sello="GPjwVb3AvM9k9nqog2K83tLZlojEOB0Yg/QEHUErROWPQNAmzB/Iwwb90UP1/o8dWY5S//NEohAXTvcOeQKG8EdhSnSyYKar5H+G7zs2TAjB+0l0fFynbzwWP/osRaUEzRcYrYqIHfgSbf1DN3a4ceJeoga4yfgTDTwA7+me7tSd4o95c9Cn/pr7fmd71NsJZ1nptNNjUL9qkrK2FZ4oLWT0gD+cY6wOIw08zQc0Q9PYDlXlYzkEbIADF1gr/Td2c8ZYckG6DzhsDzm8fB9yECJ+XmASlw4kePhINVoA48qzYQIIVsHoZ+HiJbwLmV6oih6PiehiCdKwgvYiJ/c8LA==" Serie="AC" SubTotal="22340.00" TipoDeComprobante="I" Total="14521.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="54769" Nombre="ALAN MICHEL PEIGEIMONT ORTIZ" RegimenFiscalReceptor="612" Rfc="PEOA8707145T8" UsoCFDI="G01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. Pantalones de garabatos" Descuento="138.60" Importe="396.00" NoIdentificacion="9786073925174" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="257.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Hijo de la guerra" Descuento="160.30" Importe="458.00" NoIdentificacion="9786070761829" ObjetoImp="02" ValorUnitario="458.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="297.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Tarkin" Descuento="142.80" Importe="408.00" NoIdentificacion="9786070738289" ObjetoImp="02" ValorUnitario="408.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="265.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Olvidé decirte quiero" Descuento="128.80" Importe="368.00" NoIdentificacion="9786070739590" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="239.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Yo, la peor" Descuento="167.30" Importe="478.00" NoIdentificacion="9786070739972" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="310.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Aftermath 2. Deuda de vida" Descuento="257.60" Importe="736.00" NoIdentificacion="9786070740275" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="478.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Aftermath 3. El fin del imperio" Descuento="271.60" Importe="776.00" NoIdentificacion="9786070743375" ObjetoImp="02" ValorUnitario="388.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="504.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El tren pasa primero" Descuento="69.65" Importe="199.00" NoIdentificacion="9786070744426" ObjetoImp="02" ValorUnitario="199.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="129.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Amos del Lado Oscuro" Descuento="142.80" Importe="408.00" NoIdentificacion="9786070749636" ObjetoImp="02" ValorUnitario="408.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="265.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Tarot magicomistico de estrellas (pop)" Descuento="139.30" Importe="398.00" NoIdentificacion="9786070751066" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Cosecha roja" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070755347" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ocho lugares que me recuerdan a ti" Descuento="114.80" Importe="328.00" NoIdentificacion="9786070760174" ObjetoImp="02" ValorUnitario="328.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="213.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Thrawn. Alianzas" Descuento="167.30" Importe="478.00" NoIdentificacion="9786070757891" ObjetoImp="02" ValorUnitario="478.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="310.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Maestro y aprendiz" Descuento="128.80" Importe="368.00" NoIdentificacion="9786070763212" ObjetoImp="02" ValorUnitario="368.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="239.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Villanos. Matar a la bestia" Descuento="375.90" Importe="1074.00" NoIdentificacion="9786073915571" ObjetoImp="02" ValorUnitario="358.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="698.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Descendientes. El regreso a la isla de los Perdido" Descuento="180.60" Importe="516.00" NoIdentificacion="9786070736179" ObjetoImp="02" ValorUnitario="258.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="335.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Dipper y Mabel. La maldición de los" Descuento="123.90" Importe="354.00" NoIdentificacion="9786070740060" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="230.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Diario 3" Descuento="626.50" Importe="1790.00" NoIdentificacion="9786070741050" ObjetoImp="02" ValorUnitario="358.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1163.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. La Tierra antes de los cerdos" Descuento="41.30" Importe="118.00" NoIdentificacion="9786070745935" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="76.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Lejos de casa" Descuento="41.30" Importe="118.00" NoIdentificacion="9786070745898" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="76.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. ­No colorees este libro " Descuento="165.20" Importe="472.00" NoIdentificacion="9786070746192" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="306.80" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Cómic 2" Descuento="123.90" Importe="354.00" NoIdentificacion="9786070747533" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="230.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Antolin y el taquito de sal" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070750571" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="5" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Leyendas perdidas" Descuento="206.50" Importe="590.00" NoIdentificacion="9786070751707" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="383.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star vs. las Fuerzas del Mal. Cómic 1" Descuento="69.30" Importe="198.00" NoIdentificacion="9786070757907" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="128.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Villanos. Pobre alma en desgracia" Descuento="222.60" Importe="636.00" NoIdentificacion="9786070757297" ObjetoImp="02" ValorUnitario="318.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="413.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Descendientes 3. La guia villana para nuevos villa" Descuento="52.15" Importe="149.00" NoIdentificacion="9786070760136" ObjetoImp="02" ValorUnitario="149.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="96.85" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Mi diario de notas secreto" Descuento="41.30" Importe="118.00" NoIdentificacion="9786070760587" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="76.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Raromagedón" Descuento="41.30" Importe="118.00" NoIdentificacion="9786070760556" ObjetoImp="02" ValorUnitario="118.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="76.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Libro de arte y misterios" Descuento="44.80" Importe="128.00" NoIdentificacion="9786070761164" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="83.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Finn &amp; Poe. Elige tu propio destino" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070763168" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Cómic 6" Descuento="134.40" Importe="384.00" NoIdentificacion="9786070771255" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="249.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Todo un espanto" Descuento="132.30" Importe="378.00" NoIdentificacion="9786070772375" ObjetoImp="02" ValorUnitario="378.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="245.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Gravity Falls. Cómic 7" Descuento="134.40" Importe="384.00" NoIdentificacion="9786070772399" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="249.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="The Loud House. Diario de supervivencia" Descuento="37.80" Importe="108.00" NoIdentificacion="9786070775826" ObjetoImp="02" ValorUnitario="108.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="70.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Disney Princesas. Amor por el lettering" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070778025" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Encanto. La novela" Descuento="90.30" Importe="258.00" NoIdentificacion="9786070780752" ObjetoImp="02" ValorUnitario="258.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="167.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Cuaderno galáctico" Descuento="34.30" Importe="98.00" NoIdentificacion="9786070790256" ObjetoImp="02" ValorUnitario="98.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="63.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. ­Busca tesoros " Descuento="96.60" Importe="276.00" NoIdentificacion="9786073915564" ObjetoImp="02" ValorUnitario="138.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="179.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. ­No me dibujes " Descuento="68.60" Importe="196.00" NoIdentificacion="9786073918626" ObjetoImp="02" ValorUnitario="98.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="127.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. ­Patricio, encogi Fondo de Bikini " Descuento="68.60" Importe="196.00" NoIdentificacion="9786073921220" ObjetoImp="02" ValorUnitario="98.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="127.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. M.A.L. contra los S£per Conocidos" Descuento="89.60" Importe="256.00" NoIdentificacion="9786073922562" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="166.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Lilo y Stitch. Libro de arte y caos" Descuento="89.60" Importe="256.00" NoIdentificacion="9786073927079" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="166.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Agente Stitch. Una ola de enemigos" Descuento="89.60" Importe="256.00" NoIdentificacion="9786073927185" ObjetoImp="02" ValorUnitario="128.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="166.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Star Wars. Grogu. Destroza este libro" Descuento="79.80" Importe="228.00" NoIdentificacion="9786073928748" ObjetoImp="02" ValorUnitario="228.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="148.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. Misterios 2. Un caso pegajoso" Descuento="138.60" Importe="396.00" NoIdentificacion="9786073928571" ObjetoImp="02" ValorUnitario="198.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="257.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Bob Esponja. Misterios 3. Pánico escénico" Descuento="159.60" Importe="456.00" NoIdentificacion="9786073930116" ObjetoImp="02" ValorUnitario="228.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="296.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Diminutos. Un misterioso-extrano-enigmático descub" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070739125" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Escuela de gamers" Descuento="160.30" Importe="458.00" NoIdentificacion="9786070745379" ObjetoImp="02" ValorUnitario="458.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="297.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Wigetta y la isla de Mumuchumu" Descuento="149.80" Importe="428.00" NoIdentificacion="9786070754692" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="278.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El pais de un solo hombre" Descuento="34.65" Importe="99.00" NoIdentificacion="9786070776045" ObjetoImp="02" ValorUnitario="99.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="64.35" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La ridicula idea de no volver a verte" Descuento="299.60" Importe="856.00" NoIdentificacion="9788432215483" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Dos veces £nica" Descuento="149.80" Importe="428.00" NoIdentificacion="9786070730887" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="278.20" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El amante polaco L1" Descuento="104.30" Importe="298.00" NoIdentificacion="9786070763847" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="193.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El misterio del colibri" Descuento="164.50" Importe="470.00" NoIdentificacion="9786070765100" ObjetoImp="02" ValorUnitario="235.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="305.50" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Kafka en la orilla" Descuento="209.30" Importe="598.00" NoIdentificacion="9789706991584" ObjetoImp="02" ValorUnitario="598.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="388.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El libro de los amores ridiculos" Descuento="139.30" Importe="398.00" NoIdentificacion="7502268181963" ObjetoImp="02" ValorUnitario="398.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="258.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El libro de los amores ridiculos" Descuento="299.60" Importe="856.00" NoIdentificacion="9786074218565" ObjetoImp="02" ValorUnitario="428.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="556.40" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Asesinos sin rostro" Descuento="104.30" Importe="298.00" NoIdentificacion="9786070767210" ObjetoImp="02" ValorUnitario="298.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="193.70" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="14521.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="BEBCB98A-9830-436B-8D6A-E68E884C69FE" FechaTimbrado="2025-12-18T07:39:10" RfcProvCertif="ASE0209252Q1" SelloCFD="GPjwVb3AvM9k9nqog2K83tLZlojEOB0Yg/QEHUErROWPQNAmzB/Iwwb90UP1/o8dWY5S//NEohAXTvcOeQKG8EdhSnSyYKar5H+G7zs2TAjB+0l0fFynbzwWP/osRaUEzRcYrYqIHfgSbf1DN3a4ceJeoga4yfgTDTwA7+me7tSd4o95c9Cn/pr7fmd71NsJZ1nptNNjUL9qkrK2FZ4oLWT0gD+cY6wOIw08zQc0Q9PYDlXlYzkEbIADF1gr/Td2c8ZYckG6DzhsDzm8fB9yECJ+XmASlw4kePhINVoA48qzYQIIVsHoZ+HiJbwLmV6oih6PiehiCdKwgvYiJ/c8LA==" NoCertificadoSAT="00001000000707891043" SelloSAT="rIHMPlvK6ibeKA/rJH9q4fFyPe2JRpn+Ad2f127SU0Z7JE2OI5lpGz7/AQOcxNDcYdKzy7HFlJoxpnTDQPF8lrkd5MyHcrmLHxrE9uRtLtxbIX5Dey/YcAG/Log9UmxHpPxcuD1Es1YgnQrf0wd7/IXqYFjbdrWZ6ORYp41dPioOfUiy5rPZb/hP5titZwS17RJENU4H5B9m8SKNcWeA8piC1+hdl96fgMVr7zIb1CT1eZzYq/kCtRHUS6jItUXbFiLr0VqsMqGaISJl1xi5Hdde8WEN8dbri7ye6s/ggKmmJI1leJ5citd7XF78CvmI8GodZKjElXOo3NY4X4f+8A=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="MXN" TotalMx="14521.00" UniGraf="D63" ValorDelAtributo="" afectada="" calle="AV. HACIENDA SIERRA VIEJA CENTRO COMERCIAL PERINORTE #2" cantidadConLetra="(CATORCE MIL QUINIENTOS VEINTIUN PESOS 00/100 M.N.)" cincoNeto="14521.00" codigoPostal="54769" colonia="HACIENDA DEL PARQUE - AV. HACIENDA SIERRA VIEJA" correos="medioslibreria@gmail.com -t dteran@planeta.com.mx -t mhernandez@planeta.com.mx" cuatroIva="" descuentoMx="7819.00" dosDescuento="7819.00" estado="MEXICO              EDO.MEX." fac="2025-12-17" fechaEdi102="2025-12-17T22:02:44" fechaEdi204="2025-12-17T22:02:44" fechaOrden="" ivaMx="0.00" mail="medioslibreria@gmail.com;dteran@planeta.com.mx;mhernandez@planeta.com.mx" moneda="MN" noCliente="PedLocDoc:00717395" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="RES DIC.3" noProveedor="" nomAtributo="" pais="MEXICO" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="22340.00" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="97" unoButo="22340.00" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="0056123  " descripcion="Bob Esponja. Pantalones de garabato" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Junio" importe="396.00" iva="r Mex" linea="1" lista="198.00" pedi="" producto="9786073925174" serial="" sku="0056123" titulo="Bob Esponja. Pantalones de garabatos" titulocm="Bob Esponja. Pantalones de garabat" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="458.00" Punitario="458.00" SUM="H87" TasaIEPS="ix" TasaIVA="ix" UM="PIEZA" aduana="" cantidad="1" codigo="1005257  " descripcion="Hijo de la guerra" descuento="4901990100  Se" ean="PZA   49019901" ieps="ral" importe="458.00" iva="" linea="2" lista="458.00" pedi="" producto="9786070761829" serial="" sku="1005257" titulo="Hijo de la guerra" titulocm="Hijo de la guerra" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="408.00" Punitario="408.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1005817  " descripcion="Star Wars. Tarkin" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="408.00" iva="" linea="3" lista="408.00" pedi="" producto="9786070738289" serial="" sku="1005817" titulo="Star Wars. Tarkin" titulocm="Star Wars. Tarkin" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1005859  " descripcion="Olvidé decirte quiero" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="368.00" iva="" linea="4" lista="368.00" pedi="" producto="9786070739590" serial="" sku="1005859" titulo="Olvidé decirte quiero" titulocm="Olvidé decirte quiero" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1005862  " descripcion="Yo, la peor" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="478.00" iva="" linea="5" lista="478.00" pedi="" producto="9786070739972" serial="" sku="1005862" titulo="Yo, la peor" titulocm="Yo, la peor" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1005877  " descripcion="Star Wars. Aftermath 2. Deuda de vi" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="736.00" iva="" linea="6" lista="368.00" pedi="" producto="9786070740275" serial="" sku="1005877" titulo="Star Wars. Aftermath 2. Deuda de vida" titulocm="Star Wars. Aftermath 2. Deuda de v" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="388.00" Punitario="388.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1006125  " descripcion="Star Wars. Aftermath 3. El fin del" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="776.00" iva="" linea="7" lista="388.00" pedi="" producto="9786070743375" serial="" sku="1006125" titulo="Star Wars. Aftermath 3. El fin del imperio" titulocm="Star Wars. Aftermath 3. El fin del" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="199.00" Punitario="199.00" SUM="H87" TasaIEPS="ix" TasaIVA="ix" UM="PIEZA" aduana="" cantidad="1" codigo="1006150  " descripcion="El tren pasa primero" descuento="4901990100  Se" ean="PZA   49019901" ieps="ral" importe="199.00" iva="" linea="8" lista="199.00" pedi="" producto="9786070744426" serial="" sku="1006150" titulo="El tren pasa primero" titulocm="El tren pasa primero" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="408.00" Punitario="408.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1006470  " descripcion="Star Wars. Amos del Lado Oscuro" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="408.00" iva="" linea="9" lista="408.00" pedi="" producto="9786070749636" serial="" sku="1006470" titulo="Star Wars. Amos del Lado Oscuro" titulocm="Star Wars. Amos del Lado Oscuro" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1006594  " descripcion="Tarot magicomistico de estrellas (p" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="398.00" iva="" linea="10" lista="398.00" pedi="" producto="9786070751066" serial="" sku="1006594" titulo="Tarot magicomistico de estrellas (pop)" titulocm="Tarot magicomistico de estrellas (" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1006857  " descripcion="Star Wars. Cosecha roja" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="99.00" iva="" linea="11" lista="99.00" pedi="" producto="9786070755347" serial="" sku="1006857" titulo="Star Wars. Cosecha roja" titulocm="Star Wars. Cosecha roja" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="328.00" Punitario="328.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1006974  " descripcion="Ocho lugares que me recuerdan a ti" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="328.00" iva="" linea="12" lista="328.00" pedi="" producto="9786070760174" serial="" sku="1006974" titulo="Ocho lugares que me recuerdan a ti" titulocm="Ocho lugares que me recuerdan a ti" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="478.00" Punitario="478.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1007053  " descripcion="Star Wars. Thrawn. Alianzas" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="478.00" iva="" linea="13" lista="478.00" pedi="" producto="9786070757891" serial="" sku="1007053" titulo="Star Wars. Thrawn. Alianzas" titulocm="Star Wars. Thrawn. Alianzas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="368.00" Punitario="368.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1007402  " descripcion="Star Wars. Maestro y aprendiz" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="368.00" iva="" linea="14" lista="368.00" pedi="" producto="9786070763212" serial="" sku="1007402" titulo="Star Wars. Maestro y aprendiz" titulocm="Star Wars. Maestro y aprendiz" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="358.00" Punitario="358.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1010357  " descripcion="Villanos. Matar a la bestia" descuento="4901990100  Pl" ean="PZA   49019901" ieps="" importe="1074.00" iva="" linea="15" lista="358.00" pedi="" producto="9786073915571" serial="" sku="1010357" titulo="Villanos. Matar a la bestia" titulocm="Villanos. Matar a la bestia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="258.00" Punitario="258.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1201104  " descripcion="Descendientes. El regreso a la isla" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="516.00" iva="til" linea="16" lista="258.00" pedi="" producto="9786070736179" serial="" sku="1201104" titulo="Descendientes. El regreso a la isla de los Perdido" titulocm="Descendientes. El regreso a la isl" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1201158  " descripcion="Gravity Falls. Dipper y Mabel. La m" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="354.00" iva="til" linea="17" lista="118.00" pedi="" producto="9786070740060" serial="" sku="1201158" titulo="Gravity Falls. Dipper y Mabel. La maldición de los" titulocm="Gravity Falls. Dipper y Mabel. La" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="358.00" Punitario="358.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="5" codigo="1201163  " descripcion="Gravity Falls. Diario 3" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="1790.00" iva="til" linea="18" lista="358.00" pedi="" producto="9786070741050" serial="" sku="1201163" titulo="Gravity Falls. Diario 3" titulocm="Gravity Falls. Diario 3" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201210  " descripcion="Gravity Falls. La Tierra antes de l" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="118.00" iva="til" linea="19" lista="118.00" pedi="" producto="9786070745935" serial="" sku="1201210" titulo="Gravity Falls. La Tierra antes de los cerdos" titulocm="Gravity Falls. La Tierra antes de" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201211  " descripcion="Gravity Falls. Lejos de casa" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="118.00" iva="til" linea="20" lista="118.00" pedi="" producto="9786070745898" serial="" sku="1201211" titulo="Gravity Falls. Lejos de casa" titulocm="Gravity Falls. Lejos de casa" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="4" codigo="1201219  " descripcion="Gravity Falls. ­No colorees este li" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="472.00" iva="til" linea="21" lista="118.00" pedi="" producto="9786070746192" serial="" sku="1201219" titulo="Gravity Falls. ­No colorees este libro " titulocm="Gravity Falls. ­No colorees este l" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1201232  " descripcion="Gravity Falls. Cómic 2" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="354.00" iva="til" linea="22" lista="118.00" pedi="" producto="9786070747533" serial="" sku="1201232" titulo="Gravity Falls. Cómic 2" titulocm="Gravity Falls. Cómic 2" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201276  " descripcion="Antolin y el taquito de sal" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="99.00" iva="til" linea="23" lista="99.00" pedi="" producto="9786070750571" serial="" sku="1201276" titulo="Antolin y el taquito de sal" titulocm="Antolin y el taquito de sal" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="5" codigo="1201278  " descripcion="Gravity Falls. Leyendas perdidas" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="590.00" iva="til" linea="24" lista="118.00" pedi="" producto="9786070751707" serial="" sku="1201278" titulo="Gravity Falls. Leyendas perdidas" titulocm="Gravity Falls. Leyendas perdidas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1201379  " descripcion="Star vs. las Fuerzas del Mal. Cómic" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="198.00" iva="til" linea="25" lista="99.00" pedi="" producto="9786070757907" serial="" sku="1201379" titulo="Star vs. las Fuerzas del Mal. Cómic 1" titulocm="Star vs. las Fuerzas del Mal. Cómi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="318.00" Punitario="318.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1201399  " descripcion="Villanos. Pobre alma en desgracia" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="636.00" iva="til" linea="26" lista="318.00" pedi="" producto="9786070757297" serial="" sku="1201399" titulo="Villanos. Pobre alma en desgracia" titulocm="Villanos. Pobre alma en desgracia" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="149.00" Punitario="149.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201431  " descripcion="Descendientes 3. La guia villana pa" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="149.00" iva="til" linea="27" lista="149.00" pedi="" producto="9786070760136" serial="" sku="1201431" titulo="Descendientes 3. La guia villana para nuevos villa" titulocm="Descendientes 3. La guia villana p" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201455  " descripcion="Gravity Falls. Mi diario de notas s" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="118.00" iva="til" linea="28" lista="118.00" pedi="" producto="9786070760587" serial="" sku="1201455" titulo="Gravity Falls. Mi diario de notas secreto" titulocm="Gravity Falls. Mi diario de notas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="118.00" Punitario="118.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201472  " descripcion="Gravity Falls. Raromagedón" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="118.00" iva="til" linea="29" lista="118.00" pedi="" producto="9786070760556" serial="" sku="1201472" titulo="Gravity Falls. Raromagedón" titulocm="Gravity Falls. Raromagedón" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201474  " descripcion="Gravity Falls. Libro de arte y mist" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="128.00" iva="til" linea="30" lista="128.00" pedi="" producto="9786070761164" serial="" sku="1201474" titulo="Gravity Falls. Libro de arte y misterios" titulocm="Gravity Falls. Libro de arte y mis" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201519  " descripcion="Star Wars. Finn &amp; Poe. Elige tu pro" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="99.00" iva="til" linea="31" lista="99.00" pedi="" producto="9786070763168" serial="" sku="1201519" titulo="Star Wars. Finn &amp; Poe. Elige tu propio destino" titulocm="Star Wars. Finn &amp; Poe. Elige tu pr" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1201624  " descripcion="Gravity Falls. Cómic 6" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="384.00" iva="til" linea="32" lista="128.00" pedi="" producto="9786070771255" serial="" sku="1201624" titulo="Gravity Falls. Cómic 6" titulocm="Gravity Falls. Cómic 6" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="378.00" Punitario="378.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201644  " descripcion="Todo un espanto" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="378.00" iva="til" linea="33" lista="378.00" pedi="" producto="9786070772375" serial="" sku="1201644" titulo="Todo un espanto" titulocm="Todo un espanto" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="3" codigo="1201651  " descripcion="Gravity Falls. Cómic 7" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="384.00" iva="til" linea="34" lista="128.00" pedi="" producto="9786070772399" serial="" sku="1201651" titulo="Gravity Falls. Cómic 7" titulocm="Gravity Falls. Cómic 7" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="108.00" Punitario="108.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201663  " descripcion="The Loud House. Diario de supervive" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="108.00" iva="til" linea="35" lista="108.00" pedi="" producto="9786070775826" serial="" sku="1201663" titulo="The Loud House. Diario de supervivencia" titulocm="The Loud House. Diario de superviv" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201722  " descripcion="Disney Princesas. Amor por el lette" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="99.00" iva="til" linea="36" lista="99.00" pedi="" producto="9786070778025" serial="" sku="1201722" titulo="Disney Princesas. Amor por el lettering" titulocm="Disney Princesas. Amor por el lett" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="258.00" Punitario="258.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201751  " descripcion="Encanto. La novela" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="258.00" iva="til" linea="37" lista="258.00" pedi="" producto="9786070780752" serial="" sku="1201751" titulo="Encanto. La novela" titulocm="Encanto. La novela" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="98.00" Punitario="98.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1201911  " descripcion="Star Wars. Cuaderno galáctico" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="98.00" iva="til" linea="38" lista="98.00" pedi="" producto="9786070790256" serial="" sku="1201911" titulo="Star Wars. Cuaderno galáctico" titulocm="Star Wars. Cuaderno galáctico" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="138.00" Punitario="138.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202264  " descripcion="Bob Esponja. ­Busca tesoros " descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="276.00" iva="til" linea="39" lista="138.00" pedi="" producto="9786073915564" serial="" sku="1202264" titulo="Bob Esponja. ­Busca tesoros " titulocm="Bob Esponja. ­Busca tesoros " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="98.00" Punitario="98.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202297  " descripcion="Bob Esponja. ­No me dibujes " descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="196.00" iva="til" linea="40" lista="98.00" pedi="" producto="9786073918626" serial="" sku="1202297" titulo="Bob Esponja. ­No me dibujes " titulocm="Bob Esponja. ­No me dibujes " unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="98.00" Punitario="98.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202319  " descripcion="Bob Esponja. ­Patricio, encogi Fond" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="196.00" iva="til" linea="41" lista="98.00" pedi="" producto="9786073921220" serial="" sku="1202319" titulo="Bob Esponja. ­Patricio, encogi Fondo de Bikini " titulocm="Bob Esponja. ­Patricio, encogi Fon" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202333  " descripcion="Bob Esponja. M.A.L. contra los S£pe" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="256.00" iva="til" linea="42" lista="128.00" pedi="" producto="9786073922562" serial="" sku="1202333" titulo="Bob Esponja. M.A.L. contra los S£per Conocidos" titulocm="Bob Esponja. M.A.L. contra los S£p" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202377  " descripcion="Lilo y Stitch. Libro de arte y caos" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="256.00" iva="til" linea="43" lista="128.00" pedi="" producto="9786073927079" serial="" sku="1202377" titulo="Lilo y Stitch. Libro de arte y caos" titulocm="Lilo y Stitch. Libro de arte y cao" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="128.00" Punitario="128.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202384  " descripcion="Agente Stitch. Una ola de enemigos" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="256.00" iva="til" linea="44" lista="128.00" pedi="" producto="9786073927185" serial="" sku="1202384" titulo="Agente Stitch. Una ola de enemigos" titulocm="Agente Stitch. Una ola de enemigos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="228.00" Punitario="228.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="1" codigo="1202386  " descripcion="Star Wars. Grogu. Destroza este lib" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="228.00" iva="til" linea="45" lista="228.00" pedi="" producto="9786073928748" serial="" sku="1202386" titulo="Star Wars. Grogu. Destroza este libro" titulocm="Star Wars. Grogu. Destroza este li" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="198.00" Punitario="198.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202387  " descripcion="Bob Esponja. Misterios 2. Un caso p" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="396.00" iva="til" linea="46" lista="198.00" pedi="" producto="9786073928571" serial="" sku="1202387" titulo="Bob Esponja. Misterios 2. Un caso pegajoso" titulocm="Bob Esponja. Misterios 2. Un caso" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="228.00" Punitario="228.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="1202413  " descripcion="Bob Esponja. Misterios 3. Pánico es" descuento="4901990100  Pl" ean="PZA   49019901" ieps="Infan" importe="456.00" iva="til" linea="47" lista="228.00" pedi="" producto="9786073930116" serial="" sku="1202413" titulo="Bob Esponja. Misterios 3. Pánico escénico" titulocm="Bob Esponja. Misterios 3. Pánico e" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="ma" TasaIVA="ma" UM="PIEZA" aduana="" cantidad="1" codigo="1600624  " descripcion="Diminutos. Un misterioso-extrano-en" descuento="4901990100  Te" ean="PZA   49019901" ieps="Hoy" importe="99.00" iva="" linea="48" lista="99.00" pedi="" producto="9786070739125" serial="" sku="1600624" titulo="Diminutos. Un misterioso-extrano-enigmático descub" titulocm="Diminutos. Un misterioso-extrano-e" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="458.00" Punitario="458.00" SUM="H87" TasaIEPS="ma" TasaIVA="ma" UM="PIEZA" aduana="" cantidad="1" codigo="1600672  " descripcion="Escuela de gamers" descuento="4901990100  Te" ean="PZA   49019901" ieps="Hoy" importe="458.00" iva="" linea="49" lista="458.00" pedi="" producto="9786070745379" serial="" sku="1600672" titulo="Escuela de gamers" titulocm="Escuela de gamers" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="ma" TasaIVA="ma" UM="PIEZA" aduana="" cantidad="1" codigo="1600750  " descripcion="Wigetta y la isla de Mumuchumu" descuento="4901990100  Te" ean="PZA   49019901" ieps="Hoy" importe="428.00" iva="" linea="50" lista="428.00" pedi="" producto="9786070754692" serial="" sku="1600750" titulo="Wigetta y la isla de Mumuchumu" titulocm="Wigetta y la isla de Mumuchumu" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="99.00" Punitario="99.00" SUM="H87" TasaIEPS="ma" TasaIVA="ma" UM="PIEZA" aduana="" cantidad="1" codigo="1600813  " descripcion="El pais de un solo hombre" descuento="4901990100  Te" ean="PZA   49019901" ieps="Hoy" importe="99.00" iva="" linea="51" lista="99.00" pedi="" producto="9786070776045" serial="" sku="1600813" titulo="El pais de un solo hombre" titulocm="El pais de un solo hombre" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="ix" TasaIVA="ix" UM="PIEZA" aduana="" cantidad="2" codigo="2000747  " descripcion="La ridicula idea de no volver a ver" descuento="4901990100  Se" ean="PZA   49019901" ieps="ral" importe="856.00" iva="" linea="52" lista="428.00" pedi="" producto="9788432215483" serial="" sku="2000747" titulo="La ridicula idea de no volver a verte" titulocm="La ridicula idea de no volver a ve" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="ix" TasaIVA="ix" UM="PIEZA" aduana="" cantidad="1" codigo="2000977  " descripcion="Dos veces £nica" descuento="4901990100  Se" ean="PZA   49019901" ieps="ral" importe="428.00" iva="" linea="53" lista="428.00" pedi="" producto="9786070730887" serial="" sku="2000977" titulo="Dos veces £nica" titulocm="Dos veces £nica" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="ix" TasaIVA="ix" UM="PIEZA" aduana="" cantidad="1" codigo="2001392  " descripcion="El amante polaco L1" descuento="4901990100  Se" ean="PZA   49019901" ieps="ral" importe="298.00" iva="" linea="54" lista="298.00" pedi="" producto="9786070763847" serial="" sku="2001392" titulo="El amante polaco L1" titulocm="El amante polaco L1" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="235.00" Punitario="235.00" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" aduana="" cantidad="2" codigo="4100432  " descripcion="El misterio del colibri" descuento="4901990100  Pl" ean="PZA   49019901" ieps="ector" importe="470.00" iva="" linea="55" lista="235.00" pedi="" producto="9786070765100" serial="" sku="4100432" titulo="El misterio del colibri" titulocm="El misterio del colibri" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="598.00" Punitario="598.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="1" codigo="8200736  " descripcion="Kafka en la orilla" descuento="4901990100  Tu" ean="PZA   49019901" ieps="" importe="598.00" iva="" linea="56" lista="598.00" pedi="" producto="9789706991584" serial="" sku="8200736" titulo="Kafka en la orilla" titulocm="Kafka en la orilla" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="398.00" Punitario="398.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="1" codigo="8200775  " descripcion="El libro de los amores ridiculos" descuento="4901990100  Tu" ean="PZA   49019901" ieps="" importe="398.00" iva="" linea="57" lista="398.00" pedi="" producto="7502268181963" serial="" sku="8200775" titulo="El libro de los amores ridiculos" titulocm="El libro de los amores ridiculos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="428.00" Punitario="428.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="2" codigo="8203097  " descripcion="El libro de los amores ridiculos" descuento="4901990100  Tu" ean="PZA   49019901" ieps="" importe="856.00" iva="" linea="58" lista="428.00" pedi="" producto="9786074218565" serial="" sku="8203097" titulo="El libro de los amores ridiculos" titulocm="El libro de los amores ridiculos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="298.00" Punitario="298.00" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="1" codigo="8203667  " descripcion="Asesinos sin rostro" descuento="4901990100  Tu" ean="PZA   49019901" ieps="" importe="298.00" iva="" linea="59" lista="298.00" pedi="" producto="9786070767210" serial="" sku="8203667" titulo="Asesinos sin rostro" titulocm="Asesinos sin rostro" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="AV. HACIENDA SIERRA VIEJA, CTRO. COMERCI" codigoPostal="54769" colonia="HACIENDA DEL PARQUE -CUAUTITLAN IZCALLI" estado="MEXICO              EDO.MEX." localidad="" municipio="" noExterior="" noInterior="" nombre="SUC. NORTE" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2025-12-17" fechaOrdenCompra="2025-12-17" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00877958" subTotal="22340.00" total="22340.00" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0040112" TotalUnidadesFactura="" ZonadeEntrega="5B" actividad="700" ano="2025" codCliente="000026571-0" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="" fecha="17/12/2025" noCliente="PedLocDoc:00717395" noOrdenCompra="RES DIC.3" pedidoInterno="00877958" porcentajeDeDescuentoTotal="35.00" referenciaBanca="Referencia Bancaria:000026571-0" unoObservaciones=""/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="14521.00" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+17/12/2025
+~#|e+|M35.35 Jl @2
+700
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+AC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\777583
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2025-12-17T22:02:44 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+BEBCB98A-9830-436B-8D6A-E68E884C69FE
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "700777583.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2025-12-17T22:02:44
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv10 
+RFC Cliente:PEOA8707145T8
+
+ALAN MICHEL PEIGEIMONT ORTIZ   
+
+SUC. NORTE
+
+AV. HACIENDA SIERRA VIEJA CENTRO COMERCIAL PERINORTE #2  
+
+HACIENDA DEL PARQUE - AV. HACIENDA SIERRA VIEJA 
+
+MEXICO              EDO.MEX. MEXICO C.P. 54769
+
+Regimen Fiscal: 612  
+
+Proveedor: PedLocDoc:00717395
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000026571-0
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:  AV. HACIENDA SIERRA VIEJA, CTRO. COMERCI   HACIENDA DEL PARQUE -CUAUTITLAN IZCALLI 
+
+  MEXICO              EDO.MEX.  54769 
+
+
+
+
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000026571-0 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+35.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+90 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0040112
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+RES DIC.3
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00877958
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+5B
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0056123  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. Pantalones de garabatos
+~# @?Jc
+9786073925174
+~# @?Jr
+198.00
+~# @?Jr
+396.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1005257  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Hijo de la guerra
+~# @?Jc
+9786070761829
+~# @?Jr
+458.00
+~# @?Jr
+458.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1005817  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Tarkin
+~# @?Jc
+9786070738289
+~# @?Jr
+408.00
+~# @?Jr
+408.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1005859  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Olvidé decirte quiero
+~# @?Jc
+9786070739590
+~# @?Jr
+368.00
+~# @?Jr
+368.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1005862  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Yo, la peor
+~# @?Jc
+9786070739972
+~# @?Jr
+478.00
+~# @?Jr
+478.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1005877  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Star Wars. Aftermath 2. Deuda de vida
+~# @?Jc
+9786070740275
+~# @?Jr
+368.00
+~# @?Jr
+736.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006125  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Star Wars. Aftermath 3. El fin del imperio
+~# @?Jc
+9786070743375
+~# @?Jr
+388.00
+~# @?Jr
+776.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006150  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El tren pasa primero
+~# @?Jc
+9786070744426
+~# @?Jr
+199.00
+~# @?Jr
+199.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006470  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Amos del Lado Oscuro
+~# @?Jc
+9786070749636
+~# @?Jr
+408.00
+~# @?Jr
+408.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006594  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Tarot magicomistico de estrellas (pop)
+~# @?Jc
+9786070751066
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006857  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Cosecha roja
+~# @?Jc
+9786070755347
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1006974  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Ocho lugares que me recuerdan a ti
+~# @?Jc
+9786070760174
+~# @?Jr
+328.00
+~# @?Jr
+328.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1007053  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Thrawn. Alianzas
+~# @?Jc
+9786070757891
+~# @?Jr
+478.00
+~# @?Jr
+478.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1007402  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Maestro y aprendiz
+~# @?Jc
+9786070763212
+~# @?Jr
+368.00
+~# @?Jr
+368.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1010357  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Villanos. Matar a la bestia
+~# @?Jc
+9786073915571
+~# @?Jr
+358.00
+~# @?Jr
+1,074.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201104  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Descendientes. El regreso a la isla de los Perdido
+~# @?Jc
+9786070736179
+~# @?Jr
+258.00
+~# @?Jr
+516.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201158  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Dipper y Mabel. La maldición de los
+~# @?Jc
+9786070740060
+~# @?Jr
+118.00
+~# @?Jr
+354.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201163  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Diario 3
+~# @?Jc
+9786070741050
+~# @?Jr
+358.00
+~# @?Jr
+1,790.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201210  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Gravity Falls. La Tierra antes de los cerdos
+~# @?Jc
+9786070745935
+~# @?Jr
+118.00
+~# @?Jr
+118.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201211  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Lejos de casa
+~# @?Jc
+9786070745898
+~# @?Jr
+118.00
+~# @?Jr
+118.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201219  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Gravity Falls. ­No colorees este libro 
+~# @?Jc
+9786070746192
+~# @?Jr
+118.00
+~# @?Jr
+472.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201232  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Cómic 2
+~# @?Jc
+9786070747533
+~# @?Jr
+118.00
+~# @?Jr
+354.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201276  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Antolin y el taquito de sal
+~# @?Jc
+9786070750571
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201278  
+~# @?Jc
+5
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Leyendas perdidas
+~# @?Jc
+9786070751707
+~# @?Jr
+118.00
+~# @?Jr
+590.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201379  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Star vs. las Fuerzas del Mal. Cómic 1
+~# @?Jc
+9786070757907
+~# @?Jr
+99.00
+~# @?Jr
+198.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201399  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Villanos. Pobre alma en desgracia
+~# @?Jc
+9786070757297
+~# @?Jr
+318.00
+~# @?Jr
+636.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201431  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Descendientes 3. La guia villana para nuevos villa
+~# @?Jc
+9786070760136
+~# @?Jr
+149.00
+~# @?Jr
+149.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201455  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Mi diario de notas secreto
+~# @?Jc
+9786070760587
+~# @?Jr
+118.00
+~# @?Jr
+118.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201472  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Raromagedón
+~# @?Jc
+9786070760556
+~# @?Jr
+118.00
+~# @?Jr
+118.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201474  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Libro de arte y misterios
+~# @?Jc
+9786070761164
+~# @?Jr
+128.00
+~# @?Jr
+128.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201519  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Finn &amp; Poe. Elige tu propio destino
+~# @?Jc
+9786070763168
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201624  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Cómic 6
+~# @?Jc
+9786070771255
+~# @?Jr
+128.00
+~# @?Jr
+384.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201644  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Todo un espanto
+~# @?Jc
+9786070772375
+~# @?Jr
+378.00
+~# @?Jr
+378.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201651  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+Gravity Falls. Cómic 7
+~# @?Jc
+9786070772399
+~# @?Jr
+128.00
+~# @?Jr
+384.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201663  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+The Loud House. Diario de supervivencia
+~# @?Jc
+9786070775826
+~# @?Jr
+108.00
+~# @?Jr
+108.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201722  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Disney Princesas. Amor por el lettering
+~# @?Jc
+9786070778025
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201751  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Encanto. La novela
+~# @?Jc
+9786070780752
+~# @?Jr
+258.00
+~# @?Jr
+258.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1201911  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Cuaderno galáctico
+~# @?Jc
+9786070790256
+~# @?Jr
+98.00
+~# @?Jr
+98.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202264  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. ­Busca tesoros 
+~# @?Jc
+9786073915564
+~# @?Jr
+138.00
+~# @?Jr
+276.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202297  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. ­No me dibujes 
+~# @?Jc
+9786073918626
+~# @?Jr
+98.00
+~# @?Jr
+196.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202319  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. ­Patricio, encogi Fondo de Bikini 
+~# @?Jc
+9786073921220
+~# @?Jr
+98.00
+~# @?Jr
+196.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202333  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. M.A.L. contra los S£per Conocidos
+~# @?Jc
+9786073922562
+~# @?Jr
+128.00
+~# @?Jr
+256.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202377  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Lilo y Stitch. Libro de arte y caos
+~# @?Jc
+9786073927079
+~# @?Jr
+128.00
+~# @?Jr
+256.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202384  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Agente Stitch. Una ola de enemigos
+~# @?Jc
+9786073927185
+~# @?Jr
+128.00
+~# @?Jr
+256.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202386  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Star Wars. Grogu. Destroza este libro
+~# @?Jc
+9786073928748
+~# @?Jr
+228.00
+~# @?Jr
+228.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202387  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. Misterios 2. Un caso pegajoso
+~# @?Jc
+9786073928571
+~# @?Jr
+198.00
+~# @?Jr
+396.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1202413  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+Bob Esponja. Misterios 3. Pánico escénico
+~# @?Jc
+9786073930116
+~# @?Jr
+228.00
+~# @?Jr
+456.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1600624  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Diminutos. Un misterioso-extrano-enigmático descub
+~# @?Jc
+9786070739125
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1600672  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Escuela de gamers
+~# @?Jc
+9786070745379
+~# @?Jr
+458.00
+~# @?Jr
+458.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1600750  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Wigetta y la isla de Mumuchumu
+~# @?Jc
+9786070754692
+~# @?Jr
+428.00
+~# @?Jr
+428.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1600813  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El pais de un solo hombre
+~# @?Jc
+9786070776045
+~# @?Jr
+99.00
+~# @?Jr
+99.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2000747  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+La ridicula idea de no volver a verte
+~# @?Jc
+9788432215483
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2000977  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Dos veces £nica
+~# @?Jc
+9786070730887
+~# @?Jr
+428.00
+~# @?Jr
+428.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2001392  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El amante polaco L1
+~# @?Jc
+9786070763847
+~# @?Jr
+298.00
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+4100432  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+El misterio del colibri
+~# @?Jc
+9786070765100
+~# @?Jr
+235.00
+~# @?Jr
+470.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8200736  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Kafka en la orilla
+~# @?Jc
+9789706991584
+~# @?Jr
+598.00
+~# @?Jr
+598.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8200775  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El libro de los amores ridiculos
+~# @?Jc
+7502268181963
+~# @?Jr
+398.00
+~# @?Jr
+398.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8203097  
+~# @?Jc
+2
+~# @?Jc
+H87
+~# @?
+El libro de los amores ridiculos
+~# @?Jc
+9786074218565
+~# @?Jr
+428.00
+~# @?Jr
+856.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8203667  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Asesinos sin rostro
+~# @?Jc
+9786070767210
+~# @?Jr
+298.00
+~# @?Jr
+298.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+97
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "BEBCB98A-9830-436B-8D6A-E68E884C69FE.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto $ 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio $
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. $
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO $
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+14,521.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+22,340.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+7,819.00 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+14,521.00
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(CATORCE MIL QUINIENTOS VEINTIUN PESOS 00/100 M.N.)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+G01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+GPjwVb3AvM9k9nqog2K83tLZlojEOB0Yg/QEHUErROWPQNAmzB/Iwwb90UP1/o8dWY5S//NEohAXTvcOeQKG8EdhSnSyYKar5H+G7zs2TAjB+0l0fFynbzwWP/osRaUEzRcYrYqIHfgSbf1DN3a4ceJeoga4yfgTDTwA7+me7tSd4o95c9Cn/pr7fmd71NsJZ1nptNNjUL9qkrK2FZ4oLWT0gD+cY6wOIw08zQc0Q9PYDlXlYzkEbIADF1gr/Td2c8ZYckG6DzhsDzm8fB9yECJ+XmASlw4kePhINVoA48qzYQIIVsHoZ+HiJbwLmV6oih6PiehiCdKwgvYiJ/c8LA==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+rIHMPlvK6ibeKA/rJH9q4fFyPe2JRpn+Ad2f127SU0Z7JE2OI5lpGz7/AQOcxNDcYdKzy7HFlJoxpnTDQPF8lrkd5MyHcrmLHxrE9uRtLtxbIX5Dey/YcAG/Log9UmxHpPxcuD1Es1YgnQrf0wd7/IXqYFjbdrWZ6ORYp41dPioOfUiy5rPZb/hP5titZwS17RJENU4H5B9m8SKNcWeA8piC1+hdl96fgMVr7zIb1CT1eZzYq/kCtRHUS6jItUXbFiLr0VqsMqGaISJl1xi5Hdde8WEN8dbri7ye6s/ggKmmJI1leJ5citd7XF78CvmI8GodZKjElXOo3NY4X4f+8A==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|BEBCB98A-9830-436B-8D6A-E68E884C69FE|2025-12-18T07:39:10|GPjwVb3AvM9k9nqog2K83tLZlojEOB0Yg/QEHUErROWPQNAmzB/Iwwb90UP1/o8dWY5S//NEohAXTvcOeQKG8EdhSnSyYKar5H+G7zs2TAjB+0l0fFynbzwWP/osRaUEzRcYrYqIHfgSbf1DN3a4ceJeoga4yfgTDTwA7+me7tSd4o95c9Cn/pr7fmd71NsJZ1nptNNjUL9qkrK2FZ4oLWT0gD+cY6wOIw08zQc0Q9PYDlXlYzkEbIADF1gr/Td2c8ZYckG6DzhsDzm8fB9yECJ+XmASlw4kePhINVoA48qzYQIIVsHoZ+HiJbwLmV6oih6PiehiCdKwgvYiJ/c8LA==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2025-12-18T07:39:10
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

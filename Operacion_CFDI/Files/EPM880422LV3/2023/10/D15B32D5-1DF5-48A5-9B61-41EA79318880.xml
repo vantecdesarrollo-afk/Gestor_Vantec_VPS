@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="180 DIAS" Descuento="0.00" Exportacion="01" Fecha="2023-10-04T18:37:14" Folio="001262" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000505710997" Sello="CENhDZmAEhz6MR1823m2xPvG6SNB9RAiZp0QRoe1ACEfatYHFWhEIY4I1iljULyqONuY29qBkyI18rTbcqbzjrCgrIfXoQDqpVCSoAYFI3hFVncuv6ZDFzSVPR05TE3Vg8RzU7mcr4ZO2qkv0qn2iGbHffnZH8dqjzOJoxEzh92UELjA2xZC+cYGTUTwOxvehdtaHWaI88tl5wDVd1BkJsORVIX8yPcfv0WBYzyHTW4YSNdvp17hT7LzH5lo/A7HFJ5rmcdJBPvjz5Ee9vwclnUWepKA46dRIJY3TFGNs5fZRCQ9SWkOoEQA0+tLPhSxxvrJIqDnWP1ZNFE2eDx7jQ==" Serie="TMC" SubTotal="67.77" TipoCambio="19.090838" TipoDeComprobante="I" Total="67.77" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Palacio del deseo" Descuento="0.00" Importe="3.83" NoIdentificacion="9788427037038" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Entre dos palacios" Descuento="0.00" Importe="3.83" NoIdentificacion="9788427036222" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una historia de la guerra civil que no va a gustar" Descuento="0.00" Importe="3.83" NoIdentificacion="9788408114635" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Secretos imperfectos" Descuento="0.00" Importe="3.83" NoIdentificacion="9788408170372" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Mujer océano" Descuento="0.00" Importe="2.67" NoIdentificacion="9788408208099" ObjetoImp="02" ValorUnitario="2.67">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2.67" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El manuscrito de fuego" Descuento="0.00" Importe="3.83" NoIdentificacion="9788467056761" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El guardián de la verdad y la tercera puerta del t" Descuento="0.00" Importe="3.83" NoIdentificacion="9788467049213" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3.83" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El manuscrito de barro" Descuento="0.00" Importe="4.60" NoIdentificacion="9788467064773" ObjetoImp="02" ValorUnitario="4.60">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.60" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Milagro en los Andes" Descuento="0.00" Importe="4.98" NoIdentificacion="9788408262329" ObjetoImp="02" ValorUnitario="4.98">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.98" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El manuscrito de niebla" Descuento="0.00" Importe="4.98" NoIdentificacion="9788467068627" ObjetoImp="02" ValorUnitario="4.98">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.98" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El manuscrito de nieve" Descuento="0.00" Importe="4.98" NoIdentificacion="9788408267461" ObjetoImp="02" ValorUnitario="4.98">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.98" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Ojo por ojo" Descuento="0.00" Importe="4.21" NoIdentificacion="9788408270829" ObjetoImp="02" ValorUnitario="4.21">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.21" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Vida por vida" Descuento="0.00" Importe="4.21" NoIdentificacion="9788408270843" ObjetoImp="02" ValorUnitario="4.21">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.21" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El amante" Descuento="0.00" Importe="2.67" NoIdentificacion="9788483835722" ObjetoImp="02" ValorUnitario="2.67">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2.67" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="3" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El lector de Julio Verne" Descuento="0.00" Importe="11.49" NoIdentificacion="9788483838532" ObjetoImp="02" ValorUnitario="3.83">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="11.49" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos><cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="67.77" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="D15B32D5-1DF5-48A5-9B61-41EA79318880" FechaTimbrado="2023-10-05T06:27:56" RfcProvCertif="ASE0209252Q1" SelloCFD="CENhDZmAEhz6MR1823m2xPvG6SNB9RAiZp0QRoe1ACEfatYHFWhEIY4I1iljULyqONuY29qBkyI18rTbcqbzjrCgrIfXoQDqpVCSoAYFI3hFVncuv6ZDFzSVPR05TE3Vg8RzU7mcr4ZO2qkv0qn2iGbHffnZH8dqjzOJoxEzh92UELjA2xZC+cYGTUTwOxvehdtaHWaI88tl5wDVd1BkJsORVIX8yPcfv0WBYzyHTW4YSNdvp17hT7LzH5lo/A7HFJ5rmcdJBPvjz5Ee9vwclnUWepKA46dRIJY3TFGNs5fZRCQ9SWkOoEQA0+tLPhSxxvrJIqDnWP1ZNFE2eDx7jQ==" NoCertificadoSAT="00001000000505371432" SelloSAT="r0TPeJYnY0pEkLcqlbnR4MACgEnE3sYa82DD7SJZfD3IoBO6ZCwmJHzIKR4AIjvCssZXL6dG3cmuU/qXoG1Gm+NQYA3zPxrq6d6OZ8q2jzXSz96iJXpRjQDPAu2jG5eN017rEJ6H180c/6tLBKnkJMp2PlBfA0AVCXhQ4CyfgENUce0xcP4TqmFKpWiN+rV1bCSHVMJx5pUMR9HaB1/MhoVg+17FYse5MbIoCA8bLPd/NsnDA9PWTi/o/s6VXBmntKJWgwTkf0LARMIqThfcrHNK3svjrU7NcVdkQe1234bVAeFseqMUb8ceLlng/I3kSWpCEmulR9z+q6ChuYk9+g=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Appeal="" Glntienda="" NombreDelAtributo1="" Simoneda="" TotalMx="67.77" UniGraf="D63" ValorDelAtributo="" afectada="" calle="II ETAPA DE PLAZA MAYOR, 3ER. PISO, OFICINA NO. 18" cantidadConLetra="(SESENTA Y SIETE EUROS 77/100)" cincoNeto="67.77" codigoPostal="." colonia="PAVAS, ROHRMOSER, SAN JOSE, COSTA RICA" correos="eroca@planeta.com.mx -t llopez@planeta.com.mx -t amonzalvo@planeta.com.mx -t afvazquez@planeta.com.mx -t dteran@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="CR" fac="2023-10-04" fechaEdi102="2023-10-04T18:37:14" fechaEdi204="2023-10-04T18:37:14" fechaOrden="" ivaMx="0.00" mail="eroca@planeta.com.mx;llopez@planeta.com.mx;amonzalvo@planeta.com.mx;afvazquez@planeta.com.mx;dteran@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00001273" noCopiasPrinter="3" noCopiasPrinterExtra="" noExterior="" noInterior="" noOrden="VLP-264/23" noProveedor="" nomAtributo="" pais="COSTA RICA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="67.77" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="17" unoButo="67.77" version="1.0" visualizacionEnXview="" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="" cantidad="1" codigo="0230257  " descripcion="Palacio del deseo" descuento="4901990400  Au" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="1" lista="3.83" pedi="" producto="9788427037038" serial="" sku="0230257" titulo="Palacio del deseo" titulocm="Palacio del deseo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" aduana="4318491000085/23-12-21/VE23/12/2021" cantidad="1" codigo="0230260  " descripcion="Entre dos palacios" descuento="4901990400  Au" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="2" lista="3.83" pedi="Pedimen." producto="9788427036222" serial="3-12-21/VE" sku="0230260" titulo="Entre dos palacios" titulocm="Entre dos palacios" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2502827  " descripcion="Una historia de la guerra civil que" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="3" lista="3.83" pedi="" producto="9788408114635" serial="" sku="2502827" titulo="Una historia de la guerra civil que no va a gustar" titulocm="Una historia de la guerra civil qu" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2503884  " descripcion="Secretos imperfectos" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="4" lista="3.83" pedi="" producto="9788408170372" serial="" sku="2503884" titulo="Secretos imperfectos" titulocm="Secretos imperfectos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="2.67" Punitario="2.67" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2504211  " descripcion="Mujer océano" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="2.67" iva="" linea="5" lista="2.67" pedi="" producto="9788408208099" serial="" sku="2504211" titulo="Mujer océano" titulocm="Mujer océano" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2504351  " descripcion="El manuscrito de fuego" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="6" lista="3.83" pedi="" producto="9788467056761" serial="" sku="2504351" titulo="El manuscrito de fuego" titulocm="El manuscrito de fuego" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2504953  " descripcion="El guardián de la verdad y la terce" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="3.83" iva="" linea="7" lista="3.83" pedi="" producto="9788467049213" serial="" sku="2504953" titulo="El guardián de la verdad y la tercera puerta del t" titulocm="El guardián de la verdad y la terc" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.60" Punitario="4.60" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505394  " descripcion="El manuscrito de barro" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.60" iva="" linea="8" lista="4.60" pedi="" producto="9788467064773" serial="" sku="2505394" titulo="El manuscrito de barro" titulocm="El manuscrito de barro" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.98" Punitario="4.98" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505473  " descripcion="Milagro en los Andes" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.98" iva="" linea="9" lista="4.98" pedi="" producto="9788408262329" serial="" sku="2505473" titulo="Milagro en los Andes" titulocm="Milagro en los Andes" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.98" Punitario="4.98" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505573  " descripcion="El manuscrito de niebla" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.98" iva="" linea="10" lista="4.98" pedi="" producto="9788467068627" serial="" sku="2505573" titulo="El manuscrito de niebla" titulocm="El manuscrito de niebla" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.98" Punitario="4.98" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505583  " descripcion="El manuscrito de nieve" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.98" iva="" linea="11" lista="4.98" pedi="" producto="9788408267461" serial="" sku="2505583" titulo="El manuscrito de nieve" titulocm="El manuscrito de nieve" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.21" Punitario="4.21" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505867  " descripcion="Ojo por ojo" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.21" iva="" linea="12" lista="4.21" pedi="" producto="9788408270829" serial="" sku="2505867" titulo="Ojo por ojo" titulocm="Ojo por ojo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="4.21" Punitario="4.21" SUM="H87" TasaIEPS="ok" TasaIVA="ok" UM="PIEZA" aduana="" cantidad="1" codigo="2505871  " descripcion="Vida por vida" descuento="4901990400  Bo" ean="PZA   49019904" ieps="" importe="4.21" iva="" linea="13" lista="4.21" pedi="" producto="9788408270843" serial="" sku="2505871" titulo="Vida por vida" titulocm="Vida por vida" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="2.67" Punitario="2.67" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="1" codigo="8202223  " descripcion="El amante" descuento="4901990400  Tu" ean="PZA   49019904" ieps="" importe="2.67" iva="" linea="14" lista="2.67" pedi="" producto="9788483835722" serial="" sku="8202223" titulo="El amante" titulocm="El amante" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="3.83" Punitario="3.83" SUM="H87" TasaIEPS="sq" TasaIVA="sq" UM="PIEZA" aduana="" cantidad="3" codigo="8202530  " descripcion="El lector de Julio Verne" descuento="4901990400  Tu" ean="PZA   49019904" ieps="" importe="11.49" iva="" linea="15" lista="3.83" pedi="" producto="9788483838532" serial="" sku="8202530" titulo="El lector de Julio Verne" titulocm="El lector de Julio Verne" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn calle="" codigoPostal="" colonia="" estado="" localidad="" municipio="" noExterior="" noInterior="" nombre="3101167504" pais="" referencia="" telefono=""/>
+                <fa:Detallista FechaDeEntrada="" GlnComprador="" NoEntrada="" NoProveedorSAT="" NoRemision="" centro="" fechaMercancia="2023-10-04" fechaOrdenCompra="2023-10-04" noContraReciboMercancia="" noDepartamento="" noProveedor="" ordenCompra="00001262" subTotal="67.77" total="67.77" vendedorGln=""/>
+                <fa:Datosac chofer="" cliente="" condiciones="" correo="" moneda="" ocompra="" pedido="" pedidoNo="" teltienda="" vendedor="" viadeembarques=""/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2023" codCliente="000013164-9" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="EXW // NO SURTIR" fecha="04/10/2023" noCliente="PedLocDoc:00001273" noOrdenCompra="VLP-264/23" pedidoInterno="00001262" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013164-9" unoObservaciones="OC: 17559 PRINTED BOOKS  HS CODE 49.01.99"/>
+                <fa:Impuestos>
+                    <fa:Retenciones>
+                        <fa:Retencion importe="7" impuesto="IVA" tasa="0"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="16"/>
+                        <fa:Retencion importe="0" impuesto="IVA" tasa="EXENTA"/>
+                        <fa:RetencionUno importe="67.77" impuesto="IVA" tasa="0"/>
+                        <fa:RetencionDos importe="0.00" impuesto="IVA" tasa="16"/>
+                        <fa:RetencionTres importe="0.00" impuesto="IVA" tasa="EXENTA"/>
+                    </fa:Retenciones>
+                    <fa:Traslados>
+                        <fa:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor=""/>
+                    </fa:Traslados>
+                </fa:Impuestos>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Lucida Console" n 9
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+04/10/2023
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\001262
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2023-10-04T18:37:14 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+D15B32D5-1DF5-48A5-9B61-41EA79318880
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000505710997
+~]
+~#
+~[30
+~#D M90.90 "830001262.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2023-10-04T18:37:14
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A.   
+
+3101167504
+
+II ETAPA DE PLAZA MAYOR, 3ER. PISO, OFICINA NO. 18  
+
+PAVAS, ROHRMOSER, SAN JOSE, COSTA RICA 
+
+CR COSTA RICA C.P. .
+
+Proveedor: PedLocDoc:00001273
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013164-9
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+OC: 17559 PRINTED BOOKS  HS CODE 49.01.99
+
+EXW // NO SURTIR
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013164-9 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+180 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-264/23
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00001262
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0230257  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Palacio del deseo
+~# @?Jc
+9788427037038
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+0230260  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Entre dos palacios
+~# @?Jc
+9788427036222
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318491000085/23-12-21/VE23/12/2021
+~# @?Jc
+3-12-21/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2502827  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Una historia de la guerra civil que no va a gustar
+~# @?Jc
+9788408114635
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2503884  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Secretos imperfectos
+~# @?Jc
+9788408170372
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504211  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Mujer océano
+~# @?Jc
+9788408208099
+~# @?Jr
+2.67
+~# @?Jr
+2.67
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504351  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El manuscrito de fuego
+~# @?Jc
+9788467056761
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2504953  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El guardián de la verdad y la tercera puerta del t
+~# @?Jc
+9788467049213
+~# @?Jr
+3.83
+~# @?Jr
+3.83
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505394  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El manuscrito de barro
+~# @?Jc
+9788467064773
+~# @?Jr
+4.60
+~# @?Jr
+4.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505473  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Milagro en los Andes
+~# @?Jc
+9788408262329
+~# @?Jr
+4.98
+~# @?Jr
+4.98
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505573  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El manuscrito de niebla
+~# @?Jc
+9788467068627
+~# @?Jr
+4.98
+~# @?Jr
+4.98
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505583  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El manuscrito de nieve
+~# @?Jc
+9788408267461
+~# @?Jr
+4.98
+~# @?Jr
+4.98
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505867  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Ojo por ojo
+~# @?Jc
+9788408270829
+~# @?Jr
+4.21
+~# @?Jr
+4.21
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2505871  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+Vida por vida
+~# @?Jc
+9788408270843
+~# @?Jr
+4.21
+~# @?Jr
+4.21
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8202223  
+~# @?Jc
+1
+~# @?Jc
+H87
+~# @?
+El amante
+~# @?Jc
+9788483835722
+~# @?Jr
+2.67
+~# @?Jr
+2.67
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+8202530  
+~# @?Jc
+3
+~# @?Jc
+H87
+~# @?
+El lector de Julio Verne
+~# @?Jc
+9788483838532
+~# @?Jr
+3.83
+~# @?Jr
+11.49
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+17
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "D15B32D5-1DF5-48A5-9B61-41EA79318880.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Gastos Envio 
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base Exento
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 0 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Base 16 %
+~#|15.1 urd0 e+|@? M30.30 Jv50
+Total I.V.A. 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M43.43 Jv50 Jr
+
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+67.77
+~#|15.1 uldr0 e+|@? M39.39 Jv50 Jr
+0.00
+~#|15.1 uldr0 e+|@? M40.40 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+67.77
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+67.77
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(SESENTA Y SIETE EUROS 77/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+CENhDZmAEhz6MR1823m2xPvG6SNB9RAiZp0QRoe1ACEfatYHFWhEIY4I1iljULyqONuY29qBkyI18rTbcqbzjrCgrIfXoQDqpVCSoAYFI3hFVncuv6ZDFzSVPR05TE3Vg8RzU7mcr4ZO2qkv0qn2iGbHffnZH8dqjzOJoxEzh92UELjA2xZC+cYGTUTwOxvehdtaHWaI88tl5wDVd1BkJsORVIX8yPcfv0WBYzyHTW4YSNdvp17hT7LzH5lo/A7HFJ5rmcdJBPvjz5Ee9vwclnUWepKA46dRIJY3TFGNs5fZRCQ9SWkOoEQA0+tLPhSxxvrJIqDnWP1ZNFE2eDx7jQ==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+r0TPeJYnY0pEkLcqlbnR4MACgEnE3sYa82DD7SJZfD3IoBO6ZCwmJHzIKR4AIjvCssZXL6dG3cmuU/qXoG1Gm+NQYA3zPxrq6d6OZ8q2jzXSz96iJXpRjQDPAu2jG5eN017rEJ6H180c/6tLBKnkJMp2PlBfA0AVCXhQ4CyfgENUce0xcP4TqmFKpWiN+rV1bCSHVMJx5pUMR9HaB1/MhoVg+17FYse5MbIoCA8bLPd/NsnDA9PWTi/o/s6VXBmntKJWgwTkf0LARMIqThfcrHNK3svjrU7NcVdkQe1234bVAeFseqMUb8ceLlng/I3kSWpCEmulR9z+q6ChuYk9+g==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|D15B32D5-1DF5-48A5-9B61-41EA79318880|2023-10-05T06:27:56|CENhDZmAEhz6MR1823m2xPvG6SNB9RAiZp0QRoe1ACEfatYHFWhEIY4I1iljULyqONuY29qBkyI18rTbcqbzjrCgrIfXoQDqpVCSoAYFI3hFVncuv6ZDFzSVPR05TE3Vg8RzU7mcr4ZO2qkv0qn2iGbHffnZH8dqjzOJoxEzh92UELjA2xZC+cYGTUTwOxvehdtaHWaI88tl5wDVd1BkJsORVIX8yPcfv0WBYzyHTW4YSNdvp17hT7LzH5lo/A7HFJ5rmcdJBPvjz5Ee9vwclnUWepKA46dRIJY3TFGNs5fZRCQ9SWkOoEQA0+tLPhSxxvrJIqDnWP1ZNFE2eDx7jQ==|00001000000505371432||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000505371432
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2023-10-05T06:27:56
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Version="4.0" Serie="ATEB" Folio="12345" Fecha="2026-03-17T12:00:00" TipoDeComprobante="I" Moneda="MXN" SubTotal="100.00" Total="116.00">
-  <cfdi:Emisor Rfc="VCO1307234VA" Nombre="VANTEC S.A. DE C.V."/>
-  <cfdi:Receptor Rfc="XAXX010101000" Nombre="CLIENTE GENERAL" UsoCFDI="G03"/>
-  <cfdi:Complemento>
-    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" UUID="e6f64bb0-3971-4cc8-b883-cd183eca77aa" FechaTimbrado="2026-03-17T12:05:00"/>
-  </cfdi:Complemento>
-</cfdi:Comprobante>

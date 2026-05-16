@@ -1,4 +1,0 @@
-2026-03-12 14:23:26 - ERR_SMTP - No se encontro el archivo HTML: c:\Test_Antigravity\Gestor_CFDI_Vantec\microservices\mailer\temp_body_reenvio.html
-2026-03-12 14:24:48 - ERR_SMTP - [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
-2026-03-12 14:24:53 - ERR_SMTP - [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
-2026-03-12 14:24:57 - ERR_SMTP - [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión

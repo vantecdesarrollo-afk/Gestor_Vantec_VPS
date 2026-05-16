@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Test_Antigravity\Gestor_CFDI_Vantec\test_import.py", line 5, in <module>
-    import src.main
-  File "C:\Test_Antigravity\Gestor_CFDI_Vantec\src\main.py", line 5, in <module>
-    from src.api.endpoints import cfdis, auth, gui, analytics
-  File "C:\Test_Antigravity\Gestor_CFDI_Vantec\src\api\endpoints\analytics.py", line 7, in <module>
-    from src.api.endpoints.auth import get_active_entidad
-ImportError: cannot import name 'get_active_entidad' from 'src.api.endpoints.auth' (C:\Test_Antigravity\Gestor_CFDI_Vantec\src\api\endpoints\auth.py)
-

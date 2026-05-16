@@ -1,6 +1,0 @@
-
---- INVENTARIO FOLIO %305% ---
-Folio (DB): '0000000305'
-UUID:       'af41872d-1e12-44ec-9d58-614b23e9655c'
-Ruta:       'C:\Test_Antigravity\Gestor_CFDI_Vantec\storage\tenants\e6f64bb0-3971-4cc8-b883-cd183eca77d7\2025\10'
---------------------

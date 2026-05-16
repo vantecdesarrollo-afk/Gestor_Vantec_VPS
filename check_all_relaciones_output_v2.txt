@@ -1,2 +1,0 @@
-Total rows in cfdi_relacionados: 1
-(518, UUID('5c50b007-7b1b-4cb1-b21a-2363acfb4daa'), 'AF41872D-1E12-44EC-9D58-614B23E9655C', '39E5E6E4-534A-4B08-A5AE-77A6E3B41C91', 'PAGO', Decimal('106575.000000'), Decimal('0.000000'), 1)

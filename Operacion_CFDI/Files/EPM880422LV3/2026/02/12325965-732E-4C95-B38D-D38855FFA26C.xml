@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="180 DIAS" Descuento="0.00" Exportacion="01" Fecha="2026-02-09T22:00:58" Folio="001995" FormaPago="99" LugarExpedicion="11560" MetodoPago="PPD" Moneda="EUR" NoCertificado="00001000000710885331" Sello="eHobriaP9Hudm2Dz4zmz1XPZk1xAMcqZHXozluNPV6sjtXBWJ13ti1A6CyHbR2SWt8xctg91zXJMro/77whRLtqJuoo3YkvNfP615jCwRPsdfSijgehnkOvPBp32gu/q5VSFbvB0lGFPn+nkMryZ7M2FqYmiLv5p+VRaYD3AWBsMDsgQTd3HqsegqTduTmr8HpmRI1UXpY8wsNcdp6eFsOj/rd5niZG83m/KQC1XXnA1odH+ZDiGjDO6MRjoxG0Sq2eQy87AvLpAmZs8s1F0uom6BZGXW4mjMi3fjkgLp1qFRcx9wbjUpslTFD7Os8UO/BMPCS7RG+UY94CDpgvnhw==" Serie="TMC" SubTotal="19602.44" TipoCambio="20.313115" TipoDeComprobante="I" Total="19602.44" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior20.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd"><cfdi:Emisor Nombre="EDITORIAL PLANETA MEXICANA" RegimenFiscal="601" Rfc="EPM880422LV3"/><cfdi:Receptor DomicilioFiscalReceptor="11560" Nombre="DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A." RegimenFiscalReceptor="616" Rfc="XEXX010101000" UsoCFDI="S01"/><cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Más fuerte que nunca" Descuento="0.00" Importe="298.80" NoIdentificacion="9788408277217" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="El Silmarillion. Edición ilustrada por el autor" Descuento="0.00" Importe="788.40" NoIdentificacion="9788445016794" ObjetoImp="01" ValorUnitario="19.71"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Estuche Tolkien (El Hobbit + El Senor de los Anill" Descuento="0.00" Importe="1242.80" NoIdentificacion="9788445018248" ObjetoImp="01" ValorUnitario="31.07"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="La pelirroja de Auschwitz" Descuento="0.00" Importe="345.20" NoIdentificacion="9788467076967" ObjetoImp="01" ValorUnitario="8.63"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Out" Descuento="0.00" Importe="345.20" NoIdentificacion="9788423364534" ObjetoImp="01" ValorUnitario="8.63"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Asesinato para principiantes" Descuento="0.00" Importe="314.50" NoIdentificacion="9788408223122" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="4" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Desaparición para expertos" Descuento="0.00" Importe="25.16" NoIdentificacion="9788408241621" ObjetoImp="01" ValorUnitario="6.29"/>
+        <cfdi:Concepto Cantidad="39" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de llamas plateadas" Descuento="0.00" Importe="306.54" NoIdentificacion="9788408249429" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="75" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de rosas y espinas. Nueva presentación" Descuento="0.00" Importe="589.50" NoIdentificacion="9788408257103" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de niebla y furia. Nueva presentación" Descuento="0.00" Importe="393.00" NoIdentificacion="9788408257110" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de alas y ruina. Nueva presentación" Descuento="0.00" Importe="314.40" NoIdentificacion="9788408257127" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="20" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de hielo y estrellas. Nueva presentación" Descuento="0.00" Importe="149.40" NoIdentificacion="9788408257134" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 1. Twisted love" Descuento="0.00" Importe="747.00" NoIdentificacion="9788408260509" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 2. Twisted Games" Descuento="0.00" Importe="373.50" NoIdentificacion="9788408267041" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Twisted 4. Twisted Lies" Descuento="0.00" Importe="298.80" NoIdentificacion="9788408282952" ObjetoImp="01" ValorUnitario="7.47"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de rosas y espinas. Edición especial" Descuento="0.00" Importe="1968.00" NoIdentificacion="9788408285298" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="100" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 1. Rey de la ira. Edición especial" Descuento="0.00" Importe="944.00" NoIdentificacion="9788408289722" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="200" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de niebla y furia. Edición especial" Descuento="0.00" Importe="1968.00" NoIdentificacion="9788408290964" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 2. Rey de la soberbia. Edición especial" Descuento="0.00" Importe="472.00" NoIdentificacion="9788408292661" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="116" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Cuando no queden más estrellas que contar. Edición" Descuento="0.00" Importe="1049.80" NoIdentificacion="9788408292647" ObjetoImp="01" ValorUnitario="9.05"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de alas y ruina. Edición especial" Descuento="0.00" Importe="1476.00" NoIdentificacion="9788408292678" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de hielo y estrellas. Edición especial" Descuento="0.00" Importe="1476.00" NoIdentificacion="9788408299622" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="50" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Pecados 3. Rey de la codicia. Edición especial" Descuento="0.00" Importe="472.00" NoIdentificacion="9788408299707" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Acelerando en rojo" Descuento="0.00" Importe="1179.00" NoIdentificacion="9788408299615" ObjetoImp="01" ValorUnitario="7.86"/>
+        <cfdi:Concepto Cantidad="40" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Una corte de llamas plateadas. Edición especial" Descuento="0.00" Importe="393.60" NoIdentificacion="9788408304012" ObjetoImp="01" ValorUnitario="9.84"/>
+        <cfdi:Concepto Cantidad="150" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Rose in chains" Descuento="0.00" Importe="1416.00" NoIdentificacion="9788408307464" ObjetoImp="01" ValorUnitario="9.44"/>
+        <cfdi:Concepto Cantidad="26" ClaveProdServ="55101510" ClaveUnidad="D63" Descripcion="Principios" Descuento="0.00" Importe="255.84" NoIdentificacion="9788423430024" ObjetoImp="01" ValorUnitario="9.84"/>
+    </cfdi:Conceptos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="12325965-732E-4C95-B38D-D38855FFA26C" FechaTimbrado="2026-02-10T08:16:16" RfcProvCertif="ASE0209252Q1" SelloCFD="eHobriaP9Hudm2Dz4zmz1XPZk1xAMcqZHXozluNPV6sjtXBWJ13ti1A6CyHbR2SWt8xctg91zXJMro/77whRLtqJuoo3YkvNfP615jCwRPsdfSijgehnkOvPBp32gu/q5VSFbvB0lGFPn+nkMryZ7M2FqYmiLv5p+VRaYD3AWBsMDsgQTd3HqsegqTduTmr8HpmRI1UXpY8wsNcdp6eFsOj/rd5niZG83m/KQC1XXnA1odH+ZDiGjDO6MRjoxG0Sq2eQy87AvLpAmZs8s1F0uom6BZGXW4mjMi3fjkgLp1qFRcx9wbjUpslTFD7Os8UO/BMPCS7RG+UY94CDpgvnhw==" NoCertificadoSAT="00001000000707891043" SelloSAT="RngeU+pAJyBkAYd8Ju07h7xj7aHJb2ZegVR//8UGVXb9n8Nlu76DU+nntRdyNfjysKyJe3vOjRmluq8a4NAh0PxkMw4ZeS4PeM7X+swFuPftf78X2j/cVjCLbZ9EcmAx8Am3y3D8+qYSbm04nh4nDW/IFfj+8qmCl+6TjLWuU9cRbUmUgxFR4b5lEa+Fzd6m68NNrkT7P+B+7hyOn0AZ9RM1G1iz+zChnnyTJ2p4emoEt3X3mn5+D7SRX5qEfqKhDGAZ8udV0l1H4eXhadFWA57RZ0IJEAcmOA+k72dXPiZ8BHZ8kF/1NcAGTG8Z0539N5x51q5O5UW8bgJWgaiblA=="/></cfdi:Complemento><cfdi:Addenda>
+        <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" Simoneda="" TotalMx="19602.44" UniGraf="D63" ValorDelAtributo="" calle="II ETAPA DE PLAZA MAYOR" cantidadConLetra="(DIECINUEVE MIL SEISCIENTOS DOS EUROS 44/100)" cincoNeto="19602.44" codigoPostal="10109" colonia="PAVAS  ROHRMOSER" correos="dteran@planeta.com.mx -t llopez@planeta.com.mx -t amonzalvo@planeta.com.mx -t afvazquez@planeta.com.mx -t dteran@planeta.com.mx -t anagabriela.puga@planeta.com.mx -t oscaraugusto.garcia@planeta.com.mx" cuatroIva="" descuentoMx="0.00" dosDescuento="0.00" estado="SAN JOSE" fac="2026-02-09" fechaEdi102="2026-02-09T22:00:58" fechaEdi204="2026-02-09T22:00:58" ivaMx="" mail="dteran@planeta.com.mx;llopez@planeta.com.mx;amonzalvo@planeta.com.mx;afvazquez@planeta.com.mx;dteran@planeta.com.mx;anagabriela.puga@planeta.com.mx;oscaraugusto.garcia@planeta.com.mx" moneda="EUR" noCliente="PedLocDoc:00002009" noCopiasPrinter="3" noExterior="2DO P OF 7" noInterior="" noOrden="VLP-024/26" noProveedor="" nomAtributo="" pais="COSTA RICA" passEncript="" printer="ToshOnest" printerExtra="" reportada="" sanoCliente="PedLocD" status="" subTotalMx="19602.44" tipoCambio="" tipoDocumento="FACTURA" tresEnvio="0.00" unidadesFacturadas="2,050" unoButo="19602.44" version="1.0" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd">
+            <fa:Detalle>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="an" TasaIVA="an" UM="PIEZA" cantidad="40" codigo="1301849  " descripcion="Más fuerte que nunca" descuento="4901990400  Di" ean="PZA   49019904" importe="298.80" linea="1" lista="7.47" producto="9788408277217" serial="" sku="1301849" titulo="Más fuerte que nunca" titulocm="Más fuerte que nunca" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="19.71" Punitario="19.71" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4318495002638/23-10-25/VE23/10/2025" cantidad="40" codigo="1401357  " descripcion="El Silmarillion. Edición ilustrada" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="788.40" linea="2" lista="19.71" pedi="Pedimen." producto="9788445016794" serial="3-10-25/VE" sku="1401357" titulo="El Silmarillion. Edición ilustrada por el autor" titulocm="El Silmarillion. Edición ilustrada" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="31.07" Punitario="31.07" SUM="H87" TasaIEPS="no" TasaIVA="no" UM="PIEZA" aduana="4318494000602/06-11-24/VE06/11/2024" cantidad="40" codigo="1401407  " descripcion="Estuche Tolkien (El Hobbit + El Sen" descuento="4901990400  Mi" ean="PZA   49019904" ieps="o" importe="1242.80" linea="3" lista="31.07" pedi="Pedimen." producto="9788445018248" serial="6-11-24/VE" sku="1401407" titulo="Estuche Tolkien (El Hobbit + El Senor de los Anill" titulocm="Estuche Tolkien (El Hobbit + El Se" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.63" Punitario="8.63" SUM="H87" TasaIEPS="pa" TasaIVA="pa" UM="PIEZA" cantidad="40" codigo="2302554  " descripcion="La pelirroja de Auschwitz" descuento="4901990400  Es" ean="PZA   49019904" importe="345.20" linea="4" lista="8.63" producto="9788467076967" serial="" sku="2302554" titulo="La pelirroja de Auschwitz" titulocm="La pelirroja de Auschwitz" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="8.63" Punitario="8.63" SUM="H87" TasaIEPS="st" TasaIVA="st" UM="PIEZA" cantidad="40" codigo="3002829  " descripcion="Out" descuento="4901990400  De" ean="PZA   49019904" importe="345.20" linea="5" lista="8.63" producto="9788423364534" serial="" sku="3002829" titulo="Out" titulocm="Out" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3100382  " descripcion="Asesinato para principiantes" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="314.50" linea="6" lista="6.29" producto="9788408223122" serial="" sku="3100382" titulo="Asesinato para principiantes" titulocm="Asesinato para principiantes" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="6.29" Punitario="6.29" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="4" codigo="3100571  " descripcion="Desaparición para expertos" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="25.16" linea="7" lista="6.29" producto="9788408241621" serial="" sku="3100571" titulo="Desaparición para expertos" titulocm="Desaparición para expertos" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="39" codigo="3100694  " descripcion="Una corte de llamas plateadas" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="306.54" linea="8" lista="7.86" producto="9788408249429" serial="" sku="3100694" titulo="Una corte de llamas plateadas" titulocm="Una corte de llamas plateadas" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="75" codigo="3100801  " descripcion="Una corte de rosas y espinas. Nueva" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="589.50" linea="9" lista="7.86" producto="9788408257103" serial="" sku="3100801" titulo="Una corte de rosas y espinas. Nueva presentación" titulocm="Una corte de rosas y espinas. Nuev" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3100802  " descripcion="Una corte de niebla y furia. Nueva" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="393.00" linea="10" lista="7.86" producto="9788408257110" serial="" sku="3100802" titulo="Una corte de niebla y furia. Nueva presentación" titulocm="Una corte de niebla y furia. Nueva" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="40" codigo="3100813  " descripcion="Una corte de alas y ruina. Nueva pr" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="314.40" linea="11" lista="7.86" producto="9788408257127" serial="" sku="3100813" titulo="Una corte de alas y ruina. Nueva presentación" titulocm="Una corte de alas y ruina. Nueva p" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="20" codigo="3100814  " descripcion="Una corte de hielo y estrellas. Nue" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="149.40" linea="12" lista="7.47" producto="9788408257134" serial="" sku="3100814" titulo="Una corte de hielo y estrellas. Nueva presentación" titulocm="Una corte de hielo y estrellas. Nu" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="100" codigo="3100934  " descripcion="Twisted 1. Twisted love" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="747.00" linea="13" lista="7.47" producto="9788408260509" serial="" sku="3100934" titulo="Twisted 1. Twisted love" titulocm="Twisted 1. Twisted love" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101028  " descripcion="Twisted 2. Twisted Games" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="373.50" linea="14" lista="7.47" producto="9788408267041" serial="" sku="3101028" titulo="Twisted 2. Twisted Games" titulocm="Twisted 2. Twisted Games" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.47" Punitario="7.47" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="40" codigo="3101248  " descripcion="Twisted 4. Twisted Lies" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="298.80" linea="15" lista="7.47" producto="9788408282952" serial="" sku="3101248" titulo="Twisted 4. Twisted Lies" titulocm="Twisted 4. Twisted Lies" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101275  " descripcion="Una corte de rosas y espinas. Edici" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1968.00" linea="16" lista="9.84" producto="9788408285298" serial="" sku="3101275" titulo="Una corte de rosas y espinas. Edición especial" titulocm="Una corte de rosas y espinas. Edic" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="100" codigo="3101352  " descripcion="Pecados 1. Rey de la ira. Edición e" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="944.00" linea="17" lista="9.44" producto="9788408289722" serial="" sku="3101352" titulo="Pecados 1. Rey de la ira. Edición especial" titulocm="Pecados 1. Rey de la ira. Edición" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="200" codigo="3101447  " descripcion="Una corte de niebla y furia. Edició" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1968.00" linea="18" lista="9.84" producto="9788408290964" serial="" sku="3101447" titulo="Una corte de niebla y furia. Edición especial" titulocm="Una corte de niebla y furia. Edici" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101452  " descripcion="Pecados 2. Rey de la soberbia. Edic" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="472.00" linea="19" lista="9.44" producto="9788408292661" serial="" sku="3101452" titulo="Pecados 2. Rey de la soberbia. Edición especial" titulocm="Pecados 2. Rey de la soberbia. Edi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.05" Punitario="9.05" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="116" codigo="3101488  " descripcion="Cuando no queden más estrellas que" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1049.80" linea="20" lista="9.05" producto="9788408292647" serial="" sku="3101488" titulo="Cuando no queden más estrellas que contar. Edición" titulocm="Cuando no queden más estrellas que" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="150" codigo="3101509  " descripcion="Una corte de alas y ruina. Edición" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1476.00" linea="21" lista="9.84" producto="9788408292678" serial="" sku="3101509" titulo="Una corte de alas y ruina. Edición especial" titulocm="Una corte de alas y ruina. Edición" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="150" codigo="3101588  " descripcion="Una corte de hielo y estrellas. Edi" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1476.00" linea="22" lista="9.84" producto="9788408299622" serial="" sku="3101588" titulo="Una corte de hielo y estrellas. Edición especial" titulocm="Una corte de hielo y estrellas. Ed" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="50" codigo="3101589  " descripcion="Pecados 3. Rey de la codicia. Edici" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="472.00" linea="23" lista="9.44" producto="9788408299707" serial="" sku="3101589" titulo="Pecados 3. Rey de la codicia. Edición especial" titulocm="Pecados 3. Rey de la codicia. Edic" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="7.86" Punitario="7.86" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="150" codigo="3101601  " descripcion="Acelerando en rojo" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1179.00" linea="24" lista="7.86" producto="9788408299615" serial="" sku="3101601" titulo="Acelerando en rojo" titulocm="Acelerando en rojo" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="40" codigo="3101642  " descripcion="Una corte de llamas plateadas. Edic" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="393.60" linea="25" lista="9.84" producto="9788408304012" serial="" sku="3101642" titulo="Una corte de llamas plateadas. Edición especial" titulocm="Una corte de llamas plateadas. Edi" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.44" Punitario="9.44" SUM="H87" TasaIEPS="os" TasaIVA="os" UM="PIEZA" cantidad="150" codigo="3101674  " descripcion="Rose in chains" descuento="4901990400  Cr" ean="PZA   49019904" ieps="ks" importe="1416.00" linea="26" lista="9.44" producto="9788408307464" serial="" sku="3101674" titulo="Rose in chains" titulocm="Rose in chains" unidadMedi="PIEZA"/>
+                <fa:Detalle PrecioUnitario="9.84" Punitario="9.84" SUM="H87" TasaIEPS="us" TasaIVA="us" UM="PIEZA" cantidad="26" codigo="9100468  " descripcion="Principios" descuento="4901990400  De" ean="PZA   49019904" importe="255.84" linea="27" lista="9.84" producto="9788423430024" serial="" sku="9100468" titulo="Principios" titulocm="Principios" unidadMedi="PIEZA"/>
+            </fa:Detalle>
+            <fa:CadenaOriginal/>
+            <fa:AddendaComercial>
+                <fa:EntregadoEn nombre="3101167504"/>
+                <fa:Detallista fechaMercancia="2026-02-09" fechaOrdenCompra="2026-02-09" ordenCompra="00001995" subTotal="19602.44" total="19602.44"/>
+                <fa:Planeta ClaveAgente="0014002" TotalUnidadesFactura="" ZonadeEntrega="" actividad="830" ano="2026" codCliente="000013164-9" comentarioLeyenda="BANCOMER CIE 928720;SANTANDER convenio 1217" dosObservaciones="NO SURTIR  EXW" fecha="09/02/2026" noCliente="PedLocDoc:00002009" noOrdenCompra="VLP-024/26" pedidoInterno="00001995" porcentajeDeDescuentoTotal="0.00" referenciaBanca="Referencia Bancaria:000013164-9" unoObservaciones="OC:23073  PRINTED BOOKS  HS CODE 49.01.99"/>
+            </fa:AddendaComercial>
+            <fa:hfd version="1.0">~|0| Z0 Xi
+~K1="Lucida Console" n 8
+~K2="Aria"  8
+~K3="Aria Narrow" n 6
+~K4="Aria Narrow" 6
+~K5="Aria Narrow" 4
+~K6="Aria Narrow" n 4
+~K7="Arial" n 10
+~K8="Arial" 2
+~K9="Lucida Console" n 7
+~A "agua_EPM880422LV3.JPG"
+
+~&lt;P'=1' 
+~&gt;
+
+~H|0|
+~[3 2 1
+~#|0| Jr
+
+~#|e+|@1 Jr
+
+~#|r90 e+|@1 Jr
+@p/@P
+~]
+
+~[170 140 130 130 130 90 145
+~#|0|
+~[1
+~#|0|
+~D "Logo_EPM880422LV3.jpg";
+~#|0|@3.5
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V.
+~#|0|@3.5
+
+
+
+~]
+~#|0e+|
+
+~[1
+~#|0l10.0|@3
+Domicilio Fiscal
+~#|0l10.0|@4
+Presidente Masarik 111 Piso 2
+~#|0l10.0|@4
+Col.Polanco V sección 11560
+~#|0l10.0|@4
+CDMX
+~#|0l10.0|@4
+RFC. EPM-880422LV3
+~]
+~#|0|
+~[1
+~#|0|@3
+Almacén
+~#|0|@4
+Carr. Mex - Qro 
+
+Km 34.5 Nave 5
+~#|0|@4
+Col. Ejido de Tultitlán
+~#|0|@4
+CP. 54730 Cuautitlán 
+
+Izcalli, Estado de Méx.
+~]
+~#|0|
+~[1
+~#|0|@3
+Librería
+~#|0|@4
+Pasaje Metro 
+~#|0|@4
+Zocalo-Pino Suarez L-7
+~#|0|@4
+Col. Centro
+~#|0|@4
+C.P. 06070 México, CDMX
+
+Tel. 5522-5203
+~]
+~#|0|
+~[1
+~#|0l5.0|@3
+Tels. de Ventas
+~#|0l5.0|@4
+5002-9165  5002-9167
+~#|0l5.0|@4
+ventas\\@planeta.com.mx
+~#|0l5.0|@4
+ccobranza\\@planeta.com.mx
+~]
+~#|0|
+~[90
+~#|15.1 f4.35 glg e+|Jc @2
+FECHA
+~#|15.1 gdg e+|@2 M82.82 Jv50 Jc
+09/02/2026
+~#|e+|M35.35 Jl @2
+830
+
+~]
+~#|0|
+~[135
+~#|15.1 f4.35 gug e+|Jc @2
+FACTURA
+~#
+~[15 40
+~#|15.1 r0 e+|@1 M82.82 Jv50 Jr
+TMC
+~#|15.1 grg l0 e+|@1 M82.82 Jv50 Jl
+\\ \\001995
+~]
+~]
+~]
+
+~[30 30 30 30
+~#
+~[30
+~#|e+|M90.90 Jr @2
+Ciudad de México, 2026-02-09T22:00:58 
+~#|15.1 f4.35 e+|Jc @4
+Folio Fiscal: 
+~#|15.1 e+|Jc @4
+12325965-732E-4C95-B38D-D38855FFA26C
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @2
+.
+~#|15.1 f4.35 e+|Jc @4
+No de Serie del Certificado del CSD:
+~#|15.1 e+|Jc @4
+00001000000710885331
+~]
+~#
+~[30
+~#D M90.90 "830001995.B39"; 
+~#|15.1 f4.35 e+|Jc @4
+Regimen Fiscal:
+~#|15.1 e+|Jc @4
+601
+~]
+~#
+~[30
+~#|e+|M90.90 Jr @7
+
+~#|15.1 f4.35 e+|Jc @4
+Fecha y Hora de emisiòn: 
+~#|15.1 e+|Jc @4
+2026-02-09T22:00:58
+~]
+~]
+
+
+
+~&lt;Z10
+~&gt;
+
+
+~[90  100
+~#
+~[90
+
+~#|15.1 f4.35 glg e+|Jc @2
+F A C T U R A D O   A :
+~#|15.1 e+ d0|@1 M340.340 Jv20 
+RFC Cliente:XEXX010101000
+
+DESARROLLOS CULTURALES COSTARRICENSES D.C.C.,S.A.   
+
+3101167504
+
+II ETAPA DE PLAZA MAYOR  2DO P OF 7
+
+PAVAS  ROHRMOSER 
+
+SAN JOSE COSTA RICA C.P. 10109
+
+Proveedor: PedLocDoc:00002009
+~#|15.1 gdg u0|@1  M90.90 Jl
+BANCOMER CIE 928720;SANTANDER convenio 1217
+
+Referencia Bancaria:000013164-9
+~]
+~#
+~[100     
+
+~#|15.1 f4.35 gug e+|Jc @2
+I N S T R U C C I O N E S
+~#|15.1 e+|@1 M280.280 Jv50 
+Entregar en:      
+
+     
+
+OC:23073  PRINTED BOOKS  HS CODE 49.01.99
+
+NO SURTIR  EXW
+~#
+~[18 12 18 17 15 16 12
+~#|15.1f4.35 e+| M25.25Jc @4
+CVE. CLIENTE 
+~#|15.1 f4.35 e+| M25.25Jc @4
+DESC %
+~#|15.1 f4.35 e+| M25.25Jc @4
+CONDICIONES 
+~#|15.1 f4.35 e+| M25.25Jc @4
+AGENTE
+~#|15.1 f4.35 e+| M25.25Jc @4
+ORDEN
+~#|15.1 f4.35 e+| M25.25Jc @4
+PEDIDO
+~#|15.1 f4.35e+|M25.25Jc @4
+ZONA E.
+
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+000013164-9 
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0.00
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+180 DIAS
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+0014002
+~#|15.1 e+|@4 M70.70 Jv50 Jl
+VLP-024/26
+~#|15.1 e+|@4 M70.70 Jv50 Jc
+00001995
+~#|15.1grg e+|@4 M70.70 Jv50 Jc
+
+~]
+~]
+~]
+
+~[9 10 8 35 15 12 14 
+~#|15.1 f4.35 glg e+|Jc @2
+CODIGO
+~#|15.1 f4.35 e+|Jc @2
+CANTIDAD
+~#|15.1 f4.35 e+|Jc @2
+U.M.
+~#|15.1 f4.35 e+|Jc @2
+TITULO
+~#|15.1 f4.35 e+|Jc @2
+PRODUCTO
+~#|15.1 f4.35 e+|Jc @2
+P LISTA
+~#|15.1 f4.35 gug e+|Jc @2
+IMPORTE
+~]
+~&gt;
+
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1301849  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Más fuerte que nunca
+~# @?Jc
+9788408277217
+~# @?Jr
+7.47
+~# @?Jr
+298.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401357  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+El Silmarillion. Edición ilustrada por el autor
+~# @?Jc
+9788445016794
+~# @?Jr
+19.71
+~# @?Jr
+788.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318495002638/23-10-25/VE23/10/2025
+~# @?Jc
+3-10-25/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+1401407  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Estuche Tolkien (El Hobbit + El Senor de los Anill
+~# @?Jc
+9788445018248
+~# @?Jr
+31.07
+~# @?Jr
+1,242.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+Pedimen.
+~# @?Jl
+4318494000602/06-11-24/VE06/11/2024
+~# @?Jc
+6-11-24/VE
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+2302554  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+La pelirroja de Auschwitz
+~# @?Jc
+9788467076967
+~# @?Jr
+8.63
+~# @?Jr
+345.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3002829  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Out
+~# @?Jc
+9788423364534
+~# @?Jr
+8.63
+~# @?Jr
+345.20
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100382  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Asesinato para principiantes
+~# @?Jc
+9788408223122
+~# @?Jr
+6.29
+~# @?Jr
+314.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100571  
+~# @?Jc
+4
+~# @?Jc
+H87
+~# @?
+Desaparición para expertos
+~# @?Jc
+9788408241621
+~# @?Jr
+6.29
+~# @?Jr
+25.16
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100694  
+~# @?Jc
+39
+~# @?Jc
+H87
+~# @?
+Una corte de llamas plateadas
+~# @?Jc
+9788408249429
+~# @?Jr
+7.86
+~# @?Jr
+306.54
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100801  
+~# @?Jc
+75
+~# @?Jc
+H87
+~# @?
+Una corte de rosas y espinas. Nueva presentación
+~# @?Jc
+9788408257103
+~# @?Jr
+7.86
+~# @?Jr
+589.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100802  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Una corte de niebla y furia. Nueva presentación
+~# @?Jc
+9788408257110
+~# @?Jr
+7.86
+~# @?Jr
+393.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100813  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Una corte de alas y ruina. Nueva presentación
+~# @?Jc
+9788408257127
+~# @?Jr
+7.86
+~# @?Jr
+314.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100814  
+~# @?Jc
+20
+~# @?Jc
+H87
+~# @?
+Una corte de hielo y estrellas. Nueva presentación
+~# @?Jc
+9788408257134
+~# @?Jr
+7.47
+~# @?Jr
+149.40
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3100934  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Twisted 1. Twisted love
+~# @?Jc
+9788408260509
+~# @?Jr
+7.47
+~# @?Jr
+747.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101028  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Twisted 2. Twisted Games
+~# @?Jc
+9788408267041
+~# @?Jr
+7.47
+~# @?Jr
+373.50
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101248  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Twisted 4. Twisted Lies
+~# @?Jc
+9788408282952
+~# @?Jr
+7.47
+~# @?Jr
+298.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101275  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Una corte de rosas y espinas. Edición especial
+~# @?Jc
+9788408285298
+~# @?Jr
+9.84
+~# @?Jr
+1,968.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101352  
+~# @?Jc
+100
+~# @?Jc
+H87
+~# @?
+Pecados 1. Rey de la ira. Edición especial
+~# @?Jc
+9788408289722
+~# @?Jr
+9.44
+~# @?Jr
+944.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101447  
+~# @?Jc
+200
+~# @?Jc
+H87
+~# @?
+Una corte de niebla y furia. Edición especial
+~# @?Jc
+9788408290964
+~# @?Jr
+9.84
+~# @?Jr
+1,968.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101452  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Pecados 2. Rey de la soberbia. Edición especial
+~# @?Jc
+9788408292661
+~# @?Jr
+9.44
+~# @?Jr
+472.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101488  
+~# @?Jc
+116
+~# @?Jc
+H87
+~# @?
+Cuando no queden más estrellas que contar. Edición
+~# @?Jc
+9788408292647
+~# @?Jr
+9.05
+~# @?Jr
+1,049.80
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101509  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Una corte de alas y ruina. Edición especial
+~# @?Jc
+9788408292678
+~# @?Jr
+9.84
+~# @?Jr
+1,476.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101588  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Una corte de hielo y estrellas. Edición especial
+~# @?Jc
+9788408299622
+~# @?Jr
+9.84
+~# @?Jr
+1,476.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101589  
+~# @?Jc
+50
+~# @?Jc
+H87
+~# @?
+Pecados 3. Rey de la codicia. Edición especial
+~# @?Jc
+9788408299707
+~# @?Jr
+9.44
+~# @?Jr
+472.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101601  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Acelerando en rojo
+~# @?Jc
+9788408299615
+~# @?Jr
+7.86
+~# @?Jr
+1,179.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101642  
+~# @?Jc
+40
+~# @?Jc
+H87
+~# @?
+Una corte de llamas plateadas. Edición especial
+~# @?Jc
+9788408304012
+~# @?Jr
+9.84
+~# @?Jr
+393.60
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+3101674  
+~# @?Jc
+150
+~# @?Jc
+H87
+~# @?
+Rose in chains
+~# @?Jc
+9788408307464
+~# @?Jr
+9.44
+~# @?Jr
+1,416.00
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+~[ 9 10 8 35 15 12 14
+~# @?Jc
+9100468  
+~# @?Jc
+26
+~# @?Jc
+H87
+~# @?
+Principios
+~# @?Jc
+9788423430024
+~# @?Jr
+9.84
+~# @?Jr
+255.84
+~]
+~[ 9 10 8 35 15 12 14
+~# 
+
+~# 
+
+~# @?Jr
+
+~# @?Jl
+
+~# @?Jc
+
+~]
+
+
+
+
+~F|0|
+~[9 10 84
+~#|e+|M30.30
+~#|e+|M30.30 Jc @?
+2,050
+~#|e+|M30.30
+~]
+
+~&lt;Z20
+~&gt;
+
+~[45 45 2 15 15 15  
+~#
+~[49
+~#D M400.0 "12325965-732E-4C95-B38D-D38855FFA26C.bmp";
+~]
+~#
+~[45
+~#|e+|M30.30 Jv50 Jj @5
+ 
+
+@6 OPERACIÓN NO OBJETO DE IVA CONFORME AL ARTÍCULO 1 DE LA LEY DEL IVA, AL NO REALIZARSE LA ENAJENACIÓN DE BIENES EN TERRITORIO NACIONAL. 
+
+ 
+
+@5DEBO Y PAGARE INCONDICIONALMENTE A LA ORDEN DE:
+
+EDITORIAL PLANETA MEXICANA, S.A. DE C.V. EN ESTA CIUDAD O EN EL LUGAR DONDE 
+SE ME REQUIERA , EL DIA_________DE _____________________DE ________LA CANTIDAD 
+ABAJO INDICADA , VALOR DE LAS MERCANCIAS DESCRITAS QUE HE RECIBIDO A MI 
+ENTERA SATISFACCION, EL PRESENTE PAGARE CAUSARA INTERESES A RAZON 
+DEL _______% MENSUAL SOBRE LA CANTIDAD INSOLUTA.
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+RECIBI DE CONFORMIDAD
+~#|e+|M30.30
+~#|e+|M30.30
+~#|e+|M20.20 Jv10 @5 Jl
+(NOMBRE ,SELLO Y FIRMA)
+~#|e+|M20.20 @2 Jl Jv50
+99
+~]
+~#
+~[2
+~]
+~#
+~[10
+~#|15.1 glg dr0 e+|@? M30.30 Jv50
+T.Bruto  
+~#|15.1 urd0 e+|@? M30.30 Jv50
+T.Desc 
+~#|15.1 gdg ur0 e+|@? M24.24 Jv50
+TOTAL NETO 
+~]
+~#
+~[20
+~#|15.1 gug ldr0 e+|@? M43.43 Jv50 Jr
+ 
+~#|15.1 uldr0 e+|@? M53.53 Jv50 Jr
+
+~#|15.1 lru0 e+|@? M48.48 Jv50 Jr
+ 
+~]
+~#
+~[25
+~#|15.1 gug ld0 e+|@? M38.38 Jv50 Jr
+19,602.44
+~#|15.1 uld0 e+|@? M38.38 Jv50 Jr
+0.00 
+~#|15.1 grg lu0|@? M40.40 Jv50 Jr
+19,602.44
+~]
+~]
+
+~[100
+~#|15.1 gulg d0|M20.20 @2 Jl Jv50
+IMPORTE CON LETRA
+~#|15.1 gdrg u0 e+|M20.20 @2 Jv50 Jl
+(DIECINUEVE MIL SEISCIENTOS DOS EUROS 44/100)
+~]
+
+~[20 20 20 20 20 20
+
+~#|15.1 f4.35 e+|Jc @4
+Uso de CFDI: 
+~#|15.1 f4.35 e+|Jc @4
+Clave Producto o Servicio: 
+~#|15.1 f4.35 e+|Jc @4
+Forma de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Unidad de Medida
+~#|15.1 f4.35 e+|Jc @4
+Metodo de Pago: 
+~#|15.1 f4.35 e+|Jc @4
+Lugar de Expedición:
+~#|15.1 e+|Jc @4
+S01
+~#|15.1 e+|Jc @4
+55101510
+~#|15.1 e+|Jc @4
+99
+~#|15.1 e+|Jc @4
+D63
+~#|15.1 e+|Jc @4
+PPD
+~#|15.1 e+|Jc @4
+11560
+~]
+
+
+~&lt;Z20
+~&gt;
+
+~[10 30 60
+
+~#|15.1 f4.35 e+|Jc @4
+Tipo de Relación
+~#|15.1 f4.35 e+|Jc @4
+CFDI Relacionados 
+~#
+~]
+
+~[10 30 60
+ 
+~#|15.1 udlr0 |Jc @4
+
+~#
+~[1
+~]
+~#
+~]
+
+
+~&lt;Z10
+~&gt;
+
+~[100
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello Digital del CFDI:
+~#|e+ 15.1 udlr0 |M50.50 @9
+eHobriaP9Hudm2Dz4zmz1XPZk1xAMcqZHXozluNPV6sjtXBWJ13ti1A6CyHbR2SWt8xctg91zXJMro/77whRLtqJuoo3YkvNfP615jCwRPsdfSijgehnkOvPBp32gu/q5VSFbvB0lGFPn+nkMryZ7M2FqYmiLv5p+VRaYD3AWBsMDsgQTd3HqsegqTduTmr8HpmRI1UXpY8wsNcdp6eFsOj/rd5niZG83m/KQC1XXnA1odH+ZDiGjDO6MRjoxG0Sq2eQy87AvLpAmZs8s1F0uom6BZGXW4mjMi3fjkgLp1qFRcx9wbjUpslTFD7Os8UO/BMPCS7RG+UY94CDpgvnhw==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Sello del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+RngeU+pAJyBkAYd8Ju07h7xj7aHJb2ZegVR//8UGVXb9n8Nlu76DU+nntRdyNfjysKyJe3vOjRmluq8a4NAh0PxkMw4ZeS4PeM7X+swFuPftf78X2j/cVjCLbZ9EcmAx8Am3y3D8+qYSbm04nh4nDW/IFfj+8qmCl+6TjLWuU9cRbUmUgxFR4b5lEa+Fzd6m68NNrkT7P+B+7hyOn0AZ9RM1G1iz+zChnnyTJ2p4emoEt3X3mn5+D7SRX5qEfqKhDGAZ8udV0l1H4eXhadFWA57RZ0IJEAcmOA+k72dXPiZ8BHZ8kF/1NcAGTG8Z0539N5x51q5O5UW8bgJWgaiblA==
+~#|e+ 15.1 udlr0 |M30.30 
+~#|e+ 15.1 udlr0 |M50.50 @4
+Cadena Original del Complemento de Certificacion Digital del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+||1.1|12325965-732E-4C95-B38D-D38855FFA26C|2026-02-10T08:16:16|eHobriaP9Hudm2Dz4zmz1XPZk1xAMcqZHXozluNPV6sjtXBWJ13ti1A6CyHbR2SWt8xctg91zXJMro/77whRLtqJuoo3YkvNfP615jCwRPsdfSijgehnkOvPBp32gu/q5VSFbvB0lGFPn+nkMryZ7M2FqYmiLv5p+VRaYD3AWBsMDsgQTd3HqsegqTduTmr8HpmRI1UXpY8wsNcdp6eFsOj/rd5niZG83m/KQC1XXnA1odH+ZDiGjDO6MRjoxG0Sq2eQy87AvLpAmZs8s1F0uom6BZGXW4mjMi3fjkgLp1qFRcx9wbjUpslTFD7Os8UO/BMPCS7RG+UY94CDpgvnhw==|00001000000707891043||
+~#|e+ 15.1 udlr0 |M50.50 @4 
+No de Serie del Certificado del SAT:
+~#|e+ 15.1 udlr0 |M50.50 @9
+00001000000707891043
+~#|e+ 15.1 udlr0 |M50.50 @4 
+Fecha y Hora de certificacion:
+~#|e+ 15.1 udlr0 |M50.50 @9
+2026-02-10T08:16:16
+~#|e+ 15.1 udlr0 |M50.50 Jc @4
+Este documento es una representacion impresa de un CFDI 4.0.
+~]
+~&gt;</fa:hfd>
+        </fa:Datos>
+    </cfdi:Addenda></cfdi:Comprobante>
