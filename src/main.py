@@ -109,14 +109,24 @@ async def seed_core_database(db_session):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("[LIFESPAN] Iniciando VCore VPS Backend...")
-    try:
-        async with AsyncSessionLocal() as session:
-            await seed_core_database(session)
-    except Exception as e:
-        import traceback
-        traceback.print_exc()
-        logger.error(f"⚠️ [STARTUP WARNING] Error en auto-seeding de base de datos: {str(e)}")
-        print("El sistema continuará en funcionamiento para permitir diagnóstico de red y base de datos.")
+    import asyncio
+    
+    async def run_seeding():
+        try:
+            print("[LIFESPAN] Ejecutando auto-seeding en segundo plano...")
+            async with AsyncSessionLocal() as session:
+                # Limitar a 5 segundos el intento de conexión y sembrado para evitar colgar el proceso
+                await asyncio.wait_for(seed_core_database(session), timeout=5.0)
+        except asyncio.TimeoutError:
+            logger.error("⚠️ [STARTUP WARNING] Timeout de 5 segundos en auto-seeding: la base de datos no respondió a tiempo.")
+            print("El sistema continuará en funcionamiento para permitir diagnóstico de red y base de datos.")
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            logger.error(f"⚠️ [STARTUP WARNING] Error en auto-seeding de base de datos: {str(e)}")
+            print("El sistema continuará en funcionamiento para permitir diagnóstico de red y base de datos.")
+            
+    asyncio.create_task(run_seeding())
     yield
     print("[LIFESPAN] Apagando VCore VPS Backend...")
 
