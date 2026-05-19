@@ -1,8 +1,11 @@
 import os
 import sys
 import time
+import logging
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
+
+logger = logging.getLogger("uvicorn.error")
 
 # --- [VCORE L6] MOTOR DE RUTAS UNIVERSALES ---
 # Detectamos la ubicación de este archivo (C:\...\src\main.py)
@@ -110,7 +113,9 @@ async def lifespan(app: FastAPI):
         async with AsyncSessionLocal() as session:
             await seed_core_database(session)
     except Exception as e:
-        print(f"⚠️ [STARTUP WARNING] Error en auto-seeding de base de datos: {e}")
+        import traceback
+        traceback.print_exc()
+        logger.error(f"⚠️ [STARTUP WARNING] Error en auto-seeding de base de datos: {str(e)}")
         print("El sistema continuará en funcionamiento para permitir diagnóstico de red y base de datos.")
     yield
     print("[LIFESPAN] Apagando VCore VPS Backend...")

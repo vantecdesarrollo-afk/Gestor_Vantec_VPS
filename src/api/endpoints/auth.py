@@ -90,10 +90,13 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
                  })
 
         # Generar token con la lista completa de entidades autorizadas
+        tenant_id_str = str(user.tenant_id) if getattr(user, "tenant_id", None) else None
+        
         access_token = create_access_token(
             data={
                 "sub": str(user.user_id), 
                 "username": user.username,
+                "tenant_id": tenant_id_str,
                 "is_superadmin": is_superadmin,
                 "entidades": entidades_json
             }
@@ -121,6 +124,8 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
     except HTTPException:
         raise
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         print(f"CRITICAL LOGIN ERROR: {e}")
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
@@ -134,7 +139,8 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
         
         result = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
         user = result.scalar_one_or_none()
-        if not user or not getattr(user, "is_active", True): raise HTTPException(status_code=403)
+        if not user or not getattr(user, "is_active", True):
+            raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
              
         is_superadmin = getattr(user, "is_superadmin", False)
         if is_superadmin:
@@ -150,8 +156,17 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
              entidades_json = []
              for tenant, role_str in role_res.all():
                   entidades_json.append({"id": str(tenant.tenant_id), "rfc": tenant.rfc, "razon_social": tenant.business_name, "rol": str(role_str).upper(), "logo_url": tenant.logo_path or ""})
-                  
-        access_token = create_access_token(data={"sub": str(user.user_id), "username": user.username, "is_superadmin": is_superadmin, "entidades": entidades_json})
+        
+        tenant_id_str = str(user.tenant_id) if getattr(user, "tenant_id", None) else None
+        access_token = create_access_token(
+            data={
+                "sub": str(user.user_id), 
+                "username": user.username,
+                "tenant_id": tenant_id_str,
+                "is_superadmin": is_superadmin,
+                "entidades": entidades_json
+            }
+        )
         return {"access_token": access_token, "token_type": "bearer"}
     except Exception as e:
         raise HTTPException(status_code=401, detail="Error refreshing token: " + str(e))
