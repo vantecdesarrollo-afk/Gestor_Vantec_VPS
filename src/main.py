@@ -155,24 +155,36 @@ if ingesta_vps: app.include_router(ingesta_vps.router, prefix="/api/v1/ingesta")
 @app.get("/api/v1/debug/users")
 async def debug_users():
     from sqlalchemy import text
+    import traceback
     async with AsyncSessionLocal() as session:
         try:
             result = await session.execute(text("SELECT user_id, username, is_superadmin FROM public.users"))
             users = [{"id": str(r[0]), "username": r[1], "is_superadmin": r[2]} for r in result.all()]
             return {"count": len(users), "users": users}
         except Exception as e:
-            return {"error": str(e)}
+            return {
+                "error": str(e),
+                "type": type(e).__name__,
+                "repr": repr(e),
+                "traceback": traceback.format_exc()
+            }
 
 @app.get("/debug_users_no_api")
 async def debug_users_direct():
     from sqlalchemy import text
+    import traceback
     async with AsyncSessionLocal() as session:
         try:
             result = await session.execute(text("SELECT user_id, username, is_superadmin FROM public.users"))
             users = [{"id": str(r[0]), "username": r[1], "is_superadmin": r[2]} for r in result.all()]
             return {"count": len(users), "users": users}
         except Exception as e:
-            return {"error": str(e)}
+            return {
+                "error": str(e),
+                "type": type(e).__name__,
+                "repr": repr(e),
+                "traceback": traceback.format_exc()
+            }
 
 @app.get("/ping")
 async def ping():
