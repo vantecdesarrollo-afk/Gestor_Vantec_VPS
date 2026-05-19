@@ -73,12 +73,11 @@ except Exception as e:
     print(f"⚠️ ERROR IMPORTANDO ENDPOINTS: {e}")
     auth = gui = analytics = smtp = orquestador = segregation_fix = admin = comprobantes = ingesta_vps = None
 
-app = FastAPI(title="Gestor CFDI Vantec", version="6.2.5")
-
 from sqlalchemy import select
 from src.database.models import User
 from src.database.session import AsyncSessionLocal
 import uuid
+from contextlib import asynccontextmanager
 
 async def seed_core_database(db_session):
     query = select(User).where(User.is_superadmin == True)
@@ -104,16 +103,19 @@ async def seed_core_database(db_session):
         await db_session.commit()
         print("[SEEDING] Credenciales del administrador sincronizadas.")
 
-@app.on_event("startup")
-async def startup_event():
-    print("[STARTUP] Saltando verificación de DB para permitir diagnóstico de Red.")
-    pass
-    """
-    import asyncio
-    max_retries = 10
-    retry_delay = 5
-    ...
-    """
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("[LIFESPAN] Iniciando VCore VPS Backend...")
+    try:
+        async with AsyncSessionLocal() as session:
+            await seed_core_database(session)
+    except Exception as e:
+        print(f"⚠️ [STARTUP WARNING] Error en auto-seeding de base de datos: {e}")
+        print("El sistema continuará en funcionamiento para permitir diagnóstico de red y base de datos.")
+    yield
+    print("[LIFESPAN] Apagando VCore VPS Backend...")
+
+app = FastAPI(title="Gestor CFDI Vantec", version="6.2.5", lifespan=lifespan)
 
 # --- MONTAJE DE ESTÁTICOS (RUTA UNIVERSAL) ---
 if os.path.exists(STATIC_DIR):

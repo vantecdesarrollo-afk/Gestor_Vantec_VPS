@@ -27,13 +27,21 @@ El sistema ha sido adaptado para realizar almacenamiento en la ruta `/app/Operac
 
 Si omites este paso, al reconstruir la imagen en Coolify se perderán los archivos (Ghost PDFs, logs y repositorios de Tenants).
 
-## 4. Migración de Base de Datos
+## 4. Migración de Base de Datos y Auto-Seeding
 Antes de arrancar en caliente, debes preparar la DB en PostgreSQL:
 1. Conéctate a la base de datos destino usando DBeaver o DataGrip.
-2. Ejecuta el script `master_schema_vcore_vps.sql` incluido en la raíz de este proyecto.
+2. Ejecuta el script `master_schema_vcore_vps.sql` o `dump_maestro.sql` incluido en la raíz de este proyecto para estructurar las 19 tablas maestras del estándar de integridad Vantec.
 3. Asegúrate de insertar al menos un `tenant` para generar su `api_key` y dársela al cliente.
 
-## 5. Diccionario de Errores (Troubleshooting)
+> [!NOTE]
+> **Resiliencia de Arranque (Lifespan Auto-Seeding)**: El sistema está equipado con un manejador de contexto `lifespan` en `src/main.py` que ejecuta la inyección automática del usuario semilla (`admin / @dm1n***`) de forma asíncrona al arrancar. Si las tablas de base de datos no se han creado o la base de datos no está disponible temporalmente, el sistema registrará una advertencia en los logs (`⚠️ [STARTUP WARNING]`) pero **se mantendrá online**, evitando bucles de caída y errores `502 Bad Gateway` en Coolify.
+
+## 5. Configuración de Puerto y Enrutamiento
+El contenedor del backend está configurado para escuchar en el **puerto `8000`** en producción (alineado con la directiva técnica de VCore L6):
+- **Dockerfile**: `EXPOSE 8000` y ejecuta Uvicorn con `--port 8000`.
+- **Coolify**: Asegúrate de que las reglas de balanceo e ingreso HTTP de Coolify enruten el tráfico directamente al puerto `8000` del contenedor.
+
+## 6. Diccionario de Errores (Troubleshooting)
 Si el cliente reporta errores en la ingesta, revisa los códigos HTTP:
 - **400 Bad Request**: El XML o PDF está corrupto. Faltan datos (ej. Nodo Emisor) o el payload venía vacío.
 - **401 Unauthorized**: La llave enviada en el header `X-API-KEY` es incorrecta o no existe.
