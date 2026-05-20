@@ -48,7 +48,7 @@ async def reenvio_comprobante(
         if not comp:
             raise HTTPException(status_code=404, detail="Documento no encontrado.")
 
-        # --- VALIDACIÓN IDOR (Condición CTO v84.0) ---
+        # --- VALIDACIÓN IDOR CORREGIDA (Gobernanza Multi-Tenant L6) ---
         auth_header = request.headers.get("Authorization")
         if not auth_header or not auth_header.startswith("Bearer "):
             raise HTTPException(status_code=401, detail="Token ausente o inválido")
@@ -57,15 +57,22 @@ async def reenvio_comprobante(
         try:
             token_payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
             is_super = token_payload.get("is_superadmin") is True
-            user_entidad = str(token_payload.get("tenant_id") or token_payload.get("entidad_id") or "")
+            # Extraer la matriz estructurada de acceso para usuarios con sucursales (Diana)
+            entidades_autorizadas = token_payload.get("entidades", [])
         except Exception:
             raise HTTPException(status_code=401, detail="Fallo de autenticación en Orquestador")
 
         if not is_super:
-            # Si no es SuperAdmin, el ID de entidad del token debe coincidir con el del documento
-            if str(comp.entidad_id) != user_entidad:
-                logger.warning(f"Intento de IDOR: Usuario {user_entidad} intentó reenviar CFDI de entidad {comp.entidad_id}")
+            # Forzar minúsculas y quitar espacios para evitar desajustes en el UUID de la factura
+            uuid_documento_empresa = str(comp.entidad_id).lower().strip()
+            
+            # Buscar si el ID de la factura está dentro de la lista de entidades autorizadas del token
+            tiene_acceso = any(str(entidad.get("id")).lower().strip() == uuid_documento_empresa for entidad in entidades_autorizadas)
+            
+            if not tiene_acceso:
+                logger.warning(f"Intento de IDOR: Bloqueo de seguridad para entidad {comp.entidad_id}")
                 raise HTTPException(status_code=403, detail="No tiene permisos para reenviar este documento")
+        # -------------------------------------------------------------
 
         entidad_id_doc = comp.entidad_id
         smtp_query = select(EntidadSMTPConfig).where(EntidadSMTPConfig.entidad_id == entidad_id_doc)
