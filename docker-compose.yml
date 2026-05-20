@@ -11,7 +11,6 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
     volumes:
       - postgres_data_v2:/var/lib/postgresql/data
-      - ./master_schema_vcore_vps.sql:/docker-entrypoint-initdb.d/init.sql:ro
 
 
   api:

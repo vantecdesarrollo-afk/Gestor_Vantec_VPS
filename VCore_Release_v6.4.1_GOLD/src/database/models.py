@@ -9,6 +9,7 @@ class Tenant(Base):
     __tablename__ = "tenants"
     tenant_id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     rfc = Column(String(13), unique=True, nullable=False)
+    api_key = Column(String(100), unique=True, nullable=True) # FASE 2 VPS
     business_name = Column(String(200), nullable=False)
     base_repository_path = Column(String(1000))
     logo_path = Column(String(500))

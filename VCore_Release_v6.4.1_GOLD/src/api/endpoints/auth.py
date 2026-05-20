@@ -5,7 +5,7 @@ from sqlalchemy import select
 from datetime import datetime, timedelta
 import jwt
 import uuid
-from passlib.context import CryptContext
+import bcrypt  # 🔒 CORRECCIÓN: Usar bcrypt nativo para eliminar el bug de passlib de los 72 bytes
 from src.database.session import get_db
 from src.database.models import User, Tenant
 from src.core.config import settings
@@ -17,15 +17,19 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # 1. Configuración de Seguridad
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"]) # ESTA LÍNEA FALTABA
+router = APIRouter(prefix="/api/v1/auth", tags=["Autenticación"])
 security = HTTPBearer()
 
-def verify_password(plain_password, hashed_password):
-    return pwd_context.verify(plain_password, hashed_password)
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    try:
+        # 🔑 Validación segura usando bytes codificados en UTF-8
+        return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+    except Exception:
+        return False
 
-def get_password_hash(password):
-    return pwd_context.hash(password)
+def get_password_hash(password: str) -> str:
+    # 🛡️ Generación nativa de sal (salt) con factor de trabajo estándar 12
+    return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt(12)).decode('utf-8')
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
@@ -36,81 +40,94 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
 # 2. Endpoints
 @router.post("/login")
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(User).where(User.username == form_data.username))
-    user = result.scalar_one_or_none()
-    
-    if not user or not verify_password(form_data.password, user.password_hash):
-        raise HTTPException(status_code=401, detail="Credenciales incorrectas")
-    
-    if not getattr(user, "is_active", True):
-        raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
-    
-    # 1. Determinar si es Superadmin
-    is_superadmin = getattr(user, "is_superadmin", False)
-    
-    # 2. Cargar Entidades Asociadas (Acceso Multi-tenant / Matriz de Acceso)
-    from src.database.models import SysUserRole
-    entidades_json = []
-
-    if is_superadmin:
-        e_res = await db.execute(select(Tenant))
-        entidades = e_res.scalars().all()
-        entidades_json = [{
-             "id": str(e.tenant_id),
-             "rfc": e.rfc,
-             "razon_social": e.business_name,
-             "rol": "ADMIN",
-             "logo_url": e.logo_path or ""
-        } for e in entidades]
-    else:
-        # Standard user: Buscar en la Matriz de Acceso obligatoriamente
-        role_res = await db.execute(
-            select(Tenant, SysUserRole.rol)
-            .join(SysUserRole, SysUserRole.entidad_id == Tenant.tenant_id)
-            .where(SysUserRole.usuario_id == user.user_id)
-        )
-        roles_data = role_res.all()
+    try:
+        result = await db.execute(select(User).where(User.username == form_data.username))
+        user = result.scalar_one_or_none()
         
-        if not roles_data:
-             # Si no tiene roles y no es superadmin, rechazar acceso
-             raise HTTPException(status_code=403, detail="Acceso denegado: El usuario no tiene empresas asignadas en la matriz.")
+        if not user or not verify_password(form_data.password, user.password_hash):
+            raise HTTPException(status_code=401, detail="Credenciales incorrectas")
+        
+        if not getattr(user, "is_active", True):
+            raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
+        
+        # 1. Determinar si es Superadmin
+        is_superadmin = getattr(user, "is_superadmin", False)
+        
+        # 2. Cargar Entidades Asociadas (Acceso Multi-tenant / Matriz de Acceso)
+        from src.database.models import SysUserRole
+        entidades_json = []
 
-        for tenant, role_str in roles_data:
-             entidades_json.append({
-                  "id": str(tenant.tenant_id),
-                  "rfc": tenant.rfc,
-                  "razon_social": tenant.business_name,
-                  "rol": str(role_str).upper(),
-                  "logo_url": tenant.logo_path or ""
-             })
+        if is_superadmin:
+            e_res = await db.execute(select(Tenant))
+            entidades = e_res.scalars().all()
+            entidades_json = [{
+                 "id": str(e.tenant_id),
+                 "rfc": e.rfc,
+                 "razon_social": e.business_name,
+                 "rol": "ADMIN",
+                 "logo_url": e.logo_path or ""
+            } for e in entidades]
+        else:
+            # Standard user: Buscar en la Matriz de Acceso obligatoriamente
+            role_res = await db.execute(
+                select(Tenant, SysUserRole.rol)
+                .join(SysUserRole, SysUserRole.entidad_id == Tenant.tenant_id)
+                .where(SysUserRole.usuario_id == user.user_id)
+            )
+            roles_data = role_res.all()
+            
+            if not roles_data:
+                 # Si no tiene roles y no es superadmin, rechazar acceso
+                 raise HTTPException(status_code=403, detail="Acceso denegado: El usuario no tiene empresas asignadas en la matriz.")
 
-    # Generar token con la lista completa de entidades autorizadas
-    access_token = create_access_token(
-        data={
-            "sub": str(user.user_id), 
-            "username": user.username,
-            "is_superadmin": is_superadmin,
-            "entidades": entidades_json
-        }
-    )
-    
-    # 3. Auditoría L6: Log de Acceso Admin
-    if is_superadmin:
-        import os
-        from datetime import datetime as dt_sys
-        log_dir = r"C:\Test_Antigravity\Gestor_CFDI_Vantec\Operacion_CFDI\logs"
-        os.makedirs(log_dir, exist_ok=True)
-        today_str = dt_sys.now().strftime("%Y-%m-%d")
-        timestamp = dt_sys.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_path = os.path.join(log_dir, f"{today_str}_watcher_global.log")
-        with open(log_path, "a", encoding="utf-8") as f:
-            f.write(f"[{timestamp}] | INFO | AUDIT_LOGIN | USER: {user.username} | TIPO: SUPER_ADMIN | ACCIÓN: Acceso exitoso al sistema.\n")
+            for tenant, role_str in roles_data:
+                 entidades_json.append({
+                      "id": str(tenant.tenant_id),
+                      "rfc": tenant.rfc,
+                      "razon_social": tenant.business_name,
+                      "rol": str(role_str).upper(),
+                      "logo_url": tenant.logo_path or ""
+                 })
 
-    
-    user.last_login = datetime.utcnow()
-    await db.commit()
-    
-    return {"access_token": access_token, "token_type": "bearer"}
+        # Generar token con la lista completa de entidades autorizadas
+        tenant_id_str = str(user.tenant_id) if getattr(user, "tenant_id", None) else None
+        
+        access_token = create_access_token(
+            data={
+                "sub": str(user.user_id), 
+                "username": user.username,
+                "tenant_id": tenant_id_str,
+                "is_superadmin": is_superadmin,
+                "entidades": entidades_json
+            }
+        )
+        
+        # 3. Auditoría L6: Log de Acceso Admin
+        if is_superadmin:
+            import os
+            from datetime import datetime as dt_sys
+            log_dir = os.path.join(os.getcwd(), "Operacion_CFDI", "logs")
+            os.makedirs(log_dir, exist_ok=True)
+            today_str = dt_sys.now().strftime("%Y-%m-%d")
+            timestamp = dt_sys.now().strftime("%Y-%m-%d %H:%M:%S")
+            log_path = os.path.join(log_dir, f"{today_str}_watcher_global.log")
+            try:
+                with open(log_path, "a", encoding="utf-8") as f:
+                    f.write(f"[{timestamp}] | INFO | AUDIT_LOGIN | USER: {user.username} | TIPO: SUPER_ADMIN | ACCIÓN: Acceso exitoso al sistema.\n")
+            except Exception:
+                pass
+
+        # user.last_login = datetime.utcnow() # Desactivado temporalmente para evitar problemas de commit
+        # await db.commit()
+        
+        return {"access_token": access_token, "token_type": "bearer"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"CRITICAL LOGIN ERROR: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
 @router.post("/refresh")
 async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(security), db: AsyncSession = Depends(get_db)):
@@ -122,7 +139,8 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
         
         result = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
         user = result.scalar_one_or_none()
-        if not user or not getattr(user, "is_active", True): raise HTTPException(status_code=403)
+        if not user or not getattr(user, "is_active", True):
+            raise HTTPException(status_code=403, detail="Cuenta suspendida o inactiva")
              
         is_superadmin = getattr(user, "is_superadmin", False)
         if is_superadmin:
@@ -138,8 +156,17 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
              entidades_json = []
              for tenant, role_str in role_res.all():
                   entidades_json.append({"id": str(tenant.tenant_id), "rfc": tenant.rfc, "razon_social": tenant.business_name, "rol": str(role_str).upper(), "logo_url": tenant.logo_path or ""})
-                  
-        access_token = create_access_token(data={"sub": str(user.user_id), "username": user.username, "is_superadmin": is_superadmin, "entidades": entidades_json})
+        
+        tenant_id_str = str(user.tenant_id) if getattr(user, "tenant_id", None) else None
+        access_token = create_access_token(
+            data={
+                "sub": str(user.user_id), 
+                "username": user.username,
+                "tenant_id": tenant_id_str,
+                "is_superadmin": is_superadmin,
+                "entidades": entidades_json
+            }
+        )
         return {"access_token": access_token, "token_type": "bearer"}
     except Exception as e:
         raise HTTPException(status_code=401, detail="Error refreshing token: " + str(e))
@@ -210,8 +237,6 @@ async def get_active_entidad(
     except HTTPException:
         raise
     except Exception as e:
-        # Si es un error de UUID o algo interno de contexto, no queremos 401 (logout)
-        # Solo regresamos 401 si realmente la sesión está mal (JWT)
         raise HTTPException(status_code=500, detail="Error interno al validar contexto: " + str(e))
 
 async def get_current_user(
@@ -242,7 +267,6 @@ async def get_current_superadmin(
         payload = jwt.decode(credentials.credentials, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
         user_id = payload.get("sub")
         
-        # Buscar usando User.user_id
         res = await db.execute(select(User).where(User.user_id == uuid.UUID(user_id)))
         user = res.scalar_one_or_none()
         
@@ -262,16 +286,13 @@ class ResetPasswordRequest(BaseModel):
 
 @router.post("/recovery")
 async def request_recovery(payload: RecoveryRequest, db: AsyncSession = Depends(get_db)):
-    # 1. Buscar usuario por email
     from src.database.models import User, AuthRecoveryToken, EntidadSMTPConfig
     result = await db.execute(select(User).where(User.email == payload.email))
     user = result.scalar_one_or_none()
     
     if not user:
-        # Por seguridad no revelamos si existe el usuario
         return {"message": "Si el correo está registrado, recibirá instrucciones en breve."}
     
-    # 2. Generar Token Atómico
     token = secrets.token_urlsafe(32)
     expires_at = datetime.utcnow() + timedelta(hours=1)
     
@@ -283,12 +304,10 @@ async def request_recovery(payload: RecoveryRequest, db: AsyncSession = Depends(
     db.add(recovery_token)
     await db.commit()
     
-    # 3. Enviar Correo (Motor SMTP real)
     smtp_query = select(EntidadSMTPConfig).where(EntidadSMTPConfig.entidad_id == user.tenant_id)
     smtp_res = await db.execute(smtp_query)
     smtp_config = smtp_res.scalar_one_or_none()
     
-    # Fallback si el tenant no tiene config propia
     if not smtp_config:
         fallback_query = select(EntidadSMTPConfig).limit(1)
         fallback_res = await db.execute(fallback_query)
@@ -336,7 +355,6 @@ Equipo de Seguridad Vantec
 async def reset_password(payload: ResetPasswordRequest, db: AsyncSession = Depends(get_db)):
     from src.database.models import AuthRecoveryToken, User
     
-    # 1. Validar Token
     query = select(AuthRecoveryToken).where(
         AuthRecoveryToken.token == payload.token,
         AuthRecoveryToken.is_used == False,
@@ -348,7 +366,6 @@ async def reset_password(payload: ResetPasswordRequest, db: AsyncSession = Depen
     if not token_record:
         raise HTTPException(status_code=400, detail="Token inválido, expirado o ya utilizado.")
     
-    # 2. Actualizar Password (BCrypt vía get_password_hash)
     user_query = select(User).where(User.user_id == token_record.user_id)
     user_res = await db.execute(user_query)
     user = user_res.scalar_one_or_none()

@@ -40,3 +40,6 @@ mailVantec_success.log
 .settings/
 *.sublime-project
 *.sublime-workspace
+
+Operacion_CFDI/
+.env

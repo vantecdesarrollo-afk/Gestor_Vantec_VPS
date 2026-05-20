@@ -114,6 +114,37 @@ async def lifespan(app: FastAPI):
     async def run_seeding():
         try:
             print("[LIFESPAN] Ejecutando auto-seeding en segundo plano...")
+            
+            # --- AUTOMATIC DATABASE SCHEMA GENERATION (L6 MASTER SCHEMA) ---
+            from sqlalchemy import text
+            from src.database.session import engine
+            
+            print("[LIFESPAN] Verificando si la base de datos requiere inicialización...")
+            async with engine.begin() as conn:
+                # Checar si existe la tabla 'users' en el esquema público de PostgreSQL
+                result = await conn.execute(text(
+                    "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'users');"
+                ))
+                db_exists = result.scalar()
+                
+                if not db_exists:
+                    print("[LIFESPAN] Base de datos vacía. Cargando e inyectando Master Schema L6...")
+                    schema_path = os.path.join(CURRENT_DIR, "database", "schemas", "master_schema_vcore_vps.sql")
+                    
+                    if not os.path.exists(schema_path):
+                        raise FileNotFoundError(f"No se encontró el esquema maestro en: {schema_path}")
+                        
+                    with open(schema_path, "r", encoding="utf-8") as f:
+                        sql_script = f.read()
+                    
+                    # Ejecutar todo el DDL (19 tablas, vistas materializadas y triggers)
+                    raw_conn = await conn.get_raw_connection()
+                    await raw_conn.driver_connection.execute(sql_script)
+                    print("[LIFESPAN] Master Schema L6 inyectado con éxito (19 tablas, vistas y triggers creados).")
+                else:
+                    print("[LIFESPAN] Base de datos ya cuenta con estructura. Omitiendo DDL.")
+
+            
             async with AsyncSessionLocal() as session:
                 # Limitar a 5 segundos el intento de conexión y sembrado para evitar colgar el proceso
                 await asyncio.wait_for(seed_core_database(session), timeout=5.0)
