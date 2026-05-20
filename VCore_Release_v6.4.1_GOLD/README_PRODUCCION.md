@@ -80,12 +80,13 @@ Para evitar que los XMLs, PDFs y repositorios de Tenants se eliminen en las futu
 
 Una vez disparado el despliegue del Backend en Coolify, la API iniciará de forma 100% automatizada gracias a su motor resiliente:
 
-* **Generación Dinámica de Tablas**: En el evento `lifespan` de inicio, el motor ejecuta `Base.metadata.create_all` en PostgreSQL de manera asíncrona. Si la base de datos está totalmente vacía, autogenera las tablas operativas (`tenants`, `users`, `comprobantes`, `entidad_smtp_configs`, `financial_anomalies_logs`, `cfdi_relacionados`, `cfdi_conceptos`, `usuario_entidad_acceso`, `auth_recovery_tokens`) de inmediato.
+* **Inyección de Esquema Maestro Autónomo**: Al iniciar, el motor en el evento `lifespan` verifica de forma asíncrona si la tabla `users` existe. Si detecta una base de datos vacía, lee e inyecta directamente el archivo SQL crudo `master_schema_vcore_vps.sql` (ubicado en `src/database/schemas/`). Esto genera al instante el **esquema completo de 19 tablas**, incluyendo las vistas materializadas operativas (`v_ppd_semaforo_status`), triggers avanzados de automatización (`fn_perdon_centavos`) e índices relacionales, garantizando un despliegue "Zero-DBeaver".
 * **Auto-Sembrado de Superusuario**: Acto seguido, el sistema verifica e introduce al usuario semilla global con rol de administración general si no está presente en la base de datos:
   * **Usuario / Nombre de Usuario**: `admin`
   * **Email Asociado**: `admin@vcore.com`
   * **Contraseña por Defecto**: `@dm1n***`
 * **Cero Configuración Manual**: No necesitas abrir DBeaver, ni restaurar dumps de bases de datos, ni correr archivos `.sql`. El sistema autoconstruye su propio esquema listo para usarse.
+* **Bypass Neutral de Administración L6**: Para resolver la "paradoja del primer huevo" (donde una base de datos virgen no posee RFCs configurados y el middleware multi-tenant de aislamiento exige por defecto un RFC en sesión), la plataforma incluye un bypass dinámico. El middleware detecta las llamadas del SuperAdmin a endpoints administrativos `/api/v1/admin/...` y las trata como rutas neutrales globales. Esto permite el acceso ininterrumpido a la interfaz de administración y al semillero del primer RFC, evitando bloqueos por `428 CONTEXTO_RFC_OBLIGATORIO`.
 
 ---
 

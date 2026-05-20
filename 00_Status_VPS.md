@@ -21,9 +21,11 @@ Hemos transformado el backend de **Gestor Vantec** en una **"Caja Negra" robusta
    * Escribimos el playbook oficial [README_PRODUCCION.md](file:///c:/Test_Antigravity/Gestor_Vantec_VPS/README_PRODUCCION.md) detallando los 3 clics del proceso de instalación en Coolify.
    * Diseñamos la nueva plantilla de configuración limpia [\.env.example](file:///c:/Test_Antigravity/Gestor_Vantec_VPS/.env.example) que previene fugas de información.
 4. **📦 Ensamblaje Seguro de la Distribución**:
-   * Corregimos los fallos de sintaxis del CMD en [00_Empaquetador_Build_Release_VCore.bat](file:///c:/Test_Antigravity/Gestor_Vantec_VPS/00_Empaquetador_Build_Release_VCore.bat).
-   * Blindamos el empaquetado para que nunca exporte información privada del `.env` local, copiando en su lugar la plantilla genérica `.env.example`.
-   * El empaquetador ejecutó al 100% de manera exitosa y regeneró la distribución lista para entregar: `VCore_Release_v6.4.1_GOLD`.
+   * Sincronizamos y empaquetamos de forma redundante las modificaciones de código a la carpeta `VCore_Release_v6.4.1_GOLD`.
+5. **⚡ Bypass Neutral de Administración L6 (Solución de Expulsión)**:
+   * Corregimos el prefijo del ruteador de administración a `/api/v1/admin` de forma explícita en `admin.py`.
+   * Removimos el prefijo duplicado en Fast-API `include_router` en `src/main.py`.
+   * Expandimos `GLOBAL_MANAGEMENT_PATHS` en `middleware.py` para tratar toda la ruta `/api/v1/admin` como neutral para SuperAdmins, permitiendo registrar el primer RFC sin ser expulsado por la ausencia previa de un tenant activo.
 
 ---
 

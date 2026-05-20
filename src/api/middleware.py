@@ -59,7 +59,7 @@ async def multi_tenant_middleware(request: Request, call_next):
         is_superadmin = payload.get("is_superadmin") is True
         
         # Permitir bypass de Entidad-ID para SuperAdmins en rutas de gestión global
-        GLOBAL_MANAGEMENT_PATHS = ["/api/v1/analytics/dashboard", "/api/v1/admin/audit/logs"]
+        GLOBAL_MANAGEMENT_PATHS = ["/api/v1/analytics/dashboard", "/api/v1/admin"]
         is_global_req = any(request.url.path.startswith(path) for path in GLOBAL_MANAGEMENT_PATHS)
 
         tenant_id: Optional[str] = request.headers.get("X-Entidad-ID") or request.query_params.get("entidad_id")

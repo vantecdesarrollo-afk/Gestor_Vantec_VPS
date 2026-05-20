@@ -10,7 +10,7 @@ from src.database.session import get_db
 from src.database.models import User, Tenant, FinancialAnomalyLog
 from src.api.endpoints.auth import get_current_user
 
-router = APIRouter(tags=["Administración"])
+router = APIRouter(prefix="/api/v1/admin", tags=["Administración"])
 
 import re
 
