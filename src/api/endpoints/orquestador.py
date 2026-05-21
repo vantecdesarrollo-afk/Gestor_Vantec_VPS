@@ -181,12 +181,11 @@ async def reenvio_comprobante(
                 
             # Disparar Microservicio (Estado Mañana 10:00 AM)
             proceso = subprocess.run(cmd, capture_output=True, text=True, check=True)
-            
             return {"status": "success", "message": f"Comprobante enviado exitosamente a {payload.destinatario}"}
-            
         except subprocess.CalledProcessError as e_process:
             logger.error(f"Fallo en microservicio mailVantec: {e_process.stderr} | {e_process.stdout}")
-            raise HTTPException(status_code=500, detail=f"Error en procesador de correo Vantec: STDOUT: {e_process.stdout}")
+            error_details = (e_process.stderr or "").strip() or (e_process.stdout or "").strip() or "Error desconocido en mailVantec"
+            raise HTTPException(status_code=500, detail=f"Error en procesador de correo Vantec: {error_details}")
         except Exception as e_gen:
             logger.error(f"Fallo inesperado al invocar mailVantec: {str(e_gen)}")
             raise HTTPException(status_code=500, detail=f"Error de sistema de correo: {str(e_gen)}")

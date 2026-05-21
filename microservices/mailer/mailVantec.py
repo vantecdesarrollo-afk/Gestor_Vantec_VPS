@@ -11,6 +11,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def log_error(msg):
+    sys.stderr.write(f"ERR_SMTP: {msg}\n")
     with open('mailVantec_error.log', 'a', encoding='utf-8') as f:
         f.write(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - ERR_SMTP - {msg}\n")
 
