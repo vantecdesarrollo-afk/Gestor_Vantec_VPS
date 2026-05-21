@@ -77,11 +77,19 @@ async def multi_tenant_middleware(request: Request, call_next):
             pass
 
         if not tenant_id or tenant_id in ["null", "undefined", ""]:
-            tenant_id = payload.get("tenant_id") or payload.get("entidad_id")
+            # Fallback 1: Si es ruta SMTP, extraer del path del endpoint
+            if request.url.path.startswith("/api/v1/smtp/"):
+                parts = [p for p in request.url.path.split("/") if p]
+                if len(parts) >= 4:
+                    tenant_id = parts[3] # parts[0]='api', parts[1]='v1', parts[2]='smtp', parts[3]=tenant_id
+
+            # Fallback 2: Payload de JWT
+            if not tenant_id or tenant_id in ["null", "undefined", ""]:
+                tenant_id = payload.get("tenant_id") or payload.get("entidad_id")
             
             try:
                 with open(DEBUG_FILE, "a", encoding="utf-8") as f:
-                    f.write(f"Fallback to Payload tenant_id: {tenant_id}\n")
+                    f.write(f"Fallback/Extracted tenant_id: {tenant_id}\n")
             except: pass
         
         if not tenant_id:
