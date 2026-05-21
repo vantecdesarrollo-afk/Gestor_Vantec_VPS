@@ -56,6 +56,7 @@ class Comprobante(Base):
     regimen_fiscal_receptor = Column(String(100), nullable=True) # v4.0
     domicilio_fiscal_receptor = Column(String(5), nullable=True) # v4.0
     orphan_payment = Column(Boolean, default=False)
+    md5_hash = Column(String(32), nullable=True) # [VPS Hardening] early idempotency check
     created_at = Column(DateTime, server_default=func.now())
 
     tenant = relationship("Tenant", back_populates="comprobantes")
