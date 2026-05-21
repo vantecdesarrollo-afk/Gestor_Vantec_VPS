@@ -9,7 +9,9 @@ During container redeployments, updates, and rebuilds on the VPS via Coolify, cu
 1. **Ephemeral Writes for Logos**: Previously, logo files uploaded when creating or updating a tenant were written directly to `static/logos` inside the container/project root.
 2. **Container Ephemerality**: In modern environments like Docker/Coolify, the container filesystem is ephemeral. Rebuilding or updating a service completely wipes the old image filesystem and creates a new one from scratch.
 3. **Missing Persistence**: While Coolify mounts the persistent volume `/app/Operacion_CFDI` (mapped to `settings.STORAGE_PATH`), the `static/logos` folder was *not* placed inside this volume. Consequently, any uploaded logos were immediately lost upon redeployment.
-4. **Mixed Content blocking of `cfdis.js`**: When accessing the portal via secure HTTPS (`https://apivcore.vantec-consultores.com.mx`), the explorer page was completely freezing and stuck on "Cargando documentos..." because the browser's console blocked `cfdis.js` as Mixed Content. The FastAPI app runs behind an SSL-terminating reverse proxy. Using the Jinja template helper `{{ url_for('static', path='/js/cfdis.js') }}` resolved the scheme using the forwarded HTTP protocol, generating a plain `http://` URL. The browser blocked this script as unsafe Mixed Content under HTTPS, preventing the rendering code from starting.
+4. **Ephemeral Relative Bind Mounts**: In Git-based cloud deployment engines like Coolify, every redeployment checkout occurs in a clean or relocated build directory. Because `docker-compose.yml` mapped volumes using host-relative paths (e.g. `./storage:/storage`), these host directories were recreated completely empty upon every rebuild, wiping out all previously uploaded logos and CFDI documents.
+5. **Mixed Content blocking of `cfdis.js`**: When accessing the portal via secure HTTPS (`https://apivcore.vantec-consultores.com.mx`), the explorer page was completely freezing and stuck on "Cargando documentos..." because the browser's console blocked `cfdis.js` as Mixed Content. The FastAPI app runs behind an SSL-terminating reverse proxy. Using the Jinja template helper `{{ url_for('static', path='/js/cfdis.js') }}` resolved the scheme using the forwarded HTTP protocol, generating a plain `http://` URL. The browser blocked this script as unsafe Mixed Content under HTTPS, preventing the rendering code from starting.
+
 
 ---
 
@@ -98,10 +100,16 @@ We modified all references to `/js/cfdis.js` in `cfdis.html` and `cfdisBK.html` 
 <script src="/static/js/cfdis.js?v=2.200_L6_UX"></script>
 ```
 
+### 6. Hardening with Docker Named Volumes
+We migrated the relative bind mounts (`./storage`, `./Operacion_CFDI`, and `./static/logos`) in `docker-compose.yml` (for both root and the GOLD release) to formal **Docker Named Volumes** (`vantec_storage_v2`, `vantec_cfdi_v2`, and `vantec_logos_v2`).
+Docker Named Volumes are fully managed by the Docker daemon and stored in a persistent managed path on the VPS host system. They are completely decoupled from the Git checkout/build directory, guaranteeing that your uploaded logos and CFDI documents persist permanently across all container redeployments, updates, and rebuilds!
+
 ---
 
 ## 🔬 Verification & Operational Steps
 
 1. **Auto-Migration during deployment**: Confirmed by startup logs. Legacy logos committed to the repository were safely copied to the persistent volume `/app/Operacion_CFDI/logos`.
-2. **Uploading Logo one last time**: Since the old dynamic logo was in the old container's ephemeral cache, please go to **Configuración > Editar Empresa** and upload the company logo one last time. It will write directly to the persistent volume mount and will **never** be lost again.
-3. **No more Mixed Content errors**: The relative root script source guarantees the script loads safely via secure HTTPS.
+2. **Docker Named Volumes Active**: Pushed updated compose files so Coolify will automatically mount managed, non-volatile Named Volumes (`vantec_storage_v2`, `vantec_cfdi_v2`, `vantec_logos_v2`) for the container.
+3. **Persistent Upload**: Please go to **Configuración > Editar Empresa** and upload the company logo one last time. With Named Volumes in place, it will persist forever through all future pushes, updates, and container redeployments.
+4. **No more Mixed Content errors**: The relative root script source guarantees the script loads safely via secure HTTPS.
+
