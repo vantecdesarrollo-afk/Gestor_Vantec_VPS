@@ -110,7 +110,26 @@ async def seed_core_database(db_session):
 async def lifespan(app: FastAPI):
     print("[LIFESPAN] Iniciando VCore VPS Backend...")
     import asyncio
+    import shutil
     
+    # --- AUTO-MIGRACIÓN DE LOGOS EXISTENTES A ALMACENAMIENTO PERSISTENTE ---
+    try:
+        from src.core.config import settings
+        logos_dir = os.path.join(settings.STORAGE_PATH, "logos")
+        os.makedirs(logos_dir, exist_ok=True)
+        
+        old_logos_dir = os.path.join(STATIC_DIR, "logos")
+        if os.path.exists(old_logos_dir):
+            print(f"[LIFESPAN] Verificando logotipos antiguos en: {old_logos_dir}...")
+            for filename in os.listdir(old_logos_dir):
+                old_file = os.path.join(old_logos_dir, filename)
+                new_file = os.path.join(logos_dir, filename)
+                if os.path.isfile(old_file) and not os.path.exists(new_file):
+                    shutil.copy2(old_file, new_file)
+                    print(f"[LIFESPAN] Logo migrado correctamente a persistente: {filename}")
+    except Exception as e:
+        print(f"[LIFESPAN] Advertencia en migración de logotipos: {e}")
+
     async def run_seeding():
         try:
             print("[LIFESPAN] Ejecutando auto-seeding en segundo plano...")
@@ -164,6 +183,12 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="Gestor CFDI Vantec", version="6.2.5", lifespan=lifespan)
 
 # --- MONTAJE DE ESTÁTICOS (RUTA UNIVERSAL) ---
+# Persistencia Real de logotipos de empresas en el volumen persistente /app/Operacion_CFDI/logos
+from src.core.config import settings
+LOGOS_DIR = os.path.join(settings.STORAGE_PATH, "logos")
+os.makedirs(LOGOS_DIR, exist_ok=True)
+app.mount("/static/logos", StaticFiles(directory=LOGOS_DIR), name="logos")
+
 if os.path.exists(STATIC_DIR):
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 else:

@@ -52,10 +52,12 @@ async def create_entidad(
 
     logo_path = None
     if logo_file and logo_file.filename:
-         os.makedirs("static/logos", exist_ok=True)
+         from src.core.config import settings
+         logos_dir = os.path.join(settings.STORAGE_PATH, "logos")
+         os.makedirs(logos_dir, exist_ok=True)
          filename = f"{uuid.uuid4()}_{logo_file.filename}"
          logo_path = f"/static/logos/{filename}"
-         with open(f"static/logos/{filename}", "wb") as buffer:
+         with open(os.path.join(logos_dir, filename), "wb") as buffer:
               shutil.copyfileobj(logo_file.file, buffer)
 
     nuevo_tenant = Tenant(
@@ -204,10 +206,12 @@ async def update_entidad(
          tenant.is_active = is_active.lower() == 'true'
          
     if logo_file and logo_file.filename:
-         os.makedirs("static/logos", exist_ok=True)
+         from src.core.config import settings
+         logos_dir = os.path.join(settings.STORAGE_PATH, "logos")
+         os.makedirs(logos_dir, exist_ok=True)
          filename = f"{uuid.uuid4()}_{logo_file.filename}"
          tenant.logo_path = f"/static/logos/{filename}"
-         with open(f"static/logos/{filename}", "wb") as buffer:
+         with open(os.path.join(logos_dir, filename), "wb") as buffer:
               shutil.copyfileobj(logo_file.file, buffer)
 
     await db.commit()
