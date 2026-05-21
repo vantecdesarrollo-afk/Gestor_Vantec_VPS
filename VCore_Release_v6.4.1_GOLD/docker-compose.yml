@@ -26,12 +26,19 @@ services:
       POSTGRES_PORT: 5432
       POSTGRES_DB: ${POSTGRES_DB:-gestor_cfdi}
       VANTEC_SECRET_KEY: ${VANTEC_SECRET_KEY:-VANTEC_SECRET_KEY_CHANGEME}
+      STORAGE_PATH: "/storage"
+      VANTEC_CFDI_ROOT: "/storage"
     volumes:
-      - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
-      - ./static/logos:/app/static/logos # Persistencia del logotipo de las empresas
+      - vantec_storage_v2:/storage # Mapeo crítico para Expedientes Virtuales
+      - vantec_cfdi_v2:/app/Operacion_CFDI # Persistencia de CFDIs de Operación
+      - vantec_logos_v2:/app/static/logos # Persistencia del logotipo de las empresas
     ports:
       - "8000:8000"
 
 
 volumes:
   postgres_data_v2:
+  vantec_storage_v2:
+  vantec_cfdi_v2:
+  vantec_logos_v2:
+
