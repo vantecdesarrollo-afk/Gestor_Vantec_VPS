@@ -59,6 +59,19 @@ async def multi_tenant_middleware(request: Request, call_next):
         # --- Lógica de Contexto VCORE L3 (Modo Neutral Admin) ---
         is_superadmin = payload.get("is_superadmin") is True
         
+        # Rutas autenticadas que no requieren contexto de tenant
+        TENANT_NEUTRAL_ROUTES = [
+            "/api/v1/auth/refresh",
+            "/api/v1/auth/me"
+        ]
+        is_tenant_neutral = any(request.url.path == path or request.url.path.startswith(path) for path in TENANT_NEUTRAL_ROUTES)
+        
+        if is_tenant_neutral:
+            request.state.tenant_id = None
+            request.state.entidad_id = None
+            request.state.is_superadmin = is_superadmin
+            return await call_next(request)
+        
         # Permitir bypass de Entidad-ID para SuperAdmins en rutas de gestión global
         GLOBAL_MANAGEMENT_PATHS = ["/api/v1/analytics/dashboard", "/api/v1/admin"]
         is_global_req = any(request.url.path.startswith(path) for path in GLOBAL_MANAGEMENT_PATHS)
