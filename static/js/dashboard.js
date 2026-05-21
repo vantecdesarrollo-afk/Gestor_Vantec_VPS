@@ -334,7 +334,12 @@ function renderMonthlyChart(data) {
             labels: {
                 style: { colors: '#64748B' },
                 formatter: function (val) {
-                    return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumSignificantDigits: 3 }).format(Number(val) || 0);
+                    return new Intl.NumberFormat('es-MX', { 
+                        style: 'currency', 
+                        currency: 'MXN', 
+                        notation: 'compact',
+                        compactDisplay: 'short'
+                    }).format(Number(val) || 0);
                 }
             }
         },
