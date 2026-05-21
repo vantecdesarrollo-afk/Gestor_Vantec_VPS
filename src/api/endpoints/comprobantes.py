@@ -150,7 +150,6 @@ async def get_comprobantes(
                   p_list = [p.replace('\\', '/').strip() for p in (p_pdf_raw or "").split('|') if p.strip()]
                   pdf_real_exists = any(os.path.exists(p) for p in p_list)
                   if not pdf_real_exists:
-                       from src.services.cfdi_storage import get_cfdi_vault_path
                        try:
                            u_hijo = str(rel_comp.uuid).lower()
                            search_dirs = []
@@ -713,7 +712,6 @@ async def get_comprobante_pdf(uuid: str, index: int = Query(0), db: AsyncSession
                 break
     
     if not actual_path:
-        from src.services.cfdi_storage import get_cfdi_vault_path
         try:
             vault_dir = ""
             if comp.xml_path and os.path.exists(os.path.dirname(comp.xml_path)):
@@ -780,7 +778,6 @@ async def upload_comprobante_pdf(
     if comp.xml_path and os.path.exists(os.path.dirname(comp.xml_path)):
         vault_dir = os.path.dirname(comp.xml_path)
     else:
-        from src.services.cfdi_storage import get_cfdi_vault_path
         vault_dir = get_cfdi_vault_path(str(comp.entidad_id), str(comp.rfc_emisor), comp.fecha_emision)
         os.makedirs(vault_dir, exist_ok=True)
         
