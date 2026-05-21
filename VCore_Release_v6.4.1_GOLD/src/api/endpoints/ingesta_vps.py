@@ -75,12 +75,59 @@ async def upload_cfdi(
     xml_content = await xml_file.read() if xml_file else None
     pdf_content = await pdf_file.read() if pdf_file else None
 
+    # Intentar extraer el UUID y validar el XML de forma temprana
+    uuid_xml = None
+    rfc_emisor = None
+    if xml_file and xml_content:
+        try:
+            try:
+                root = ET.fromstring(xml_content.decode('utf-8-sig').strip())
+            except UnicodeDecodeError:
+                root = ET.fromstring(xml_content.decode('latin-1').strip())
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Archivo XML corrupto o no parseable: {str(e)}")
+
+        emisor = root.find('.//{*}Emisor')
+        rfc_emisor = (emisor.get('Rfc') or emisor.get('rfc')) if emisor is not None else None
+        
+        namespaces = {'tfd': 'http://www.sat.gob.mx/TimbreFiscalDigital'}
+        tfd = root.find('.//tfd:TimbreFiscalDigital', namespaces)
+        uuid_xml = tfd.get('UUID') if tfd is not None else None
+
+        if not rfc_emisor:
+             raise HTTPException(status_code=400, detail="El XML no contiene el atributo Rfc en el nodo Emisor.")
+        if not uuid_xml:
+             raise HTTPException(status_code=400, detail="El XML no contiene un UUID fiscal.")
+
+        # Filtro Zero Trust (RFC Validation)
+        receptor = root.find('.//{*}Receptor')
+        rfc_receptor = (receptor.get('Rfc') or receptor.get('rfc')) if receptor is not None else None
+        
+        rfc_valido = False
+        if rfc_emisor.upper() == tenant.rfc.upper():
+             rfc_valido = True
+        elif rfc_receptor and rfc_receptor.upper() == tenant.rfc.upper():
+             rfc_valido = True
+
+        if not rfc_valido:
+             raise HTTPException(status_code=403, detail="Zero Trust: El RFC del XML no coincide con el RFC asociado al API Key.")
+
     # 2. Idempotencia Binaria (MD5) - Early Check
     primary_content = xml_content if xml_content else pdf_content
     md5_hash = hashlib.md5(primary_content).hexdigest()
 
+    # Buscar comprobante existente por MD5 o por UUID
+    record = None
+    record_md5 = None
+    
     existing_md5 = await db.execute(select(Comprobante).where(Comprobante.md5_hash == md5_hash))
-    record = existing_md5.scalar_one_or_none()
+    record_md5 = existing_md5.scalar_one_or_none()
+    record = record_md5
+
+    if not record and uuid_xml:
+        existing_uuid = await db.execute(select(Comprobante).where(func.lower(cast(Comprobante.uuid, String)) == uuid_xml.lower()))
+        record = existing_uuid.scalar_one_or_none()
+
     if record:
         from src.services.cfdi_storage import normalize_vcore_path
         
@@ -91,6 +138,11 @@ async def upload_cfdi(
         norm_pdf_paths = []
         if record.pdf_path:
             norm_pdf_paths = [normalize_vcore_path(p.strip()) for p in record.pdf_path.split('|') if p.strip()]
+            
+        # Si no hay rutas PDF pero el XML sí tiene ruta, predecir la ruta del PDF
+        if not norm_pdf_paths and norm_xml_path:
+            dest_pdf = os.path.splitext(norm_xml_path)[0] + ".pdf"
+            norm_pdf_paths = [dest_pdf]
             
         xml_exists = os.path.exists(norm_xml_path) if norm_xml_path else False
         pdf_exists = any(os.path.exists(p) for p in norm_pdf_paths) if norm_pdf_paths else False
@@ -123,6 +175,11 @@ async def upload_cfdi(
             if record.pdf_path != new_pdf_path_str:
                 record.pdf_path = new_pdf_path_str
                 db_updates["pdf_path"] = new_pdf_path_str
+
+        # Registrar el md5_hash si no estaba registrado
+        if not record.md5_hash and md5_hash:
+            record.md5_hash = md5_hash
+            db_updates["md5_hash"] = md5_hash
                 
         if db_updates:
             db.add(record)
@@ -133,15 +190,20 @@ async def upload_cfdi(
                 status_code=200, 
                 content={
                     "status": "success", 
-                    "message": "Archivos físicos restaurados (MD5 Match + Self-Healing)", 
+                    "message": "Archivos físicos restaurados (MD5/UUID Match + Self-Healing)", 
                     "uuid": str(record.uuid),
                     "db_updated": len(db_updates) > 0
                 }
             )
             
+        # Si no se restauró nada pero se envió un PDF y el MD5 no coincidió (se encontró por UUID)
+        # Significa que quieren asociar un PDF diferente/Multi-PDF a este comprobante
+        if pdf_file and not record_md5:
+            return await handle_multi_pdf(record, pdf_file.filename, pdf_content, db, tenant.rfc)
+            
         return JSONResponse(
             status_code=200, 
-            content={"status": "skipped", "message": "Archivo ya procesado (MD5 Match)"}
+            content={"status": "skipped", "message": "Archivo ya procesado (MD5/UUID Match)"}
         )
 
     # Variables temporales para limpieza
@@ -176,48 +238,6 @@ async def upload_cfdi(
             with open(dest_pdf, "wb") as f:
                 f.write(pdf_content)
             return {"status": "success", "message": "PDF recibido en cuarentena (Ghost Healer).", "tenant_rfc": tenant.rfc, "uuid_detected": uuid_encontrado}
-
-        # 4. Procesamiento del XML
-        try:
-            try:
-                root = ET.fromstring(xml_content.decode('utf-8-sig').strip())
-            except UnicodeDecodeError:
-                root = ET.fromstring(xml_content.decode('latin-1').strip())
-        except Exception as e:
-            raise HTTPException(status_code=400, detail=f"Archivo XML corrupto o no parseable: {str(e)}")
-
-        emisor = root.find('.//{*}Emisor')
-        rfc_emisor = (emisor.get('Rfc') or emisor.get('rfc')) if emisor is not None else None
-        
-        namespaces = {'tfd': 'http://www.sat.gob.mx/TimbreFiscalDigital'}
-        tfd = root.find('.//tfd:TimbreFiscalDigital', namespaces)
-        uuid_xml = tfd.get('UUID') if tfd is not None else None
-        
-        if not rfc_emisor:
-             raise HTTPException(status_code=400, detail="El XML no contiene el atributo Rfc en el nodo Emisor.")
-        if not uuid_xml:
-             raise HTTPException(status_code=400, detail="El XML no contiene un UUID fiscal.")
-
-        # 5. Filtro Zero Trust (RFC Validation)
-        receptor = root.find('.//{*}Receptor')
-        rfc_receptor = (receptor.get('Rfc') or receptor.get('rfc')) if receptor is not None else None
-        
-        rfc_valido = False
-        if rfc_emisor.upper() == tenant.rfc.upper():
-             rfc_valido = True
-        elif rfc_receptor and rfc_receptor.upper() == tenant.rfc.upper():
-             rfc_valido = True
-
-        if not rfc_valido:
-             raise HTTPException(status_code=403, detail="Zero Trust: El RFC del XML no coincide con el RFC asociado al API Key.")
-
-        # 6. Idempotencia de UUID y Multi-PDF (Cuando viene XML)
-        existing = await db.execute(select(Comprobante).where(func.lower(cast(Comprobante.uuid, String)) == uuid_xml.lower()))
-        record = existing.scalar_one_or_none()
-        if record:
-             if pdf_file:
-                  return await handle_multi_pdf(record, pdf_file.filename, pdf_content, db, tenant.rfc)
-             return {"status": "success", "message": "Already Exists", "uuid": uuid_xml}
 
         # 7. Inserción mediante process_inbound_file
         tmp_dir = tempfile.mkdtemp()
