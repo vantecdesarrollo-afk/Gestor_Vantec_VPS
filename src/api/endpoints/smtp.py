@@ -7,14 +7,7 @@ import uuid
 from src.database.session import get_db
 from src.database.models import EntidadSMTPConfig, Tenant
 from fastapi import Request
-
-async def get_current_superadmin(request: Request):
-    """
-    [ES] Dependencia para validar superadmin en v1.0.0.
-    El middleware ya valida la autenticación. El front filtra la pestaña.
-    """
-    return True # Bypass temporal para crisis
-
+from src.api.endpoints.auth import get_current_superadmin
 
 router = APIRouter(prefix="/api/v1/smtp", tags=["Configuración SMTP"])
 
