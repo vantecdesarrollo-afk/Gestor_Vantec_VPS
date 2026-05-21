@@ -37,6 +37,13 @@ def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode.update({"exp": expire})
     return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
 
+def normalize_logo_path(path: str | None) -> str:
+    if not path:
+        return ""
+    if path.startswith("/") or path.startswith("http"):
+        return path
+    return f"/static/logos/{path}"
+
 # 2. Endpoints
 @router.post("/login")
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_db)):
@@ -65,7 +72,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
                  "rfc": e.rfc,
                  "razon_social": e.business_name,
                  "rol": "ADMIN",
-                 "logo_url": e.logo_path or ""
+                 "logo_url": normalize_logo_path(e.logo_path)
             } for e in entidades]
         else:
             # Standard user: Buscar en la Matriz de Acceso obligatoriamente
@@ -86,7 +93,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
                       "rfc": tenant.rfc,
                       "razon_social": tenant.business_name,
                       "rol": str(role_str).upper(),
-                      "logo_url": tenant.logo_path or ""
+                      "logo_url": normalize_logo_path(tenant.logo_path)
                  })
 
         # Generar token con la lista completa de entidades autorizadas
@@ -145,7 +152,7 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
         is_superadmin = getattr(user, "is_superadmin", False)
         if is_superadmin:
             e_res = await db.execute(select(Tenant))
-            entidades_json = [{"id": str(e.tenant_id), "rfc": e.rfc, "razon_social": e.business_name, "rol": "ADMIN", "logo_url": e.logo_path or ""} for e in e_res.scalars().all()]
+            entidades_json = [{"id": str(e.tenant_id), "rfc": e.rfc, "razon_social": e.business_name, "rol": "ADMIN", "logo_url": normalize_logo_path(e.logo_path)} for e in e_res.scalars().all()]
         else:
              # Standard user: Buscar en la Matriz de Acceso
              role_res = await db.execute(
@@ -155,7 +162,7 @@ async def refresh_token(credentials: HTTPAuthorizationCredentials = Security(sec
              )
              entidades_json = []
              for tenant, role_str in role_res.all():
-                  entidades_json.append({"id": str(tenant.tenant_id), "rfc": tenant.rfc, "razon_social": tenant.business_name, "rol": str(role_str).upper(), "logo_url": tenant.logo_path or ""})
+                  entidades_json.append({"id": str(tenant.tenant_id), "rfc": tenant.rfc, "razon_social": tenant.business_name, "rol": str(role_str).upper(), "logo_url": normalize_logo_path(tenant.logo_path)})
         
         tenant_id_str = str(user.tenant_id) if getattr(user, "tenant_id", None) else None
         access_token = create_access_token(

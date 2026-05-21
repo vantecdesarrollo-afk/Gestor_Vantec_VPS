@@ -36,7 +36,7 @@ async def list_entidades(db: AsyncSession = Depends(get_db)):
         "rfc": e.rfc,
         "razon_social": e.business_name,
         "is_active": e.is_active,
-        "logo_path": e.logo_path or ""
+        "logo_path": e.logo_path if (not e.logo_path or e.logo_path.startswith("/") or e.logo_path.startswith("http")) else f"/static/logos/{e.logo_path}"
     } for e in entidades]
 
 @router.post("/entidades")

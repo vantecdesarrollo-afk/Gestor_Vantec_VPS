@@ -314,12 +314,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 function syncBrandingLogo(selector) {
     const selectedOption = selector.options[selector.selectedIndex];
     if (selectedOption && selectedOption.getAttribute('data-logo')) {
-        const logoUrl = selectedOption.getAttribute('data-logo');
+        let logoUrl = selectedOption.getAttribute('data-logo');
         const sidebarLogo = document.getElementById('sidebar-logo');
         const companyLogoContainer = document.getElementById('company-logo-container');
         const sidebarBrandText = document.getElementById('sidebar-brand-text');
         
         if (sidebarLogo && logoUrl && logoUrl !== 'null' && logoUrl !== '') {
+            if (!logoUrl.startsWith('/') && !logoUrl.startsWith('http')) {
+                logoUrl = '/static/logos/' + logoUrl;
+            }
             sidebarLogo.src = logoUrl;
             companyLogoContainer.classList.remove('hidden');
             if(sidebarBrandText) sidebarBrandText.classList.add('hidden');
@@ -338,7 +341,11 @@ function updateSidebarLogo(entidadId, entidades) {
     const sidebarBrandText = document.getElementById('sidebar-brand-text');
     
     if (entidad && entidad.logo_url && sidebarLogo) {
-        sidebarLogo.src = entidad.logo_url;
+        let logoUrl = entidad.logo_url;
+        if (!logoUrl.startsWith('/') && !logoUrl.startsWith('http')) {
+            logoUrl = '/static/logos/' + logoUrl;
+        }
+        sidebarLogo.src = logoUrl;
         companyLogoContainer.classList.remove('hidden');
         if(sidebarBrandText) sidebarBrandText.classList.add('hidden');
     } else {

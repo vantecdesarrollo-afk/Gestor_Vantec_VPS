@@ -7,13 +7,43 @@ import uuid
 from src.database.session import get_db
 from src.database.models import EntidadSMTPConfig, Tenant
 from fastapi import Request
+import jwt
+from src.core.config import settings
 
 async def get_current_superadmin(request: Request):
     """
-    [ES] Dependencia para validar superadmin en v1.0.0.
+    [ES] Dependencia para validar superadmin en v1.0.0 o administradores locales de empresa.
     El middleware ya valida la autenticación. El front filtra la pestaña.
     """
-    return True # Bypass temporal para crisis
+    auth_header = request.headers.get("Authorization")
+    token = None
+    if auth_header and auth_header.startswith("Bearer "):
+        token = auth_header.split(" ")[1]
+    else:
+        token = request.cookies.get("access_token")
+        
+    if not token:
+        raise HTTPException(status_code=401, detail="Token ausente en pasarela SMTP")
+        
+    try:
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        # 1. Si es SuperAdmin, acceso completo
+        if payload.get("is_superadmin") is True:
+            return True
+            
+        # 2. Si no es SuperAdmin, verificar si es ADMIN del tenant_id en la ruta
+        tenant_id = request.path_params.get("tenant_id")
+        if tenant_id:
+            entidades = payload.get("entidades", [])
+            for e in entidades:
+                if str(e.get("id")).lower() == str(tenant_id).lower() and e.get("rol") == "ADMIN":
+                    return True
+                    
+        raise HTTPException(status_code=403, detail="Requiere rol SuperAdmin o Administrador de la empresa")
+    except HTTPException as he:
+        raise he
+    except Exception:
+        raise HTTPException(status_code=401, detail="Fallo de autenticación en SMTP")
 
 
 router = APIRouter(prefix="/api/v1/smtp", tags=["Configuración SMTP"])

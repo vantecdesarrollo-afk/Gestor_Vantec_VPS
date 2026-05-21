@@ -28,6 +28,7 @@ services:
       VANTEC_SECRET_KEY: ${VANTEC_SECRET_KEY:-VANTEC_SECRET_KEY_CHANGEME}
     volumes:
       - ./storage:/storage # Mapeo crítico para Expedientes Virtuales
+      - ./static/logos:/app/static/logos # Persistencia del logotipo de las empresas
     ports:
       - "8000:8000"
 

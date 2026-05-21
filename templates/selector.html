@@ -99,8 +99,12 @@
                  const card = document.createElement('div');
                  card.className = "selector-card bg-white rounded-2xl p-6 shadow-xl cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-vantec-accent/20 border border-transparent hover:border-vantec-accent";
                  
-                 const logoHtml = entidad.logo_url 
-                    ? `<img src="${entidad.logo_url}" class="h-12 w-auto object-contain mb-4" alt="Logo">`
+                 const normalizedLogoUrl = entidad.logo_url 
+                    ? (entidad.logo_url.startsWith('/') || entidad.logo_url.startsWith('http') ? entidad.logo_url : '/static/logos/' + entidad.logo_url)
+                    : null;
+                 
+                 const logoHtml = normalizedLogoUrl 
+                    ? `<img src="${normalizedLogoUrl}" class="h-12 w-auto object-contain mb-4" alt="Logo">`
                     : `<div class="p-3 bg-gray-50 text-vantec-primary rounded-xl w-fit mb-4"><i class="fas fa-building fa-2x"></i></div>`;
 
                  card.innerHTML = `

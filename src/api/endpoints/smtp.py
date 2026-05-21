@@ -12,7 +12,7 @@ from src.core.config import settings
 
 async def get_current_superadmin(request: Request):
     """
-    [ES] Dependencia para validar superadmin en v1.0.0.
+    [ES] Dependencia para validar superadmin en v1.0.0 o administradores locales de empresa.
     El middleware ya valida la autenticación. El front filtra la pestaña.
     """
     auth_header = request.headers.get("Authorization")
@@ -27,9 +27,21 @@ async def get_current_superadmin(request: Request):
         
     try:
         payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        # 1. Si es SuperAdmin, acceso completo
         if payload.get("is_superadmin") is True:
             return True
-        raise HTTPException(status_code=403, detail="Requiere rol SuperAdmin")
+            
+        # 2. Si no es SuperAdmin, verificar si es ADMIN del tenant_id en la ruta
+        tenant_id = request.path_params.get("tenant_id")
+        if tenant_id:
+            entidades = payload.get("entidades", [])
+            for e in entidades:
+                if str(e.get("id")).lower() == str(tenant_id).lower() and e.get("rol") == "ADMIN":
+                    return True
+                    
+        raise HTTPException(status_code=403, detail="Requiere rol SuperAdmin o Administrador de la empresa")
+    except HTTPException as he:
+        raise he
     except Exception:
         raise HTTPException(status_code=401, detail="Fallo de autenticación en SMTP")
 
