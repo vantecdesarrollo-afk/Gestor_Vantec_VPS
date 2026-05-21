@@ -7,7 +7,32 @@ import uuid
 from src.database.session import get_db
 from src.database.models import EntidadSMTPConfig, Tenant
 from fastapi import Request
-from src.api.endpoints.auth import get_current_superadmin
+import jwt
+from src.core.config import settings
+
+async def get_current_superadmin(request: Request):
+    """
+    [ES] Dependencia para validar superadmin en v1.0.0.
+    El middleware ya valida la autenticación. El front filtra la pestaña.
+    """
+    auth_header = request.headers.get("Authorization")
+    token = None
+    if auth_header and auth_header.startswith("Bearer "):
+        token = auth_header.split(" ")[1]
+    else:
+        token = request.cookies.get("access_token")
+        
+    if not token:
+        raise HTTPException(status_code=401, detail="Token ausente en pasarela SMTP")
+        
+    try:
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        if payload.get("is_superadmin") is True:
+            return True
+        raise HTTPException(status_code=403, detail="Requiere rol SuperAdmin")
+    except Exception:
+        raise HTTPException(status_code=401, detail="Fallo de autenticación en SMTP")
+
 
 router = APIRouter(prefix="/api/v1/smtp", tags=["Configuración SMTP"])
 
