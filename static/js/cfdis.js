@@ -282,8 +282,8 @@ function createCfdiRow(cfdi) {
     tr.className = 'hover:bg-gray-50/50 transition-colors border-b border-gray-100';
 
     const serie = cfdi.serie || '';
-    const folio = cfdi.folio || 'S/N';
-    const cleanFolio = cfdi.folio && cfdi.folio !== 'S/N' ? cfdi.folio.replace(/^0+/, '') || '0' : 'S/N';
+    const folioStr = cfdi.folio !== null && cfdi.folio !== undefined ? String(cfdi.folio) : '';
+    const cleanFolio = folioStr && folioStr !== 'S/N' ? folioStr.replace(/^0+/, '') || '0' : 'S/N';
     const serieFolio = (serie && cleanFolio !== 'S/N') ? `${serie}-${cleanFolio}` : cleanFolio;
     const fechaStr = cfdi.fecha || '---';
     const total = parseFloat(cfdi.total || 0);
@@ -547,7 +547,8 @@ window.openDetailDrawer = async function(uuid) {
         const cfdi = await vantecFetch(`/api/v1/comprobantes/${uuid}`);
         if (btnPdf) btnPdf.setAttribute('data-uuid', uuid);
 
-        const cleanFolio = cfdi.folio && cfdi.folio !== 'S/N' ? cfdi.folio.replace(/^0+/, '') || '0' : 'S/N';
+        const folioStr = cfdi.folio !== null && cfdi.folio !== undefined ? String(cfdi.folio) : '';
+        const cleanFolio = folioStr && folioStr !== 'S/N' ? folioStr.replace(/^0+/, '') || '0' : 'S/N';
 
         content.innerHTML = `
             <div class="space-y-6">
@@ -741,7 +742,8 @@ window.mostrarModalRelaciones = function(uuid) {
 
     let rowsHtml = "";
     cfdi.reps_asociados.forEach(r => {
-        const cleanRRepFolio = r.folio && r.folio !== 'S/N' ? r.folio.replace(/^0+/, '') || '0' : 'S/N';
+        const rFolioStr = r.folio !== null && r.folio !== undefined ? String(r.folio) : '';
+        const cleanRRepFolio = rFolioStr && rFolioStr !== 'S/N' ? rFolioStr.replace(/^0+/, '') || '0' : 'S/N';
         const reenvioBtnRel = currentRole !== 'VISOR' ? `<button onclick="abrirModalReenvio('${r.folio || 'S/N'}', '${r.uuid}', '${r.rfc_receptor || ''}', '${r.serie || ''}')" class="text-gray-400 hover:text-[#1E3A5F]" title="Reenviar"><i class="fas fa-envelope fa-lg"></i></button>` : '';
         rowsHtml += `
             <tr class="border-b border-gray-100 hover:bg-gray-50">
