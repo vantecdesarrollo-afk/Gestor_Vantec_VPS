@@ -863,7 +863,11 @@ window.abrirModalReenvio = function(folio, uuid, rfc) {
          try {
                const response = await fetch('/api/orquestador/reenvio', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${localStorage.getItem('token')}` },
+                    headers: { 
+                        'Content-Type': 'application/json', 
+                        'Authorization': `Bearer ${localStorage.getItem('token')}`,
+                        'X-Entidad-ID': localStorage.getItem('active_entidad') || ""
+                    },
                     body: JSON.stringify(payload)
                });
 
