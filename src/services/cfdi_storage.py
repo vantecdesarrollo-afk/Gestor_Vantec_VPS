@@ -1,7 +1,57 @@
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from src.core.config import settings
 from datetime import datetime
 import os
+
+def normalize_vcore_path(path_str: str) -> str:
+    """
+    Normaliza rutas absolutas o relativas de Windows a Linux en el VPS.
+    Extrae de forma limpia el nombre del archivo y estructura de directorios,
+    y los mapea contra las raíces correctas en el contenedor de producción.
+    """
+    if not path_str:
+        return ""
+        
+    # Reemplazar backslashes por slashes estándar
+    path_normalized = path_str.replace('\\', '/')
+    
+    # 1. Si el archivo ya existe tal cual, retornarlo de inmediato
+    if os.path.exists(path_normalized) and os.path.isfile(path_normalized):
+        return path_normalized
+
+    # Usar PureWindowsPath para un parseo robusto independiente del SO actual
+    win_path = PureWindowsPath(path_str)
+    
+    # Obtener partes de la ruta
+    parts = list(win_path.parts)
+    parts_lower = [p.lower() for p in parts]
+    
+    # Resolver ruta del proyecto
+    app_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    # Caso 1: Ruta bajo 'Operacion_CFDI' (resguardo fiscal estándar)
+    if 'operacion_cfdi' in parts_lower:
+        idx = parts_lower.index('operacion_cfdi')
+        relative_parts = parts[idx+1:]
+        resolved = os.path.join(app_root, "Operacion_CFDI", *relative_parts)
+        if os.path.exists(resolved):
+            return resolved
+        return resolved
+
+    # Caso 2: Ruta bajo 'storage' (múltiples PDFs o resguardo legacy)
+    if 'storage' in parts_lower:
+        idx = parts_lower.index('storage')
+        relative_parts = parts[idx+1:]
+        
+        # settings.STORAGE_PATH es la ruta real montada (/storage)
+        from src.core.config import settings
+        storage_root = str(settings.STORAGE_PATH)
+        resolved = os.path.join(storage_root, *relative_parts)
+        if os.path.exists(resolved):
+            return resolved
+        return resolved
+        
+    return path_normalized
 
 def construir_ruta_archivo(tenant_id: str, rfc_emisor: str, fecha_emision: datetime, uuid: str, formato: str) -> Path:
     formato = formato.lstrip('.')

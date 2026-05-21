@@ -18,7 +18,7 @@ import openpyxl
 from src.database.session import get_db
 from src.database.models import Comprobante, CfdiRelacionado, CfdiConcepto
 from src.api.endpoints.auth import get_active_entidad
-from src.services.cfdi_storage import get_cfdi_vault_path
+from src.services.cfdi_storage import get_cfdi_vault_path, normalize_vcore_path
 
 # --- BLINDAJE L3 ---
 from src.core.license_core import VantecSystemState
@@ -144,10 +144,10 @@ async def get_comprobantes(
                        inverse_map[u_rel] = []
                   type_label = "Pago" if rel_comp.tipo_comprobante == 'P' else "Relacionado"
                   
-                  p_xml = rel_comp.xml_path
+                  p_xml = normalize_vcore_path(rel_comp.xml_path) if rel_comp.xml_path else None
                   p_pdf_raw = rel_comp.pdf_path
                   xml_ok = os.path.exists(p_xml) if p_xml else False
-                  p_list = [p.replace('\\', '/').strip() for p in (p_pdf_raw or "").split('|') if p.strip()]
+                  p_list = [normalize_vcore_path(p.strip()) for p in (p_pdf_raw or "").split('|') if p.strip()]
                   pdf_real_exists = any(os.path.exists(p) for p in p_list)
                   if not pdf_real_exists:
                        try:
@@ -229,10 +229,10 @@ async def get_comprobantes(
                 if r.tipo_comprobante == 'P':
                     total_final = pagos_sum.get(uuid_lower, 0.0)
     
-                ruta_xml = r.xml_path or r.ruta_resguardo or ""
+                ruta_xml = normalize_vcore_path(r.xml_path or r.ruta_resguardo or "")
                 ruta_pdf_raw = r.pdf_path or ""
                 
-                pdf_list = [p.replace('\\', '/').strip() for p in ruta_pdf_raw.split('|') if p.strip()]
+                pdf_list = [normalize_vcore_path(p.strip()) for p in ruta_pdf_raw.split('|') if p.strip()]
                 pdf_exists = any(os.path.exists(p) and os.path.isfile(p) for p in pdf_list) if pdf_list else False
                 xml_exists = os.path.exists(ruta_xml) and os.path.isfile(ruta_xml) if ruta_xml else False
                 
@@ -289,18 +289,20 @@ async def get_comprobantes(
                      rel_serie = rel_data_sub.get(rel_uuid, {}).get("serie") or ""
                      
                      rel_paths_info = rel_paths.get(rel_uuid, {})
-                     r_xml = rel_paths_info.get("xml")
+                     r_xml = normalize_vcore_path(rel_paths_info.get("xml")) if rel_paths_info.get("xml") else None
                      r_pdf = rel_paths_info.get("pdf")
                      rel_xml_exists = os.path.exists(r_xml) if r_xml else False
-                     rel_pdf_exists = os.path.exists(r_pdf) if r_pdf else False
+                      
+                     r_pdf_raw = r_pdf or ""
+                     r_pdf_list = [normalize_vcore_path(p.strip()) for p in r_pdf_raw.split('|') if p.strip()]
+                     rel_pdf_exists = any(os.path.exists(p) for p in r_pdf_list)
+                      
                      if not rel_xml_exists or not rel_pdf_exists:
                           f_att = async_fallback_map.get(rel_uuid, {})
-                          if not rel_xml_exists and f_att.get("xml_path") and os.path.exists(f_att["xml_path"]): rel_xml_exists = True
-                          if not rel_pdf_exists and f_att.get("pdf_path") and os.path.exists(f_att["pdf_path"]): rel_pdf_exists = True
-                     
-                     r_pdf_raw = r_pdf or ""
-                     r_pdf_list = [p for p in r_pdf_raw.split('|') if p.strip()]
-                     rel_pdf_exists = any(os.path.exists(p) for p in r_pdf_list)
+                          f_xml_att = normalize_vcore_path(f_att.get("xml_path")) if f_att.get("xml_path") else None
+                          f_pdf_att = normalize_vcore_path(f_att.get("pdf_path")) if f_att.get("pdf_path") else None
+                          if not rel_xml_exists and f_xml_att and os.path.exists(f_xml_att): rel_xml_exists = True
+                          if not rel_pdf_exists and f_pdf_att and os.path.exists(f_pdf_att): rel_pdf_exists = True
                      
                      reps_directos.append({
                          "uuid": rel_uuid,
@@ -377,11 +379,12 @@ async def download_zip_comprobante(
     # 1. Recolectar todos los archivos físicos que realmente existen
     archivos_validos = []
 
-    if comp.xml_path and os.path.exists(comp.xml_path):
-        archivos_validos.append(comp.xml_path)
+    xml_path_norm = normalize_vcore_path(comp.xml_path) if comp.xml_path else None
+    if xml_path_norm and os.path.exists(xml_path_norm):
+        archivos_validos.append(xml_path_norm)
         
     if comp.pdf_path:
-        rutas_pdf = [p.strip() for p in comp.pdf_path.split('|') if p.strip()]
+        rutas_pdf = [normalize_vcore_path(p.strip()) for p in comp.pdf_path.split('|') if p.strip()]
         for p in rutas_pdf:
             if os.path.exists(p):
                 archivos_validos.append(p)
@@ -662,15 +665,18 @@ async def get_comprobante_xml(uuid: str, db: AsyncSession = Depends(get_db)):
     from src.services.cfdi_storage import find_cfdi_attachments
     att = find_cfdi_attachments(uuid, comp.serie or "", comp.folio or "", comp.tipo_comprobante or "I")
     
-    actual_path = comp.xml_path if comp and comp.xml_path and os.path.exists(comp.xml_path) else att["xml_path"]
+    xml_path_norm = normalize_vcore_path(comp.xml_path) if comp.xml_path else None
+    actual_path = xml_path_norm if xml_path_norm and os.path.exists(xml_path_norm) else (normalize_vcore_path(att["xml_path"]) if att["xml_path"] else None)
               
     if not actual_path or not os.path.exists(actual_path):
         p_root = os.path.join(UPLOAD_DIR, f"{uuid}.xml")
-        if os.path.exists(p_root): actual_path = p_root
+        p_root_norm = normalize_vcore_path(p_root)
+        if os.path.exists(p_root_norm): actual_path = p_root_norm
         
         if not actual_path or not os.path.exists(actual_path):
              p_dup = os.path.join(LOGS_DIR, f"{uuid}.xml")
-             if os.path.exists(p_dup): actual_path = p_dup
+             p_dup_norm = normalize_vcore_path(p_dup)
+             if os.path.exists(p_dup_norm): actual_path = p_dup_norm
 
     if not actual_path or not os.path.exists(actual_path):
         raise HTTPException(status_code=404, detail="Archivo XML no encontrado")
@@ -701,7 +707,7 @@ async def get_comprobante_pdf(uuid: str, index: int = Query(0), db: AsyncSession
 
     actual_path = None
     pdf_raw = comp.pdf_path or ""
-    pdf_list = [p for p in pdf_raw.split('|') if p.strip()]
+    pdf_list = [normalize_vcore_path(p.strip()) for p in pdf_raw.split('|') if p.strip()]
     
     if index < len(pdf_list) and os.path.exists(pdf_list[index]):
         actual_path = pdf_list[index]
@@ -714,8 +720,9 @@ async def get_comprobante_pdf(uuid: str, index: int = Query(0), db: AsyncSession
     if not actual_path:
         try:
             vault_dir = ""
-            if comp.xml_path and os.path.exists(os.path.dirname(comp.xml_path)):
-                vault_dir = os.path.dirname(comp.xml_path)
+            xml_path_norm = normalize_vcore_path(comp.xml_path) if comp.xml_path else None
+            if xml_path_norm and os.path.exists(os.path.dirname(xml_path_norm)):
+                vault_dir = os.path.dirname(xml_path_norm)
             else:
                 vault_dir = get_cfdi_vault_path(str(comp.entidad_id), str(comp.rfc_emisor), comp.fecha_emision)
                 
@@ -775,8 +782,9 @@ async def upload_comprobante_pdf(
         raise HTTPException(status_code=404, detail="Comprobante no encontrado")
         
     vault_dir = ""
-    if comp.xml_path and os.path.exists(os.path.dirname(comp.xml_path)):
-        vault_dir = os.path.dirname(comp.xml_path)
+    xml_path_norm = normalize_vcore_path(comp.xml_path) if comp.xml_path else None
+    if xml_path_norm and os.path.exists(os.path.dirname(xml_path_norm)):
+        vault_dir = os.path.dirname(xml_path_norm)
     else:
         vault_dir = get_cfdi_vault_path(str(comp.entidad_id), str(comp.rfc_emisor), comp.fecha_emision)
         os.makedirs(vault_dir, exist_ok=True)

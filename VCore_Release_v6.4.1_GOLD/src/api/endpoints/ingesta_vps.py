@@ -80,7 +80,65 @@ async def upload_cfdi(
     md5_hash = hashlib.md5(primary_content).hexdigest()
 
     existing_md5 = await db.execute(select(Comprobante).where(Comprobante.md5_hash == md5_hash))
-    if existing_md5.scalar_one_or_none():
+    record = existing_md5.scalar_one_or_none()
+    if record:
+        from src.services.cfdi_storage import normalize_vcore_path
+        
+        # Traducir rutas a rutas de Linux reales
+        norm_xml_path = normalize_vcore_path(record.xml_path) if record.xml_path else None
+        
+        # En caso de múltiples PDFs separados por '|'
+        norm_pdf_paths = []
+        if record.pdf_path:
+            norm_pdf_paths = [normalize_vcore_path(p.strip()) for p in record.pdf_path.split('|') if p.strip()]
+            
+        xml_exists = os.path.exists(norm_xml_path) if norm_xml_path else False
+        pdf_exists = any(os.path.exists(p) for p in norm_pdf_paths) if norm_pdf_paths else False
+        
+        restored = False
+        db_updates = {}
+        
+        # Si falta el XML y el cliente lo está enviando en este request, auto-recuperar
+        if xml_file and norm_xml_path and not xml_exists:
+            os.makedirs(os.path.dirname(norm_xml_path), exist_ok=True)
+            with open(norm_xml_path, "wb") as f:
+                f.write(xml_content)
+            restored = True
+            
+        # Si falta el PDF y el cliente lo está enviando en este request, auto-recuperar
+        if pdf_file and norm_pdf_paths and not pdf_exists:
+            dest_pdf = norm_pdf_paths[0]
+            os.makedirs(os.path.dirname(dest_pdf), exist_ok=True)
+            with open(dest_pdf, "wb") as f:
+                f.write(pdf_content)
+            restored = True
+            
+        # Si se detectaron rutas viejas/Windows en base de datos, actualizarlas a las rutas Linux normalizadas
+        if norm_xml_path and record.xml_path != norm_xml_path:
+            record.xml_path = norm_xml_path
+            db_updates["xml_path"] = norm_xml_path
+            
+        if norm_pdf_paths:
+            new_pdf_path_str = "|".join(norm_pdf_paths)
+            if record.pdf_path != new_pdf_path_str:
+                record.pdf_path = new_pdf_path_str
+                db_updates["pdf_path"] = new_pdf_path_str
+                
+        if db_updates:
+            db.add(record)
+            await db.commit()
+            
+        if restored:
+            return JSONResponse(
+                status_code=200, 
+                content={
+                    "status": "success", 
+                    "message": "Archivos físicos restaurados (MD5 Match + Self-Healing)", 
+                    "uuid": str(record.uuid),
+                    "db_updated": len(db_updates) > 0
+                }
+            )
+            
         return JSONResponse(
             status_code=200, 
             content={"status": "skipped", "message": "Archivo ya procesado (MD5 Match)"}
