@@ -19,7 +19,7 @@ router = APIRouter(tags=["Ingesta VPS"])
 
 async def handle_multi_pdf(record: Comprobante, original_filename: str, pdf_content: bytes, db: AsyncSession, rfc: str):
     """Manejo de múltiples PDFs concatenando la ruta con pipe |"""
-    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+    project_root = "/app" if os.name == 'posix' else os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
     storage_dir = os.path.join(project_root, "Operacion_CFDI", rfc, "PDFs")
     os.makedirs(storage_dir, exist_ok=True)
     
@@ -230,7 +230,7 @@ async def upload_cfdi(
                     return await handle_multi_pdf(record, pdf_file.filename, pdf_content, db, tenant.rfc)
             
             # Sin XML y no existe en DB, guardar en Orphans
-            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+            project_root = "/app" if os.name == 'posix' else os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
             orphans_dir = os.path.join(project_root, "Operacion_CFDI", "Orphans", tenant.rfc)
             os.makedirs(orphans_dir, exist_ok=True)
             
@@ -253,7 +253,7 @@ async def upload_cfdi(
              with open(tmp_pdf_path, "wb") as f:
                   f.write(pdf_content)
 
-        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+        project_root = "/app" if os.name == 'posix' else os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
         failed_dir = os.path.join(project_root, "Operacion_CFDI", "Invalid_ADN")
         log_dir = os.path.join(project_root, "Operacion_CFDI", "logs")
         

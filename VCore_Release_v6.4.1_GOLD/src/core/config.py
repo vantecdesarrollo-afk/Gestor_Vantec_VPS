@@ -30,8 +30,8 @@ class Settings(BaseSettings):
     DATABASE_URL: str = get_database_url()
     
     # Almacenamiento
-    STORAGE_PATH: Path = Path(os.getenv("STORAGE_PATH", r"C:\Test_Antigravity\Gestor_CFDI_Vantec\storage"))
-    VANTEC_CFDI_ROOT: Path = Path(os.getenv("VANTEC_CFDI_ROOT", r"C:\Test_Antigravity\Gestor_CFDI_Vantec\storage"))
+    STORAGE_PATH: Path = Path("/app/Operacion_CFDI" if os.name == 'posix' else os.getenv("STORAGE_PATH", r"C:\Test_Antigravity\Gestor_CFDI_Vantec\storage"))
+    VANTEC_CFDI_ROOT: Path = Path("/app/Operacion_CFDI" if os.name == 'posix' else os.getenv("VANTEC_CFDI_ROOT", r"C:\Test_Antigravity\Gestor_CFDI_Vantec\storage"))
 
     class Config:
         env_file = ".env"

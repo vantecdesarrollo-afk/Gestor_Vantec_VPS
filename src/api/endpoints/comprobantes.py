@@ -875,3 +875,25 @@ async def get_comprobante_detail(uuid: str, db: AsyncSession = Depends(get_db)):
     except Exception as e:
         print(f"--- ERROR EN COMPROBANTE DETAIL --- \n{str(e)}")
         raise HTTPException(status_code=500, detail=f"Error en detalle del comprobante: {str(e)}")
+
+@router.get("/debug-reset-test-payments")
+async def debug_reset_test_payments(db: AsyncSession = Depends(get_db)):
+    from sqlalchemy import text
+    try:
+        uuids = ['af41872d-1e12-44ec-9d58-614b23e9655c', '382e0cf8-4042-43d0-8b78-5ff73612949f']
+        deleted = 0
+        for u in uuids:
+            res = await db.execute(text("SELECT uuid FROM comprobantes WHERE uuid = :u"), {"u": u})
+            if res.first():
+                # Delete relationships first to satisfy foreign keys
+                await db.execute(text("DELETE FROM cfdi_relacionados WHERE cfdi_id = :u OR uuid_padre = :u_str OR uuid_relacionado = :u_str"), {"u": u, "u_str": u})
+                # Delete concepts if any exist
+                await db.execute(text("DELETE FROM cfdi_conceptos WHERE cfdi_id = :u"), {"u": u})
+                # Delete the comprobante record
+                await db.execute(text("DELETE FROM comprobantes WHERE uuid = :u"), {"u": u})
+                deleted += 1
+        await db.commit()
+        return {"status": "success", "message": f"Deleted {deleted} payments."}
+    except Exception as e:
+        await db.rollback()
+        return {"status": "error", "message": str(e)}
