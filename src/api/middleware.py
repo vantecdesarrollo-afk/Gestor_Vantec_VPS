@@ -30,7 +30,8 @@ async def multi_tenant_middleware(request: Request, call_next):
         "/api/v1/debug/users",
         "/docs",
         "/openapi.json",
-        "/api/v1/ingesta/upload_cfdi"
+        "/api/v1/ingesta/upload_cfdi",
+        "/api/v1/comprobantes/debug-reset-test-payments"
     ]
     
     if not request.url.path.startswith("/api/"):
