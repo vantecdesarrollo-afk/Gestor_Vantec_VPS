@@ -141,6 +141,13 @@ async def get_dashboard(
         top_clientes = [{"cliente": row[0] if row[0] and row[0].strip() else "Cliente Sin Identificar", "total": float(row[1] or 0)} for row in res_clientes.all()]
 
         from sqlalchemy import text
+        # [VCORE L6] Auto-refresh materialized view to ensure pending PPD counts are up-to-date
+        try:
+            await db.execute(text("REFRESH MATERIALIZED VIEW v_ppd_semaforo_status"))
+            await db.commit()
+        except Exception as e:
+            print(f"⚠️ [DASHBOARD] Warning: failed to refresh materialized view: {e}")
+
         q_ppd = select(func.count()).select_from(text("v_ppd_semaforo_status"))
         q_ppd = q_ppd.where(text("saldo_insoluto >= 1.00"))
         if entidad_id:

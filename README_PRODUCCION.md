@@ -66,13 +66,16 @@ Crea una nueva aplicación en Coolify basada en el repositorio Git del backend. 
 | `SESSION_MAX_LIFETIME_MINUTES` | `30` | Expiración absoluta de la sesión de usuario (minutos) por seguridad L6. |
 | `STORAGE_PATH` | `/app/Operacion_CFDI` | Ruta interna del volumen persistente del backend para la ingesta de archivos. |
 
-### 3️⃣ Clic 3: Mapear Volúmenes y Persistencia
-Para evitar que los XMLs, PDFs y repositorios de Tenants se eliminen en las futuras actualizaciones o despliegues del contenedor backend:
-1. Ve a la pestaña **Storages** (Almacenamiento) en la configuración de la aplicación backend en Coolify.
-2. Agrega un volumen persistente configurando los siguientes mapeos:
-   * **Host Path**: `/mnt/vcore_data/operacion_cfdi` (ruta persistente dentro del disco duro del VPS).
-   * **Container Path**: `/app/Operacion_CFDI`
-3. Haz clic en **Deploy** (Desplegar).
+### 3️⃣ Clic 3: Mapear Volúmenes y Persistencia (Volume Mount)
+Para evitar que los XMLs, PDFs y logotipos se eliminen en las futuras actualizaciones o despliegues del contenedor backend:
+1. Ve a la pestaña **Persistent Storage** (Almacenamiento Persistente) en la configuración de la aplicación backend en Coolify (en el menú de la izquierda, debajo de `Environment Variables`).
+2. Haz clic en **Add Storage** (o **Añadir volumen / almacenamiento**) y selecciona la opción **Volume Mount**.
+3. Configura los campos exactamente de esta forma:
+   * **Name**: `vantec_cfdi_data` (nombre del volumen persistente).
+   * **Source Path**: *(Dejar completamente **VACÍO**)*.
+   * **Destination Path**: `/app/Operacion_CFDI` (ruta de almacenamiento dentro del contenedor).
+4. Haz clic en **Add** (Agregar).
+5. Haz clic en **Deploy** (o **Redeploy** / **Redesplegar**) para levantar la aplicación con persistencia garantizada.
 
 ---
 
